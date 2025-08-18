@@ -38,7 +38,7 @@ export default function Hero() {
     setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
 
   return (
-    <div className="relative w-full h-[30rem] overflow-hidden flex-1 shadow-lg">
+    <div className="relative w-full h-[30rem] overflow-hidden shadow-lg">
       {slides.map((slide, index) => (
         <div
           key={slide.id}
