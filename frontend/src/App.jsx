@@ -1,14 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import Home from "./views/Home";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1 className="text-4xl font-bold text-blue-500">
-        Tailwind is working 🚀
-      </h1>
+      <Home />
     </>
   );
 }
