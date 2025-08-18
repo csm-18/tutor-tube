@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Nav() {
   return (
     <nav
@@ -10,12 +12,12 @@ function Nav() {
           <img className="w-auto h-10" src="./menu.svg" alt="menu-icon" />
         </button>
       </div>
-      <ul className="menu-links flex gap-8 text-2xl p-3">
-        <li>About</li>
-        <li>Courses</li>
-        <li>Dashboard</li>
+      <div className="menu-links flex gap-8 text-2xl p-3">
+        <Link to="/get-started">Get Started</Link>
+        <Link to="/courses">Courses</Link>
+        <Link to="/dashboard">Dashboard</Link>
         <button>Theme</button>
-      </ul>
+      </div>
     </nav>
   );
 }
