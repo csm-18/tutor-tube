@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ThemeToggle from "./ThemeToggle";
 
 function Nav() {
   return (
@@ -12,11 +13,11 @@ function Nav() {
           <img className="w-auto h-10" src="./menu.svg" alt="menu-icon" />
         </button>
       </div>
-      <div className="menu-links flex gap-8 text-2xl p-1 mr-5">
+      <div className="menu-links flex gap-8 items-center text-2xl p-1 mr-5">
         <Link to="/get-started">Get Started</Link>
         <Link to="/courses">Courses</Link>
         <Link to="/dashboard">Dashboard</Link>
-        <button>Theme</button>
+        <ThemeToggle />
       </div>
     </nav>
   );
