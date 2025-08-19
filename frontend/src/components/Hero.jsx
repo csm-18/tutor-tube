@@ -5,7 +5,7 @@ export default function Hero() {
   const slides = [
     {
       id: 1,
-      title: "Welcome to Tutor-Tube",
+      title: "Welcome to TutorTube",
       subtitle: "Your go-to platform for learning and teaching.",
       image: "https://via.placeholder.com/1200x500?text=Slide+1",
     },
