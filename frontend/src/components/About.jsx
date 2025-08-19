@@ -10,7 +10,7 @@ function About() {
       </p>
       <p>That’s where we come in.</p>
       <p>
-        Tutor-Tube takes the best of YouTube tutorials and turns them into
+        TutorTube takes the best of YouTube tutorials and turns them into
         easy-to-follow courses that help you build real skills in coding,
         design, and more.
       </p>
