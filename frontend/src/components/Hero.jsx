@@ -7,19 +7,19 @@ export default function Hero() {
       id: 1,
       title: "Welcome to TutorTube",
       subtitle: "Your go-to platform for learning and teaching.",
-      image: "https://via.placeholder.com/1200x500?text=Slide+1",
+      image: "./slide1-bg.png",
     },
     {
       id: 2,
       title: "Learn Anytime, Anywhere",
       subtitle: "Access quality content at your fingertips.",
-      image: "https://via.placeholder.com/1200x500?text=Slide+2",
+      image: "slide2-bg.png",
     },
     {
       id: 3,
       title: "Join Our Community",
       subtitle: "Connect with learners and educators worldwide.",
-      image: "https://via.placeholder.com/1200x500?text=Slide+3",
+      image: "slide3-bg.png",
     },
   ];
 
@@ -51,9 +51,16 @@ export default function Hero() {
             alt={slide.title}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white p-6">
-            <h2 className="text-4xl font-bold mb-2">{slide.title}</h2>
-            <p className="text-lg">{slide.subtitle}</p>
+
+          {/* Dark Overlay */}
+          <div className="absolute inset-0 bg-black/40" />
+
+          {/* Text Content */}
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+            <h2 className="text-4xl font-bold mb-2 drop-shadow-lg">
+              {slide.title}
+            </h2>
+            <p className="text-lg drop-shadow-md">{slide.subtitle}</p>
           </div>
         </div>
       ))}
