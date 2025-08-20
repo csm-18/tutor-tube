@@ -4,20 +4,30 @@ import ThemeToggle from "./ThemeToggle";
 function Nav() {
   return (
     <nav
-      className="nav w-screen h-[6.5rem] p-1 flex items-center justify-between bg-white
+      className="w-screen p-1 flex flex-col md:h-[6.5rem] md:flex-row md:justify-between bg-white 
 "
     >
       <div className="flex justify-between">
-        <img className="ml-5 h-[15rem]" src="./logo2.png" alt="logo" />
-        <button className="menu-btn hidden">
+        <img
+          className="ml-1 h-[3.5rem] md:ml-5 md:h-[6rem]"
+          src="./logo3.png"
+          alt="logo"
+        />
+        <button className="mr-2 md:hidden">
           <img className="w-auto h-10" src="./menu.svg" alt="menu-icon" />
         </button>
       </div>
-      <div className="menu-links flex gap-8 items-center text-2xl p-1 mr-5">
-        <Link to="/get-started">Get Started</Link>
-        <Link to="/courses">Courses</Link>
-        <Link to="/dashboard">Dashboard</Link>
-        <ThemeToggle />
+      <div className="flex flex-col p-3 items-center gap-6 text-3xl md:flex-row">
+        <Link className="block" to="/get-started">
+          Get Started
+        </Link>
+        <Link className="block" to="/courses">
+          Courses
+        </Link>
+        <Link className="block" to="/dashboard">
+          Dashboard
+        </Link>
+        <ThemeToggle className="block" />
       </div>
     </nav>
   );
