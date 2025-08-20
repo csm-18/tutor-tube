@@ -4,7 +4,7 @@ import CoursePreview from "../components/CoursePreview";
 
 function Courses() {
   return (
-    <div className="min-h-screen bg-[#f0f0f0] flex flex-col justify-between items-center">
+    <div className="min-h-screen bg-[#f0f0f0] flex flex-col justify-between">
       <Nav />
       <div className="grid grid-cols-3 gap-[6rem] flex-1 p-[8rem] ">
         <CoursePreview
