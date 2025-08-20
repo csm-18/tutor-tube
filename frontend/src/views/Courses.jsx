@@ -9,6 +9,12 @@ function Courses() {
       <h2 className="text-center text-[5rem] bold pt-5">Courses</h2>
       <div className="grid grid-cols-3 gap-[6rem] flex-1 p-[8rem] pt-[4rem]">
         <CoursePreview
+          name="Git and GitHub"
+          image="./github-img.jpg"
+          route_link="/courses/git-github"
+        />
+
+        <CoursePreview
           name="HTML5 - Beginners to Advanced!"
           image="./html.jpg"
         />
