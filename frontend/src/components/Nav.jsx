@@ -14,13 +14,13 @@ function Nav() {
 
   return (
     <nav
-      className="w-screen p-1 flex flex-col md:h-[6.5rem] md:flex-row md:justify-between bg-white 
+      className="w-screen p-1 flex flex-col md:h-[4.5rem] md:flex-row md:justify-between bg-white 
 "
     >
       <div className="flex justify-between">
         <Link to="/">
           <img
-            className="ml-1 h-[3.5rem] md:ml-5 md:h-[6rem]"
+            className="ml-1 h-[3.5rem] md:ml-5 md:h-[4rem]"
             src="/logo3.png"
             alt="logo"
           />
@@ -31,7 +31,7 @@ function Nav() {
       </div>
       <div
         id="menu"
-        className="hidden flex-col p-3 items-center gap-6 text-3xl md:flex md:flex-row"
+        className="hidden flex-col p-3 items-center gap-6 text-[1.2rem] md:flex md:flex-row"
       >
         <Link className="block" to="/get-started">
           Get Started

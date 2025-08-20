@@ -14,10 +14,11 @@ export default function ThemeToggle() {
 
   return (
     <button
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="px-4 py-2 rounded-lg text-black dark:text-white"
-    >
-      {theme === "dark" ? "🌙" : "☀️"}
-    </button>
+  onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+  className="px-4 py-1 rounded-full bg-gray-200 text-black dark:bg-gray-800 dark:text-white transition"
+>
+  {theme === "dark" ? "🌙" : "☀️"}
+</button>
+
   );
 }
