@@ -7,7 +7,7 @@ export default function Hero() {
       id: 1,
       title: "Welcome to TutorTube",
       subtitle: "Your go-to platform for learning and teaching.",
-      image: "./slide1-bg.png",
+      image: "./slide-1-bg-new.jpg",
     },
     {
       id: 2,
