@@ -21,7 +21,7 @@ function Nav() {
         <Link to="/">
           <img
             className="ml-1 h-[3.5rem] md:ml-5 md:h-[6rem]"
-            src="./logo3.png"
+            src="/logo3.png"
             alt="logo"
           />
         </Link>

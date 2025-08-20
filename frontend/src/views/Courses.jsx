@@ -12,18 +12,10 @@ function Courses() {
           name="HTML5 - Beginners to Advanced!"
           image="./html.jpg"
         />
-        <CoursePreview
-          name="HTML5 - Beginners to Advanced!"
-          image="./html.jpg"
-        />
-        <CoursePreview
-          name="HTML5 - Beginners to Advanced!"
-          image="./html.jpg"
-        />
-        <CoursePreview
-          name="HTML5 - Beginners to Advanced!"
-          image="./html.jpg"
-        />
+
+        <CoursePreview name="?" image="./html.jpg" />
+        <CoursePreview name="?" image="./html.jpg" />
+        <CoursePreview name="?" image="./html.jpg" />
       </div>
       <Footer />
     </div>
