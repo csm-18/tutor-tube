@@ -29,7 +29,7 @@ function Nav() {
       </div>
       <div
         id="menu"
-        className="hidden flex-col p-3 items-center gap-6 text-3xl md:flex-row"
+        className="hidden flex-col p-3 items-center gap-6 text-3xl md:flex md:flex-row"
       >
         <Link className="block" to="/get-started">
           Get Started
