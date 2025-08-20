@@ -18,11 +18,13 @@ function Nav() {
 "
     >
       <div className="flex justify-between">
-        <img
-          className="ml-1 h-[3.5rem] md:ml-5 md:h-[6rem]"
-          src="./logo3.png"
-          alt="logo"
-        />
+        <Link to="/">
+          <img
+            className="ml-1 h-[3.5rem] md:ml-5 md:h-[6rem]"
+            src="./logo3.png"
+            alt="logo"
+          />
+        </Link>
         <button onClick={menuToggle} className="mr-2 md:hidden">
           <img className="w-auto h-10" src="./menu.svg" alt="menu-icon" />
         </button>
