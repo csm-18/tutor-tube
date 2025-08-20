@@ -1,7 +1,17 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 
 function Nav() {
+  function menuToggle() {
+    let menu = document.getElementById("menu");
+    if (menu.style.display === "flex") {
+      menu.style.display = "none";
+    } else {
+      menu.style.display = "flex";
+    }
+  }
+
   return (
     <nav
       className="w-screen p-1 flex flex-col md:h-[6.5rem] md:flex-row md:justify-between bg-white 
@@ -13,11 +23,14 @@ function Nav() {
           src="./logo3.png"
           alt="logo"
         />
-        <button className="mr-2 md:hidden">
+        <button onClick={menuToggle} className="mr-2 md:hidden">
           <img className="w-auto h-10" src="./menu.svg" alt="menu-icon" />
         </button>
       </div>
-      <div className="flex flex-col p-3 items-center gap-6 text-3xl md:flex-row">
+      <div
+        id="menu"
+        className="hidden flex-col p-3 items-center gap-6 text-3xl md:flex-row"
+      >
         <Link className="block" to="/get-started">
           Get Started
         </Link>
