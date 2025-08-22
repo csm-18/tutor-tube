@@ -31,17 +31,20 @@ function Nav() {
       </div>
       <div
         id="menu"
-        className="hidden flex-col p-3 items-center gap-6 text-[1.2rem] md:flex md:flex-row"
+        className="hidden font-baloo font-bold flex-col p-3 items-center gap-6 text-[1.3rem] md:flex md:flex-row md:mr-2"
       >
-        <Link className="block" to="/get-started">
-          Get Started
+        <Link className="block" to="/">
+          Home
+        </Link>
+        <Link className="block" to="/about">
+          About
         </Link>
         <Link className="block" to="/courses">
           Courses
         </Link>
-        <Link className="block" to="/dashboard">
+        {/* <Link className="block" to="/dashboard">
           Dashboard
-        </Link>
+          </Link> */}
         <ThemeToggle className="block" />
       </div>
     </nav>

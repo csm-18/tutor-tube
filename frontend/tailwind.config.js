@@ -6,6 +6,8 @@ export default {
     extend: {
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        baloo: ["Baloo Chettan 2", "sans-serif"],
       },
     },
   },
