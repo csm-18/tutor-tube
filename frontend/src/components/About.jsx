@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div className="about px-5 py-10 text-center ">
+    <div className="about px-5 py-10 text-center dark:bg-slate-900 dark:text-white">
       {/* Heading */}
       <motion.h2
         className="text-4xl font-bold uppercase font-raleway font-[900] py-10"
