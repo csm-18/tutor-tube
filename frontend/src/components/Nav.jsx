@@ -26,7 +26,7 @@ function Nav() {
           />
         </Link>
         <button onClick={menuToggle} className="mr-2 md:hidden">
-          <img className="w-auto h-10" src="./menu.svg" alt="menu-icon" />
+          <img className="w-auto h-10" src="/menu.svg" alt="menu-icon" />
         </button>
       </div>
       <div
