@@ -9,7 +9,7 @@ export default function ThemeToggle({ theme, setTheme }) {
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="px-2 py-1 rounded-full dark:bg-gray-51 text-black bg-gray-700 dark:text-white transition"
+      className="px-2 py-0 md:px-2 md:py-1 rounded-full dark:bg-gray-51 text-black bg-gray-700 dark:text-white transition"
     >
       {theme === "dark" ? (
         <span className="text-[1.2rem]">☀️</span>
