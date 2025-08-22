@@ -3,10 +3,10 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import About from "../components/About";
 
-function Home() {
+function Home({ theme, setTheme }) {
   return (
     <div className="min-h-screen bg-[#f0f0f0] flex flex-col justify-between">
-      <Nav />
+      <Nav theme={theme} setTheme={setTheme} />
       <Hero />
       <About />
       <Footer />
