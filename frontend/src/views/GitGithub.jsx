@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
+import ProgressBar from "../components/course/ProgressBar";
 
 const TRANSITION_MS = 300;
 
@@ -34,6 +35,8 @@ function GitGithub() {
     };
   }, []);
 
+  const [progress, setProgress] = useState(0);
+
   return (
     <div className="flex min-h-screen">
       {mounted && (
@@ -41,12 +44,12 @@ function GitGithub() {
           id="course-menu"
           className={`
             p-[2rem]
-            shadow-lg bg-blue-100 text-blue-900 rounded-md
-            overflow-hidden flex items-start
+            shadow-lg bg-[#ebe7fb] rounded-md
+            overflow-hidden flex flex-col items-start gap-[2rem]
             transition-all duration-300 ease-in-out
             ${
               open
-                ? "w-[20rem] p-6 opacity-100 border-l-4 border-blue-500"
+                ? "w-[25rem] p-6 opacity-100 border-l-4 border-blue-500"
                 : "w-0 p-0 opacity-0 border-l-0"
             }
           `}
@@ -66,6 +69,7 @@ function GitGithub() {
             <img className="mr-3" src="/arrow_back.svg" />
             Go to Home
           </Link>
+          <ProgressBar value={progress} max={100} />
         </div>
       )}
 
