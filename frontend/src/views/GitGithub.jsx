@@ -73,14 +73,25 @@ function GitGithub() {
         </div>
       )}
 
-      <div className="p-8 pt-6 flex flex-col flex-1 items-center">
-        <div className="self-start">
-          <button id="menu-btn" onClick={toggleMenu} aria-expanded={open}>
-            <img className="w-auto h-10" src="/menu.svg" alt="menu-icon" />
+      <div className="p-5 pt-3 flex flex-col flex-1 items-center">
+        <div className="flex justify-start w-[100%]">
+          <button
+            className=""
+            id="menu-btn"
+            onClick={toggleMenu}
+            aria-expanded={open}
+          >
+            <img
+              className="w-auto h-8"
+              src="/menu_violet.svg"
+              alt="menu-icon"
+            />
           </button>
+          <h1 className="text-[1.5rem] text-[var(--violet)] font-bold ml-[2.5rem]">
+            Git and Github
+          </h1>
         </div>
 
-        <h1 className="text-[4.2rem]">Git and Github</h1>
         <p className="text-[1.7rem]">The Essentials</p>
 
         <iframe
