@@ -73,8 +73,8 @@ function Course({ course_title, children }) {
         </div>
       )}
 
-      <div className="p-5 pt-3 flex flex-col flex-1 items-center">
-        <div className="flex justify-start w-[100%]">
+      <div className="flex flex-col flex-1 items-center">
+        <div className="p-5 pt-3 flex justify-start w-[100%]">
           <button
             className=""
             id="menu-btn"
@@ -90,6 +90,15 @@ function Course({ course_title, children }) {
           <h1 className="text-[1.5rem] text-[var(--violet)] font-bold ml-[2.5rem]">
             {course_title}
           </h1>
+        </div>
+        <div className="flex-1"></div>
+        <div className="w-full flex justify-between my-[5rem]">
+          <button className="ml-[7rem] w-40 text-white py-2 bg-[var(--violet)] rounded-md">
+            Previous
+          </button>
+          <button className="mr-[7rem] w-40 text-white py-2 bg-[var(--violet)] rounded-md">
+            Next
+          </button>
         </div>
       </div>
     </div>
