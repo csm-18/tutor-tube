@@ -3,10 +3,11 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div className="about px-5 py-10 text-center dark:bg-slate-900 dark:text-white">
+    // dark:bg-slate-900
+    <div className="about px-5 py-10 text-center  dark:text-white dark:bg-gradient-to-b dark:from-indigo-950 dark:via-neutral-950 dark:to-black">
       {/* Heading */}
       <motion.h2
-        className="text-4xl font-bold uppercase font-raleway font-[900] py-10"
+        className="text-4xl uppercase font-raleway font-[900] py-10"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}

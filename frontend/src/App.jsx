@@ -10,7 +10,10 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home theme={theme} setTheme={setTheme} />} />
-      <Route path="/courses" element={<Courses />} />
+      <Route
+        path="/courses"
+        element={<Courses theme={theme} setTheme={setTheme} />}
+      />
       <Route path="/courses/git-github" element={<GitGithub />} />
     </Routes>
   );
