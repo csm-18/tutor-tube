@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const TRANSITION_MS = 300;
 
@@ -39,6 +40,7 @@ function GitGithub() {
         <div
           id="course-menu"
           className={`
+            p-[2rem]
             shadow-lg bg-blue-100 text-blue-900 rounded-md
             overflow-hidden flex items-start
             transition-all duration-300 ease-in-out
@@ -50,13 +52,20 @@ function GitGithub() {
           `}
           aria-hidden={!open}
         >
-          <p
+          {/* <p
             className={`transition-opacity duration-200 ${
               open ? "opacity-100" : "opacity-0"
             } text-[2rem]`}
           >
             Index and Progress
-          </p>
+          </p> */}
+          <Link
+            to="/"
+            className="font-bold text-[var(--violet)] flex flex-row text-[1.2rem]"
+          >
+            <img className="mr-3" src="/arrow_back.svg" />
+            Go to Home
+          </Link>
         </div>
       )}
 
