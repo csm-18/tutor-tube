@@ -3,6 +3,7 @@ import CoursePage from "../components/course/CoursePage";
 import CoursePageHeading from "../components/course/CoursePageHeading";
 import CoursePageParagraph from "../components/course/CoursePageParagraph";
 import CoursePageVideo from "../components/course/CoursePageVideo";
+import BulletList from "../components/course/BulletList";
 function GitGithub() {
   return (
     <Course course_title="Git and Github">
@@ -27,7 +28,15 @@ function GitGithub() {
           and no reliable way to revert to a stable state. In contrast, a VCS
           provides a structured, branched history that supports collaboration,
           accountability, and recovery.
+          <br />
+          <br />A key distinction introduced early is between Git and GitHub:
         </CoursePageParagraph>
+        <BulletList
+          items={[
+            "Git – an open-source, distributed version control tool (developed in 2005) that records changes with unique commit identifiers.",
+            "GitHub – a web-based hosting service for Git repositories, enabling seamless sharing and collaboration.",
+          ]}
+        />
       </CoursePage>
 
       <CoursePage
