@@ -149,6 +149,20 @@ function GitGithub() {
           ]}
         />
       </CoursePage>
+
+      <CoursePage moduleName="Quiz-2" pageNumber={4}>
+        <QuizQuestion
+          questionId={1}
+          question="What is Git primarily used for?"
+          options={[
+            "Compiling programs",
+            "Tracking code changes and collaboration",
+            "Increasing file size",
+            "Deleting old files",
+          ]}
+          correctAnswer="Tracking code changes and collaboration"
+        />
+      </CoursePage>
     </Course>
   );
 }
