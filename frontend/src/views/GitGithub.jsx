@@ -100,15 +100,25 @@ function GitGithub() {
         />
         <QuizQuestion
           questionId={3}
-          question=""
-          options={["", "", "", ""]}
-          correctAnswer=""
+          question=" What problem occurs when there is no version control?"
+          options={[
+            "Faster collaboration",
+            "Clear project history",
+            "Multiple conflicting file versions and difficulty in recovery",
+            "Automatic backups",
+          ]}
+          correctAnswer="Multiple conflicting file versions and difficulty in recovery"
         />
         <QuizQuestion
           questionId={4}
-          question=""
-          options={["", "", "", ""]}
-          correctAnswer=""
+          question="Which Git feature allows you to maintain organized development and collaborate safely?"
+          options={[
+            "Command history",
+            "Staging area, branching/merging, and commit logs",
+            "File compression",
+            "Deleting old commits",
+          ]}
+          correctAnswer="Staging area, branching/merging, and commit logs"
         />
       </CoursePage>
 
