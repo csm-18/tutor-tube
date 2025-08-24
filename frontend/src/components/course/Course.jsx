@@ -38,6 +38,7 @@ function Course({ course_title, children }) {
 
   const [progress, setProgress] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
+  const totalPages = Array.isArray(children) ? children.length : 1;
 
   return (
     <div className="flex min-h-screen">
@@ -88,10 +89,21 @@ function Course({ course_title, children }) {
         </div>
 
         <div className="w-full flex justify-between my-20">
-          <button className="ml-28 w-40 text-white py-2 bg-[var(--violet)] rounded-md">
+          <button
+            className="ml-28 w-40 text-white py-2 bg-[var(--violet)] rounded-md"
+            onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+            disabled={currentPage === 1}
+          >
             Previous
           </button>
-          <button className="mr-28 w-40 text-white py-2 bg-[var(--violet)] rounded-md">
+
+          <button
+            className="mr-28 w-40 text-white py-2 bg-[var(--violet)] rounded-md"
+            onClick={() =>
+              setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+            }
+            disabled={currentPage === totalPages}
+          >
             Next
           </button>
         </div>
