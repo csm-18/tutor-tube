@@ -5,6 +5,7 @@ import CoursePageParagraph from "../components/course/CoursePageParagraph";
 import CoursePageVideo from "../components/course/CoursePageVideo";
 import BulletList from "../components/course/BulletList";
 import { Children } from "react";
+import QuizQuestion from "../components/course/QuizQuestion";
 function GitGithub() {
   return (
     <Course course_title="Git and Github">
@@ -72,12 +73,25 @@ function GitGithub() {
         />
       </CoursePage>
 
+      <CoursePage moduleName="QUIZ - 1" pageNumber={2}>
+        <CoursePageHeading heading="QUIZ - 1" />
+        <QuizQuestion
+          question="1. What is the main purpose of a Version Control System (VCS)?"
+          options={[
+            "To compile code faster",
+            "To track and manage changes to code over time",
+            "To increase file size",
+            "To delete old files",
+          ]}
+          correctAnswer="To track and manage changes to code over time"
+        />
+      </CoursePage>
+
       <CoursePage
         moduleName="MODULE 2: Getting Started with Git"
-        pageNumber={2}
+        pageNumber={3}
       >
         <CoursePageHeading heading="MODULE 2: Getting Started with Git" />
-        MODULE 2: Getting Started with Git
       </CoursePage>
     </Course>
   );
