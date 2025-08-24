@@ -64,7 +64,7 @@ function Course({ course_title, children }) {
             <img className="mr-3" src="/arrow_back.svg" alt="back-icon" />
             Go to Home
           </Link>
-          <ProgressBar value={progress} max={100} />
+          <ProgressBar value={progress} max={totalPages} />
         </div>
       )}
 
@@ -99,12 +99,16 @@ function Course({ course_title, children }) {
 
           <button
             className="mr-28 w-40 text-white py-2 bg-[var(--violet)] rounded-md"
-            onClick={() =>
-              setCurrentPage((prev) => Math.min(prev + 1, totalPages))
-            }
-            disabled={currentPage === totalPages}
+            onClick={() => {
+              if (currentPage == totalPages) {
+                setProgress(totalPages);
+              } else {
+                setCurrentPage((prev) => Math.min(prev + 1, totalPages));
+                setProgress(currentPage);
+              }
+            }}
           >
-            Next
+            {currentPage === totalPages ? "Finish" : "Next"}
           </button>
         </div>
       </div>
