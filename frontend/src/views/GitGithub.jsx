@@ -192,6 +192,54 @@ function GitGithub() {
           correctAnswer="Git Bash"
         />
       </CoursePage>
+
+      <CoursePage moduleName="MODULE 3: Working with Commits" pageNumber={5}>
+        <CoursePageHeading heading="MODULE 3: Working with Commits" />
+        <CoursePageVideo
+          source="https://www.youtube.com/embed/9DHjfDuXMGA"
+          videoTitle="How To Git Commit And Push Changes"
+        />
+        <CoursePageParagraph>
+          In Git, a commit is a snapshot of your project at a specific point in
+          time. Commits allow you to track changes, document progress, and roll
+          back to previous states if needed. Each commit has a unique SHA-1 hash
+          and an associated message describing the change.
+          <br />
+          <br />
+          Key Points:
+        </CoursePageParagraph>
+        <BulletList
+          items={[
+            {
+              text: "Creating a Commit:",
+              children: [
+                "Stage changes with 'git add <file>' or 'git add .' for all files.",
+                "Commit staged changes using 'git commit -m \"Your message\"'.",
+              ],
+            },
+            {
+              text: "Viewing History:",
+              children: [
+                "Use 'git log' to see a list of commits with details.",
+              ],
+            },
+            {
+              text: "Amending Commits:",
+              children: [
+                "Modify the last commit with 'git commit --amend' (useful for correcting messages or adding forgotten changes).",
+              ],
+            },
+            {
+              text: "Commit Best Practices:",
+              children: [
+                "Make small, focused commits.",
+                "Write clear, descriptive commit messages.",
+                "Commit frequently to maintain a reliable project history.",
+              ],
+            },
+          ]}
+        />
+      </CoursePage>
     </Course>
   );
 }
