@@ -240,6 +240,49 @@ function GitGithub() {
           ]}
         />
       </CoursePage>
+
+      <CoursePage moduleName="QUIZ-3" pageNumber={6}>
+        <CoursePageHeading heading="QUIZ-3" />
+        <QuizQuestion
+          questionId={1}
+          question=" What is a commit in Git?"
+          options={[
+            "A backup of your operating system",
+            "A snapshot of the project at a specific point in time",
+            "A file containing installation instructions",
+            "A branch name",
+          ]}
+          correctAnswer="A snapshot of the project at a specific point in time"
+        />
+        <QuizQuestion
+          questionId={2}
+          question="Which command stages all changes for the next commit?"
+          options={[
+            'git commit -m "message"',
+            "git add .",
+            "git log",
+            "git status",
+          ]}
+          correctAnswer="git add ."
+        />
+        <QuizQuestion
+          questionId={3}
+          question="How can you view the history of commits in a repository?"
+          options={["git status", "git log", "git branch", "git checkout"]}
+          correctAnswer="git log"
+        />
+        <QuizQuestion
+          questionId={4}
+          question="Which practice is recommended for commits?"
+          options={[
+            "Make large, infrequent commits",
+            "Avoid writing commit messages",
+            "Make small, focused commits with descriptive messages",
+            "Commit only at the end of the project",
+          ]}
+          correctAnswer="Make small, focused commits with descriptive messages"
+        />
+      </CoursePage>
     </Course>
   );
 }
