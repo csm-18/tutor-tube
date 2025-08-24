@@ -283,6 +283,57 @@ function GitGithub() {
           correctAnswer="Make small, focused commits with descriptive messages"
         />
       </CoursePage>
+
+      <CoursePage moduleName="MODULE 4: Branching & Merging" pageNumber={7}>
+        <CoursePageHeading heading="MODULE 4: Branching & Merging" />
+        <CoursePageVideo
+          source="https://www.youtube.com/embed/uqeT0eqbLx0"
+          videoTitle="Git Tutorial #10 - Git Branching and Merging | Git Branches Tutorial"
+        />
+        <CoursePageParagraph>
+          Branching in Git allows you to create isolated lines of development
+          within a project. This enables multiple features or fixes to be
+          developed simultaneously without affecting the main codebase. Merging
+          combines changes from one branch into another, integrating new work
+          into the main project.
+          <br />
+          <br />
+          Key Points:
+        </CoursePageParagraph>
+        <BulletList
+          items={[
+            {
+              text: "Creating a Branch:",
+              children: [
+                "'git branch <branch-name>' creates a new branch.",
+                "'git checkout <branch-name>' or 'git switch <branch-name>' to switch branches.",
+              ],
+            },
+            {
+              text: "Merging Branches:",
+              children: [
+                "'git merge <branch-name>' merges changes into the current branch.",
+                "Conflicts may arise if the same lines were modified; these must be resolved manually.",
+              ],
+            },
+            {
+              text: "Branch Management:",
+              children: [
+                "List branches: 'git branch'",
+                "Delete a branch: 'git branch -d <branch-name>'",
+              ],
+            },
+            {
+              text: "Best Practices:",
+              children: [
+                "Keep branches small and focused.",
+                "Merge frequently to reduce conflicts.",
+                "Use descriptive branch names (e.g., feature/login, bugfix/header).",
+              ],
+            },
+          ]}
+        />
+      </CoursePage>
     </Course>
   );
 }
