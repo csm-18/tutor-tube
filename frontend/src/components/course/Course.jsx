@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { CourseContext } from "../../courseContext";
 import { Link } from "react-router-dom";
 import ProgressBar from "./ProgressBar";
@@ -51,7 +51,7 @@ function Course({ course_title, children }) {
             transition-all duration-300 ease-in-out
             ${
               open
-                ? "w-[25rem] p-6 opacity-100 border-l-4 border-blue-500"
+                ? "overflow-y-auto w-[23rem] p-6 opacity-100 border-l-4 border-blue-500"
                 : "w-0 p-0 opacity-0 border-l-0"
             }
           `}
@@ -65,6 +65,21 @@ function Course({ course_title, children }) {
             Go to Home
           </Link>
           <ProgressBar value={progress} max={totalPages} />
+          <div className="index flex flex-col w-[20rem] p-2 gap-6">
+            {React.Children.map(children, (child) => {
+              if (React.isValidElement(child)) {
+                return (
+                  <div
+                    className="index-item p-2 pl-3 pr-full bg-[var(--violet-medium)] rounded-md cursor-pointer"
+                    onClick={() => setCurrentPage(child.props.pageNumber)}
+                  >
+                    <h2 className="font-[500]">{child.props.moduleName}</h2>
+                  </div>
+                );
+              }
+              return null;
+            })}
+          </div>
         </div>
       )}
 
