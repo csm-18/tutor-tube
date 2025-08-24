@@ -334,6 +334,54 @@ function GitGithub() {
           ]}
         />
       </CoursePage>
+
+      <CoursePage moduleName="QUIZ-4" pageNumber={8}>
+        <CoursePageHeading heading="QUIZ-4" />
+        <QuizQuestion
+          questionId={1}
+          question="What is the main purpose of creating a branch in Git?"
+          options={[
+            "To delete old files",
+            "To create isolated lines of development for features or fixes",
+            "To compress the repository",
+            "To merge two repositories",
+          ]}
+          correctAnswer="To create isolated lines of development for features or fixes"
+        />
+        <QuizQuestion
+          questionId={2}
+          question="Which command switches to an existing branch?"
+          options={[
+            "git branch <branch-name>",
+            "git switch <branch-name>",
+            "git merge <branch-name>",
+            "git checkout -- <file>",
+          ]}
+          correctAnswer="git switch <branch-name>"
+        />
+        <QuizQuestion
+          questionId={3}
+          question="What happens during a merge if the same lines were modified in both branches?"
+          options={[
+            "Git automatically deletes the file",
+            "A conflict arises that must be resolved manually",
+            "Git ignores one branch",
+            "The repository is duplicated",
+          ]}
+          correctAnswer="A conflict arises that must be resolved manually"
+        />
+        <QuizQuestion
+          questionId={4}
+          question="4. Which is a recommended best practice for branches?"
+          options={[
+            "Keep branches large and long-lived",
+            "Use generic names like branch1",
+            "Keep branches small, focused, and use descriptive names",
+            "Avoid merging frequently",
+          ]}
+          correctAnswer="Keep branches small, focused, and use descriptive names"
+        />
+      </CoursePage>
     </Course>
   );
 }
