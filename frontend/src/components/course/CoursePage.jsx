@@ -6,7 +6,7 @@ function CoursePage({ moduleName, pageNumber, children }) {
 
   return (
     <div
-      className={`course-page overflow-y-auto w-full h-full page${pageNumber} ${
+      className={`course-page overflow-y-auto w-full h-full flex flex-col items-center page${pageNumber} ${
         currentPage === pageNumber ? "" : "hidden"
       }`}
     >
