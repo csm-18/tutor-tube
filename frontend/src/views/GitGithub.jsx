@@ -4,6 +4,7 @@ import CoursePageHeading from "../components/course/CoursePageHeading";
 import CoursePageParagraph from "../components/course/CoursePageParagraph";
 import CoursePageVideo from "../components/course/CoursePageVideo";
 import BulletList from "../components/course/BulletList";
+import { Children } from "react";
 function GitGithub() {
   return (
     <Course course_title="Git and Github">
@@ -35,6 +36,38 @@ function GitGithub() {
           items={[
             "Git – an open-source, distributed version control tool (developed in 2005) that records changes with unique commit identifiers.",
             "GitHub – a web-based hosting service for Git repositories, enabling seamless sharing and collaboration.",
+          ]}
+        />
+        <CoursePageParagraph>
+          To prevent common beginner confusion, the module presents these
+          concepts separately with dedicated video explanations. Rather than
+          starting with commands, learners first explore the problem of no
+          version control and then see Git/GitHub as the industry-standard
+          solution. This approach builds a strong mental model, enabling
+          learners to understand workflows, debug issues, and collaborate
+          effectively.
+          <br />
+          <br />
+          Conceptual Contrast:
+        </CoursePageParagraph>
+        <BulletList
+          items={[
+            {
+              text: "Without Version Control",
+              children: [
+                "Single mutable file, no change tracking",
+                "Collaboration chaos with multiple local copies",
+                "No reliable recovery or history",
+              ],
+            },
+            {
+              text: "With Git",
+              children: [
+                "Staging area for controlled snapshots",
+                "Branching/merging for organized collaboration",
+                "Commit logs with SHA-1 hashes for rollback and inspection",
+              ],
+            },
           ]}
         />
       </CoursePage>
