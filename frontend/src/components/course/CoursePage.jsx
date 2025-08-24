@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import React, { useContext } from "react";
 import { CourseContext } from "../../courseContext";
 

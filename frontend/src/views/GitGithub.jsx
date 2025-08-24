@@ -127,6 +127,27 @@ function GitGithub() {
         pageNumber={3}
       >
         <CoursePageHeading heading="MODULE 2: Getting Started with Git" />
+        <CoursePageVideo
+          source="https://www.youtube.com/embed/2j7fD92g-gE"
+          videoTitle="Git Installation On Windows | How To Install Git on Windows 10 | Git Installation | Simplilearn"
+        />
+        <CoursePageParagraph>
+          Git is a distributed version control system that helps developers
+          track code changes, collaborate seamlessly, and maintain a clear
+          project history. Before using Git, you need to install it on your
+          system.
+          <br />
+          <br />
+          Installation Steps:
+        </CoursePageParagraph>
+        <BulletList
+          items={[
+            "Windows: Download the installer from git-scm.com, run it, and follow the setup wizard (choose Git Bash for command-line use).",
+            "macOS: Use Homebrew ('brew install git') or download from git-scm.com.",
+            "Linux: Install via package manager (e.g., 'sudo apt-get install git' for Ubuntu/Debian, 'sudo dnf install git' for Fedora).",
+            "Verify installation: Run 'git --version' in your terminal to confirm.",
+          ]}
+        />
       </CoursePage>
     </Course>
   );
