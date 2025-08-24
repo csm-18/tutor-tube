@@ -151,6 +151,7 @@ function GitGithub() {
       </CoursePage>
 
       <CoursePage moduleName="Quiz-2" pageNumber={4}>
+        <CoursePageHeading heading="Quiz-2" />
         <QuizQuestion
           questionId={1}
           question="What is Git primarily used for?"
@@ -161,6 +162,34 @@ function GitGithub() {
             "Deleting old files",
           ]}
           correctAnswer="Tracking code changes and collaboration"
+        />
+        <QuizQuestion
+          questionId={2}
+          question=" How can you verify that Git is installed on your system?"
+          options={["git install", "git check", "git --version", "git status"]}
+          correctAnswer="git --version"
+        />
+        <QuizQuestion
+          questionId={3}
+          question="Which command installs Git on macOS using Homebrew?"
+          options={[
+            "brew install git",
+            "sudo apt-get install git",
+            "git install",
+            "brew git",
+          ]}
+          correctAnswer="brew install git"
+        />
+        <QuizQuestion
+          questionId={4}
+          question="On Windows, which application is commonly used to run Git commands after installation?"
+          options={[
+            "Git Bash",
+            "Terminal.app",
+            "Command Prompt only",
+            "PowerShell only",
+          ]}
+          correctAnswer="Git Bash"
         />
       </CoursePage>
     </Course>
