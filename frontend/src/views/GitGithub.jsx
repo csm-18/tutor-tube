@@ -76,6 +76,7 @@ function GitGithub() {
       <CoursePage moduleName="QUIZ - 1" pageNumber={2}>
         <CoursePageHeading heading="QUIZ - 1" />
         <QuizQuestion
+          questionId={1}
           question="1. What is the main purpose of a Version Control System (VCS)?"
           options={[
             "To compile code faster",
@@ -84,6 +85,30 @@ function GitGithub() {
             "To delete old files",
           ]}
           correctAnswer="To track and manage changes to code over time"
+        />
+
+        <QuizQuestion
+          questionId={2}
+          question="2. Which of the following is true about Git and GitHub?"
+          options={[
+            "GitHub is a version control tool, Git is a web-based platform",
+            "Git is a version control tool, GitHub is a web-based hosting service",
+            "Both are the same thing",
+            "GitHub replaces Git",
+          ]}
+          correctAnswer="Git is a version control tool, GitHub is a web-based hosting service"
+        />
+        <QuizQuestion
+          questionId={3}
+          question=""
+          options={["", "", "", ""]}
+          correctAnswer=""
+        />
+        <QuizQuestion
+          questionId={4}
+          question=""
+          options={["", "", "", ""]}
+          correctAnswer=""
         />
       </CoursePage>
 

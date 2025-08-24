@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function QuizQuestion({ question, options, correctAnswer }) {
+function QuizQuestion({ questionId, question, options, correctAnswer }) {
   const [selected, setSelected] = useState(null);
   const [feedback, setFeedback] = useState("");
 
@@ -9,8 +9,7 @@ function QuizQuestion({ question, options, correctAnswer }) {
     if (option === correctAnswer) {
       setFeedback("✅ Correct answer!");
     } else {
-      setFeedback(`❌ Wrong answer! 
-        The correct answer is: ${correctAnswer}`);
+      setFeedback(`❌ Wrong answer! The correct answer is: ${correctAnswer}`);
     }
   };
 
@@ -25,7 +24,7 @@ function QuizQuestion({ question, options, correctAnswer }) {
           >
             <input
               type="radio"
-              name="quiz"
+              name={`quiz-${questionId}`}
               value={option}
               checked={selected === option}
               onChange={() => handleChange(option)}
