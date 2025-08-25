@@ -806,6 +806,68 @@ function GitGithub() {
           correctAnswer="Stash changes to switch contexts, use rebasing on private branches, and tag stable releases"
         />
       </CoursePage>
+
+      <CoursePage
+        moduleName="MODULE 9: Best Practices & Workflows"
+        pageNumber={17}
+      >
+        <CoursePageHeading heading="MODULE 9: Best Practices & Workflows" />
+        <CoursePageVideo
+          source="https://www.youtube.com/embed/ThiINH4DV6Q"
+          videoTitle="Git Best Practices - I Wish I Would Learn Them Sooner"
+        />
+        <CoursePageParagraph>
+          Following structured Git practices ensures code quality, smooth
+          collaboration, and maintainable project history.
+          <br />
+          <br />
+          Key Points:
+        </CoursePageParagraph>
+        <BulletList
+          items={[
+            {
+              text: "Commit Practices:",
+              children: [
+                "Make small, focused commits.",
+                "Write clear, descriptive commit messages.",
+                "Commit frequently to save progress.",
+              ],
+            },
+            {
+              text: "Branching Strategy:",
+              children: [
+                "Use feature branches for new work (feature/xyz).",
+                "Keep main or master branch stable.",
+                "Merge regularly to reduce conflicts.",
+              ],
+            },
+            {
+              text: "Collaboration Workflow:",
+              children: [
+                "Pull before pushing to stay up-to-date.",
+                "Use Pull Requests (PRs) for code review.",
+                "Resolve conflicts promptly and communicate changes.",
+              ],
+            },
+            {
+              text: "Tagging & Releases:",
+              children: [
+                "Tag stable versions for reference.",
+                "Use semantic versioning (v1.0.0) for clarity.",
+              ],
+            },
+
+            {
+              text: "Maintaining Repository Health:",
+              children: [
+                "Remove stale branches.",
+                "Keep commit history clean using rebase or squash.",
+                "Document repository setup and guidelines in a README.",
+              ],
+            },
+          ]}
+        />
+      </CoursePage>
     </Course>
   );
 }
