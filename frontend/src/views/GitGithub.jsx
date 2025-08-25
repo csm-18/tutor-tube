@@ -1022,6 +1022,44 @@ function GitGithub() {
           correctAnswer="git stash"
         />
       </CoursePage>
+
+      <CoursePage moduleName="QUIZ _FINAL: Part B: True/False" pageNumber={21}>
+        <CoursePageHeading heading="QUIZ _FINAL: Part B: True/False" />
+        <QuizQuestion
+          questionId={1}
+          question="You can safely rewrite commit history on a shared repository using git reset --hard."
+          options={["True", "False"]}
+          correctAnswer="False"
+        />
+
+        <QuizQuestion
+          questionId={2}
+          question="Forking a repository creates a personal copy to work independently."
+          options={["True", "False"]}
+          correctAnswer="True"
+        />
+
+        <QuizQuestion
+          questionId={3}
+          question="Pull requests are used to merge code directly into the main branch without review."
+          options={["True", "False"]}
+          correctAnswer="False"
+        />
+
+        <QuizQuestion
+          questionId={4}
+          question="git revert creates a new commit that undoes changes."
+          options={["True", "False"]}
+          correctAnswer="True"
+        />
+
+        <QuizQuestion
+          questionId={5}
+          question="GitHub Flow is a branching strategy suitable for continuous deployment."
+          options={["True", "False"]}
+          correctAnswer="True"
+        />
+      </CoursePage>
     </Course>
   );
 }
