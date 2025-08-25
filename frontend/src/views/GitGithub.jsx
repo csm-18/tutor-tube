@@ -955,6 +955,73 @@ function GitGithub() {
           ]}
         />
       </CoursePage>
+
+      <CoursePage
+        moduleName="QUIZ _FINAL: Part A: Multiple-Choice Questions (MCQs)"
+        pageNumber={20}
+      >
+        <CoursePageHeading heading="QUIZ _FINAL: Part A: Multiple-Choice Questions (MCQs)" />
+        <QuizQuestion
+          questionId={1}
+          question="Which command is used to initialize a new Git repository?"
+          options={["git start", "git init", "git new", "git create"]}
+          correctAnswer="git init"
+        />
+        <QuizQuestion
+          questionId={2}
+          question="What does git add . do?"
+          options={[
+            "Adds all changes to the staging area",
+            "Commits all changes",
+            "Discards all changes",
+            "Deletes files",
+          ]}
+          correctAnswer="Adds all changes to the staging area"
+        />
+        <QuizQuestion
+          questionId={3}
+          question="Which Git command shows the commit history?"
+          options={["git log", "git status", "git diff", "git show"]}
+          correctAnswer="git log"
+        />
+        <QuizQuestion
+          questionId={4}
+          question="What is the purpose of a branch in Git?"
+          options={[
+            "Backup the repository",
+            "Isolate work for features or fixes",
+            "Delete commits",
+            "Merge conflicts",
+          ]}
+          correctAnswer="Isolate work for features or fixes"
+        />
+
+        <QuizQuestion
+          questionId={5}
+          question="Which command pushes local commits to a remote repository?"
+          options={["git pull", "git push", "git fetch", "git clone"]}
+          correctAnswer="git push"
+        />
+
+        <QuizQuestion
+          questionId={6}
+          question="What does git merge --no-ff do?"
+          options={[
+            "Deletes a branch",
+            "Performs a merge and keeps the merge commit",
+            "Fast-forwards the branch automatically",
+            "Resets the repository",
+          ]}
+          correctAnswer="Performs a merge and keeps the merge commit"
+        />
+
+        <QuizQuestion
+          questionId={7}
+          question="Which command temporarily shelves changes to resume later?"
+          options={["git stash", "git revert", "git reset"]}
+          correctAnswer="git stash"
+        />
+      </CoursePage>
     </Course>
   );
 }
