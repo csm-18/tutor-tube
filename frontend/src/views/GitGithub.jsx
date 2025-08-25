@@ -698,6 +698,66 @@ function GitGithub() {
           correctAnswer="Commit often with meaningful messages"
         />
       </CoursePage>
+
+      <CoursePage moduleName="MODULE 8: Advanced Git Concepts" pageNumber={15}>
+        <CoursePageHeading heading="MODULE 8: Advanced Git Concepts" />
+        <CoursePageVideo
+          source="https://www.youtube.com/embed/qsTthZi23VE"
+          videoTitle="Advanced Git Tutorial - Interactive Rebase, Cherry-Picking, Reflog, Submodules and more"
+        />
+        <CoursePageParagraph>
+          Advanced Git features help manage complex workflows, optimize
+          collaboration, and maintain a clean project history.
+          <br />
+          <br />
+          Key Points:
+        </CoursePageParagraph>
+        <BulletList
+          items={[
+            {
+              text: "Rebasing:",
+              children: [
+                "'git rebase <branch>' reapplies commits on top of another branch for a linear history.",
+                "Use carefully; avoid rebasing public branches.",
+              ],
+            },
+            {
+              text: "Stashing:",
+              children: [
+                "'git stash' temporarily saves uncommitted changes to clean the working directory.",
+                "'git stash pop' restores stashed changes.",
+              ],
+            },
+            {
+              text: "Cherry-Picking:",
+              children: [
+                "'git cherry-pick <commit-hash>' applies a specific commit from another branch.",
+              ],
+            },
+            {
+              text: "Tagging:",
+              children: [
+                "'git tag <tag-name>' marks important points like releases or versions.",
+                "'git push origin <tag-name>' shares tags with the remote repository.",
+              ],
+            },
+            {
+              text: "Submodules:",
+              children: [
+                "Include external Git repositories within a project using 'git submodule add <repo-URL>'.",
+              ],
+            },
+            {
+              text: "Best Practices:",
+              children: [
+                "Use rebasing for a clean, readable history on private branches.",
+                "Stash changes to switch contexts without losing work.",
+                "Tag stable releases for easier version management.",
+              ],
+            },
+          ]}
+        />
+      </CoursePage>
     </Course>
   );
 }
