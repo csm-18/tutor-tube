@@ -868,6 +868,54 @@ function GitGithub() {
           ]}
         />
       </CoursePage>
+
+      <CoursePage moduleName="QUIZ-9" pageNumber={18}>
+        <CoursePageHeading heading="QUIZ-9" />
+        <QuizQuestion
+          questionId={1}
+          question="Which of the following is a recommended commit practice?"
+          options={[
+            "Make large, infrequent commits",
+            "Commit frequently with small, focused changes and clear messages",
+            "Avoid committing until project completion",
+            "Commit without messages",
+          ]}
+          correctAnswer="Commit frequently with small, focused changes and clear messages"
+        />
+        <QuizQuestion
+          questionId={2}
+          question="What is the purpose of using feature branches?"
+          options={[
+            "To merge all changes into main immediately",
+            "To develop new features or fixes without affecting the main branch",
+            "To delete old commits",
+            "To compress the repository",
+          ]}
+          correctAnswer="To develop new features or fixes without affecting the main branch"
+        />
+        <QuizQuestion
+          questionId={3}
+          question="Which practice helps maintain repository health?"
+          options={[
+            "Keep stale branches",
+            "Avoid documenting repository setup",
+            "Remove stale branches and keep commit history clean using rebase or squash",
+            "Never use pull requests",
+          ]}
+          correctAnswer="Remove stale branches and keep commit history clean using rebase or squash"
+        />
+        <QuizQuestion
+          questionId={4}
+          question="What is a best practice for collaborating in Git?"
+          options={[
+            "Pull before pushing and use Pull Requests for code review",
+            "Push without pulling to save time",
+            "Merge all changes without review",
+            "Avoid resolving conflicts",
+          ]}
+          correctAnswer="Pull before pushing and use Pull Requests for code review"
+        />
+      </CoursePage>
     </Course>
   );
 }
