@@ -487,6 +487,60 @@ function GitGithub() {
           correctAnswer="Pull frequently and keep remote branches organized"
         />
       </CoursePage>
+
+      <CoursePage moduleName="MODULE 6: GitHub & Collaboration" pageNumber={11}>
+        <CoursePageHeading heading="MODULE 6: GitHub & Collaboration" />
+        <CoursePageVideo
+          source="https://www.youtube.com/embed/cn8l5bXhTBM"
+          videoTitle="Master Git &amp; GitHub | Part 4 | Collaboration"
+        />
+        <CoursePageParagraph>
+          GitHub is a web-based platform for hosting Git repositories, enabling
+          seamless collaboration among developers worldwide. It provides tools
+          for sharing code, reviewing changes, and managing projects.
+          <br />
+          <br />
+          Key Points:
+        </CoursePageParagraph>
+        <BulletList
+          items={[
+            {
+              text: "Forking & Cloning:",
+              children: [
+                "Fork creates a personal copy of someone else’s repository on GitHub.",
+                "Clone downloads a repository to your local system for development.",
+              ],
+            },
+            {
+              text: "Pull Requests (PRs):",
+              children: [
+                "PRs propose changes from one branch or fork to be merged into another repository.",
+                "Team members review, comment, and approve changes before merging.",
+              ],
+            },
+            {
+              text: "Collaboration Workflow:",
+              children: [
+                "Create a branch → Make changes → Commit → Push → Open Pull Request → Review & Merge.",
+              ],
+            },
+            {
+              text: "Managing Issues:",
+              children: [
+                "Track bugs, feature requests, or tasks using GitHub Issues.",
+              ],
+            },
+            {
+              text: "Best Practices:",
+              children: [
+                "Use descriptive PR titles and commit messages.",
+                "Keep branches short-lived and focused.",
+                "Regularly sync your fork or branch with the main repository.",
+              ],
+            },
+          ]}
+        />
+      </CoursePage>
     </Course>
   );
 }
