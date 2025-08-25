@@ -541,6 +541,54 @@ function GitGithub() {
           ]}
         />
       </CoursePage>
+
+      <CoursePage moduleName="QUIZ-6" pageNumber={12}>
+        <CoursePageHeading heading="QUIZ-6" />
+        <QuizQuestion
+          questionId={1}
+          question="What is the primary purpose of GitHub?"
+          options={[
+            "To compile code",
+            "To host Git repositories and enable collaboration",
+            "To create local backups only",
+            "To delete old branches",
+          ]}
+          correctAnswer="To host Git repositories and enable collaboration"
+        />
+        <QuizQuestion
+          questionId={2}
+          question="What does “forking” a repository on GitHub do?"
+          options={[
+            "Deletes the repository",
+            "Creates a personal copy of someone else’s repository",
+            "Merges two repositories automatically",
+            "Pushes changes to the main repository",
+          ]}
+          correctAnswer="Creates a personal copy of someone else’s repository"
+        />
+        <QuizQuestion
+          questionId={3}
+          question="What is the typical workflow for collaboration using GitHub?"
+          options={[
+            "Pull → Commit → Push → Merge",
+            "Create branch → Make changes → Commit → Push → Open Pull Request → Review & Merge",
+            "Clone → Push → Delete branch → Merge",
+            "Commit → Fork → Pull → Merge",
+          ]}
+          correctAnswer="Create branch → Make changes → Commit → Push → Open Pull Request → Review & Merge"
+        />
+        <QuizQuestion
+          questionId={4}
+          question="Which is a recommended best practice for GitHub collaboration?"
+          options={[
+            "Keep branches long-lived and avoid syncing",
+            "Use generic PR titles",
+            "Use descriptive PR titles, keep branches short-lived, and sync regularly",
+            "Push large untested commits",
+          ]}
+          correctAnswer="Use descriptive PR titles, keep branches short-lived, and sync regularly"
+        />
+      </CoursePage>
     </Course>
   );
 }
