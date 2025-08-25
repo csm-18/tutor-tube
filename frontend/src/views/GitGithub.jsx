@@ -916,6 +916,45 @@ function GitGithub() {
           correctAnswer="Pull before pushing and use Pull Requests for code review"
         />
       </CoursePage>
+
+      <CoursePage
+        moduleName="MODULE 10: Git Quiz – Test Your Knowledge"
+        pageNumber={19}
+      >
+        <CoursePageHeading heading="MODULE 10: Git Quiz – Test Your Knowledge" />
+        <br />
+        <br />
+        <BulletList
+          items={[
+            {
+              text: "Topics Covered:",
+              children: [
+                "Core Git concepts (commits, branches, merges)",
+                "Remote repositories and collaboration workflows",
+                "Undoing mistakes and advanced commands",
+                "Best practices and workflows",
+              ],
+            },
+            {
+              text: "Quiz Structure:",
+              children: [
+                "Multiple-choice questions (MCQs) on key commands and concepts",
+                "True/False for Git workflows and collaboration rules",
+                "Scenario-based questions (e.g., “You accidentally committed to main, what do you do?”)",
+                "Short answer questions to explain commands or workflows",
+              ],
+            },
+            {
+              text: "Purpose:",
+              children: [
+                "Reinforce learning from Modules 1–9",
+                "Identify areas where learners need more practice",
+                "Prepare learners for real-world Git usage",
+              ],
+            },
+          ]}
+        />
+      </CoursePage>
     </Course>
   );
 }
