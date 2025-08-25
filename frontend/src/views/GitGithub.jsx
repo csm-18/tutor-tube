@@ -382,6 +382,63 @@ function GitGithub() {
           correctAnswer="Keep branches small, focused, and use descriptive names"
         />
       </CoursePage>
+
+      <CoursePage
+        moduleName="MODULE 5: Working with Remote Repositories"
+        pageNumber={9}
+      >
+        <CoursePageHeading heading="MODULE 5: Working with Remote Repositories" />
+        <CoursePageVideo
+          source="https://www.youtube.com/embed/Thx5yerhlhs"
+          videoTitle="GitHub: Working with Remote Repositories | Git Tutorials #13"
+        />
+        <CoursePageParagraph>
+          Remote repositories are versions of your project hosted on platforms
+          like GitHub, GitLab, or Bitbucket, enabling collaboration across
+          multiple developers. They serve as the central source of truth for
+          your code.
+          <br />
+          <br />
+          Key Points:
+        </CoursePageParagraph>
+        <BulletList
+          items={[
+            {
+              text: "Adding a Remote:",
+              children: [
+                "'git remote add origin <repository-URL>' links your local repo to a remote.",
+              ],
+            },
+            {
+              text: "Pushing Changes:",
+              children: [
+                "'git push origin <branch-name>' uploads local commits to the remote repository.",
+              ],
+            },
+            {
+              text: "Fetching and Pulling:",
+              children: [
+                "'git fetch' retrieves updates from the remote without merging.",
+                "'git pull' fetches and merges changes from the remote into your local branch.",
+              ],
+            },
+            {
+              text: "Cloning a Repository:",
+              children: [
+                "'git clone <repository-URL>' creates a local copy of a remote repository.",
+              ],
+            },
+            {
+              text: "Best Practices:",
+              children: [
+                "Pull frequently to stay updated with the team.",
+                "Push small, tested commits.",
+                "Keep remote branches organized with clear names.",
+              ],
+            },
+          ]}
+        />
+      </CoursePage>
     </Course>
   );
 }
