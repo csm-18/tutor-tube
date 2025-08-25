@@ -439,6 +439,54 @@ function GitGithub() {
           ]}
         />
       </CoursePage>
+
+      <CoursePage moduleName="QUIZ-5" pageNumber={10}>
+        <CoursePageHeading heading="QUIZ-5" />
+        <QuizQuestion
+          questionId={1}
+          question="What is the purpose of a remote repository in Git?"
+          options={[
+            "To run local scripts",
+            "To serve as a central version of the project for collaboration",
+            "To delete local files",
+            "To compress the project",
+          ]}
+          correctAnswer="To serve as a central version of the project for collaboration"
+        />
+        <QuizQuestion
+          questionId={2}
+          question="Which command links a local repository to a remote repository?"
+          options={[
+            "git push origin",
+            "git clone <repository-URL>",
+            "git remote add origin <repository-URL>",
+            "git fetch",
+          ]}
+          correctAnswer="git remote add origin <repository-URL>"
+        />
+        <QuizQuestion
+          questionId={3}
+          question="What is the difference between 'git fetch' and 'git pull'?"
+          options={[
+            "git fetch downloads changes without merging; git pull downloads and merges",
+            "git fetch deletes files; git pull creates files",
+            "Both do the same thing",
+            "git pull only works on master branch",
+          ]}
+          correctAnswer="git fetch downloads changes without merging; git pull downloads and merges"
+        />
+        <QuizQuestion
+          questionId={4}
+          question="Which is a recommended best practice for working with remote repositories?"
+          options={[
+            "Push large, untested commits",
+            "Pull frequently and keep remote branches organized",
+            "Avoid pulling changes to prevent conflicts",
+            "Rename the remote repository daily",
+          ]}
+          correctAnswer="Pull frequently and keep remote branches organized"
+        />
+      </CoursePage>
     </Course>
   );
 }
