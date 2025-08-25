@@ -940,8 +940,6 @@ function GitGithub() {
               children: [
                 "Multiple-choice questions (MCQs) on key commands and concepts",
                 "True/False for Git workflows and collaboration rules",
-                "Scenario-based questions (e.g., “You accidentally committed to main, what do you do?”)",
-                "Short answer questions to explain commands or workflows",
               ],
             },
             {
