@@ -589,6 +589,67 @@ function GitGithub() {
           correctAnswer="Use descriptive PR titles, keep branches short-lived, and sync regularly"
         />
       </CoursePage>
+
+      <CoursePage
+        moduleName="MODULE 7: Undoing & Fixing Mistakes"
+        pageNumber={13}
+      >
+        <CoursePageHeading heading="MODULE 7: Undoing & Fixing Mistakes" />
+        <CoursePageVideo
+          source="https://www.youtube.com/embed/lX9hsdsAeTk"
+          videoTitle="How to Undo Mistakes With Git Using the Command Line"
+        />
+        <CoursePageParagraph>
+          Git provides powerful tools to correct errors and revert changes,
+          ensuring that development remains safe and controlled.
+          <br />
+          <br />
+          Key Points:
+        </CoursePageParagraph>
+        <BulletList
+          items={[
+            {
+              text: "Undoing Unstaged Changes:",
+              children: [
+                "'git checkout -- <file>' reverts a file to the last committed state.",
+              ],
+            },
+            {
+              text: "Unstaging Changes:",
+              children: [
+                "'git reset <file>' removes a file from the staging area without discarding changes.",
+              ],
+            },
+            {
+              text: "Amending Commits:",
+              children: [
+                "'git commit --amend' modifies the last commit (update message or include forgotten changes).",
+              ],
+            },
+            {
+              text: "Reverting Commits:",
+              children: [
+                "'git revert <commit-hash>' creates a new commit that undoes a previous commit safely.",
+              ],
+            },
+            {
+              text: "Resetting Branches:",
+              children: [
+                "git reset --soft <commit-hash> keeps changes staged.",
+                "git reset --hard <commit-hash> discards all changes after the specified commit.",
+              ],
+            },
+            {
+              text: "Best Practices:",
+              children: [
+                "Use revert for public/shared commits to avoid rewriting history.",
+                "Use reset carefully on local branches.",
+                "Commit often and meaningfully to minimize mistakes.",
+              ],
+            },
+          ]}
+        />
+      </CoursePage>
     </Course>
   );
 }
