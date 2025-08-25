@@ -3,10 +3,12 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./views/Home";
 import Courses from "./views/Courses";
 import GitGithub from "./views/GitGithub";
+import AutoCourseBuilder from "./views/AutoCourseBuilder.jsx";  // ✅ new
 import { useEffect, useState } from "react";
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+
   return (
     <Routes>
       <Route path="/" element={<Home theme={theme} setTheme={setTheme} />} />
@@ -15,6 +17,12 @@ function App() {
         element={<Courses theme={theme} setTheme={setTheme} />}
       />
       <Route path="/courses/git-github" element={<GitGithub />} />
+
+      {/* ✅ new route */}
+      <Route
+        path="/autocourse"
+        element={<AutoCourseBuilder theme={theme} setTheme={setTheme} />}
+      />
     </Routes>
   );
 }

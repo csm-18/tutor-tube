@@ -44,6 +44,9 @@ function Nav({ theme, setTheme }) {
         <Link className="nav-link" to="/">
           Home
         </Link>
+        <Link className="nav-link" to="/autocourse">
+  Auto Course Builder
+</Link>
         <Link className="nav-link" to="/about">
           About
         </Link>
