@@ -51,7 +51,7 @@ function Course({ course_title, children }) {
             transition-all duration-300 ease-in-out
             ${
               open
-                ? "overflow-y-auto w-[23rem] p-6 opacity-100 border-l-4 border-blue-500"
+                ? "fixed top-0 left-0 h-screen overflow-y-auto w-[23rem] p-6 opacity-100 border-l-4 border-blue-500"
                 : "w-0 p-0 opacity-0 border-l-0"
             }
           `}
@@ -83,7 +83,16 @@ function Course({ course_title, children }) {
         </div>
       )}
 
-      <div className="flex flex-col flex-1 items-center">
+      <div
+        className="flex flex-col flex-1 items-center"
+        style={
+          open
+            ? {
+                marginLeft: "23rem",
+              }
+            : {}
+        }
+      >
         <div className="p-5 pt-3 flex justify-start w-full">
           <button id="menu-btn" onClick={toggleMenu} aria-expanded={open}>
             <img
