@@ -650,6 +650,54 @@ function GitGithub() {
           ]}
         />
       </CoursePage>
+
+      <CoursePage moduleName="QUIZ-7" pageNumber={14}>
+        <CoursePageHeading heading="QUIZ-7" />
+        <QuizQuestion
+          questionId={1}
+          question="Which command reverts a file to the last committed state without affecting staged changes?"
+          options={[
+            "git reset <file>",
+            "git checkout -- <file>",
+            "git revert <commit-hash>",
+            "git commit --amend",
+          ]}
+          correctAnswer="git checkout -- <file>"
+        />
+        <QuizQuestion
+          questionId={2}
+          question="What does git reset <file> do?"
+          options={[
+            "Reverts the file to last commit",
+            "Removes a file from the staging area without discarding changes",
+            "Deletes the file permanently",
+            "Creates a new commit",
+          ]}
+          correctAnswer="Removes a file from the staging area without discarding changes"
+        />
+        <QuizQuestion
+          questionId={3}
+          question="Which command is safest for undoing a public/shared commit?"
+          options={[
+            "git reset --hard",
+            "git revert <commit-hash>",
+            "git commit --amend",
+            "git checkout",
+          ]}
+          correctAnswer="git revert <commit-hash>"
+        />
+        <QuizQuestion
+          questionId={4}
+          question="What is the recommended practice to minimize mistakes in Git?"
+          options={[
+            "Commit rarely and with vague messages",
+            "Commit often with meaningful messages",
+            "Avoid committing until project completion",
+            "Use reset --hard on public branches frequently",
+          ]}
+          correctAnswer="Commit often with meaningful messages"
+        />
+      </CoursePage>
     </Course>
   );
 }
