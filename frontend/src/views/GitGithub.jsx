@@ -758,6 +758,54 @@ function GitGithub() {
           ]}
         />
       </CoursePage>
+
+      <CoursePage moduleName="QUIZ-8" pageNumber={16}>
+        <CoursePageHeading heading="QUIZ-8" />
+        <QuizQuestion
+          questionId={1}
+          question="What is the purpose of 'git rebase <branch>'?"
+          options={[
+            "Deletes a branch",
+            "Reapplies commits on top of another branch for a linear history",
+            "Creates a backup of the repository",
+            "Merges two repositories automatically",
+          ]}
+          correctAnswer="Reapplies commits on top of another branch for a linear history"
+        />
+        <QuizQuestion
+          questionId={2}
+          question="Which Git command temporarily saves uncommitted changes to clean the working directory?"
+          options={[
+            "git stash",
+            "git reset",
+            "git commit --amend",
+            "git cherry-pick",
+          ]}
+          correctAnswer="git stash"
+        />
+        <QuizQuestion
+          questionId={3}
+          question="What does 'git cherry-pick <commit-hash>' do?"
+          options={[
+            "Deletes a commit",
+            "Applies a specific commit from another branch",
+            "Reverts all commits in a branch",
+            "Stashes changes for later",
+          ]}
+          correctAnswer="Applies a specific commit from another branch"
+        />
+        <QuizQuestion
+          questionId={4}
+          question="Which is a recommended best practice for advanced Git usage?"
+          options={[
+            "Rebase public branches frequently",
+            "Stash changes to switch contexts, use rebasing on private branches, and tag stable releases",
+            "Avoid tagging releases",
+            "Never stash changes",
+          ]}
+          correctAnswer="Stash changes to switch contexts, use rebasing on private branches, and tag stable releases"
+        />
+      </CoursePage>
     </Course>
   );
 }
