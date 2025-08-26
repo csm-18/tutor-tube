@@ -17,8 +17,9 @@ function Courses({ theme, setTheme }) {
         />
 
         <CoursePreview
-          name="HTML5 - Beginners to Advanced!"
+          name="HTML5"
           image="./html.jpg"
+          route_link="/courses/html"
         />
 
         <CoursePreview name="?" image="./html.jpg" />

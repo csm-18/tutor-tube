@@ -3,8 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./views/Home";
 import Courses from "./views/Courses";
 import GitGithub from "./views/GitGithub";
-import AutoCourseBuilder from "./views/AutoCourseBuilder.jsx";  // ✅ new
+import AutoCourseBuilder from "./views/AutoCourseBuilder.jsx"; // ✅ new
 import { useEffect, useState } from "react";
+import Html from "./views/Html.jsx";
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
@@ -23,6 +24,8 @@ function App() {
         path="/autocourse"
         element={<AutoCourseBuilder theme={theme} setTheme={setTheme} />}
       />
+
+      <Route path="/courses/html" element={<Html />} />
     </Routes>
   );
 }
