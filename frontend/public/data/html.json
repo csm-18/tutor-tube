@@ -1,3 +1,97 @@
 {
-  "course_title": "HTML5"
+  "courseTitle": "HTML5 Crash Course",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to HTML5",
+      "video": "https://www.youtube.com/embed/UB1O30fR-EE",
+      "points": [
+        "What is HTML5?",
+        "HTML5 vs older HTML versions",
+        "Basic document structure"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "HTML5 Elements and Structure",
+      "video": "https://www.youtube.com/embed/qz0aGYrrlhU",
+      "points": [
+        "Head and body tags",
+        "Common structural elements",
+        "Best practices in layout"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Text Formatting and Semantic Tags",
+      "video": "https://www.youtube.com/embed/OEV8gMkCHXQ",
+      "points": [
+        "Headings and paragraphs",
+        "Bold, italic, emphasis",
+        "Semantic HTML5 tags"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Links and Navigation",
+      "video": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "points": [
+        "Creating hyperlinks",
+        "Navigation menus",
+        "Relative vs absolute paths"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Images and Multimedia",
+      "video": "https://www.youtube.com/embed/PlxWf493en4",
+      "points": ["Adding images", "HTML5 audio and video", "Responsive images"]
+    },
+    {
+      "id": 6,
+      "title": "Forms and Input Elements",
+      "video": "https://www.youtube.com/embed/fNcJuPIZ2WE",
+      "points": [
+        "Form basics",
+        "New HTML5 input types",
+        "Validation attributes"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Tables in HTML5",
+      "video": "https://www.youtube.com/embed/XF1_MlZ5l6M",
+      "points": [
+        "Creating tables",
+        "Table headers and footers",
+        "Accessibility considerations"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "HTML5 APIs",
+      "video": "https://www.youtube.com/embed/WVXj8lS4G4M",
+      "points": ["Canvas API basics", "Geolocation API", "Local storage API"]
+    },
+    {
+      "id": 9,
+      "title": "HTML5 Semantic Layout",
+      "video": "https://www.youtube.com/embed/5bMdjkfvONE",
+      "points": [
+        "header, nav, section, article, footer",
+        "SEO benefits",
+        "Clean structure"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Final Project – Building a Web Page",
+      "video": "https://www.youtube.com/embed/pQN-pnXPaVg",
+      "points": [
+        "Putting it all together",
+        "Responsive design basics",
+        "Best practices in HTML5"
+      ]
+    }
+  ]
 }

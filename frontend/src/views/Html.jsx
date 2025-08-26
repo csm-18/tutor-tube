@@ -1,5 +1,5 @@
-import generate_course from "../util/generate_course";
+import GenerateCourse from "../components/course/GenerateCourse";
 
 export default function Html() {
-  return generate_course("/data/html.json");
+  return <GenerateCourse json_path="/data/html.json" />;
 }
