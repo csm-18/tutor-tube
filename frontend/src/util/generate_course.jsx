@@ -3,11 +3,23 @@ import Course from "../components/course/Course";
 
 export default function generate_course(json_path) {
   const [data, setData] = useState(null);
-
   useEffect(() => {
-    fetch(json_path)
-      .then((res) => res.json())
-      .then((json) => setData(json));
+    const fetchData = async () => {
+      try {
+        const res = await fetch(json_path);
+        if (!res.ok) {
+          throw new Error("Network response was not ok " + res.statusText);
+        }
+        const json = await res.json();
+        setData(json);
+      } catch (error) {
+        console.error("Fetch error:", error);
+      }
+    };
+
+    fetchData();
   }, []);
-  return <Course course_title={data.course_title}></Course>;
+  return (
+    <>{data ? <Course course_title={data.course_title}></Course> : "error"}</>
+  );
 }
