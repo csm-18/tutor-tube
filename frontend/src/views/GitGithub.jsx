@@ -955,109 +955,103 @@ function GitGithub() {
       </CoursePage>
 
       <CoursePage
-        moduleName="QUIZ _FINAL: Part A: Multiple-Choice Questions (MCQs)"
-        pageNumber={20}
-      >
-        <CoursePageHeading heading="QUIZ _FINAL: Part A: Multiple-Choice Questions (MCQs)" />
-        <QuizQuestion
-          questionId={1}
-          question="Which command is used to initialize a new Git repository?"
-          options={["git start", "git init", "git new", "git create"]}
-          correctAnswer="git init"
-        />
-        <QuizQuestion
-          questionId={2}
-          question="What does git add . do?"
-          options={[
-            "Adds all changes to the staging area",
-            "Commits all changes",
-            "Discards all changes",
-            "Deletes files",
-          ]}
-          correctAnswer="Adds all changes to the staging area"
-        />
-        <QuizQuestion
-          questionId={3}
-          question="Which Git command shows the commit history?"
-          options={["git log", "git status", "git diff", "git show"]}
-          correctAnswer="git log"
-        />
-        <QuizQuestion
-          questionId={4}
-          question="What is the purpose of a branch in Git?"
-          options={[
-            "Backup the repository",
-            "Isolate work for features or fixes",
-            "Delete commits",
-            "Merge conflicts",
-          ]}
-          correctAnswer="Isolate work for features or fixes"
-        />
+  moduleName="QUIZ _FINAL: Combined - Part A & Part B"
+  pageNumber={20}
+>
+  <CoursePageHeading heading="QUIZ _FINAL: Part A & Part B" />
 
-        <QuizQuestion
-          questionId={5}
-          question="Which command pushes local commits to a remote repository?"
-          options={["git pull", "git push", "git fetch", "git clone"]}
-          correctAnswer="git push"
-        />
+  {/* Part A: Multiple-Choice Questions (MCQs) */}
+  <QuizQuestion
+    questionId={1}
+    question="Which command is used to initialize a new Git repository?"
+    options={["git start", "git init", "git new", "git create"]}
+    correctAnswer="git init"
+  />
+  <QuizQuestion
+    questionId={2}
+    question="What does git add . do?"
+    options={[
+      "Adds all changes to the staging area",
+      "Commits all changes",
+      "Discards all changes",
+      "Deletes files",
+    ]}
+    correctAnswer="Adds all changes to the staging area"
+  />
+  <QuizQuestion
+    questionId={3}
+    question="Which Git command shows the commit history?"
+    options={["git log", "git status", "git diff", "git show"]}
+    correctAnswer="git log"
+  />
+  <QuizQuestion
+    questionId={4}
+    question="What is the purpose of a branch in Git?"
+    options={[
+      "Backup the repository",
+      "Isolate work for features or fixes",
+      "Delete commits",
+      "Merge conflicts",
+    ]}
+    correctAnswer="Isolate work for features or fixes"
+  />
+  <QuizQuestion
+    questionId={5}
+    question="Which command pushes local commits to a remote repository?"
+    options={["git pull", "git push", "git fetch", "git clone"]}
+    correctAnswer="git push"
+  />
+  <QuizQuestion
+    questionId={6}
+    question="What does git merge --no-ff do?"
+    options={[
+      "Deletes a branch",
+      "Performs a merge and keeps the merge commit",
+      "Fast-forwards the branch automatically",
+      "Resets the repository",
+    ]}
+    correctAnswer="Performs a merge and keeps the merge commit"
+  />
+  <QuizQuestion
+    questionId={7}
+    question="Which command temporarily shelves changes to resume later?"
+    options={["git stash", "git revert", "git reset"]}
+    correctAnswer="git stash"
+  />
 
-        <QuizQuestion
-          questionId={6}
-          question="What does git merge --no-ff do?"
-          options={[
-            "Deletes a branch",
-            "Performs a merge and keeps the merge commit",
-            "Fast-forwards the branch automatically",
-            "Resets the repository",
-          ]}
-          correctAnswer="Performs a merge and keeps the merge commit"
-        />
+  {/* Part B: True/False */}
+  <QuizQuestion
+    questionId={8}
+    question="You can safely rewrite commit history on a shared repository using git reset --hard."
+    options={["True", "False"]}
+    correctAnswer="False"
+  />
+  <QuizQuestion
+    questionId={9}
+    question="Forking a repository creates a personal copy to work independently."
+    options={["True", "False"]}
+    correctAnswer="True"
+  />
+  <QuizQuestion
+    questionId={10}
+    question="Pull requests are used to merge code directly into the main branch without review."
+    options={["True", "False"]}
+    correctAnswer="False"
+  />
+  <QuizQuestion
+    questionId={11}
+    question="git revert creates a new commit that undoes changes."
+    options={["True", "False"]}
+    correctAnswer="True"
+  />
+  <QuizQuestion
+    questionId={12}
+    question="GitHub Flow is a branching strategy suitable for continuous deployment."
+    options={["True", "False"]}
+    correctAnswer="True"
+  />
+</CoursePage>
 
-        <QuizQuestion
-          questionId={7}
-          question="Which command temporarily shelves changes to resume later?"
-          options={["git stash", "git revert", "git reset"]}
-          correctAnswer="git stash"
-        />
-      </CoursePage>
-
-      <CoursePage moduleName="QUIZ _FINAL: Part B: True/False" pageNumber={21}>
-        <CoursePageHeading heading="QUIZ _FINAL: Part B: True/False" />
-        <QuizQuestion
-          questionId={1}
-          question="You can safely rewrite commit history on a shared repository using git reset --hard."
-          options={["True", "False"]}
-          correctAnswer="False"
-        />
-
-        <QuizQuestion
-          questionId={2}
-          question="Forking a repository creates a personal copy to work independently."
-          options={["True", "False"]}
-          correctAnswer="True"
-        />
-
-        <QuizQuestion
-          questionId={3}
-          question="Pull requests are used to merge code directly into the main branch without review."
-          options={["True", "False"]}
-          correctAnswer="False"
-        />
-
-        <QuizQuestion
-          questionId={4}
-          question="git revert creates a new commit that undoes changes."
-          options={["True", "False"]}
-          correctAnswer="True"
-        />
-
-        <QuizQuestion
-          questionId={5}
-          question="GitHub Flow is a branching strategy suitable for continuous deployment."
-          options={["True", "False"]}
-          correctAnswer="True"
-        />
-      </CoursePage>
     </Course>
   );
 }
