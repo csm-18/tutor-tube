@@ -1,0 +1,172 @@
+{
+  "courseTitle": "SQL",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to SQL",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/kbKty5ZVKMY",
+      "description": "An introduction to SQL, its purpose, and its role in relational database management.",
+      "points": [
+        "What is SQL?",
+        "Relational databases overview",
+        "Setting up a SQL environment"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Basic SQL Queries",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/_vxobA36UN4",
+      "description": "Learn the basics of querying data using SELECT statements and filtering with WHERE.",
+      "points": [
+        "SELECT statement syntax",
+        "Filtering data with WHERE",
+        "Using ORDER BY for sorting"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Inserting and Updating Data",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/R8EeH46xuOg",
+      "description": "Covers how to insert new records and update existing data in a SQL database.",
+      "points": [
+        "INSERT INTO statement",
+        "UPDATE statement with SET",
+        "Handling NULL values"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Deleting Data and Dropping Tables",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/_m1aJdD-oD8",
+      "description": "Explains how to delete records and drop tables from a SQL database.",
+      "points": [
+        "DELETE statement",
+        "DROP and TRUNCATE commands",
+        "Safe deletion practices"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Joins in SQL",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/9yeOJ0ZMUYw",
+      "description": "Introduces SQL joins to combine data from multiple tables.",
+      "points": [
+        "INNER JOIN and OUTER JOIN",
+        "LEFT JOIN and RIGHT JOIN",
+        "Using aliases for readability"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Aggregating Data",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/jcoJuc5e3RE",
+      "description": "Learn how to use aggregate functions and group data in SQL queries.",
+      "points": [
+        "COUNT, SUM, AVG, MIN, MAX functions",
+        "GROUP BY clause",
+        "HAVING clause for filtering groups"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Subqueries and Nested Queries",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/JksrTuEVEPk",
+      "description": "Covers how to use subqueries to write more complex SQL queries.",
+      "points": [
+        "Writing subqueries in SELECT and WHERE",
+        "Correlated subqueries",
+        "Using EXISTS and IN"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Database Design and Normalization",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/rBPQ5fg_kiY",
+      "description": "Explains the principles of database design and normalization to optimize data storage.",
+      "points": [
+        "Primary and foreign keys",
+        "Normalization (1NF, 2NF, 3NF)",
+        "Creating efficient table structures"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Indexes and Performance",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/BxAj3bl00-o",
+      "description": "Learn how to use indexes to improve query performance in SQL databases.",
+      "points": [
+        "Creating and managing indexes",
+        "Index types (e.g., unique, clustered)",
+        "Analyzing query performance with EXPLAIN"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "SQL Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/30hS-MjpU6E",
+      "description": "Covers best practices for writing efficient, secure, and maintainable SQL queries.",
+      "points": [
+        "Writing readable SQL code",
+        "Avoiding SQL injection",
+        "Optimizing queries for performance"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "SQL Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which SQL statement is used to retrieve data from a database?",
+          "options": ["INSERT", "SELECT", "UPDATE", "DELETE"],
+          "answer": "SELECT"
+        },
+        {
+          "id": 2,
+          "question": "What clause is used to filter rows in a SQL query?",
+          "options": ["ORDER BY", "GROUP BY", "WHERE", "HAVING"],
+          "answer": "WHERE"
+        },
+        {
+          "id": 3,
+          "question": "Which type of JOIN returns all rows from both tables, even if there is no match?",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "FULL OUTER JOIN"
+          ],
+          "answer": "FULL OUTER JOIN"
+        },
+        {
+          "id": 4,
+          "question": "Which function counts the number of rows in a SQL query result?",
+          "options": ["SUM", "COUNT", "AVG", "MAX"],
+          "answer": "COUNT"
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of database normalization?",
+          "options": [
+            "To increase data redundancy",
+            "To improve query speed",
+            "To reduce data redundancy and improve integrity",
+            "To delete unused tables"
+          ],
+          "answer": "To reduce data redundancy and improve integrity"
+        }
+      ]
+    }
+  ]
+}

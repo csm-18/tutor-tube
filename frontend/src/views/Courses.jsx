@@ -52,6 +52,7 @@ function Courses({ theme, setTheme }) {
           image="./python.jpg"
           route_link="/courses/python"
         />
+        <CoursePreview name="SQL" image="./sql.jpg" route_link="/courses/sql" />
       </div>
       <Footer />
     </div>
