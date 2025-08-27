@@ -17,7 +17,7 @@ function Courses({ theme, setTheme }) {
         />
 
         <CoursePreview
-          name="HTML5"
+          name="HTML"
           image="/html-logo.png"
           route_link="/courses/html"
         />
