@@ -11,6 +11,7 @@ import Js from "./views/Js.jsx";
 import LinuxTerminal from "./views/LinuxTerminal.jsx";
 import TypeScript from "./views/TypeScript.jsx";
 import MongoDB from "./views/MongoDB.jsx";
+import Python from "./views/Python.jsx";
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -36,6 +37,7 @@ function App() {
 
       <Route path="/courses/linux-terminal" element={<LinuxTerminal />} />
       <Route path="/courses/mongodb" element={<MongoDB />} />
+      <Route path="/courses/python" element={<Python />} />
     </Routes>
   );
 }

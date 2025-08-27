@@ -47,6 +47,11 @@ function Courses({ theme, setTheme }) {
           image="./mongodb.png"
           route_link="/courses/mongodb"
         />
+        <CoursePreview
+          name="Python"
+          image="./python.jpg"
+          route_link="/courses/python"
+        />
       </div>
       <Footer />
     </div>

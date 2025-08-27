@@ -1,0 +1,172 @@
+{
+  "courseTitle": "Python",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Python",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/x7X9w_GIm1s",
+      "description": "An introduction to Python, its features, and why it is a popular programming language.",
+      "points": [
+        "What is Python?",
+        "Python's key features and uses",
+        "Setting up Python and an IDE"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Python Basics and Variables",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/LKFrQXaoSMQ",
+      "description": "Learn about Python's basic syntax, variables, and data types.",
+      "points": [
+        "Basic syntax and print function",
+        "Variable assignment and naming",
+        "Data types: int, float, str, bool"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Control Structures",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/6iF8Xb7Z3wQ",
+      "description": "Explores Python's control structures like conditionals and loops for program flow.",
+      "points": [
+        "If, elif, else statements",
+        "For and while loops",
+        "Break, continue, and pass"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Functions in Python",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/89cGQjB5R4M",
+      "description": "Covers defining and using functions in Python, including arguments and return values.",
+      "points": [
+        "Defining functions with def",
+        "Positional and keyword arguments",
+        "Return statements and lambda functions"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Lists and Dictionaries",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/n0krwG38SHI",
+      "description": "Introduces Python's core data structures: lists and dictionaries, and their operations.",
+      "points": [
+        "Creating and manipulating lists",
+        "Dictionary key-value pairs",
+        "List comprehensions and dictionary methods"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Modules and Packages",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/GUXxLy68EF8",
+      "description": "Learn how to use and create Python modules and packages for code organization.",
+      "points": [
+        "Importing standard library modules",
+        "Creating custom modules",
+        "Using pip to install packages"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "File Handling",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/aequTxAvQq4",
+      "description": "Explains how to read from and write to files in Python using file handling techniques.",
+      "points": [
+        "Opening and closing files",
+        "Reading and writing text files",
+        "Working with CSV and JSON files"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Exception Handling",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/V_NXT2-QIlE",
+      "description": "Covers handling errors and exceptions in Python to make programs more robust.",
+      "points": [
+        "Try, except, and finally blocks",
+        "Raising exceptions",
+        "Custom exception classes"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Object-Oriented Programming",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/JeznW_7DlB0",
+      "description": "Introduces object-oriented programming concepts in Python, including classes and inheritance.",
+      "points": [
+        "Creating classes and objects",
+        "Methods and attributes",
+        "Inheritance and polymorphism"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Python Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/qUeud6DvOWI",
+      "description": "Covers best practices for writing clean, efficient, and maintainable Python code.",
+      "points": [
+        "Following PEP 8 style guidelines",
+        "Using virtual environments",
+        "Writing readable and modular code"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Python Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which keyword is used to define a function in Python?",
+          "options": ["func", "define", "def", "function"],
+          "answer": "def"
+        },
+        {
+          "id": 2,
+          "question": "What is the output of print(type(42))?",
+          "options": [
+            "<class 'str'>",
+            "<class 'int'>",
+            "<class 'float'>",
+            "<class 'bool'>"
+          ],
+          "answer": "<class 'int'>"
+        },
+        {
+          "id": 3,
+          "question": "Which method adds an element to the end of a list?",
+          "options": ["add()", "append()", "extend()", "insert()"],
+          "answer": "append()"
+        },
+        {
+          "id": 4,
+          "question": "What is used to handle exceptions in Python?",
+          "options": ["try/except", "if/else", "for/while", "with/as"],
+          "answer": "try/except"
+        },
+        {
+          "id": 5,
+          "question": "Which Python feature allows for concise list creation?",
+          "options": [
+            "List comprehension",
+            "Generator",
+            "Lambda function",
+            "Dictionary"
+          ],
+          "answer": "List comprehension"
+        }
+      ]
+    }
+  ]
+}
