@@ -7,7 +7,7 @@ import AutoCourseBuilder from "./views/AutoCourseBuilder.jsx"; // ✅ new
 import { useEffect, useState } from "react";
 import Html from "./views/Html.jsx";
 import Css from "./views/Css.jsx";
-
+import Js from "./views/Js.jsx";
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -28,6 +28,7 @@ function App() {
 
       <Route path="/courses/html" element={<Html />} />
       <Route path="/courses/css" element={<Css />} />
+      <Route path="/courses/js" element={<Js />} />
     </Routes>
   );
 }

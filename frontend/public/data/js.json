@@ -1,0 +1,182 @@
+{
+  "courseTitle": "JavaScript Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to JavaScript",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/upDLs1sn7g4",
+      "description": "An introduction to JavaScript, its role in web development, and its core features.",
+      "points": [
+        "What is JavaScript?",
+        "JavaScript in browsers and beyond",
+        "Setting up a development environment"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Variables and Data Types",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/nbX0MIV7-Ek",
+      "description": "Learn about variables, data types, and basic operations in JavaScript.",
+      "points": [
+        "Declaring variables: var, let, const",
+        "Primitive data types",
+        "Type coercion and conversion"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Control Flow and Loops",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/IsG4Xd6LlsM",
+      "description": "Explore conditional statements and loops for controlling program flow in JavaScript.",
+      "points": [
+        "If, else, and switch statements",
+        "For, while, and do-while loops",
+        "Break and continue statements"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Functions in JavaScript",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/FOD408a0EzU",
+      "description": "Understand how to create and use functions, including arrow functions and closures.",
+      "points": [
+        "Function declarations and expressions",
+        "Arrow functions",
+        "Closures and scope"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Arrays and Objects",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/-oVdqCaL3DQ",
+      "description": "Learn how to work with arrays and objects for storing and manipulating data.",
+      "points": [
+        "Array methods (map, filter, reduce)",
+        "Object properties and methods",
+        "Destructuring and spread operator"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "DOM Manipulation",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/y17RuWkWdn8",
+      "description": "Discover how to interact with the Document Object Model (DOM) using JavaScript.",
+      "points": [
+        "Selecting and modifying DOM elements",
+        "Event listeners and handling",
+        "Creating and removing elements"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Asynchronous JavaScript",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/670f71LTWpM",
+      "description": "Understand asynchronous programming with callbacks, promises, and async/await.",
+      "points": [
+        "Callbacks and callback hell",
+        "Promises and error handling",
+        "Async/await syntax"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Fetch API and AJAX",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Oive66jrwBs",
+      "description": "Learn how to make HTTP requests and handle responses using the Fetch API.",
+      "points": [
+        "Making GET and POST requests",
+        "Handling JSON data",
+        "Error handling with Fetch"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "JavaScript ES6+ Features",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/nZ1DMMsyVyI",
+      "description": "Explore modern JavaScript features introduced in ES6 and beyond.",
+      "points": [
+        "Template literals",
+        "Modules (import/export)",
+        "Optional chaining and nullish coalescing"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "JavaScript Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/RMN_bkZ1KM0",
+      "description": "Learn best practices for writing clean, maintainable, and efficient JavaScript code.",
+      "points": [
+        "Code organization and modularity",
+        "Error handling strategies",
+        "Performance optimization tips"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "JavaScript Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which keyword is used to declare a block-scoped variable in JavaScript?",
+          "options": ["var", "let", "const", "function"],
+          "answer": "let"
+        },
+        {
+          "id": 2,
+          "question": "What does the 'map' method do in JavaScript?",
+          "options": [
+            "Filters elements from an array",
+            "Creates a new array with transformed elements",
+            "Reduces an array to a single value",
+            "Sorts an array"
+          ],
+          "answer": "Creates a new array with transformed elements"
+        },
+        {
+          "id": 3,
+          "question": "What is the purpose of the 'async' keyword?",
+          "options": [
+            "To define a function that returns a Promise",
+            "To loop through arrays",
+            "To declare a constant",
+            "To create a class"
+          ],
+          "answer": "To define a function that returns a Promise"
+        },
+        {
+          "id": 4,
+          "question": "Which method is used to select an element by its ID in the DOM?",
+          "options": [
+            "getElementById",
+            "querySelector",
+            "getElementsByClassName",
+            "getElementsByTagName"
+          ],
+          "answer": "getElementById"
+        },
+        {
+          "id": 5,
+          "question": "What is the spread operator in JavaScript?",
+          "options": [
+            "A way to copy arrays or objects",
+            "A loop construct",
+            "A conditional operator",
+            "A function declaration"
+          ],
+          "answer": "A way to copy arrays or objects"
+        }
+      ]
+    }
+  ]
+}

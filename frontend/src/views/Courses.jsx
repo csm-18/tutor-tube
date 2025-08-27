@@ -27,7 +27,11 @@ function Courses({ theme, setTheme }) {
           image="./css-logo.jpg"
           route_link="/courses/css"
         />
-        <CoursePreview name="?" image="./html.jpg" />
+        <CoursePreview
+          name="JavaScript"
+          image="./js-logo.jpg"
+          route_link="/courses/js"
+        />
         <CoursePreview name="?" image="./html.jpg" />
       </div>
       <Footer />
