@@ -1,0 +1,167 @@
+{
+  "courseTitle": "CSS Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to CSS",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0W6qz0-aDaM?list=PL0Zuz27SZ-6Mx9fd9elt80G1bPcySmWit",
+      "description": "Learn what CSS is, why it is important, and how it works with HTML to style web pages.",
+      "points": [
+        "What is CSS?",
+        "Role of CSS in web development",
+        "Basic syntax and usage"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "CSS Selectors and Properties",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/l1mER1bV0N0",
+      "description": "Understand different types of CSS selectors and how to apply properties to elements.",
+      "points": [
+        "Element, class, and ID selectors",
+        "Grouping and combining selectors",
+        "Common CSS properties"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Colors, Backgrounds, and Borders",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/lBiEh90CZgE",
+      "description": "Learn to style elements with colors, backgrounds, and borders in CSS.",
+      "points": [
+        "Text and background colors",
+        "Using gradients",
+        "Borders and border-radius"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Box Model and Spacing",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/rIO5326FgPE",
+      "description": "Covers the CSS box model, including content, padding, border, and margin.",
+      "points": [
+        "Understanding the box model",
+        "Margin and padding",
+        "Width, height, and border-box"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Typography and Fonts",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/klXyJWlIzuY",
+      "description": "Learn how to style text using fonts, size, weight, line-height, and text alignment.",
+      "points": [
+        "Font families and fallbacks",
+        "Text size, weight, and spacing",
+        "Text alignment and decoration"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "CSS Flexbox",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/w9lsR2tvkvQ",
+      "description": "Introduction to Flexbox layout and aligning elements efficiently.",
+      "points": [
+        "Flex container and items",
+        "Flex direction and wrapping",
+        "Justify-content and align-items"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "CSS Grid",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/rg7Fvvl3taU",
+      "description": "Learn CSS Grid layout for creating complex and responsive web designs.",
+      "points": [
+        "Grid container and items",
+        "Rows, columns, and gaps",
+        "Grid template areas"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Responsive Design and Media Queries",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/srvUrASNj0s",
+      "description": "Learn how to make your website look good on all devices using responsive design.",
+      "points": [
+        "Viewport and breakpoints",
+        "Media queries syntax",
+        "Mobile-first design"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "CSS Transitions and Animations",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Nloq6uzF8RQ",
+      "description": "Add animations and transitions to your website for better user experience.",
+      "points": [
+        "CSS transition properties",
+        "Keyframe animations",
+        "Easing and timing functions"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "CSS Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/8xCAf50UOA8",
+      "description": "Learn the best practices for writing clean, maintainable, and efficient CSS.",
+      "points": [
+        "Organizing CSS files",
+        "Using classes over IDs",
+        "Avoiding inline styles"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "CSS Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which CSS property is used to change the background color?",
+          "options": ["color", "background-color", "bgcolor", "border-color"],
+          "answer": "background-color"
+        },
+        {
+          "id": 2,
+          "question": "What is the default value of the 'position' property?",
+          "options": ["absolute", "fixed", "relative", "static"],
+          "answer": "static"
+        },
+        {
+          "id": 3,
+          "question": "Which CSS layout module uses rows and columns?",
+          "options": ["Flexbox", "Grid", "Box Model", "Float"],
+          "answer": "Grid"
+        },
+        {
+          "id": 4,
+          "question": "Which unit is relative to the font size of the element?",
+          "options": ["px", "em", "%", "vh"],
+          "answer": "em"
+        },
+        {
+          "id": 5,
+          "question": "Which media feature is used to apply styles for screens smaller than 768px?",
+          "options": [
+            "max-width: 768px",
+            "min-width: 768px",
+            "screen-width: 768px",
+            "width: 768px"
+          ],
+          "answer": "max-width: 768px"
+        }
+      ]
+    }
+  ]
+}
