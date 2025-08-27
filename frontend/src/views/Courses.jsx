@@ -12,13 +12,13 @@ function Courses({ theme, setTheme }) {
       <div className="grid grid-cols-3 gap-[6rem] flex-1 p-[8rem] pt-[4rem]">
         <CoursePreview
           name="Git and GitHub"
-          image="./github-img.jpg"
+          image="/github-img.jpg"
           route_link="/courses/git-github"
         />
 
         <CoursePreview
           name="HTML5"
-          image="./html.jpg"
+          image="/html-logo.png"
           route_link="/courses/html"
         />
 

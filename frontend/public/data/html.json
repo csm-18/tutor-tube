@@ -1,96 +1,170 @@
 {
-  "courseTitle": "HTML5 Crash Course",
+  "courseTitle": "HTML5 Curriculum",
   "modules": [
     {
       "id": 1,
       "title": "Introduction to HTML5",
+      "type": "lesson",
       "video": "https://www.youtube.com/embed/UB1O30fR-EE",
+      "description": "An introduction to HTML5, its features, and the role it plays in modern web development.",
       "points": [
         "What is HTML5?",
-        "HTML5 vs older HTML versions",
-        "Basic document structure"
+        "Differences from previous HTML versions",
+        "Basic structure of a web page"
       ]
     },
     {
       "id": 2,
-      "title": "HTML5 Elements and Structure",
-      "video": "https://www.youtube.com/embed/qz0aGYrrlhU",
+      "title": "HTML5 Document Structure",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/BI-JYpwOQ4c",
+      "description": "Learn about the basic structure of an HTML5 document, including doctype, head, and body elements.",
       "points": [
-        "Head and body tags",
-        "Common structural elements",
-        "Best practices in layout"
+        "DOCTYPE declaration",
+        "Head and metadata elements",
+        "Body content basics"
       ]
     },
     {
       "id": 3,
-      "title": "Text Formatting and Semantic Tags",
-      "video": "https://www.youtube.com/embed/OEV8gMkCHXQ",
+      "title": "Text Formatting in HTML5",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/urT4pdM3sr4",
+      "description": "Explains how to format text in HTML5 using headings, paragraphs, and inline formatting tags.",
       "points": [
         "Headings and paragraphs",
-        "Bold, italic, emphasis",
-        "Semantic HTML5 tags"
+        "Bold, italic, and underline",
+        "Line breaks and horizontal rules"
       ]
     },
     {
       "id": 4,
       "title": "Links and Navigation",
-      "video": "https://www.youtube.com/embed/W6NZfCO5SIk",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/FBHa1Ijo73s",
+      "description": "Demonstrates creating hyperlinks and navigation menus in HTML5 for easy website navigation.",
       "points": [
-        "Creating hyperlinks",
-        "Navigation menus",
-        "Relative vs absolute paths"
+        "Anchor tags and href attributes",
+        "Internal vs external links",
+        "Navigation menus and lists"
       ]
     },
     {
       "id": 5,
       "title": "Images and Multimedia",
-      "video": "https://www.youtube.com/embed/PlxWf493en4",
-      "points": ["Adding images", "HTML5 audio and video", "Responsive images"]
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0pBAfkZMKy0",
+      "description": "Shows how to embed images, audio, and video using HTML5 multimedia elements.",
+      "points": [
+        "Using the img tag",
+        "Audio and video elements",
+        "Attributes like autoplay, controls, loop"
+      ]
     },
     {
       "id": 6,
-      "title": "Forms and Input Elements",
-      "video": "https://www.youtube.com/embed/fNcJuPIZ2WE",
+      "title": "HTML5 Forms",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/frAGrGN00OA",
+      "description": "Covers creating interactive forms with input types, labels, and validation in HTML5.",
       "points": [
-        "Form basics",
-        "New HTML5 input types",
-        "Validation attributes"
+        "Form tag and input types",
+        "Textarea, select, and buttons",
+        "Form validation attributes"
       ]
     },
     {
       "id": 7,
-      "title": "Tables in HTML5",
-      "video": "https://www.youtube.com/embed/XF1_MlZ5l6M",
+      "title": "HTML5 Semantic Elements",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/kX3TfdUqpuU",
+      "description": "Introduces semantic tags like header, footer, article, and section for better structured HTML5 pages.",
       "points": [
-        "Creating tables",
-        "Table headers and footers",
-        "Accessibility considerations"
+        "Header, footer, nav",
+        "Section and article",
+        "Benefits of semantic markup"
       ]
     },
     {
       "id": 8,
-      "title": "HTML5 APIs",
-      "video": "https://www.youtube.com/embed/WVXj8lS4G4M",
-      "points": ["Canvas API basics", "Geolocation API", "Local storage API"]
+      "title": "HTML5 Graphics with Canvas",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Yvz_axxWG4Y",
+      "description": "Explains drawing graphics, shapes, and simple animations using the HTML5 canvas element.",
+      "points": [
+        "Canvas element basics",
+        "Drawing shapes and lines",
+        "Simple animations"
+      ]
     },
     {
       "id": 9,
-      "title": "HTML5 Semantic Layout",
-      "video": "https://www.youtube.com/embed/5bMdjkfvONE",
+      "title": "HTML5 APIs Overview",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0e2b6rrONa4",
+      "description": "An overview of useful HTML5 APIs like Geolocation, LocalStorage, and Drag & Drop for enhanced interactivity.",
       "points": [
-        "header, nav, section, article, footer",
-        "SEO benefits",
-        "Clean structure"
+        "Geolocation API",
+        "LocalStorage and SessionStorage",
+        "Drag & Drop API"
       ]
     },
     {
       "id": 10,
-      "title": "Final Project – Building a Web Page",
-      "video": "https://www.youtube.com/embed/pQN-pnXPaVg",
+      "title": "HTML5 Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Yc8sCSeMhi4",
+      "description": "Covers best practices for writing clean, semantic, and accessible HTML5 code.",
       "points": [
-        "Putting it all together",
-        "Responsive design basics",
-        "Best practices in HTML5"
+        "Writing semantic HTML",
+        "Accessibility considerations",
+        "Optimizing for performance"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "HTML5 Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which HTML5 tag is used to define navigation links?",
+          "options": ["<nav>", "<header>", "<section>", "<footer>"],
+          "answer": "<nav>"
+        },
+        {
+          "id": 2,
+
+          "question": "Which attribute is used to provide a description for an image?",
+          "options": ["alt", "title", "src", "description"],
+          "answer": "alt"
+        },
+        {
+          "id": 3,
+
+          "question": "Which HTML5 element is used for drawing graphics?",
+          "options": ["<canvas>", "<svg>", "<image>", "<figure>"],
+          "answer": "<canvas>"
+        },
+        {
+          "id": 4,
+
+          "question": "What does the 'autoplay' attribute do in HTML5 video?",
+          "options": [
+            "Plays the video automatically",
+            "Loops the video",
+            "Shows controls",
+            "Preloads the video"
+          ],
+          "answer": "Plays the video automatically"
+        },
+        {
+          "id": 5,
+
+          "question": "Which storage API is used to store data in the browser across sessions?",
+          "options": ["LocalStorage", "SessionStorage", "Cookies", "IndexedDB"],
+          "answer": "LocalStorage"
+        }
       ]
     }
   ]
