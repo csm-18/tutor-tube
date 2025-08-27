@@ -1,0 +1,172 @@
+{
+  "courseTitle": "TypeScript",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to TypeScript",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zQnBQ4tB3ZA",
+      "description": "An introduction to TypeScript, its benefits, and how it enhances JavaScript development.",
+      "points": [
+        "What is TypeScript?",
+        "TypeScript vs JavaScript",
+        "Setting up a TypeScript environment"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Basic Types and Variables",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/33omon_8QKE",
+      "description": "Learn about TypeScript's basic types, variable declarations, and type annotations.",
+      "points": [
+        "Primitive types: string, number, boolean",
+        "Variable declarations: let, const, var",
+        "Type annotations and inference"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Functions in TypeScript",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/jXoSaX_yFh4",
+      "description": "Explores defining functions in TypeScript, including parameter types and return types.",
+      "points": [
+        "Typing function parameters",
+        "Return type annotations",
+        "Optional and default parameters"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Interfaces and Types",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0IPbKyLVDh4",
+      "description": "Covers creating and using interfaces and type aliases to define object shapes and custom types.",
+      "points": [
+        "Defining interfaces",
+        "Using type aliases",
+        "Optional properties and readonly modifiers"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Classes in TypeScript",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/W9Ah_ZDFc1c",
+      "description": "Introduces object-oriented programming with TypeScript classes, including inheritance and access modifiers.",
+      "points": [
+        "Creating classes and constructors",
+        "Access modifiers: public, private, protected",
+        "Inheritance and abstract classes"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Generics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/EcCTIExsqmI",
+      "description": "Explains how to use generics to create reusable components and functions in TypeScript.",
+      "points": [
+        "Introduction to generics",
+        "Generic functions and classes",
+        "Constraints and default types"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Modules and Namespaces",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ABbOS4X0uV0",
+      "description": "Learn how to organize TypeScript code using modules and namespaces for better maintainability.",
+      "points": [
+        "Export and import syntax",
+        "Using namespaces",
+        "Module resolution strategies"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Advanced Types",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/q5DFpyIN5Xs",
+      "description": "Covers advanced type features like union types, intersection types, and type guards.",
+      "points": [
+        "Union and intersection types",
+        "Type guards and narrowing",
+        "Literal types and type aliases"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "TypeScript with React",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ydkQlJhodio",
+      "description": "Demonstrates how to use TypeScript with React to build type-safe components and applications.",
+      "points": [
+        "Setting up TypeScript with React",
+        "Typing props and state",
+        "Using hooks with TypeScript"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "TypeScript Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F6EizGxWie4",
+      "description": "Covers best practices for writing clean, maintainable, and scalable TypeScript code.",
+      "points": [
+        "Strict mode and configuration",
+        "Avoiding any type",
+        "Using utility types effectively"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "TypeScript Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which keyword is used to declare a variable with a specific type in TypeScript?",
+          "options": ["type", "var", "let", ":"],
+          "answer": ":"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of an interface in TypeScript?",
+          "options": [
+            "To define a function",
+            "To define the shape of an object",
+            "To create a loop",
+            "To import modules"
+          ],
+          "answer": "To define the shape of an object"
+        },
+        {
+          "id": 3,
+          "question": "Which TypeScript feature allows you to create reusable components with flexible types?",
+          "options": ["Interfaces", "Generics", "Classes", "Modules"],
+          "answer": "Generics"
+        },
+        {
+          "id": 4,
+          "question": "What does the 'readonly' modifier do in a TypeScript interface?",
+          "options": [
+            "Makes a property optional",
+            "Prevents a property from being modified",
+            "Allows inheritance",
+            "Enables type narrowing"
+          ],
+          "answer": "Prevents a property from being modified"
+        },
+        {
+          "id": 5,
+          "question": "Which TypeScript compiler option enables stricter type checking?",
+          "options": ["noImplicitAny", "allowJs", "outDir", "target"],
+          "answer": "noImplicitAny"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<!-- Save this as typescript-logo.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="TypeScript-style logo">
+  <defs>
+    <linearGradient id="tsGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#007ACC"/>
+      <stop offset="1" stop-color="#0366A6"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect x="64" y="64" width="896" height="896" rx="180" ry="180" fill="url(#tsGrad)" filter="url(#shadow)"/>
+
+  <!-- "TS" letters (uses system sans fonts; will fall back if not present) -->
+  <text x="512" y="560" text-anchor="middle" font-family="Segoe UI, Roboto, Ubuntu, Inter, sans-serif"
+        font-weight="800" font-size="440" fill="#ffffff" dominant-baseline="middle" letter-spacing="-8">
+    TS
+  </text>
+
+  <!-- Optional small version label (subtle) -->
+  <text x="512" y="820" text-anchor="middle" font-family="Segoe UI, Roboto, Ubuntu, Inter, sans-serif"
+        font-size="36" fill="rgba(255,255,255,0.9)" opacity="0.9">
+    TypeScript-style
+  </text>
+</svg>

@@ -33,6 +33,11 @@ function Courses({ theme, setTheme }) {
           route_link="/courses/js"
         />
         <CoursePreview
+          name="TypeScript"
+          image="./typescript-logo.svg"
+          route_link="/courses/typescript"
+        />
+        <CoursePreview
           name="Linux Terminal"
           image="./linux-logo.jpg"
           route_link="/courses/linux-terminal"
