@@ -1,0 +1,167 @@
+{
+  "courseTitle": "Linux Terminal",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Linux Terminal",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/s3ii48qYBxA",
+      "description": "An introduction to the Linux Terminal, its importance, and basic navigation commands.",
+      "points": [
+        "What is the Linux Terminal?",
+        "Why use the command line?",
+        "Opening the terminal and basic commands"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "File System Navigation",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/dzHscTzpAME",
+      "description": "Learn how to navigate the Linux file system using commands like ls, cd, and pwd.",
+      "points": [
+        "Listing files with ls",
+        "Changing directories with cd",
+        "Checking current directory with pwd"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "File and Directory Management",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/6efqfFSl9Gs",
+      "description": "Covers creating, moving, copying, and deleting files and directories in the Linux Terminal.",
+      "points": [
+        "Creating files and directories (touch, mkdir)",
+        "Copying and moving files (cp, mv)",
+        "Removing files and directories (rm, rmdir)"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "File Permissions",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/LnKoncbQBsM",
+      "description": "Explains Linux file permissions, how to read them, and how to modify them using chmod and chown.",
+      "points": [
+        "Understanding permission types (read, write, execute)",
+        "Reading permissions with ls -l",
+        "Changing permissions with chmod and chown"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Working with Text Files",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/T20jXu7rDCA",
+      "description": "Introduces commands for viewing, editing, and manipulating text files in the Linux Terminal.",
+      "points": [
+        "Viewing files with cat, less, and more",
+        "Editing files with nano and vim",
+        "Searching within files using grep"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Pipes and Redirection",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/mV_8GbzwZMM",
+      "description": "Learn how to use pipes and redirection to combine commands and manage input/output in the Linux Terminal.",
+      "points": [
+        "Redirecting output with > and >>",
+        "Using pipes to chain commands",
+        "Combining commands with && and ||"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Process Management",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/kmk3_kEiJvk",
+      "description": "Explains how to monitor and manage processes in the Linux Terminal using commands like ps, top, and kill.",
+      "points": [
+        "Viewing processes with ps and top",
+        "Terminating processes with kill",
+        "Running processes in the background"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Package Management",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/XMYcB0mB0Rs",
+      "description": "Covers installing, updating, and removing software packages using package managers like apt and yum.",
+      "points": [
+        "Using apt for Debian-based systems",
+        "Using yum or dnf for Red Hat-based systems",
+        "Searching and updating packages"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Shell Scripting Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/v-F3YLd6oMw",
+      "description": "Introduces shell scripting to automate tasks in the Linux Terminal using bash scripts.",
+      "points": [
+        "Creating and running a bash script",
+        "Variables and loops in bash",
+        "Basic script debugging"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Networking Commands",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vDWY3PuHMX8",
+      "description": "Learn essential networking commands for troubleshooting and managing network connections in Linux.",
+      "points": [
+        "Checking connectivity with ping",
+        "Viewing network interfaces with ifconfig or ip",
+        "Downloading files with wget and curl"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Linux Terminal Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which command is used to list files in a directory?",
+          "options": ["dir", "ls", "list", "show"],
+          "answer": "ls"
+        },
+        {
+          "id": 2,
+          "question": "What command changes the current directory to the parent directory?",
+          "options": ["cd ..", "cd .", "cd /", "cd ~"],
+          "answer": "cd .."
+        },
+        {
+          "id": 3,
+          "question": "Which command is used to remove a file?",
+          "options": ["del", "rm", "erase", "remove"],
+          "answer": "rm"
+        },
+        {
+          "id": 4,
+          "question": "What does the 'chmod' command do?",
+          "options": [
+            "Changes file ownership",
+            "Changes file permissions",
+            "Creates a new file",
+            "Moves a file"
+          ],
+          "answer": "Changes file permissions"
+        },
+        {
+          "id": 5,
+          "question": "Which command is used to view running processes in real-time?",
+          "options": ["ps", "top", "kill", "jobs"],
+          "answer": "top"
+        }
+      ]
+    }
+  ]
+}

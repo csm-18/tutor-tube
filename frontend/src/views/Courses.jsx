@@ -32,7 +32,11 @@ function Courses({ theme, setTheme }) {
           image="./js-logo.jpg"
           route_link="/courses/js"
         />
-        <CoursePreview name="?" image="./html.jpg" />
+        <CoursePreview
+          name="Linux Terminal"
+          image="./linux-logo.jpg"
+          route_link="/courses/linux-terminal"
+        />
       </div>
       <Footer />
     </div>
