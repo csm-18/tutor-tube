@@ -1,0 +1,172 @@
+{
+  "courseTitle": "MongoDB",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to MongoDB",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/GV9VBwH_h1U",
+      "description": "An introduction to MongoDB, its features, and why it is used as a NoSQL database.",
+      "points": [
+        "What is MongoDB?",
+        "NoSQL vs SQL databases",
+        "Installing and setting up MongoDB"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "MongoDB Data Modeling",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/hmGz79ae2AY",
+      "description": "Learn how to structure and model data in MongoDB using collections and documents.",
+      "points": [
+        "Understanding documents and collections",
+        "Embedding vs referencing data",
+        "Schema design considerations"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "CRUD Operations - Create",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ieO8MRL8rus?list=PLJQkL_R_1bK5Gg2juvpMbRHMOQhvEV2If",
+      "description": "Explores how to create and insert data into MongoDB collections using insert operations.",
+      "points": [
+        "Using insertOne and insertMany",
+        "Handling _id fields",
+        "Inserting nested documents"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "CRUD Operations - Read",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/FdmRE1PTNH8",
+      "description": "Covers querying data in MongoDB using find and related methods.",
+      "points": [
+        "Using find and findOne",
+        "Query operators (e.g., $eq, $gt, $in)",
+        "Projection to limit fields"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "CRUD Operations - Update",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/rgLgwmyxAyI",
+      "description": "Demonstrates how to update documents in MongoDB using update operations.",
+      "points": [
+        "Using updateOne and updateMany",
+        "Update operators (e.g., $set, $inc)",
+        "Upsert functionality"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "CRUD Operations - Delete",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/50HBTpL_2Lg",
+      "description": "Explains how to delete documents and collections in MongoDB.",
+      "points": [
+        "Using deleteOne and deleteMany",
+        "Dropping collections",
+        "Safe deletion practices"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Indexes in MongoDB",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/qWgYyfja6Hk?list=PLJQkL_R_1bK5Gg2juvpMbRHMOQhvEV2If",
+      "description": "Learn how to use indexes to optimize query performance in MongoDB.",
+      "points": [
+        "Creating single and compound indexes",
+        "Index types (e.g., unique, sparse)",
+        "Analyzing query performance with explain"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Aggregation Framework",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1s5RLZM8oCU",
+      "description": "Introduces MongoDB's aggregation pipeline for advanced data processing and transformation.",
+      "points": [
+        "Aggregation pipeline stages (e.g., $match, $group)",
+        "Using $lookup for joins",
+        "Optimizing aggregation queries"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "MongoDB with Node.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/xrglM8U0Zv8",
+      "description": "Covers integrating MongoDB with Node.js applications using the MongoDB driver.",
+      "points": [
+        "Setting up MongoDB driver in Node.js",
+        "Performing CRUD operations",
+        "Handling asynchronous operations"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "MongoDB Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/QAqK-R9HUhc",
+      "description": "Covers best practices for designing, scaling, and securing MongoDB databases.",
+      "points": [
+        "Schema design best practices",
+        "Backup and recovery strategies",
+        "Securing MongoDB with authentication"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "MongoDB Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary data structure in MongoDB?",
+          "options": ["Table", "Document", "Row", "Column"],
+          "answer": "Document"
+        },
+        {
+          "id": 2,
+          "question": "Which command is used to insert a single document into a MongoDB collection?",
+          "options": ["insertOne", "addOne", "save", "create"],
+          "answer": "insertOne"
+        },
+        {
+          "id": 3,
+          "question": "What does the $gt operator do in a MongoDB query?",
+          "options": [
+            "Matches values greater than",
+            "Matches values equal to",
+            "Groups documents",
+            "Joins collections"
+          ],
+          "answer": "Matches values greater than"
+        },
+        {
+          "id": 4,
+          "question": "What is the purpose of an index in MongoDB?",
+          "options": [
+            "To store data",
+            "To improve query performance",
+            "To create relationships",
+            "To delete documents"
+          ],
+          "answer": "To improve query performance"
+        },
+        {
+          "id": 5,
+          "question": "Which aggregation stage is used to filter documents in MongoDB?",
+          "options": ["$group", "$match", "$sort", "$project"],
+          "answer": "$match"
+        }
+      ]
+    }
+  ]
+}
