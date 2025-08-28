@@ -32,6 +32,13 @@ function Courses({ theme, setTheme }) {
           image="./js-logo.jpg"
           route_link="/courses/js"
         />
+
+        <CoursePreview
+          name="Figma Design"
+          image="./figma.png"
+          route_link="/courses/figma"
+        />
+
         <CoursePreview
           name="TypeScript"
           image="./typescript-logo.svg"

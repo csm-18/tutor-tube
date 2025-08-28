@@ -14,6 +14,7 @@ import MongoDB from "./views/MongoDB.jsx";
 import Python from "./views/Python.jsx";
 import Sql from "./views/Sql.jsx";
 import NodeJs from "./views/NodeJs.jsx";
+import Figma from "./views/Figma.jsx";
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -42,6 +43,7 @@ function App() {
       <Route path="/courses/python" element={<Python />} />
       <Route path="/courses/sql" element={<Sql />} />
       <Route path="/courses/node-js" element={<NodeJs />} />
+      <Route path="/courses/figma" element={<Figma />} />
     </Routes>
   );
 }

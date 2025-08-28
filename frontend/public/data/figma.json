@@ -1,0 +1,187 @@
+{
+  "courseTitle": "Figma Design",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Figma",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/jk1T0CdLxwU",
+      "description": "An introduction to Figma, its features, and its role in modern UI/UX design.",
+      "points": [
+        "What is Figma?",
+        "Figma vs other design tools",
+        "Setting up a Figma account and interface overview"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Figma Interface and Navigation",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vxSVHJrVeQA",
+      "description": "Learn how to navigate the Figma interface and use basic tools for creating designs.",
+      "points": [
+        "Exploring the Figma toolbar",
+        "Working with frames and artboards",
+        "Layers and grouping"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Creating Basic Shapes and Text",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ue0hKThvdgA",
+      "description": "Covers creating and styling shapes, text, and basic design elements in Figma.",
+      "points": [
+        "Drawing shapes and lines",
+        "Adding and formatting text",
+        "Using the properties panel"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Working with Components",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KnmxD8LvHmA",
+      "description": "Explains how to create and manage reusable components in Figma for efficient design.",
+      "points": [
+        "Creating components",
+        "Using instances and overrides",
+        "Organizing components in a design system"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Auto Layout and Constraints",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/efMby0XDEow",
+      "description": "Learn how to use Auto Layout and constraints to create responsive designs in Figma.",
+      "points": [
+        "Setting up Auto Layout",
+        "Applying constraints for responsiveness",
+        "Designing for multiple screen sizes"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Prototyping in Figma",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1ucLq6JTxac",
+      "description": "Demonstrates how to create interactive prototypes to simulate user experiences.",
+      "points": [
+        "Creating interactive links and transitions",
+        "Using Smart Animate",
+        "Previewing and sharing prototypes"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Collaboration and Teamwork",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/uunGnOHJhV0",
+      "description": "Covers Figma’s collaboration features for real-time teamwork and feedback.",
+      "points": [
+        "Sharing designs and inviting collaborators",
+        "Using comments and version history",
+        "Managing team libraries"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Design Systems in Figma",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/N1G5KSEXzDM",
+      "description": "Learn how to build and maintain design systems in Figma for consistent designs.",
+      "points": [
+        "Creating color and text styles",
+        "Building reusable UI components",
+        "Publishing and updating design systems"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Plugins and Integrations",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ZEOdvJSkcmM",
+      "description": "Explores how to use Figma plugins and integrations to enhance design workflows.",
+      "points": [
+        "Installing and using plugins",
+        "Popular plugins for productivity",
+        "Integrating with other tools"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Figma Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/aAGOO_XiQHo",
+      "description": "Covers best practices for creating efficient, scalable, and collaborative designs in Figma.",
+      "points": [
+        "Organizing files and projects",
+        "Naming conventions for layers and components",
+        "Preparing designs for developer handoff"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Figma Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Figma?",
+          "options": [
+            "Code editing",
+            "UI/UX design and prototyping",
+            "Database management",
+            "Game development"
+          ],
+          "answer": "UI/UX design and prototyping"
+        },
+        {
+          "id": 2,
+          "question": "Which Figma feature allows for responsive design layouts?",
+          "options": [
+            "Smart Animate",
+            "Auto Layout",
+            "Components",
+            "Team Libraries"
+          ],
+          "answer": "Auto Layout"
+        },
+        {
+          "id": 3,
+          "question": "What is the purpose of components in Figma?",
+          "options": [
+            "To create animations",
+            "To store color styles",
+            "To create reusable design elements",
+            "To manage prototypes"
+          ],
+          "answer": "To create reusable design elements"
+        },
+        {
+          "id": 4,
+          "question": "Which feature in Figma allows for real-time collaboration?",
+          "options": [
+            "Plugins",
+            "Version History",
+            "Cloud-based editing",
+            "Auto Layout"
+          ],
+          "answer": "Cloud-based editing"
+        },
+        {
+          "id": 5,
+          "question": "What is the benefit of using design systems in Figma?",
+          "options": [
+            "Faster prototyping",
+            "Consistent design across projects",
+            "Improved code generation",
+            "Automatic image optimization"
+          ],
+          "answer": "Consistent design across projects"
+        }
+      ]
+    }
+  ]
+}
