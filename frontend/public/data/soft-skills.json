@@ -1,0 +1,187 @@
+{
+  "courseTitle": "Soft Skills",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Soft Skills",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0beH_N3nzQY",
+      "description": "An introduction to soft skills and their importance for software developers in professional settings.",
+      "points": [
+        "What are soft skills?",
+        "Why soft skills matter for developers",
+        "Overview of key soft skills for success"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Effective Communication",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2Yw6dFQBklA",
+      "description": "Learn how to communicate clearly and effectively with team members, stakeholders, and clients.",
+      "points": [
+        "Verbal and written communication",
+        "Active listening techniques",
+        "Presenting technical ideas clearly"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Team Collaboration",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/tmrz6UfgCGE",
+      "description": "Covers strategies for working effectively in teams to enhance productivity and project success.",
+      "points": [
+        "Building trust in teams",
+        "Resolving conflicts constructively",
+        "Collaborating in agile environments"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Time Management and Productivity",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/tLLyi50M5KM",
+      "description": "Explores techniques for managing time, prioritizing tasks, and staying productive as a developer.",
+      "points": [
+        "Prioritizing tasks with frameworks like Eisenhower Matrix",
+        "Avoiding procrastination",
+        "Balancing coding and non-coding responsibilities"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Problem-Solving and Critical Thinking",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/UFc-RPbq8kg",
+      "description": "Learn how to approach problems systematically and think critically to find effective solutions.",
+      "points": [
+        "Breaking down complex problems",
+        "Using logical reasoning in debugging",
+        "Creative approaches to technical challenges"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Adaptability and Learning Agility",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/BqIOPa-kbLE",
+      "description": "Covers how to stay adaptable and continuously learn in the fast-evolving tech industry.",
+      "points": [
+        "Embracing new technologies and tools",
+        "Handling change in project requirements",
+        "Lifelong learning strategies"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Emotional Intelligence",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/LgUCyWhJf6s",
+      "description": "Explains emotional intelligence and its role in building relationships and managing stress.",
+      "points": [
+        "Understanding self-awareness and empathy",
+        "Managing emotions in high-pressure situations",
+        "Building rapport with colleagues"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Giving and Receiving Feedback",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/-zEZY82-GNk",
+      "description": "Learn how to provide constructive feedback and handle feedback effectively in a professional setting.",
+      "points": [
+        "Delivering feedback tactfully",
+        "Receiving and acting on feedback",
+        "Fostering a feedback-friendly culture"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Networking and Relationship Building",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/rjN9uif7rLQ",
+      "description": "Covers strategies for building professional relationships and networking in the tech industry.",
+      "points": [
+        "Networking at events and online",
+        "Building mentorship relationships",
+        "Leveraging communities like GitHub and LinkedIn"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Leadership and Initiative",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/jMpCF0Z623s",
+      "description": "Explores how developers can demonstrate leadership and take initiative in their roles.",
+      "points": [
+        "Taking ownership of tasks",
+        "Mentoring junior developers",
+        "Driving innovation in projects"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Soft Skills Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a key component of effective communication for developers?",
+          "options": [
+            "Writing complex code",
+            "Active listening",
+            "Using advanced tools",
+            "Debugging quickly"
+          ],
+          "answer": "Active listening"
+        },
+        {
+          "id": 2,
+          "question": "Which framework helps prioritize tasks based on urgency and importance?",
+          "options": [
+            "Agile Methodology",
+            "Eisenhower Matrix",
+            "Kanban Board",
+            "Scrum Framework"
+          ],
+          "answer": "Eisenhower Matrix"
+        },
+        {
+          "id": 3,
+          "question": "What is the purpose of emotional intelligence in a workplace?",
+          "options": [
+            "Writing better code",
+            "Managing relationships and stress",
+            "Automating tasks",
+            "Optimizing databases"
+          ],
+          "answer": "Managing relationships and stress"
+        },
+        {
+          "id": 4,
+          "question": "What is a benefit of giving constructive feedback?",
+          "options": [
+            "Reducing project scope",
+            "Improving team performance",
+            "Speeding up code execution",
+            "Simplifying database design"
+          ],
+          "answer": "Improving team performance"
+        },
+        {
+          "id": 5,
+          "question": "How can developers demonstrate leadership?",
+          "options": [
+            "Writing documentation",
+            "Taking initiative on tasks",
+            "Using multiple programming languages",
+            "Creating complex algorithms"
+          ],
+          "answer": "Taking initiative on tasks"
+        }
+      ]
+    }
+  ]
+}

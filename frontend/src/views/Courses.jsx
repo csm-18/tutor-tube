@@ -40,6 +40,12 @@ function Courses({ theme, setTheme }) {
         />
 
         <CoursePreview
+          name="Soft Skills"
+          image="./soft-skills.png"
+          route_link="/courses/soft-skills"
+        />
+
+        <CoursePreview
           name="TypeScript"
           image="./typescript-logo.svg"
           route_link="/courses/typescript"

@@ -15,6 +15,7 @@ import Python from "./views/Python.jsx";
 import Sql from "./views/Sql.jsx";
 import NodeJs from "./views/NodeJs.jsx";
 import Figma from "./views/Figma.jsx";
+import SoftSkills from "./views/SoftSkills.jsx";
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -44,6 +45,7 @@ function App() {
       <Route path="/courses/sql" element={<Sql />} />
       <Route path="/courses/node-js" element={<NodeJs />} />
       <Route path="/courses/figma" element={<Figma />} />
+      <Route path="/courses/soft-skills" element={<SoftSkills />} />
     </Routes>
   );
 }
