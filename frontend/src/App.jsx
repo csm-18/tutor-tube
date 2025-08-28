@@ -13,6 +13,7 @@ import TypeScript from "./views/TypeScript.jsx";
 import MongoDB from "./views/MongoDB.jsx";
 import Python from "./views/Python.jsx";
 import Sql from "./views/Sql.jsx";
+import NodeJs from "./views/NodeJs.jsx";
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -40,6 +41,7 @@ function App() {
       <Route path="/courses/mongodb" element={<MongoDB />} />
       <Route path="/courses/python" element={<Python />} />
       <Route path="/courses/sql" element={<Sql />} />
+      <Route path="/courses/node-js" element={<NodeJs />} />
     </Routes>
   );
 }

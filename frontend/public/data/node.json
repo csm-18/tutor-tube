@@ -1,0 +1,168 @@
+{
+  "courseTitle": "Node.js",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Node.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/yEHCfRWz-EI",
+      "description": "An introduction to Node.js, its architecture, and its role in server-side development.",
+      "points": [
+        "What is Node.js?",
+        "Understanding the event-driven model",
+        "Installing Node.js and npm"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Node.js Modules and npm",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/xHLd36QoS4k",
+      "description": "Learn how to use and create modules in Node.js and manage dependencies with npm.",
+      "points": [
+        "Using built-in modules",
+        "Creating and importing custom modules",
+        "Managing packages with npm"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "File System Operations",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YazJFb_i4A0",
+      "description": "Explores how to perform file system operations like reading and writing files in Node.js.",
+      "points": [
+        "Reading files with fs module",
+        "Writing and appending to files",
+        "Handling directories"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Asynchronous Programming",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/B8_cPhCM7HY",
+      "description": "Covers asynchronous programming in Node.js using callbacks, promises, and async/await.",
+      "points": [
+        "Understanding callbacks",
+        "Working with promises",
+        "Using async/await for cleaner code"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Building HTTP Servers",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ZQsrcayZcSk",
+      "description": "Learn how to create HTTP servers in Node.js using the built-in http module.",
+      "points": [
+        "Creating a basic server",
+        "Handling HTTP requests and responses",
+        "Routing basics"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Express.js Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0QRFOsrBtXw",
+      "description": "Introduces Express.js, a popular Node.js framework for building web applications.",
+      "points": [
+        "Setting up an Express app",
+        "Creating routes and middleware",
+        "Serving static files"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "RESTful APIs with Express",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/-MTSQjw5DrM",
+      "description": "Demonstrates how to build RESTful APIs using Express.js for CRUD operations.",
+      "points": [
+        "Designing RESTful endpoints",
+        "Handling GET, POST, PUT, DELETE requests",
+        "Using Postman for API testing"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Database Integration",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/xrglM8U0Zv8",
+      "description": "Covers connecting Node.js applications to databases like MongoDB.",
+      "points": ["Using MongoDB with Mongoose", "Performing CRUD operations"]
+    },
+    {
+      "id": 9,
+      "title": "Authentication and Security",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/mbsmsi7l3r4",
+      "description": "Explains how to implement authentication and secure Node.js applications.",
+      "points": [
+        "Using JWT for authentication",
+        "Securing APIs with middleware",
+        "Protecting against common vulnerabilities"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Node.js Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/fc6o1gwqZuA",
+      "description": "Covers best practices for writing scalable, maintainable, and secure Node.js applications.",
+      "points": [
+        "Structuring Node.js projects",
+        "Error handling strategies",
+        "Optimizing performance"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Node.js Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the package manager used with Node.js?",
+          "options": ["pip", "npm", "yarn", "composer"],
+          "answer": "npm"
+        },
+        {
+          "id": 2,
+          "question": "Which module is used to create an HTTP server in Node.js?",
+          "options": ["fs", "http", "path", "url"],
+          "answer": "http"
+        },
+        {
+          "id": 3,
+          "question": "What is the purpose of Express.js in Node.js?",
+          "options": [
+            "To manage databases",
+            "To simplify HTTP server creation",
+            "To handle file operations",
+            "To compile TypeScript"
+          ],
+          "answer": "To simplify HTTP server creation"
+        },
+        {
+          "id": 4,
+          "question": "Which keyword is used to handle asynchronous operations in modern Node.js?",
+          "options": ["callback", "promise", "async", "await"],
+          "answer": "async"
+        },
+        {
+          "id": 5,
+          "question": "What is JWT commonly used for in Node.js applications?",
+          "options": [
+            "File handling",
+            "Authentication",
+            "Database queries",
+            "Routing"
+          ],
+          "answer": "Authentication"
+        }
+      ]
+    }
+  ]
+}

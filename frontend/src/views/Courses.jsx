@@ -42,6 +42,13 @@ function Courses({ theme, setTheme }) {
           image="./linux-logo.jpg"
           route_link="/courses/linux-terminal"
         />
+
+        <CoursePreview
+          name="Node.js"
+          image="./node-js.png"
+          route_link="/courses/node-js"
+        />
+
         <CoursePreview
           name="MongoDB"
           image="./mongodb.png"
