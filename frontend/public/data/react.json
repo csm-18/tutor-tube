@@ -1,0 +1,473 @@
+{
+  "courseTitle": "React",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to React",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/QFaFIcGhPoM",
+      "description": "An introduction to React, its core concepts, and why it is used for building user interfaces.",
+      "points": ["What is React?", "Understanding components and JSX"]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of React?",
+          "options": [
+            "Server-side scripting",
+            "Building user interfaces",
+            "Database management",
+            "API development"
+          ],
+          "answer": "Building user interfaces"
+        },
+        {
+          "id": 2,
+          "question": "What is JSX in React?",
+          "options": [
+            "A JavaScript extension for writing HTML-like code",
+            "A styling framework",
+            "A database query language",
+            "A testing library"
+          ],
+          "answer": "A JavaScript extension for writing HTML-like code"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Components and Props",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/HKX__TQ9ff0",
+      "description": "Learn how to create and use React components and pass data using props.",
+      "points": [
+        "Functional vs class components",
+        "Passing and using props",
+        "Component composition"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the difference between functional and class components?",
+          "options": [
+            "Functional components use hooks, class components use lifecycle methods",
+            "Class components are stateless, functional components are stateful",
+            "Functional components are for styling, class components are for logic",
+            "There is no difference"
+          ],
+          "answer": "Functional components use hooks, class components use lifecycle methods"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of props in React?",
+          "options": [
+            "To manage state",
+            "To pass data to components",
+            "To style components",
+            "To handle events"
+          ],
+          "answer": "To pass data to components"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "State and Lifecycle",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/DRbYL2nLong",
+      "description": "Covers managing state in React components and understanding component lifecycle methods.",
+      "points": [
+        "Using useState hook for state",
+        "Lifecycle methods in class components",
+        "useEffect for side effects"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which hook is used to manage state in functional components?",
+          "options": ["useEffect", "useState", "useContext", "useReducer"],
+          "answer": "useState"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the useEffect hook?",
+          "options": [
+            "To manage state",
+            "To handle side effects",
+            "To pass props",
+            "To style components"
+          ],
+          "answer": "To handle side effects"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Event Handling",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Znqv84xi8Vs",
+      "description": "Explains how to handle user events like clicks and form submissions in React.",
+      "points": [
+        "Handling events with onClick, onChange",
+        "Event object properties",
+        "Preventing default behavior"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which event handler is used for button clicks in React?",
+          "options": ["onSubmit", "onClick", "onChange", "onHover"],
+          "answer": "onClick"
+        },
+        {
+          "id": 2,
+          "question": "How do you prevent a form's default submission behavior in React?",
+          "options": [
+            "event.preventDefault()",
+            "event.stopPropagation()",
+            "event.cancel()",
+            "event.stop()"
+          ],
+          "answer": "event.preventDefault()"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "React Hooks",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/HnXPKtro4SM",
+      "description": "Learn how to use React hooks like useState, useEffect, and custom hooks for reusable logic.",
+      "points": [
+        "Using useState and useEffect",
+        "Creating custom hooks",
+        "Rules of hooks"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a key rule for using React hooks?",
+          "options": [
+            "Only call hooks inside loops",
+            "Only call hooks at the top level of components",
+            "Only use hooks in class components",
+            "Only use one hook per component"
+          ],
+          "answer": "Only call hooks at the top level of components"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of a custom hook in React?",
+          "options": [
+            "To style components",
+            "To reuse stateful logic",
+            "To manage routing",
+            "To handle API calls only"
+          ],
+          "answer": "To reuse stateful logic"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Routing in React",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/c02YoWR9gSY",
+      "description": "Covers adding client-side routing to React applications using React Router.",
+      "points": [
+        "Setting up React Router",
+        "Creating routes and nested routes",
+        "Navigating with Link and NavLink"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which component is used to navigate between routes in React Router?",
+          "options": ["Route", "Link", "Switch", "Router"],
+          "answer": "Link"
+        },
+        {
+          "id": 2,
+          "question": "What does React Router use to define a route?",
+          "options": ["<Route>", "<Link>", "<NavLink>", "<BrowserRouter>"],
+          "answer": "<Route>"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "State Management",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/qqqyUTTS-9g",
+      "description": "Explores state management in React using Context API and libraries like Redux.",
+      "points": [
+        "Using Context API for global state",
+        "Introduction to Redux",
+        "Managing state with useReducer"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which React feature is used for global state management without external libraries?",
+          "options": ["useState", "Context API", "useEffect", "useReducer"],
+          "answer": "Context API"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of Redux in React?",
+          "options": [
+            "To manage component styles",
+            "To handle routing",
+            "To manage global application state",
+            "To optimize API calls"
+          ],
+          "answer": "To manage global application state"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "API Integration",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zk0QRO4Low0",
+      "description": "Learn how to fetch and manage data from APIs in React applications.",
+      "points": [
+        "Using fetch and axios for API calls",
+        "Handling loading and error states",
+        "Integrating APIs with useEffect"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which hook is commonly used to fetch data from an API in React?",
+          "options": ["useState", "useEffect", "useContext", "useCallback"],
+          "answer": "useEffect"
+        },
+        {
+          "id": 2,
+          "question": "What is a common library used for API requests in React?",
+          "options": ["jQuery", "axios", "React Router", "Redux"],
+          "answer": "axios"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Styling in React",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/j5P9FHiBVNo",
+      "description": "Covers different approaches to styling React components, including CSS and styled-components.",
+      "points": [
+        "Using CSS modules",
+        "Inline styles in React",
+        "Styled-components and Tailwind CSS"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a benefit of using CSS modules in React?",
+          "options": [
+            "Global styling",
+            "Scoped styles to components",
+            "Faster API calls",
+            "State management"
+          ],
+          "answer": "Scoped styles to components"
+        },
+        {
+          "id": 2,
+          "question": "Which library is commonly used for CSS-in-JS in React?",
+          "options": ["Bootstrap", "styled-components", "Sass", "Tailwind CSS"],
+          "answer": "styled-components"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "React Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/5r25Y9Vg2P4",
+      "description": "Covers best practices for writing clean, performant, and maintainable React code.",
+      "points": [
+        "Structuring React projects",
+        "Optimizing performance with memoization",
+        "Writing reusable components"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a technique to optimize React component performance?",
+          "options": [
+            "Using inline CSS",
+            "Memoization with useMemo and useCallback",
+            "Adding more state variables",
+            "Using class components only"
+          ],
+          "answer": "Memoization with useMemo and useCallback"
+        },
+        {
+          "id": 2,
+          "question": "Why is it important to write reusable components in React?",
+          "options": [
+            "To reduce code duplication",
+            "To increase bundle size",
+            "To simplify routing",
+            "To manage APIs"
+          ],
+          "answer": "To reduce code duplication"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is JSX used for in React?",
+          "options": [
+            "To manage state",
+            "To write HTML-like code in JavaScript",
+            "To handle routing",
+            "To style components"
+          ],
+          "answer": "To write HTML-like code in JavaScript"
+        },
+        {
+          "id": 2,
+          "question": "How are props used in React components?",
+          "options": [
+            "To manage global state",
+            "To pass data to components",
+            "To handle side effects",
+            "To define routes"
+          ],
+          "answer": "To pass data to components"
+        },
+        {
+          "id": 3,
+          "question": "Which hook is used to perform side effects in functional components?",
+          "options": ["useState", "useEffect", "useContext", "useReducer"],
+          "answer": "useEffect"
+        },
+        {
+          "id": 4,
+          "question": "What method prevents a form's default submission in React?",
+          "options": [
+            "event.preventDefault()",
+            "event.stopPropagation()",
+            "event.cancel()",
+            "event.stop()"
+          ],
+          "answer": "event.preventDefault()"
+        },
+        {
+          "id": 5,
+          "question": "What is a key rule for using React hooks?",
+          "options": [
+            "Only call hooks inside loops",
+            "Only call hooks at the top level of components",
+            "Only use hooks in class components",
+            "Only use one hook per component"
+          ],
+          "answer": "Only call hooks at the top level of components"
+        },
+        {
+          "id": 6,
+          "question": "Which component defines a route in React Router?",
+          "options": ["<Route>", "<Link>", "<NavLink>", "<BrowserRouter>"],
+          "answer": "<Route>"
+        },
+        {
+          "id": 7,
+          "question": "What is the Context API used for in React?",
+          "options": [
+            "To style components",
+            "To manage global state",
+            "To handle API calls",
+            "To optimize performance"
+          ],
+          "answer": "To manage global state"
+        },
+        {
+          "id": 8,
+          "question": "Which library is commonly used for API requests in React?",
+          "options": ["jQuery", "axios", "React Router", "Redux"],
+          "answer": "axios"
+        },
+        {
+          "id": 9,
+          "question": "What is a benefit of using CSS modules in React?",
+          "options": [
+            "Global styling",
+            "Scoped styles to components",
+            "Faster API calls",
+            "State management"
+          ],
+          "answer": "Scoped styles to components"
+        },
+        {
+          "id": 10,
+          "question": "What is a technique to optimize React performance?",
+          "options": [
+            "Using inline CSS",
+            "Memoization with useMemo and useCallback",
+            "Adding more state variables",
+            "Using class components only"
+          ],
+          "answer": "Memoization with useMemo and useCallback"
+        }
+      ]
+    }
+  ]
+}

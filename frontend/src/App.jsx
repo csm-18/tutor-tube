@@ -4,7 +4,7 @@ import Home from "./views/Home";
 import Courses from "./views/Courses";
 import GitGithub from "./views/GitGithub";
 import AutoCourseBuilder from "./views/AutoCourseBuilder.jsx"; // ✅ new
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Html from "./views/Html.jsx";
 import Css from "./views/Css.jsx";
 import Js from "./views/Js.jsx";
@@ -16,6 +16,7 @@ import Sql from "./views/Sql.jsx";
 import NodeJs from "./views/NodeJs.jsx";
 import Figma from "./views/Figma.jsx";
 import SoftSkills from "./views/SoftSkills.jsx";
+import ReactCourse from "./views/ReactCourse.jsx";
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -46,6 +47,7 @@ function App() {
       <Route path="/courses/node-js" element={<NodeJs />} />
       <Route path="/courses/figma" element={<Figma />} />
       <Route path="/courses/soft-skills" element={<SoftSkills />} />
+      <Route path="/courses/react" element={<ReactCourse />} />
     </Routes>
   );
 }
