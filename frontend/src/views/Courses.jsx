@@ -21,6 +21,11 @@ function Courses({ theme, setTheme }) {
           image="/vue-logo.png"
           route_link="/courses/vue"
         />
+        <CoursePreview
+          name="Angular"
+          image="/angular.png"
+          route_link="/courses/angular"
+        />
 
         <CoursePreview
           name="Git and GitHub"

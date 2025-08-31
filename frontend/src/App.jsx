@@ -18,6 +18,7 @@ import Figma from "./views/Figma.jsx";
 import SoftSkills from "./views/SoftSkills.jsx";
 import ReactCourse from "./views/ReactCourse.jsx";
 import Vue from "./views/Vue.jsx";
+import Angular from "./views/Angular.jsx";
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -50,6 +51,7 @@ function App() {
       <Route path="/courses/soft-skills" element={<SoftSkills />} />
       <Route path="/courses/react" element={<ReactCourse />} />
       <Route path="/courses/vue" element={<Vue />} />
+      <Route path="/courses/angular" element={<Angular />} />
     </Routes>
   );
 }
