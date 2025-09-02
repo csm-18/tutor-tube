@@ -86,6 +86,11 @@ function Courses({ theme, setTheme }) {
           route_link="/courses/python"
         />
         <CoursePreview name="SQL" image="./sql.jpg" route_link="/courses/sql" />
+        <CoursePreview
+          name="Haskell"
+          image="/haskell.png"
+          route_link="/courses/haskell"
+        />
       </div>
       <Footer />
     </div>

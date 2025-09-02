@@ -1,0 +1,430 @@
+{
+  "courseTitle": "Haskell Programming Language",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Haskell",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F8OeEWt0Swg?list=PLyqSpQzTE6M9whs2Vz_80ons0vRrvGMV5",
+      "description": "An introduction to Haskell, its functional programming paradigm, and its role in modern software development.",
+      "points": [
+        "What is Haskell and its key features?",
+        "Haskell vs other programming languages (e.g., Python, Java)",
+        "Setting up a Haskell development environment (GHC, Stack, VS Code)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Haskell primarily known for?",
+          "options": [
+            "Object-oriented programming",
+            "Purely functional programming",
+            "Web development frameworks",
+            "System scripting"
+          ],
+          "answer": "Purely functional programming"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is used to manage Haskell projects and dependencies?",
+          "options": ["npm", "Stack", "pip", "Maven"],
+          "answer": "Stack"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Haskell Syntax and Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/gK0hMxJhqwM",
+      "description": "Learn the basic syntax and structure of Haskell programming.",
+      "points": [
+        "Variables, types, and type inference",
+        "Basic control structures: if-then-else, pattern matching",
+        "Functions and recursion"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How are variables declared in Haskell?",
+          "options": [
+            "Using var keyword",
+            "Using let or direct binding",
+            "Using $ symbol",
+            "Using const keyword"
+          ],
+          "answer": "Using let or direct binding"
+        },
+        {
+          "id": 2,
+          "question": "Which Haskell feature is used for control flow similar to switch statements?",
+          "options": ["switch", "pattern matching", "if-else", "case"],
+          "answer": "pattern matching"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Functional Programming in Haskell",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Vgu82wiiZ90",
+      "description": "Explore Haskell’s functional programming features for writing pure and expressive code.",
+      "points": [
+        "Pure functions and immutability",
+        "Higher-order functions and function composition",
+        "Lazy evaluation"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a characteristic of pure functions in Haskell?",
+          "options": [
+            "They produce side effects",
+            "They always return the same output for the same input",
+            "They modify global state",
+            "They rely on external data"
+          ],
+          "answer": "They always return the same output for the same input"
+        },
+        {
+          "id": 2,
+          "question": "What is lazy evaluation in Haskell?",
+          "options": [
+            "Evaluating all expressions immediately",
+            "Delaying evaluation until results are needed",
+            "Ignoring function calls",
+            "Optimizing database queries"
+          ],
+          "answer": "Delaying evaluation until results are needed"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Haskell Type System",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/tJNU1H9XewM",
+      "description": "Learn about Haskell’s powerful type system for robust code.",
+      "points": [
+        "Type classes and polymorphism",
+        "Algebraic data types (ADTs): sum and product types",
+        "Using Maybe and Either for error handling"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a type class in Haskell?",
+          "options": [
+            "A database schema",
+            "A way to define behavior for types",
+            "A styling mechanism",
+            "A routing system"
+          ],
+          "answer": "A way to define behavior for types"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the Maybe type in Haskell?",
+          "options": [
+            "Managing loops",
+            "Handling optional values",
+            "Styling code",
+            "Routing requests"
+          ],
+          "answer": "Handling optional values"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Monads and IO in Haskell",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/e80BUh8clC8",
+      "description": "Explore monads and how Haskell handles input/output operations.",
+      "points": [
+        "Understanding monads and do notation",
+        "Using the IO monad for side effects",
+        "Common monads: Maybe, List, State"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the IO monad used for in Haskell?",
+          "options": [
+            "Styling applications",
+            "Handling side effects like input/output",
+            "Managing database schemas",
+            "Optimizing loops"
+          ],
+          "answer": "Handling side effects like input/output"
+        },
+        {
+          "id": 2,
+          "question": "What is do notation used for in Haskell?",
+          "options": [
+            "Defining loops",
+            "Simplifying monadic operations",
+            "Managing routes",
+            "Styling code"
+          ],
+          "answer": "Simplifying monadic operations"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Building Web Applications with Haskell",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3v03NFcyvzc",
+      "description": "Learn how to build web applications using Haskell frameworks like Yesod or Servant.",
+      "points": [
+        "Setting up a web project with Servant",
+        "Defining routes and handling requests",
+        "Serializing data with JSON"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Haskell framework is commonly used for web development?",
+          "options": ["Django", "Servant", "Flask", "Express"],
+          "answer": "Servant"
+        },
+        {
+          "id": 2,
+          "question": "What is a common format for API responses in Haskell web apps?",
+          "options": ["XML", "JSON", "HTML", "YAML"],
+          "answer": "JSON"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Database Integration with Haskell",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YfuV-lXXfMc",
+      "description": "Explore how to connect Haskell applications to databases.",
+      "points": [
+        "Using Persistent for database interactions",
+        "Connecting to PostgreSQL or SQLite",
+        "Performing CRUD operations"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Haskell library is used for database interactions?",
+          "options": ["Servant", "Persistent", "Aeson", "Lens"],
+          "answer": "Persistent"
+        },
+        {
+          "id": 2,
+          "question": "What is a common database used with Haskell?",
+          "options": ["MongoDB", "PostgreSQL", "Firebase", "Cassandra"],
+          "answer": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying Haskell Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/y8C7TDJWPg4",
+      "description": "Learn how to deploy Haskell applications to production environments.",
+      "points": [
+        "Building Haskell binaries with Stack",
+        "Using Docker for containerized deployment"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which command is used to build a Haskell binary?",
+          "options": [
+            "stack run",
+            "stack build",
+            "stack install",
+            "stack deploy"
+          ],
+          "answer": "stack build"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Docker for Haskell deployment?",
+          "options": [
+            "Improved styling",
+            "Consistent environments",
+            "Simplified routing",
+            "Reduced security"
+          ],
+          "answer": "Consistent environments"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Haskell Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/suw90KP-QdA",
+      "description": "Covers best practices for writing clean and efficient Haskell code.",
+      "points": [
+        "Following Haskell style guidelines (e.g., hlint)",
+        "Writing modular and composable code",
+        "Testing with HUnit or QuickCheck"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which tool is used to enforce Haskell coding style?",
+          "options": ["hlint", "stack", "ghc", "cabal"],
+          "answer": "hlint"
+        },
+        {
+          "id": 2,
+          "question": "Which testing framework is commonly used with Haskell?",
+          "options": ["Jest", "QuickCheck", "Mocha", "Cypress"],
+          "answer": "QuickCheck"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Haskell primarily known for?",
+          "options": [
+            "Object-oriented programming",
+            "Purely functional programming",
+            "Web development frameworks",
+            "System scripting"
+          ],
+          "answer": "Purely functional programming"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is used to manage Haskell projects and dependencies?",
+          "options": ["npm", "Stack", "pip", "Maven"],
+          "answer": "Stack"
+        },
+        {
+          "id": 3,
+          "question": "How are variables declared in Haskell?",
+          "options": [
+            "Using var keyword",
+            "Using let or direct binding",
+            "Using $ symbol",
+            "Using const keyword"
+          ],
+          "answer": "Using let or direct binding"
+        },
+        {
+          "id": 4,
+          "question": "What is a characteristic of pure functions in Haskell?",
+          "options": [
+            "They produce side effects",
+            "They always return the same output for the same input",
+            "They modify global state",
+            "They rely on external data"
+          ],
+          "answer": "They always return the same output for the same input"
+        },
+        {
+          "id": 5,
+          "question": "What is a type class in Haskell?",
+          "options": [
+            "A database schema",
+            "A way to define behavior for types",
+            "A styling mechanism",
+            "A routing system"
+          ],
+          "answer": "A way to define behavior for types"
+        },
+        {
+          "id": 6,
+          "question": "What is the IO monad used for in Haskell?",
+          "options": [
+            "Styling applications",
+            "Handling side effects like input/output",
+            "Managing database schemas",
+            "Optimizing loops"
+          ],
+          "answer": "Handling side effects like input/output"
+        },
+        {
+          "id": 7,
+          "question": "Which Haskell framework is commonly used for web development?",
+          "options": ["Django", "Servant", "Flask", "Express"],
+          "answer": "Servant"
+        },
+        {
+          "id": 8,
+          "question": "Which Haskell library is used for database interactions?",
+          "options": ["Servant", "Persistent", "Aeson", "Lens"],
+          "answer": "Persistent"
+        },
+        {
+          "id": 9,
+          "question": "Which command is used to build a Haskell binary?",
+          "options": [
+            "stack run",
+            "stack build",
+            "stack install",
+            "stack deploy"
+          ],
+          "answer": "stack build"
+        },
+        {
+          "id": 10,
+          "question": "Which testing framework is commonly used with Haskell?",
+          "options": ["Jest", "QuickCheck", "Mocha", "Cypress"],
+          "answer": "QuickCheck"
+        }
+      ]
+    }
+  ]
+}

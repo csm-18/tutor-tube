@@ -19,6 +19,7 @@ import SoftSkills from "./views/SoftSkills.jsx";
 import ReactCourse from "./views/ReactCourse.jsx";
 import Vue from "./views/Vue.jsx";
 import Angular from "./views/Angular.jsx";
+import Haskell from "./views/Haskell.jsx";
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -52,6 +53,7 @@ function App() {
       <Route path="/courses/react" element={<ReactCourse />} />
       <Route path="/courses/vue" element={<Vue />} />
       <Route path="/courses/angular" element={<Angular />} />
+      <Route path="/courses/haskell" element={<Haskell />} />
     </Routes>
   );
 }
