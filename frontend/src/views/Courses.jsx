@@ -16,11 +16,7 @@ function Courses({ theme, setTheme }) {
           route_link="/courses/react"
         />
 
-        <CoursePreview
-          name="Vue"
-          image="/vue-logo.png"
-          route_link="/courses/vue"
-        />
+        <CoursePreview name="Vue" image="/vue.png" route_link="/courses/vue" />
         <CoursePreview
           name="Angular"
           image="/angular.png"
@@ -35,7 +31,7 @@ function Courses({ theme, setTheme }) {
 
         <CoursePreview
           name="HTML"
-          image="/html-logo.png"
+          image="/html.jpg"
           route_link="/courses/html"
         />
 
@@ -64,7 +60,7 @@ function Courses({ theme, setTheme }) {
 
         <CoursePreview
           name="TypeScript"
-          image="./typescript-logo.svg"
+          image="./typescript.png"
           route_link="/courses/typescript"
         />
         <CoursePreview
@@ -75,7 +71,7 @@ function Courses({ theme, setTheme }) {
 
         <CoursePreview
           name="Node.js"
-          image="./node-js.png"
+          image="./node-js.jpg"
           route_link="/courses/node-js"
         />
 
