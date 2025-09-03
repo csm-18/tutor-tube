@@ -20,6 +20,7 @@ import ReactCourse from "./views/ReactCourse.jsx";
 import Vue from "./views/Vue.jsx";
 import Angular from "./views/Angular.jsx";
 import Haskell from "./views/Haskell.jsx";
+import Java from "./views/Java.jsx";
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -54,6 +55,7 @@ function App() {
       <Route path="/courses/vue" element={<Vue />} />
       <Route path="/courses/angular" element={<Angular />} />
       <Route path="/courses/haskell" element={<Haskell />} />
+      <Route path="/courses/java" element={<Java />} />
     </Routes>
   );
 }

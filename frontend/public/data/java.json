@@ -1,0 +1,406 @@
+{
+  "courseTitle": "Java Programming Language",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Java",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/mG4NLNZ37y4",
+      "description": "An introduction to Java, its history, and its role in modern software development.",
+      "points": [
+        "What is Java and its key features?",
+        "Java vs other programming languages",
+        "Setting up a Java development environment (JDK, IntelliJ IDEA)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Java primarily known for?",
+          "options": [
+            "Frontend development",
+            "Platform-independent applications",
+            "Data visualization",
+            "Scripting"
+          ],
+          "answer": "Platform-independent applications"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is used to compile and run Java programs?",
+          "options": ["npm", "JDK", "pip", "Cargo"],
+          "answer": "JDK"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Java Syntax and Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3lOhz1F1zHA",
+      "description": "Learn the basic syntax and structure of Java programming.",
+      "points": [
+        "Variables, data types, and operators",
+        "Control structures: if, switch, loops",
+        "Methods and basic input/output"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you declare a variable in Java?",
+          "options": [
+            "Using var keyword",
+            "Using type followed by variable name",
+            "Using $ symbol",
+            "Using let keyword"
+          ],
+          "answer": "Using type followed by variable name"
+        },
+        {
+          "id": 2,
+          "question": "Which Java keyword is used for a multi-way branch?",
+          "options": ["if", "switch", "case", "match"],
+          "answer": "switch"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Object-Oriented Programming in Java",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/bSrm9RXwBaI",
+      "description": "Explore Java’s object-oriented programming features for modular code.",
+      "points": [
+        "Classes, objects, and constructors",
+        "Inheritance, polymorphism, and encapsulation",
+        "Interfaces and abstract classes"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What keyword is used to define a class in Java?",
+          "options": ["struct", "class", "enum", "type"],
+          "answer": "class"
+        },
+        {
+          "id": 2,
+          "question": "What is polymorphism in Java?",
+          "options": [
+            "Defining multiple classes",
+            "Ability of objects to take multiple forms",
+            "Managing database connections",
+            "Styling code"
+          ],
+          "answer": "Ability of objects to take multiple forms"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Collections in Java",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/hKhlkx_6HeI",
+      "description": "Learn how to use Java’s Collections Framework for data management.",
+      "points": [
+        "Lists, Sets, and Maps",
+        "Using ArrayList and HashMap",
+        "Iterating collections with forEach and streams"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Java class represents a dynamic array?",
+          "options": ["HashMap", "ArrayList", "HashSet", "LinkedList"],
+          "answer": "ArrayList"
+        },
+        {
+          "id": 2,
+          "question": "What is used to iterate over a collection in Java?",
+          "options": ["range", "forEach", "loop", "iterate"],
+          "answer": "forEach"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Exception Handling in Java",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/IZu5rZTN7PI",
+      "description": "Learn how to handle errors and exceptions in Java applications.",
+      "points": [
+        "Try-catch blocks",
+        "Throwing and creating custom exceptions",
+        "Using finally and try-with-resources"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Java keyword is used to catch exceptions?",
+          "options": ["catch", "try", "throw", "finally"],
+          "answer": "catch"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of try-with-resources in Java?",
+          "options": [
+            "Managing styling",
+            "Automatically closing resources",
+            "Creating classes",
+            "Optimizing loops"
+          ],
+          "answer": "Automatically closing resources"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Building Web Applications with Spring Boot",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/31KTdfRH6nY",
+      "description": "Learn how to build web applications using Spring Boot, a popular Java framework.",
+      "points": [
+        "Setting up a Spring Boot project",
+        "Creating RESTful APIs with Spring MVC",
+        "Using Spring Data for database interactions"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Spring Boot used for in Java?",
+          "options": [
+            "Frontend development",
+            "Building web applications",
+            "Data visualization",
+            "Mobile apps"
+          ],
+          "answer": "Building web applications"
+        },
+        {
+          "id": 2,
+          "question": "Which Spring module is used for RESTful APIs?",
+          "options": [
+            "Spring MVC",
+            "Spring Data",
+            "Spring Security",
+            "Spring Core"
+          ],
+          "answer": "Spring MVC"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Database Integration with Java",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/7v2OnUti2eM",
+      "description": "Explore how to connect Java applications to databases.",
+      "points": [
+        "Using JDBC for database connectivity",
+        "Integrating with MySQL or PostgreSQL",
+        "Using JPA and Hibernate with Spring Data"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Java API is used for database connectivity?",
+          "options": ["JDBC", "JPA", "Hibernate", "SQL"],
+          "answer": "JDBC"
+        },
+        {
+          "id": 2,
+          "question": "What is Hibernate used for in Java?",
+          "options": [
+            "Styling applications",
+            "ORM-based database interactions",
+            "Routing requests",
+            "File compression"
+          ],
+          "answer": "ORM-based database interactions"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying Java Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/jBDTsf8jsEs",
+      "description": "Learn how to deploy Java applications to production environments.",
+      "points": [
+        "Building JAR/WAR files with Maven or Gradle",
+        "Deploying to Heroku, AWS, or Tomcat",
+        "Using Docker for containerized deployment"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which tool is commonly used to build Java applications?",
+          "options": ["Webpack", "Maven", "NPM", "Cargo"],
+          "answer": "Maven"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Docker for Java deployment?",
+          "options": [
+            "Improved styling",
+            "Consistent environments",
+            "Simplified routing",
+            "Reduced security"
+          ],
+          "answer": "Consistent environments"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Java Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/rjDUpxtUPAE",
+      "description": "Covers best practices for writing clean and efficient Java code.",
+      "points": [
+        "Following Java coding conventions",
+        "Writing modular and reusable code",
+        "Testing with JUnit or TestNG"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which tool is used to enforce Java coding conventions?",
+          "options": ["Checkstyle", "JUnit", "Maven", "Gradle"],
+          "answer": "Checkstyle"
+        },
+        {
+          "id": 2,
+          "question": "Which testing framework is commonly used with Java?",
+          "options": ["Jest", "JUnit", "Mocha", "Cypress"],
+          "answer": "JUnit"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Java primarily known for?",
+          "options": [
+            "Frontend development",
+            "Platform-independent applications",
+            "Data visualization",
+            "Scripting"
+          ],
+          "answer": "Platform-independent applications"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is used to compile and run Java programs?",
+          "options": ["npm", "JDK", "pip", "Cargo"],
+          "answer": "JDK"
+        },
+        {
+          "id": 3,
+          "question": "How do you declare a variable in Java?",
+          "options": [
+            "Using var keyword",
+            "Using type followed by variable name",
+            "Using $ symbol",
+            "Using let keyword"
+          ],
+          "answer": "Using type followed by variable name"
+        },
+        {
+          "id": 4,
+          "question": "What keyword is used to define a class in Java?",
+          "options": ["struct", "class", "enum", "type"],
+          "answer": "class"
+        },
+        {
+          "id": 5,
+          "question": "Which Java class represents a dynamic array?",
+          "options": ["HashMap", "ArrayList", "HashSet", "LinkedList"],
+          "answer": "ArrayList"
+        },
+        {
+          "id": 6,
+          "question": "Which Java keyword is used to catch exceptions?",
+          "options": ["catch", "try", "throw", "finally"],
+          "answer": "catch"
+        },
+        {
+          "id": 7,
+          "question": "What is Spring Boot used for in Java?",
+          "options": [
+            "Frontend development",
+            "Building web applications",
+            "Data visualization",
+            "Mobile apps"
+          ],
+          "answer": "Building web applications"
+        },
+        {
+          "id": 8,
+          "question": "Which Java API is used for database connectivity?",
+          "options": ["JDBC", "JPA", "Hibernate", "SQL"],
+          "answer": "JDBC"
+        },
+        {
+          "id": 9,
+          "question": "Which tool is commonly used to build Java applications?",
+          "options": ["Webpack", "Maven", "NPM", "Cargo"],
+          "answer": "Maven"
+        },
+        {
+          "id": 10,
+          "question": "Which testing framework is commonly used with Java?",
+          "options": ["Jest", "JUnit", "Mocha", "Cypress"],
+          "answer": "JUnit"
+        }
+      ]
+    }
+  ]
+}

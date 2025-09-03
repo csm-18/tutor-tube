@@ -91,6 +91,11 @@ function Courses({ theme, setTheme }) {
           image="/haskell.png"
           route_link="/courses/haskell"
         />
+        <CoursePreview
+          name="Java"
+          image="/java.png"
+          route_link="/courses/java"
+        />
       </div>
       <Footer />
     </div>
