@@ -1,11 +1,11 @@
 {
-  "courseTitle": "Artificial Intelligence Curriculum",
+  "courseTitle": "Artificial Intelligence",
   "modules": [
     {
       "id": 1,
       "title": "Introduction to Artificial Intelligence",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "video": "https://www.youtube.com/embed/SSE4M0gcmvE",
       "description": "An introduction to AI, its history, and its applications in modern technology.",
       "points": [
         "What is AI and its subfields (ML, DL, NLP)?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "Python for AI",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "video": "https://www.youtube.com/embed/YTIUkfslDiQ",
       "description": "Learn Python basics and libraries essential for AI development.",
       "points": [
         "Python syntax and data structures",
@@ -77,7 +77,7 @@
       "id": 5,
       "title": "Data Preprocessing for AI",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "video": "https://www.youtube.com/embed/GP-2634exqA",
       "description": "Explore techniques for preparing data for AI models.",
       "points": [
         "Handling missing data and outliers",
@@ -118,7 +118,7 @@
       "id": 7,
       "title": "Supervised Learning",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "video": "https://www.youtube.com/embed/Bo5dJT1QlHc",
       "description": "Learn about supervised learning algorithms and their implementation.",
       "points": [
         "Linear regression and logistic regression",
@@ -159,7 +159,7 @@
       "id": 9,
       "title": "Unsupervised Learning",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "video": "https://www.youtube.com/embed/D6gtZrsYi6c",
       "description": "Explore unsupervised learning techniques for discovering patterns in data.",
       "points": [
         "K-means clustering",
@@ -200,7 +200,7 @@
       "id": 11,
       "title": "Introduction to Deep Learning",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "video": "https://www.youtube.com/embed/6M5VXKLf4D4",
       "description": "Learn the basics of deep learning and neural networks using TensorFlow.",
       "points": [
         "Understanding neural networks and layers",
@@ -236,7 +236,7 @@
       "id": 13,
       "title": "Natural Language Processing (NLP)",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "video": "https://www.youtube.com/embed/CMrHM8a3hqw",
       "description": "Explore NLP techniques for processing and analyzing text data.",
       "points": [
         "Text preprocessing (tokenization, stemming)",
@@ -272,7 +272,7 @@
       "id": 15,
       "title": "Deploying AI Models",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "video": "https://www.youtube.com/embed/VdKdQYduGQc",
       "description": "Learn how to deploy AI models for real-world use.",
       "points": [
         "Saving models with TensorFlow or joblib",
@@ -303,7 +303,7 @@
       "id": 17,
       "title": "AI Ethics and Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "video": "https://www.youtube.com/embed/IHsYWHfIe0Y",
       "description": "Covers ethical considerations and best practices for AI development.",
       "points": [
         "Addressing bias and fairness in AI",

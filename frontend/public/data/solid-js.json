@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Solid.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/kwqW4DPMkJs",
+      "video": "https://www.youtube.com/embed/hw3Bx5vxKl0",
       "description": "An introduction to Solid.js, its purpose, and its advantages for building reactive user interfaces.",
       "points": [
         "What is Solid.js?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "Solid.js Components and JSX",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/kwqW4DPMkJs",
+      "video": "https://www.youtube.com/embed/2pgQMW0lrtU",
       "description": "Learn how to create and use components in Solid.js with JSX syntax.",
       "points": [
         "Creating functional components",
@@ -77,7 +77,7 @@
       "id": 5,
       "title": "Reactivity in Solid.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/kwqW4DPMkJs",
+      "video": "https://www.youtube.com/embed/cELFZQAMdhQ",
       "description": "Explore Solid.js's fine-grained reactivity system for efficient updates.",
       "points": [
         "Using createSignal for reactive state",
@@ -113,7 +113,7 @@
       "id": 7,
       "title": "State Management in Solid.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/kwqW4DPMkJs",
+      "video": "https://www.youtube.com/embed/YJaaAZswOcg",
       "description": "Learn how to manage complex state in Solid.js applications.",
       "points": [
         "Using createStore for global state",
@@ -154,7 +154,7 @@
       "id": 9,
       "title": "Routing in Solid.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/kwqW4DPMkJs",
+      "video": "https://www.youtube.com/embed/7oDjB9v0zMs",
       "description": "Covers client-side routing in Solid.js applications using the Solid Router.",
       "points": [
         "Setting up Solid Router",
@@ -195,7 +195,7 @@
       "id": 11,
       "title": "Fetching Data in Solid.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/kwqW4DPMkJs",
+      "video": "https://www.youtube.com/embed/oxxGr87cYDM",
       "description": "Learn how to fetch and manage data in Solid.js applications.",
       "points": [
         "Using createResource for asynchronous data fetching",
@@ -236,7 +236,7 @@
       "id": 13,
       "title": "Integrating Solid.js with Backend APIs",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/kwqW4DPMkJs",
+      "video": "https://www.youtube.com/embed/L1f30LR5C_o",
       "description": "Covers connecting Solid.js applications to backend APIs.",
       "points": [
         "Making HTTP requests with fetch or axios",
@@ -272,7 +272,7 @@
       "id": 15,
       "title": "Deploying Solid.js Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/kwqW4DPMkJs",
+      "video": "https://www.youtube.com/embed/6OX_giqiNes",
       "description": "Learn how to deploy Solid.js applications to production environments.",
       "points": [
         "Building for production with Vite",
@@ -308,7 +308,7 @@
       "id": 17,
       "title": "Solid.js Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/kwqW4DPMkJs",
+      "video": "https://www.youtube.com/embed/m8jq1_v4RfY",
       "description": "Covers best practices for building performant and maintainable Solid.js applications.",
       "points": [
         "Structuring Solid.js projects",

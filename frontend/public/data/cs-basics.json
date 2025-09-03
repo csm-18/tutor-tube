@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Computer Science",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/SzJ46YA_RaA",
+      "video": "https://www.youtube.com/embed/k6U-i4gXkLM",
       "description": "An introduction to computer science, its core concepts, and its importance in technology.",
       "points": [
         "What is computer science?",
@@ -200,7 +200,7 @@
       "id": 11,
       "title": "Computer Architecture Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/4T_pL4H2Jqc",
+      "video": "https://www.youtube.com/embed/GRInNLx3Tug",
       "description": "Learn the basics of computer architecture and how hardware interacts with software.",
       "points": [
         "CPU, memory, and storage",
@@ -241,7 +241,7 @@
       "id": 13,
       "title": "Operating Systems Overview",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/pVzCFlr3h2g",
+      "video": "https://www.youtube.com/embed/H3vZRDkzHdo",
       "description": "Covers the role of operating systems in managing hardware and software resources.",
       "points": [
         "What is an operating system?",
@@ -277,7 +277,7 @@
       "id": 15,
       "title": "Networking Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/IPvYjXCsTgA",
+      "video": "https://www.youtube.com/embed/_IOZ8_cPgu8",
       "description": "Introduces computer networking concepts and protocols used for communication.",
       "points": [
         "Understanding networks and the internet",
@@ -313,7 +313,7 @@
       "id": 17,
       "title": "Databases and Data Management",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/W2Z7fbCLSTw",
+      "video": "https://www.youtube.com/embed/X7v0O8yiUuY",
       "description": "Explores the basics of databases and how they store and manage data.",
       "points": [
         "Relational vs non-relational databases",
@@ -354,7 +354,7 @@
       "id": 19,
       "title": "CS Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1vZswirL8Y8",
+      "video": "https://www.youtube.com/embed/54_sqlcOOCw",
       "description": "Covers best practices for writing efficient, maintainable, and secure code in computer science.",
       "points": [
         "Writing clean and readable code",

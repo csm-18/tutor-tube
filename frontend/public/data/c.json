@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to C Programming",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "video": "https://www.youtube.com/embed/EjavYOFoJJ0",
       "description": "An introduction to the C programming language, its history, and its importance in software development.",
       "points": [
         "What is the C programming language?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "C Syntax and Basic Programs",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "video": "https://www.youtube.com/embed/dTp0c41XnrQ",
       "description": "Learn the basic syntax of C and how to write simple programs.",
       "points": [
         "Structure of a C program (main function, headers)",
@@ -72,7 +72,7 @@
       "id": 5,
       "title": "Control Structures in C",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "video": "https://www.youtube.com/embed/YiPoFeWrSYY",
       "description": "Covers control structures for decision-making and looping in C.",
       "points": [
         "Conditional statements: if, else, switch",
@@ -108,7 +108,7 @@
       "id": 7,
       "title": "Functions in C",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "video": "https://www.youtube.com/embed/f--fD8Y0RnA",
       "description": "Learn how to define and use functions in C for modular programming.",
       "points": [
         "Function declaration and definition",
@@ -144,7 +144,7 @@
       "id": 9,
       "title": "Pointers in C",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "video": "https://www.youtube.com/embed/IuDJeGqEZ3A",
       "description": "Explore pointers, their role in memory management, and their use in C programming.",
       "points": [
         "Understanding pointers and memory addresses",
@@ -185,7 +185,7 @@
       "id": 11,
       "title": "Arrays and Strings in C",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "video": "https://www.youtube.com/embed/08LWytp6PNI",
       "description": "Learn how to work with arrays and strings in C for data storage and manipulation.",
       "points": [
         "Declaring and using arrays",
@@ -221,7 +221,7 @@
       "id": 13,
       "title": "Memory Management in C",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "video": "https://www.youtube.com/embed/rJrd2QMVbGM",
       "description": "Covers dynamic memory allocation and management in C.",
       "points": [
         "Dynamic memory: malloc(), calloc(), free()",
@@ -257,7 +257,7 @@
       "id": 15,
       "title": "Structures and File I/O",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "video": "https://www.youtube.com/embed/FEHt7l_ztGU",
       "description": "Learn how to use structures and perform file input/output operations in C.",
       "points": [
         "Defining and using structs",
@@ -288,7 +288,7 @@
       "id": 17,
       "title": "C Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "video": "https://www.youtube.com/embed/9UIIMBqq1D4",
       "description": "Covers best practices for writing efficient and maintainable C code.",
       "points": [
         "Writing readable and modular code",

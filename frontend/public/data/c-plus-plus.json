@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to C++",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "video": "https://www.youtube.com/embed/s0g4ty29Xgg",
       "description": "An introduction to C++, its history, and its role in systems programming, game development, and high-performance computing.",
       "points": [
         "What is C++ and its key features?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "C++ Syntax and Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "video": "https://www.youtube.com/embed/RSDzvlXmQi4",
       "description": "Learn the basic syntax and structure of C++ programs, including variables, data types, and control flow.",
       "points": [
         "Variables, data types (int, char, double), and operators",
@@ -77,7 +77,7 @@
       "id": 5,
       "title": "Object-Oriented Programming (OOP) in C++",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "video": "https://www.youtube.com/embed/wN0x9eZLix4",
       "description": "Explore the core principles of OOP and how they are implemented in C++.",
       "points": [
         "Classes and Objects: Defining classes, constructors, and destructors",
@@ -114,7 +114,7 @@
       "id": 7,
       "title": "Pointers and Memory Management",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "video": "https://www.youtube.com/embed/CSVRA4_xOkw",
       "description": "Learn about C++'s powerful features for direct memory manipulation, which are crucial for high-performance applications.",
       "points": [
         "Pointers, references, and their differences",
@@ -145,7 +145,7 @@
       "id": 9,
       "title": "Standard Template Library (STL)",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "video": "https://www.youtube.com/embed/c9iREsYpayk",
       "description": "Explore the STL, a powerful collection of C++ templates for data structures and algorithms.",
       "points": [
         "Containers: vector, list, map, set",
@@ -181,7 +181,7 @@
       "id": 11,
       "title": "Exception Handling and File I/O",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "video": "https://www.youtube.com/embed/LS1zjr1wog4",
       "description": "Learn how to manage errors and handle file operations in C++.",
       "points": [
         "Exception handling with try-catch blocks",
@@ -212,7 +212,7 @@
       "id": 13,
       "title": "Advanced C++ Features",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "video": "https://www.youtube.com/embed/b8V-WIjlScA",
       "description": "Dive into more advanced topics that are part of modern C++ development.",
       "points": [
         "Templates: Writing generic functions and classes",

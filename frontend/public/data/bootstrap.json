@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Bootstrap",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Jn1T4tV-9W8",
+      "video": "https://www.youtube.com/embed/kg3kbH9XDAI",
       "description": "An introduction to Bootstrap, its component-based approach, and its benefits for rapid web development.",
       "points": [
         "What is Bootstrap?",
@@ -46,7 +46,7 @@
       "id": 3,
       "title": "Bootstrap Grid System",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/0u9bJAtwZ7w",
+      "video": "https://www.youtube.com/embed/Wqu-d_b3K-0",
       "description": "Learn how to use Bootstrap's grid system to create responsive layouts.",
       "points": [
         "Understanding the 12-column grid",
@@ -77,7 +77,7 @@
       "id": 5,
       "title": "Bootstrap Components",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/4sosXZsEx4E",
+      "video": "https://www.youtube.com/embed/IwlAhfeSnp8",
       "description": "Covers Bootstrap's pre-built components like buttons, cards, and navigation bars.",
       "points": [
         "Using buttons and button groups",
@@ -118,7 +118,7 @@
       "id": 7,
       "title": "Forms and Inputs",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/9zBsdz8X7oM",
+      "video": "https://www.youtube.com/embed/dKVX22GR7zQ",
       "description": "Explains how to create and style forms using Bootstrap's form controls and layouts.",
       "points": [
         "Using form-control for inputs",
@@ -159,7 +159,7 @@
       "id": 9,
       "title": "Bootstrap Utilities",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/2LhoCfjm8R4",
+      "video": "https://www.youtube.com/embed/WGzIEdvR6Ak",
       "description": "Learn how to use Bootstrap's utility classes for spacing, typography, and more.",
       "points": [
         "Using margin and padding utilities",
@@ -195,7 +195,7 @@
       "id": 11,
       "title": "Responsive Design with Bootstrap",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/0W6Cj6qkyYg",
+      "video": "https://www.youtube.com/embed/eow125xV5-c",
       "description": "Covers creating responsive designs using Bootstrap's grid and responsive utilities.",
       "points": [
         "Using responsive grid classes (col-md-*, col-lg-*)",
@@ -231,7 +231,7 @@
       "id": 13,
       "title": "Customizing Bootstrap",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/0-7Mip0oWSc",
+      "video": "https://www.youtube.com/embed/nCX3QVl_PiI",
       "description": "Learn how to customize Bootstrap using SASS and custom themes.",
       "points": [
         "Using SASS to customize Bootstrap",
@@ -272,7 +272,7 @@
       "id": 15,
       "title": "Bootstrap with Frameworks",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/4zYb7m1c0vY",
+      "video": "https://www.youtube.com/embed/ps6aCYYlrIE",
       "description": "Explores integrating Bootstrap with front-end frameworks like React, Vue, and Angular.",
       "points": [
         "Using Bootstrap in React with react-bootstrap",
@@ -313,7 +313,7 @@
       "id": 17,
       "title": "Bootstrap Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/0z1z2t4b7eU",
+      "video": "https://www.youtube.com/embed/RfHBRtQW9Uo",
       "description": "Covers best practices for using Bootstrap to create maintainable and efficient designs.",
       "points": [
         "Using components consistently",

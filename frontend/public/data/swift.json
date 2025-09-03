@@ -1,11 +1,11 @@
 {
-  "courseTitle": "Swift Programming Curriculum",
+  "courseTitle": "Swift Programming",
   "modules": [
     {
       "id": 1,
       "title": "Introduction to Swift",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/UuW1ZSE1Mnc",
+      "video": "https://www.youtube.com/embed/nAchMctX4YA",
       "description": "An introduction to Swift, its design philosophy, and its role in Apple ecosystem development.",
       "points": [
         "What is Swift and its key features?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "Swift Syntax and Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/UuW1ZSE1Mnc",
+      "video": "https://www.youtube.com/embed/XMEJzZMPI_w",
       "description": "Learn the basic syntax and structure of Swift programming.",
       "points": [
         "Variables, constants, and type inference",
@@ -72,7 +72,7 @@
       "id": 5,
       "title": "Object-Oriented Programming in Swift",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/UuW1ZSE1Mnc",
+      "video": "https://www.youtube.com/embed/XdZUVmqIkJE",
       "description": "Explore Swift’s object-oriented programming features for modular code.",
       "points": [
         "Classes, structs, and enums",
@@ -108,7 +108,7 @@
       "id": 7,
       "title": "Collections and Functional Programming",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/UuW1ZSE1Mnc",
+      "video": "https://www.youtube.com/embed/xPXeu17px1Y",
       "description": "Learn how to use collections and functional programming features in Swift.",
       "points": [
         "Arrays, sets, and dictionaries",
@@ -144,7 +144,7 @@
       "id": 9,
       "title": "Asynchronous Programming in Swift",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/UuW1ZSE1Mnc",
+      "video": "https://www.youtube.com/embed/XRulkUR1O5Q",
       "description": "Explore Swift’s concurrency model for asynchronous programming.",
       "points": [
         "Using async/await for asynchronous tasks",
@@ -180,7 +180,7 @@
       "id": 11,
       "title": "iOS Development with SwiftUI",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/UuW1ZSE1Mnc",
+      "video": "https://www.youtube.com/embed/b1oC7sLIgpI",
       "description": "Learn how to build iOS applications using SwiftUI.",
       "points": [
         "Setting up a SwiftUI project in Xcode",
@@ -216,7 +216,7 @@
       "id": 13,
       "title": "Networking and APIs in Swift",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/UuW1ZSE1Mnc",
+      "video": "https://www.youtube.com/embed/ERr0GXqILgc",
       "description": "Explore how to connect Swift apps to APIs and handle network requests.",
       "points": [
         "Making HTTP requests with URLSession",
@@ -252,7 +252,7 @@
       "id": 15,
       "title": "Deploying Swift Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/UuW1ZSE1Mnc",
+      "video": "https://www.youtube.com/embed/6VuLukGpNv8",
       "description": "Learn how to deploy Swift applications for iOS and backend systems.",
       "points": [
         "Building and submitting iOS apps to the App Store",

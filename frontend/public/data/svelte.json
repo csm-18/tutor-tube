@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Svelte",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/77Dkb4wfc98",
+      "video": "https://www.youtube.com/embed/rv3Yq-B8qp4",
       "description": "An introduction to Svelte, its reactive approach, and its advantages for building user interfaces.",
       "points": [
         "What is Svelte?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "Svelte Components",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/uK2nserLW3I",
+      "video": "https://www.youtube.com/embed/xEPq5H8CmeY",
       "description": "Learn how to create and use Svelte components to build modular UI elements.",
       "points": [
         "Creating Svelte components",
@@ -82,7 +82,7 @@
       "id": 5,
       "title": "Reactivity in Svelte",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/AdNJ3fydeao",
+      "video": "https://www.youtube.com/embed/A26FxWgspMA",
       "description": "Covers Svelte's reactive system for managing state and updating the UI.",
       "points": [
         "Using reactive variables with $:",
@@ -118,7 +118,7 @@
       "id": 7,
       "title": "Event Handling in Svelte",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/4Q2iAc0uhWc",
+      "video": "https://www.youtube.com/embed/3dyQ4F41ZrQ",
       "description": "Explains how to handle user events like clicks and form submissions in Svelte.",
       "points": [
         "Using the on: directive for events",
@@ -154,7 +154,7 @@
       "id": 9,
       "title": "Svelte Stores",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1bX5vBW_Zbg",
+      "video": "https://www.youtube.com/embed/RLJDeDsxQng",
       "description": "Learn how to manage state in Svelte using reactive stores.",
       "points": [
         "Creating writable and readable stores",
@@ -195,7 +195,7 @@
       "id": 11,
       "title": "Routing with SvelteKit",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/2qY8F3TLtiI",
+      "video": "https://www.youtube.com/embed/m1NNh-Ewkc0",
       "description": "Covers adding client-side and server-side routing to Svelte applications using SvelteKit.",
       "points": [
         "Setting up SvelteKit routing",
@@ -236,7 +236,7 @@
       "id": 13,
       "title": "API Integration in Svelte",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7a1N1v0qQYA",
+      "video": "https://www.youtube.com/embed/j3aliHghr3E",
       "description": "Learn how to fetch and manage data from APIs in Svelte applications.",
       "points": [
         "Using fetch for API calls",
@@ -272,7 +272,7 @@
       "id": 15,
       "title": "Styling in Svelte",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/kMldq66u1gY",
+      "video": "https://www.youtube.com/embed/etUliqGJAaY",
       "description": "Covers styling Svelte components with scoped CSS and external frameworks.",
       "points": [
         "Using scoped CSS in Svelte",
@@ -313,7 +313,7 @@
       "id": 17,
       "title": "Svelte Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1oG4i3v2q-A",
+      "video": "https://www.youtube.com/embed/eJpPNg-v0Fo",
       "description": "Covers best practices for writing clean, performant, and maintainable Svelte code.",
       "points": [
         "Structuring Svelte projects",

@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Visual Studio Code",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/6aSH1qV6f8M",
+      "video": "https://www.youtube.com/embed/KMxo3T_MTvY",
       "description": "An introduction to Visual Studio Code, its features, and why it’s a popular code editor for developers.",
       "points": [
         "What is Visual Studio Code?",
@@ -46,7 +46,7 @@
       "id": 3,
       "title": "Navigating the VS Code Interface",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=6aSH1qV6f8M",
+      "video": "https://www.youtube.com/embed/nWIRJBCjls8",
       "description": "Learn how to navigate and customize the VS Code user interface for efficient coding.",
       "points": [
         "Overview of the Activity Bar, Editor, and Sidebar",
@@ -82,7 +82,7 @@
       "id": 5,
       "title": "Code Editing Features",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=6aSH1qV6f8M",
+      "video": "https://www.youtube.com/embed/B-s71n0dHUk",
       "description": "Explore powerful code editing features in VS Code to boost productivity.",
       "points": [
         "IntelliSense for code completion",
@@ -123,7 +123,7 @@
       "id": 7,
       "title": "Extensions in VS Code",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=6aSH1qV6f8M",
+      "video": "https://www.youtube.com/embed/lxRAj1Gijic",
       "description": "Learn how to enhance VS Code with extensions for additional functionality.",
       "points": [
         "Installing extensions from the Marketplace",
@@ -164,7 +164,7 @@
       "id": 9,
       "title": "Version Control with Git",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=6aSH1qV6f8M",
+      "video": "https://www.youtube.com/embed/i_23KUAEtUM",
       "description": "Covers built-in Git integration in VS Code for source control management.",
       "points": [
         "Initializing a Git repository",
@@ -200,7 +200,7 @@
       "id": 11,
       "title": "Debugging in VS Code",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=6aSH1qV6f8M",
+      "video": "https://www.youtube.com/embed/3HiLLByBWkg",
       "description": "Learn how to debug code directly within VS Code.",
       "points": [
         "Setting breakpoints and starting the debugger",
@@ -241,7 +241,7 @@
       "id": 13,
       "title": "Integrated Terminal and Tasks",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=6aSH1qV6f8M",
+      "video": "https://www.youtube.com/embed/IdhvvlZkS9g",
       "description": "Explore the integrated terminal and task automation in VS Code.",
       "points": [
         "Using the integrated terminal for command-line tasks",
@@ -282,7 +282,7 @@
       "id": 15,
       "title": "VS Code Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=6aSH1qV6f8M",
+      "video": "https://www.youtube.com/embed/ifTF3ags0XI",
       "description": "Covers best practices for using VS Code efficiently and productively.",
       "points": [
         "Customizing keyboard shortcuts",
