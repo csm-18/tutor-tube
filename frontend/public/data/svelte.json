@@ -1,0 +1,461 @@
+{
+  "courseTitle": "Svelte Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Svelte",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/77Dkb4wfc98",
+      "description": "An introduction to Svelte, its reactive approach, and its advantages for building user interfaces.",
+      "points": [
+        "What is Svelte?",
+        "Svelte vs other frameworks",
+        "Setting up a Svelte project with SvelteKit"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary feature of Svelte compared to other frameworks?",
+          "options": [
+            "Runtime-based rendering",
+            "Compile-time reactivity",
+            "Server-side scripting",
+            "Database management"
+          ],
+          "answer": "Compile-time reactivity"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is commonly used to set up a Svelte project?",
+          "options": ["Svelte CLI", "SvelteKit", "npm", "Webpack"],
+          "answer": "SvelteKit"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Svelte Components",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/uK2nserLW3I",
+      "description": "Learn how to create and use Svelte components to build modular UI elements.",
+      "points": [
+        "Creating Svelte components",
+        "Passing props to components",
+        "Component composition and slots"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of props in Svelte components?",
+          "options": [
+            "To manage state",
+            "To pass data to components",
+            "To handle events",
+            "To style components"
+          ],
+          "answer": "To pass data to components"
+        },
+        {
+          "id": 2,
+          "question": "What are slots used for in Svelte?",
+          "options": [
+            "To manage routing",
+            "To allow content injection into components",
+            "To handle API calls",
+            "To optimize performance"
+          ],
+          "answer": "To allow content injection into components"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Reactivity in Svelte",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/AdNJ3fydeao",
+      "description": "Covers Svelte's reactive system for managing state and updating the UI.",
+      "points": [
+        "Using reactive variables with $:",
+        "Reactive declarations",
+        "Binding inputs with bind: directive"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How does Svelte achieve reactivity?",
+          "options": [
+            "Using a virtual DOM",
+            "Compile-time code generation",
+            "Runtime state management",
+            "External libraries"
+          ],
+          "answer": "Compile-time code generation"
+        },
+        {
+          "id": 2,
+          "question": "Which directive is used for two-way data binding in Svelte?",
+          "options": ["on:", "bind:", "if:", "each:"],
+          "answer": "bind:"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Event Handling in Svelte",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/4Q2iAc0uhWc",
+      "description": "Explains how to handle user events like clicks and form submissions in Svelte.",
+      "points": [
+        "Using the on: directive for events",
+        "Event modifiers",
+        "Dispatching custom events"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which directive is used to handle events in Svelte?",
+          "options": ["bind:", "on:", "if:", "each:"],
+          "answer": "on:"
+        },
+        {
+          "id": 2,
+          "question": "What does the preventDefault modifier do in Svelte event handling?",
+          "options": [
+            "Stops event propagation",
+            "Prevents default browser behavior",
+            "Binds data",
+            "Triggers animations"
+          ],
+          "answer": "Prevents default browser behavior"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Svelte Stores",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1bX5vBW_Zbg",
+      "description": "Learn how to manage state in Svelte using reactive stores.",
+      "points": [
+        "Creating writable and readable stores",
+        "Subscribing to store updates",
+        "Using derived stores"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of a writable store in Svelte?",
+          "options": [
+            "To manage routing",
+            "To store and update reactive data",
+            "To handle API calls",
+            "To style components"
+          ],
+          "answer": "To store and update reactive data"
+        },
+        {
+          "id": 2,
+          "question": "How do you subscribe to a Svelte store?",
+          "options": [
+            "Using the bind: directive",
+            "Using the $ prefix",
+            "Using the subscribe method",
+            "Using the on: directive"
+          ],
+          "answer": "Using the subscribe method"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Routing with SvelteKit",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2qY8F3TLtiI",
+      "description": "Covers adding client-side and server-side routing to Svelte applications using SvelteKit.",
+      "points": [
+        "Setting up SvelteKit routing",
+        "Creating file-based routes",
+        "Navigating with <a> and load functions"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How are routes defined in SvelteKit?",
+          "options": [
+            "Using a router file",
+            "Using file-based routing",
+            "Using a config file",
+            "Using directives"
+          ],
+          "answer": "Using file-based routing"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the load function in SvelteKit?",
+          "options": [
+            "To style components",
+            "To fetch data for a route",
+            "To manage state",
+            "To handle events"
+          ],
+          "answer": "To fetch data for a route"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "API Integration in Svelte",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/7a1N1v0qQYA",
+      "description": "Learn how to fetch and manage data from APIs in Svelte applications.",
+      "points": [
+        "Using fetch for API calls",
+        "Handling asynchronous data",
+        "Integrating APIs with SvelteKit load functions"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which JavaScript method is commonly used for API calls in Svelte?",
+          "options": ["axios", "fetch", "jQuery", "XMLHttpRequest"],
+          "answer": "fetch"
+        },
+        {
+          "id": 2,
+          "question": "How can SvelteKit fetch data for a route?",
+          "options": [
+            "Using bind: directive",
+            "Using the load function",
+            "Using a store",
+            "Using on: directive"
+          ],
+          "answer": "Using the load function"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Styling in Svelte",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/kMldq66u1gY",
+      "description": "Covers styling Svelte components with scoped CSS and external frameworks.",
+      "points": [
+        "Using scoped CSS in Svelte",
+        "Integrating Tailwind CSS",
+        "Dynamic styling with style directives"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the benefit of scoped CSS in Svelte?",
+          "options": [
+            "Global styling",
+            "Styles limited to a single component",
+            "Faster rendering",
+            "Simplified routing"
+          ],
+          "answer": "Styles limited to a single component"
+        },
+        {
+          "id": 2,
+          "question": "How can you apply dynamic styles in Svelte?",
+          "options": [
+            "Using bind: directive",
+            "Using style: directive",
+            "Using on: directive",
+            "Using each: directive"
+          ],
+          "answer": "Using style: directive"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Svelte Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1oG4i3v2q-A",
+      "description": "Covers best practices for writing clean, performant, and maintainable Svelte code.",
+      "points": [
+        "Structuring Svelte projects",
+        "Optimizing reactivity",
+        "Writing reusable components"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is writing reusable components important in Svelte?",
+          "options": [
+            "To reduce code duplication",
+            "To increase bundle size",
+            "To simplify API calls",
+            "To manage routing"
+          ],
+          "answer": "To reduce code duplication"
+        },
+        {
+          "id": 2,
+          "question": "What is a way to optimize reactivity in Svelte?",
+          "options": [
+            "Using inline CSS",
+            "Minimizing reactive dependencies",
+            "Adding more stores",
+            "Using global components"
+          ],
+          "answer": "Minimizing reactive dependencies"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What makes Svelte different from other frameworks like React?",
+          "options": [
+            "Runtime-based rendering",
+            "Compile-time reactivity",
+            "Server-side scripting",
+            "Virtual DOM usage"
+          ],
+          "answer": "Compile-time reactivity"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of slots in Svelte components?",
+          "options": [
+            "To manage state",
+            "To allow content injection",
+            "To handle events",
+            "To style components"
+          ],
+          "answer": "To allow content injection"
+        },
+        {
+          "id": 3,
+          "question": "Which directive enables two-way data binding in Svelte?",
+          "options": ["on:", "bind:", "if:", "each:"],
+          "answer": "bind:"
+        },
+        {
+          "id": 4,
+          "question": "What does the on: directive do in Svelte?",
+          "options": [
+            "Binds data",
+            "Handles user events",
+            "Renders lists",
+            "Toggles visibility"
+          ],
+          "answer": "Handles user events"
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of a writable store in Svelte?",
+          "options": [
+            "To manage routing",
+            "To store and update reactive data",
+            "To handle API calls",
+            "To style components"
+          ],
+          "answer": "To store and update reactive data"
+        },
+        {
+          "id": 6,
+          "question": "How are routes defined in SvelteKit?",
+          "options": [
+            "Using a router file",
+            "Using file-based routing",
+            "Using a config file",
+            "Using directives"
+          ],
+          "answer": "Using file-based routing"
+        },
+        {
+          "id": 7,
+          "question": "Which method is commonly used for API calls in Svelte?",
+          "options": ["axios", "fetch", "jQuery", "XMLHttpRequest"],
+          "answer": "fetch"
+        },
+        {
+          "id": 8,
+          "question": "What is the benefit of scoped CSS in Svelte?",
+          "options": [
+            "Global styling",
+            "Styles limited to a single component",
+            "Faster rendering",
+            "Simplified routing"
+          ],
+          "answer": "Styles limited to a single component"
+        },
+        {
+          "id": 9,
+          "question": "What is a way to optimize reactivity in Svelte?",
+          "options": [
+            "Using inline CSS",
+            "Minimizing reactive dependencies",
+            "Adding more stores",
+            "Using global components"
+          ],
+          "answer": "Minimizing reactive dependencies"
+        },
+        {
+          "id": 10,
+          "question": "Why is structuring Svelte projects important?",
+          "options": [
+            "To increase bundle size",
+            "To improve maintainability",
+            "To simplify API calls",
+            "To handle routing"
+          ],
+          "answer": "To improve maintainability"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "courseTitle": "Kotlin Programming Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Kotlin",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "description": "An introduction to Kotlin, its design philosophy, and its role in modern software development.",
+      "points": [
+        "What is Kotlin and its key features?",
+        "Kotlin vs Java and other languages",
+        "Setting up a Kotlin development environment (IntelliJ IDEA, Android Studio)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Kotlin primarily known for?",
+          "options": [
+            "Frontend web development",
+            "Android and backend development",
+            "Data visualization",
+            "System scripting"
+          ],
+          "answer": "Android and backend development"
+        },
+        {
+          "id": 2,
+          "question": "Which IDE is commonly used for Kotlin development?",
+          "options": ["VS Code", "IntelliJ IDEA", "Eclipse", "Xcode"],
+          "answer": "IntelliJ IDEA"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Kotlin Syntax and Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "description": "Learn the basic syntax and structure of Kotlin programming.",
+      "points": [
+        "Variables, data types, and null safety",
+        "Control structures: if, when, loops",
+        "Functions and lambda expressions"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you declare a variable in Kotlin?",
+          "options": [
+            "Using var or val",
+            "Using let keyword",
+            "Using $ symbol",
+            "Using const only"
+          ],
+          "answer": "Using var or val"
+        },
+        {
+          "id": 2,
+          "question": "Which Kotlin construct is used for pattern matching?",
+          "options": ["switch", "when", "if", "case"],
+          "answer": "when"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Object-Oriented Programming in Kotlin",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "description": "Explore Kotlin’s object-oriented programming features for modular code.",
+      "points": [
+        "Classes, objects, and data classes",
+        "Inheritance, interfaces, and sealed classes",
+        "Extension functions and properties"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What keyword is used to define a class in Kotlin?",
+          "options": ["struct", "class", "enum", "type"],
+          "answer": "class"
+        },
+        {
+          "id": 2,
+          "question": "What are data classes used for in Kotlin?",
+          "options": [
+            "Managing loops",
+            "Simplifying boilerplate code for data",
+            "Handling database queries",
+            "Styling code"
+          ],
+          "answer": "Simplifying boilerplate code for data"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Collections and Functional Programming",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "description": "Learn how to use collections and functional programming features in Kotlin.",
+      "points": [
+        "Lists, Sets, and Maps",
+        "Functional operations: map, filter, reduce",
+        "Using sequences for lazy evaluation"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Kotlin collection is used for key-value pairs?",
+          "options": ["List", "Set", "Map", "Array"],
+          "answer": "Map"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the map function in Kotlin?",
+          "options": [
+            "Filtering data",
+            "Transforming collection elements",
+            "Sorting collections",
+            "Reducing data"
+          ],
+          "answer": "Transforming collection elements"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Coroutines for Asynchronous Programming",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "description": "Explore Kotlin’s coroutines for efficient asynchronous programming.",
+      "points": [
+        "Understanding coroutines and suspend functions",
+        "Using async/await and flow",
+        "Managing coroutine scopes and contexts"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a suspend function in Kotlin?",
+          "options": [
+            "A function for styling",
+            "A function that can be paused and resumed",
+            "A database query function",
+            "A routing function"
+          ],
+          "answer": "A function that can be paused and resumed"
+        },
+        {
+          "id": 2,
+          "question": "What is Flow used for in Kotlin?",
+          "options": [
+            "Managing routes",
+            "Handling asynchronous data streams",
+            "Styling applications",
+            "Database connections"
+          ],
+          "answer": "Handling asynchronous data streams"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Android Development with Kotlin",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "description": "Learn how to build Android applications using Kotlin.",
+      "points": [
+        "Setting up an Android project in Android Studio",
+        "Creating UI with Jetpack Compose",
+        "Handling user input and navigation"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Jetpack Compose used for in Kotlin?",
+          "options": [
+            "Database management",
+            "Building modern Android UI",
+            "Backend APIs",
+            "Testing code"
+          ],
+          "answer": "Building modern Android UI"
+        },
+        {
+          "id": 2,
+          "question": "Which IDE is used for Android development with Kotlin?",
+          "options": ["VS Code", "Android Studio", "Eclipse", "Xcode"],
+          "answer": "Android Studio"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Building Backend APIs with Ktor",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "description": "Explore how to build RESTful APIs using Ktor, a Kotlin framework for backend development.",
+      "points": [
+        "Setting up a Ktor project",
+        "Defining routes and handling requests",
+        "Serializing data with JSON"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Ktor used for in Kotlin?",
+          "options": [
+            "Styling applications",
+            "Building backend APIs",
+            "Managing databases",
+            "Testing code"
+          ],
+          "answer": "Building backend APIs"
+        },
+        {
+          "id": 2,
+          "question": "What is a common format for Ktor API responses?",
+          "options": ["XML", "JSON", "HTML", "YAML"],
+          "answer": "JSON"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying Kotlin Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "description": "Learn how to deploy Kotlin applications for Android and backend systems.",
+      "points": [
+        "Building APKs for Android apps",
+        "Deploying Ktor apps to Heroku or AWS",
+        "Using Docker for containerized deployment"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which platform is commonly used to deploy Ktor applications?",
+          "options": ["Netlify", "Heroku", "GitHub Pages", "Firebase"],
+          "answer": "Heroku"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Docker for Kotlin deployment?",
+          "options": [
+            "Improved styling",
+            "Consistent environments",
+            "Simplified routing",
+            "Reduced security"
+          ],
+          "answer": "Consistent environments"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Kotlin Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "description": "Covers best practices for writing clean and efficient Kotlin code.",
+      "points": [
+        "Following Kotlin coding conventions",
+        "Leveraging null safety and immutability",
+        "Testing with JUnit or KotlinTest"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a key feature of Kotlin’s type system?",
+          "options": [
+            "Dynamic typing",
+            "Null safety",
+            "No typing",
+            "Implicit typing"
+          ],
+          "answer": "Null safety"
+        },
+        {
+          "id": 2,
+          "question": "Which testing framework is commonly used with Kotlin?",
+          "options": ["Jest", "JUnit", "Mocha", "Cypress"],
+          "answer": "JUnit"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Kotlin primarily known for?",
+          "options": [
+            "Frontend web development",
+            "Android and backend development",
+            "Data visualization",
+            "System scripting"
+          ],
+          "answer": "Android and backend development"
+        },
+        {
+          "id": 2,
+          "question": "Which IDE is commonly used for Kotlin development?",
+          "options": ["VS Code", "IntelliJ IDEA", "Eclipse", "Xcode"],
+          "answer": "IntelliJ IDEA"
+        },
+        {
+          "id": 3,
+          "question": "How do you declare a variable in Kotlin?",
+          "options": [
+            "Using var or val",
+            "Using let keyword",
+            "Using $ symbol",
+            "Using const only"
+          ],
+          "answer": "Using var or val"
+        },
+        {
+          "id": 4,
+          "question": "What keyword is used to define a class in Kotlin?",
+          "options": ["struct", "class", "enum", "type"],
+          "answer": "class"
+        },
+        {
+          "id": 5,
+          "question": "Which Kotlin collection is used for key-value pairs?",
+          "options": ["List", "Set", "Map", "Array"],
+          "answer": "Map"
+        },
+        {
+          "id": 6,
+          "question": "What is a suspend function in Kotlin?",
+          "options": [
+            "A function for styling",
+            "A function that can be paused and resumed",
+            "A database query function",
+            "A routing function"
+          ],
+          "answer": "A function that can be paused and resumed"
+        },
+        {
+          "id": 7,
+          "question": "What is Jetpack Compose used for in Kotlin?",
+          "options": [
+            "Database management",
+            "Building modern Android UI",
+            "Backend APIs",
+            "Testing code"
+          ],
+          "answer": "Building modern Android UI"
+        },
+        {
+          "id": 8,
+          "question": "What is Ktor used for in Kotlin?",
+          "options": [
+            "Styling applications",
+            "Building backend APIs",
+            "Managing databases",
+            "Testing code"
+          ],
+          "answer": "Building backend APIs"
+        },
+        {
+          "id": 9,
+          "question": "Which platform is commonly used to deploy Ktor applications?",
+          "options": ["Netlify", "Heroku", "GitHub Pages", "Firebase"],
+          "answer": "Heroku"
+        },
+        {
+          "id": 10,
+          "question": "Which testing framework is commonly used with Kotlin?",
+          "options": ["Jest", "JUnit", "Mocha", "Cypress"],
+          "answer": "JUnit"
+        }
+      ]
+    }
+  ]
+}

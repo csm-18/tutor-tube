@@ -1,0 +1,426 @@
+{
+  "courseTitle": "Go (Golang) Programming Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Go",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "description": "An introduction to Go, its design philosophy, and its role in modern software development.",
+      "points": [
+        "What is Go and its key features?",
+        "Go vs other programming languages",
+        "Setting up a Go development environment (go install, VS Code)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Go primarily known for?",
+          "options": [
+            "Frontend development",
+            "High-performance backend systems",
+            "Data visualization",
+            "Mobile app development"
+          ],
+          "answer": "High-performance backend systems"
+        },
+        {
+          "id": 2,
+          "question": "Which command is used to install Go packages?",
+          "options": ["go get", "npm install", "pip install", "gem install"],
+          "answer": "go get"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Go Syntax and Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "description": "Learn the basic syntax and structure of Go programming.",
+      "points": [
+        "Variables, data types, and constants",
+        "Control structures: if, switch, for loops",
+        "Functions, packages, and imports"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you declare a variable in Go?",
+          "options": [
+            "Using var keyword or := operator",
+            "Using let keyword",
+            "Using $ symbol",
+            "Using const only"
+          ],
+          "answer": "Using var keyword or := operator"
+        },
+        {
+          "id": 2,
+          "question": "Which loop is the only loop construct in Go?",
+          "options": ["while", "for", "do-while", "foreach"],
+          "answer": "for"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Working with Slices and Maps",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "description": "Explore Go’s built-in data structures for efficient data management.",
+      "points": [
+        "Slices: dynamic arrays in Go",
+        "Maps: key-value pairs",
+        "Common operations: append, delete, range"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a slice in Go?",
+          "options": [
+            "A fixed-size array",
+            "A dynamic view of an array",
+            "A key-value store",
+            "A database connection"
+          ],
+          "answer": "A dynamic view of an array"
+        },
+        {
+          "id": 2,
+          "question": "Which Go keyword is used to iterate over a slice or map?",
+          "options": ["loop", "range", "forEach", "iterate"],
+          "answer": "range"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Concurrency in Go",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "description": "Learn Go’s concurrency model using goroutines and channels.",
+      "points": [
+        "Goroutines for concurrent execution",
+        "Channels for communication between goroutines",
+        "Using select and wait groups"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a goroutine in Go?",
+          "options": [
+            "A database query",
+            "A lightweight thread",
+            "A styling function",
+            "A routing mechanism"
+          ],
+          "answer": "A lightweight thread"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of channels in Go?",
+          "options": [
+            "Managing routes",
+            "Communication between goroutines",
+            "Styling applications",
+            "Database connections"
+          ],
+          "answer": "Communication between goroutines"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Building Web Servers with Go",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "description": "Covers building RESTful APIs and web servers using Go’s standard library.",
+      "points": [
+        "Using net/http for basic web servers",
+        "Handling routes and HTTP methods",
+        "JSON encoding and decoding"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Go package is used to create web servers?",
+          "options": ["net/http", "http/server", "web/http", "go/server"],
+          "answer": "net/http"
+        },
+        {
+          "id": 2,
+          "question": "What is used to encode JSON responses in Go?",
+          "options": [
+            "encoding/xml",
+            "encoding/json",
+            "encoding/yaml",
+            "encoding/csv"
+          ],
+          "answer": "encoding/json"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Using Go Frameworks (e.g., Gin)",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "description": "Learn how to use the Gin framework to build robust web applications in Go.",
+      "points": [
+        "Setting up a Gin project",
+        "Defining routes and middleware",
+        "Building a RESTful API with Gin"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Gin used for in Go?",
+          "options": [
+            "Styling applications",
+            "Building web frameworks",
+            "Database management",
+            "Testing code"
+          ],
+          "answer": "Building web frameworks"
+        },
+        {
+          "id": 2,
+          "question": "What is middleware used for in Gin?",
+          "options": [
+            "Processing requests before handling",
+            "Rendering UI",
+            "Managing databases",
+            "Packaging applications"
+          ],
+          "answer": "Processing requests before handling"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Database Integration with Go",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "description": "Explore how to connect Go applications to databases.",
+      "points": [
+        "Using database/sql for SQL databases",
+        "Integrating with PostgreSQL or MySQL",
+        "Using GORM for ORM-based interactions"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Go package is used for SQL database interactions?",
+          "options": ["database/sql", "sql/db", "net/sql", "db/connect"],
+          "answer": "database/sql"
+        },
+        {
+          "id": 2,
+          "question": "What is GORM used for in Go?",
+          "options": [
+            "Styling applications",
+            "ORM-based database interactions",
+            "Routing requests",
+            "File compression"
+          ],
+          "answer": "ORM-based database interactions"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying Go Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "description": "Learn how to deploy Go applications to production environments.",
+      "points": [
+        "Building Go binaries for deployment",
+        "Deploying to Heroku, Render, or AWS",
+        "Using Docker for containerized deployment"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which command is used to build a Go binary?",
+          "options": ["go run", "go build", "go install", "go deploy"],
+          "answer": "go build"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Docker for Go deployment?",
+          "options": [
+            "Improved styling",
+            "Consistent environments",
+            "Simplified routing",
+            "Reduced security"
+          ],
+          "answer": "Consistent environments"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Go Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "description": "Covers best practices for writing clean and efficient Go code.",
+      "points": [
+        "Following Go style guidelines (gofmt, go vet)",
+        "Writing modular and testable code",
+        "Testing with Go’s testing package"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which tool is used to format Go code?",
+          "options": ["gofmt", "golint", "go vet", "go test"],
+          "answer": "gofmt"
+        },
+        {
+          "id": 2,
+          "question": "What is the standard package for testing in Go?",
+          "options": ["testing", "testify", "gunit", "gotest"],
+          "answer": "testing"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Go primarily known for?",
+          "options": [
+            "Frontend development",
+            "High-performance backend systems",
+            "Data visualization",
+            "Mobile app development"
+          ],
+          "answer": "High-performance backend systems"
+        },
+        {
+          "id": 2,
+          "question": "Which command is used to install Go packages?",
+          "options": ["go get", "npm install", "pip install", "gem install"],
+          "answer": "go get"
+        },
+        {
+          "id": 3,
+          "question": "How do you declare a variable in Go?",
+          "options": [
+            "Using var keyword or := operator",
+            "Using let keyword",
+            "Using $ symbol",
+            "Using const only"
+          ],
+          "answer": "Using var keyword or := operator"
+        },
+        {
+          "id": 4,
+          "question": "What is a slice in Go?",
+          "options": [
+            "A fixed-size array",
+            "A dynamic view of an array",
+            "A key-value store",
+            "A database connection"
+          ],
+          "answer": "A dynamic view of an array"
+        },
+        {
+          "id": 5,
+          "question": "What is a goroutine in Go?",
+          "options": [
+            "A database query",
+            "A lightweight thread",
+            "A styling function",
+            "A routing mechanism"
+          ],
+          "answer": "A lightweight thread"
+        },
+        {
+          "id": 6,
+          "question": "Which Go package is used to create web servers?",
+          "options": ["net/http", "http/server", "web/http", "go/server"],
+          "answer": "net/http"
+        },
+        {
+          "id": 7,
+          "question": "What is Gin used for in Go?",
+          "options": [
+            "Styling applications",
+            "Building web frameworks",
+            "Database management",
+            "Testing code"
+          ],
+          "answer": "Building web frameworks"
+        },
+        {
+          "id": 8,
+          "question": "Which Go package is used for SQL database interactions?",
+          "options": ["database/sql", "sql/db", "net/sql", "db/connect"],
+          "answer": "database/sql"
+        },
+        {
+          "id": 9,
+          "question": "Which command is used to build a Go binary?",
+          "options": ["go run", "go build", "go install", "go deploy"],
+          "answer": "go build"
+        },
+        {
+          "id": 10,
+          "question": "Which tool is used to format Go code?",
+          "options": ["gofmt", "golint", "go vet", "go test"],
+          "answer": "gofmt"
+        }
+      ]
+    }
+  ]
+}

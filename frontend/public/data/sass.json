@@ -1,0 +1,440 @@
+{
+  "courseTitle": "Sass Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Sass",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/_-aDOAMmDHI",
+      "description": "An introduction to Sass, its features, and its advantages for writing scalable CSS.",
+      "points": [
+        "What is Sass?",
+        "Sass vs plain CSS",
+        "Setting up Sass in a project"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does Sass stand for?",
+          "options": [
+            "Simple Awesome Style System",
+            "Syntactically Awesome Style Sheets",
+            "Structured Advanced Styling System",
+            "Standardized Style Sheet"
+          ],
+          "answer": "Syntactically Awesome Style Sheets"
+        },
+        {
+          "id": 2,
+          "question": "What is a key benefit of using Sass over plain CSS?",
+          "options": [
+            "Faster JavaScript execution",
+            "Improved styling with variables and nesting",
+            "Simplified database queries",
+            "Enhanced routing"
+          ],
+          "answer": "Improved styling with variables and nesting"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sass Variables and Nesting",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/j3G3u7fL4dU",
+      "description": "Learn how to use Sass variables and nesting to write maintainable and reusable styles.",
+      "points": [
+        "Defining and using variables",
+        "Nesting selectors for better organization",
+        "Variable scoping and defaults"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you define a variable in Sass?",
+          "options": [
+            "$variable: value;",
+            "var variable = value;",
+            "@variable: value;",
+            "#variable: value;"
+          ],
+          "answer": "$variable: value;"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of nesting selectors in Sass?",
+          "options": [
+            "Increases file size",
+            "Improves code readability",
+            "Speeds up rendering",
+            "Simplifies routing"
+          ],
+          "answer": "Improves code readability"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mixins and Functions",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/9Rz7OaYv2d4",
+      "description": "Covers Sass mixins and functions for reusable and dynamic styling logic.",
+      "points": [
+        "Creating and using mixins",
+        "Defining custom functions",
+        "Passing arguments to mixins and functions"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of a Sass mixin?",
+          "options": [
+            "To manage state",
+            "To reuse a block of styles",
+            "To handle events",
+            "To create animations"
+          ],
+          "answer": "To reuse a block of styles"
+        },
+        {
+          "id": 2,
+          "question": "How do you include a mixin in Sass?",
+          "options": [
+            "@include mixin-name;",
+            "@use mixin-name;",
+            "@apply mixin-name;",
+            "@import mixin-name;"
+          ],
+          "answer": "@include mixin-name;"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Sass Inheritance and Extend",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/8b3a6Z43Zf0",
+      "description": "Explains how to use Sass's @extend directive and inheritance for sharing styles.",
+      "points": [
+        "Using @extend to inherit styles",
+        "Placeholder selectors (%class)",
+        "Combining extend with mixins"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the @extend directive do in Sass?",
+          "options": [
+            "Defines a variable",
+            "Shares styles between selectors",
+            "Creates a function",
+            "Imports a file"
+          ],
+          "answer": "Shares styles between selectors"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of a placeholder selector in Sass?",
+          "options": [
+            "To store temporary styles",
+            "To define reusable styles without outputting",
+            "To manage animations",
+            "To handle media queries"
+          ],
+          "answer": "To define reusable styles without outputting"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Sass Imports and Partials",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/8b3a6Z43Zf0",
+      "description": "Learn how to organize Sass code using imports and partials for modular stylesheets.",
+      "points": [
+        "Using @import and @use",
+        "Creating partials with underscore prefix",
+        "Organizing large projects with modular files"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you create a partial file in Sass?",
+          "options": [
+            "Prefix the file with a dash",
+            "Prefix the file with an underscore",
+            "Use a .css extension",
+            "Add a partial keyword"
+          ],
+          "answer": "Prefix the file with an underscore"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the @use directive in Sass?",
+          "options": [
+            "To define a variable",
+            "To import modules with namespacing",
+            "To create a mixin",
+            "To handle animations"
+          ],
+          "answer": "To import modules with namespacing"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Sass Control Directives",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/wxYUzW1n4g0",
+      "description": "Covers Sass control directives like @if, @for, and @each for dynamic styling.",
+      "points": [
+        "Using @if for conditional styles",
+        "Looping with @for and @each",
+        "Combining control directives with mixins"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Sass directive is used for conditional styling?",
+          "options": ["@if", "@for", "@each", "@while"],
+          "answer": "@if"
+        },
+        {
+          "id": 2,
+          "question": "What does the @each directive do in Sass?",
+          "options": [
+            "Iterates over a list or map",
+            "Defines a variable",
+            "Imports a file",
+            "Creates a function"
+          ],
+          "answer": "Iterates over a list or map"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Sass with Frameworks",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0W6Cj6qkyYg",
+      "description": "Explores integrating Sass with front-end frameworks like React, Vue, and Angular.",
+      "points": [
+        "Using Sass in React projects",
+        "Integrating Sass with Vue",
+        "Setting up Sass in Angular"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which command installs Sass for a React project?",
+          "options": [
+            "npm install sass",
+            "npm install react-sass",
+            "npm install css-sass",
+            "npm install sass-framework"
+          ],
+          "answer": "npm install sass"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Sass with frameworks?",
+          "options": [
+            "Faster API calls",
+            "Enhanced styling with variables and mixins",
+            "Improved state management",
+            "Simplified routing"
+          ],
+          "answer": "Enhanced styling with variables and mixins"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Sass Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/9B8b8i1g2yM",
+      "description": "Covers best practices for writing clean, maintainable, and scalable Sass code.",
+      "points": [
+        "Organizing Sass files effectively",
+        "Avoiding overly complex nesting",
+        "Using mixins and functions for reusability"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is organizing Sass files important?",
+          "options": [
+            "To increase file size",
+            "To improve maintainability",
+            "To simplify API calls",
+            "To handle routing"
+          ],
+          "answer": "To improve maintainability"
+        },
+        {
+          "id": 2,
+          "question": "What is a drawback of excessive nesting in Sass?",
+          "options": [
+            "Improved readability",
+            "Increased specificity and file size",
+            "Faster compilation",
+            "Simplified debugging"
+          ],
+          "answer": "Increased specificity and file size"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does Sass stand for?",
+          "options": [
+            "Simple Awesome Style System",
+            "Syntactically Awesome Style Sheets",
+            "Structured Advanced Styling System",
+            "Standardized Style Sheet"
+          ],
+          "answer": "Syntactically Awesome Style Sheets"
+        },
+        {
+          "id": 2,
+          "question": "How do you define a variable in Sass?",
+          "options": [
+            "$variable: value;",
+            "var variable = value;",
+            "@variable: value;",
+            "#variable: value;"
+          ],
+          "answer": "$variable: value;"
+        },
+        {
+          "id": 3,
+          "question": "What is the purpose of a Sass mixin?",
+          "options": [
+            "To manage state",
+            "To reuse a block of styles",
+            "To handle events",
+            "To create animations"
+          ],
+          "answer": "To reuse a block of styles"
+        },
+        {
+          "id": 4,
+          "question": "What does the @extend directive do in Sass?",
+          "options": [
+            "Defines a variable",
+            "Shares styles between selectors",
+            "Creates a function",
+            "Imports a file"
+          ],
+          "answer": "Shares styles between selectors"
+        },
+        {
+          "id": 5,
+          "question": "How do you create a partial file in Sass?",
+          "options": [
+            "Prefix the file with a dash",
+            "Prefix the file with an underscore",
+            "Use a .css extension",
+            "Add a partial keyword"
+          ],
+          "answer": "Prefix the file with an underscore"
+        },
+        {
+          "id": 6,
+          "question": "Which Sass directive is used for looping through a list?",
+          "options": ["@if", "@for", "@each", "@while"],
+          "answer": "@each"
+        },
+        {
+          "id": 7,
+          "question": "Which command installs Sass for a React project?",
+          "options": [
+            "npm install sass",
+            "npm install react-sass",
+            "npm install css-sass",
+            "npm install sass-framework"
+          ],
+          "answer": "npm install sass"
+        },
+        {
+          "id": 8,
+          "question": "What is a benefit of using Sass with frameworks?",
+          "options": [
+            "Faster API calls",
+            "Enhanced styling with variables and mixins",
+            "Improved state management",
+            "Simplified routing"
+          ],
+          "answer": "Enhanced styling with variables and mixins"
+        },
+        {
+          "id": 9,
+          "question": "What is a drawback of excessive nesting in Sass?",
+          "options": [
+            "Improved readability",
+            "Increased specificity and file size",
+            "Faster compilation",
+            "Simplified debugging"
+          ],
+          "answer": "Increased specificity and file size"
+        },
+        {
+          "id": 10,
+          "question": "Why is organizing Sass files important?",
+          "options": [
+            "To increase file size",
+            "To improve maintainability",
+            "To simplify API calls",
+            "To handle routing"
+          ],
+          "answer": "To improve maintainability"
+        }
+      ]
+    }
+  ]
+}

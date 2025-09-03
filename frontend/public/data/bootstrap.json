@@ -1,0 +1,456 @@
+{
+  "courseTitle": "Bootstrap Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Bootstrap",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Jn1T4tV-9W8",
+      "description": "An introduction to Bootstrap, its component-based approach, and its benefits for rapid web development.",
+      "points": [
+        "What is Bootstrap?",
+        "Bootstrap vs other CSS frameworks",
+        "Setting up Bootstrap in a project"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Bootstrap?",
+          "options": [
+            "Server-side scripting",
+            "Rapid front-end development",
+            "Database management",
+            "API integration"
+          ],
+          "answer": "Rapid front-end development"
+        },
+        {
+          "id": 2,
+          "question": "Which approach does Bootstrap primarily use for styling?",
+          "options": [
+            "Utility-first",
+            "Component-based",
+            "Inline CSS",
+            "SASS-only"
+          ],
+          "answer": "Component-based"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bootstrap Grid System",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0u9bJAtwZ7w",
+      "description": "Learn how to use Bootstrap's grid system to create responsive layouts.",
+      "points": [
+        "Understanding the 12-column grid",
+        "Using container, row, and col classes",
+        "Responsive breakpoints (sm, md, lg, xl)"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How many columns does Bootstrap's grid system use?",
+          "options": ["8", "10", "12", "16"],
+          "answer": "12"
+        },
+        {
+          "id": 2,
+          "question": "Which class is used to define a column in Bootstrap?",
+          "options": ["column", "col", "grid", "row"],
+          "answer": "col"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bootstrap Components",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/4sosXZsEx4E",
+      "description": "Covers Bootstrap's pre-built components like buttons, cards, and navigation bars.",
+      "points": [
+        "Using buttons and button groups",
+        "Creating cards for content",
+        "Building navigation with nav and navbar"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Bootstrap class is used to style a primary button?",
+          "options": [
+            "btn-primary",
+            "button-primary",
+            "primary-btn",
+            "btn-blue"
+          ],
+          "answer": "btn-primary"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the Bootstrap card component?",
+          "options": [
+            "To manage forms",
+            "To display content in a flexible container",
+            "To handle routing",
+            "To create animations"
+          ],
+          "answer": "To display content in a flexible container"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Forms and Inputs",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/9zBsdz8X7oM",
+      "description": "Explains how to create and style forms using Bootstrap's form controls and layouts.",
+      "points": [
+        "Using form-control for inputs",
+        "Creating form layouts with form-group",
+        "Validating forms with Bootstrap classes"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Bootstrap class is used for styling form inputs?",
+          "options": [
+            "form-input",
+            "form-control",
+            "input-group",
+            "form-field"
+          ],
+          "answer": "form-control"
+        },
+        {
+          "id": 2,
+          "question": "What does the is-valid class do in Bootstrap forms?",
+          "options": [
+            "Disables the form",
+            "Shows validation success",
+            "Hides the form",
+            "Resets the form"
+          ],
+          "answer": "Shows validation success"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bootstrap Utilities",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2LhoCfjm8R4",
+      "description": "Learn how to use Bootstrap's utility classes for spacing, typography, and more.",
+      "points": [
+        "Using margin and padding utilities",
+        "Typography classes for text styling",
+        "Display and flex utilities"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Bootstrap utility class adds a margin of 3rem to all sides?",
+          "options": ["m-3", "p-3", "mx-3", "my-3"],
+          "answer": "m-3"
+        },
+        {
+          "id": 2,
+          "question": "What does the d-flex class do in Bootstrap?",
+          "options": [
+            "Sets display to block",
+            "Enables flexbox layout",
+            "Hides an element",
+            "Changes font size"
+          ],
+          "answer": "Enables flexbox layout"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Responsive Design with Bootstrap",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0W6Cj6qkyYg",
+      "description": "Covers creating responsive designs using Bootstrap's grid and responsive utilities.",
+      "points": [
+        "Using responsive grid classes (col-md-*, col-lg-*)",
+        "Hiding or showing elements with display utilities",
+        "Responsive typography and images"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Bootstrap class applies to medium-sized screens and above?",
+          "options": ["col-sm-*", "col-md-*", "col-lg-*", "col-xl-*"],
+          "answer": "col-md-*"
+        },
+        {
+          "id": 2,
+          "question": "What does the d-none d-md-block class do?",
+          "options": [
+            "Hides an element on all screens",
+            "Shows an element only on medium screens and above",
+            "Shows an element only on small screens",
+            "Disables flexbox"
+          ],
+          "answer": "Shows an element only on medium screens and above"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Customizing Bootstrap",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0-7Mip0oWSc",
+      "description": "Learn how to customize Bootstrap using SASS and custom themes.",
+      "points": [
+        "Using SASS to customize Bootstrap",
+        "Modifying variables for colors and fonts",
+        "Creating custom themes"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How is Bootstrap typically customized?",
+          "options": [
+            "Using JavaScript",
+            "Using SASS variables",
+            "Using HTML attributes",
+            "Using a config file"
+          ],
+          "answer": "Using SASS variables"
+        },
+        {
+          "id": 2,
+          "question": "What can be modified in Bootstrap's SASS variables?",
+          "options": [
+            "JavaScript functions",
+            "Colors, fonts, and spacing",
+            "Database connections",
+            "Routing logic"
+          ],
+          "answer": "Colors, fonts, and spacing"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Bootstrap with Frameworks",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/4zYb7m1c0vY",
+      "description": "Explores integrating Bootstrap with front-end frameworks like React, Vue, and Angular.",
+      "points": [
+        "Using Bootstrap in React with react-bootstrap",
+        "Integrating Bootstrap with Vue",
+        "Using Bootstrap in Angular projects"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which library is used to integrate Bootstrap with React?",
+          "options": [
+            "react-bootstrap",
+            "bootstrap-react",
+            "vue-bootstrap",
+            "angular-bootstrap"
+          ],
+          "answer": "react-bootstrap"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Bootstrap with frameworks?",
+          "options": [
+            "Faster API calls",
+            "Pre-built styled components",
+            "Improved state management",
+            "Simplified routing"
+          ],
+          "answer": "Pre-built styled components"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Bootstrap Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0z1z2t4b7eU",
+      "description": "Covers best practices for using Bootstrap to create maintainable and efficient designs.",
+      "points": [
+        "Using components consistently",
+        "Avoiding excessive customization",
+        "Optimizing for performance"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is consistent use of Bootstrap components important?",
+          "options": [
+            "To increase file size",
+            "To ensure uniform design",
+            "To simplify API calls",
+            "To manage state"
+          ],
+          "answer": "To ensure uniform design"
+        },
+        {
+          "id": 2,
+          "question": "What is a way to optimize Bootstrap performance?",
+          "options": [
+            "Including the full Bootstrap library",
+            "Using only necessary components",
+            "Adding more classes",
+            "Disabling responsiveness"
+          ],
+          "answer": "Using only necessary components"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the core approach of Bootstrap?",
+          "options": [
+            "Utility-first styling",
+            "Component-based styling",
+            "Inline CSS styling",
+            "SASS-only styling"
+          ],
+          "answer": "Component-based styling"
+        },
+        {
+          "id": 2,
+          "question": "How many columns does Bootstrap's grid system use?",
+          "options": ["8", "10", "12", "16"],
+          "answer": "12"
+        },
+        {
+          "id": 3,
+          "question": "Which Bootstrap class styles a primary button?",
+          "options": [
+            "btn-primary",
+            "button-primary",
+            "primary-btn",
+            "btn-blue"
+          ],
+          "answer": "btn-primary"
+        },
+        {
+          "id": 4,
+          "question": "Which class is used for styling form inputs in Bootstrap?",
+          "options": [
+            "form-input",
+            "form-control",
+            "input-group",
+            "form-field"
+          ],
+          "answer": "form-control"
+        },
+        {
+          "id": 5,
+          "question": "Which utility class adds padding of 1rem to all sides in Bootstrap?",
+          "options": ["m-1", "p-1", "mx-1", "my-1"],
+          "answer": "p-1"
+        },
+        {
+          "id": 6,
+          "question": "Which class applies styles for large screens and above in Bootstrap?",
+          "options": ["col-sm-*", "col-md-*", "col-lg-*", "col-xl-*"],
+          "answer": "col-lg-*"
+        },
+        {
+          "id": 7,
+          "question": "How is Bootstrap customized?",
+          "options": [
+            "Using JavaScript",
+            "Using SASS variables",
+            "Using HTML attributes",
+            "Using a config file"
+          ],
+          "answer": "Using SASS variables"
+        },
+        {
+          "id": 8,
+          "question": "Which library integrates Bootstrap with React?",
+          "options": [
+            "react-bootstrap",
+            "bootstrap-react",
+            "vue-bootstrap",
+            "angular-bootstrap"
+          ],
+          "answer": "react-bootstrap"
+        },
+        {
+          "id": 9,
+          "question": "What does the d-none d-md-block class do in Bootstrap?",
+          "options": [
+            "Hides an element on all screens",
+            "Shows an element only on medium screens and above",
+            "Shows an element only on small screens",
+            "Disables flexbox"
+          ],
+          "answer": "Shows an element only on medium screens and above"
+        },
+        {
+          "id": 10,
+          "question": "Why is using only necessary Bootstrap components recommended?",
+          "options": [
+            "To increase file size",
+            "To optimize performance",
+            "To simplify routing",
+            "To manage state"
+          ],
+          "answer": "To optimize performance"
+        }
+      ]
+    }
+  ]
+}

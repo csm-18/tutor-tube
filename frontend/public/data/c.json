@@ -1,0 +1,411 @@
+{
+  "courseTitle": "C Programming Language Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to C Programming",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "description": "An introduction to the C programming language, its history, and its importance in software development.",
+      "points": [
+        "What is the C programming language?",
+        "Key features: low-level access, efficiency",
+        "Setting up a C development environment (GCC, IDEs)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a primary use of the C programming language?",
+          "options": [
+            "Web development",
+            "System programming",
+            "Graphic design",
+            "Database management"
+          ],
+          "answer": "System programming"
+        },
+        {
+          "id": 2,
+          "question": "Which compiler is commonly used for C programming?",
+          "options": ["Node.js", "GCC", "Python", "V8"],
+          "answer": "GCC"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "C Syntax and Basic Programs",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "description": "Learn the basic syntax of C and how to write simple programs.",
+      "points": [
+        "Structure of a C program (main function, headers)",
+        "Variables, data types, and operators",
+        "Writing and compiling a 'Hello, World!' program"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the entry point of a C program?",
+          "options": ["start()", "main()", "init()", "run()"],
+          "answer": "main()"
+        },
+        {
+          "id": 2,
+          "question": "Which header file is used for input/output operations in C?",
+          "options": ["<stdio.h>", "<string.h>", "<stdlib.h>", "<math.h>"],
+          "answer": "<stdio.h>"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Control Structures in C",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "description": "Covers control structures for decision-making and looping in C.",
+      "points": [
+        "Conditional statements: if, else, switch",
+        "Loops: for, while, do-while",
+        "Break and continue statements"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which C statement is used for multi-way branching?",
+          "options": ["if", "switch", "for", "while"],
+          "answer": "switch"
+        },
+        {
+          "id": 2,
+          "question": "What does the 'continue' statement do in a C loop?",
+          "options": [
+            "Exits the loop",
+            "Skips to the next iteration",
+            "Restarts the program",
+            "Pauses execution"
+          ],
+          "answer": "Skips to the next iteration"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Functions in C",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "description": "Learn how to define and use functions in C for modular programming.",
+      "points": [
+        "Function declaration and definition",
+        "Passing arguments: by value and by reference",
+        "Return types and recursion"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you pass a variable by reference in C?",
+          "options": [
+            "Using a pointer",
+            "Using a constant",
+            "Using a global variable",
+            "Using a struct"
+          ],
+          "answer": "Using a pointer"
+        },
+        {
+          "id": 2,
+          "question": "What keyword is used to return a value from a C function?",
+          "options": ["exit", "return", "break", "void"],
+          "answer": "return"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Pointers in C",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "description": "Explore pointers, their role in memory management, and their use in C programming.",
+      "points": [
+        "Understanding pointers and memory addresses",
+        "Pointer arithmetic and dereferencing",
+        "Pointers with arrays and functions"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the '*' operator do in a C pointer declaration?",
+          "options": [
+            "Multiplies values",
+            "Declares a pointer",
+            "Accesses array elements",
+            "Performs division"
+          ],
+          "answer": "Declares a pointer"
+        },
+        {
+          "id": 2,
+          "question": "What is pointer arithmetic used for in C?",
+          "options": [
+            "Performing calculations on variables",
+            "Navigating memory addresses",
+            "Encrypting data",
+            "Managing loops"
+          ],
+          "answer": "Navigating memory addresses"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Arrays and Strings in C",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "description": "Learn how to work with arrays and strings in C for data storage and manipulation.",
+      "points": [
+        "Declaring and using arrays",
+        "String handling with character arrays",
+        "Standard string functions (<string.h>)"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How are strings typically represented in C?",
+          "options": [
+            "As integer arrays",
+            "As character arrays",
+            "As floating-point arrays",
+            "As structs"
+          ],
+          "answer": "As character arrays"
+        },
+        {
+          "id": 2,
+          "question": "Which function from <string.h> compares two strings?",
+          "options": ["strlen()", "strcpy()", "strcmp()", "strcat()"],
+          "answer": "strcmp()"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Memory Management in C",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "description": "Covers dynamic memory allocation and management in C.",
+      "points": [
+        "Dynamic memory: malloc(), calloc(), free()",
+        "Memory leaks and dangling pointers",
+        "Best practices for memory management"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which function is used to allocate memory dynamically in C?",
+          "options": ["malloc()", "sizeof()", "free()", "calloc()"],
+          "answer": "malloc()"
+        },
+        {
+          "id": 2,
+          "question": "What is a memory leak in C?",
+          "options": [
+            "Forgetting to declare variables",
+            "Not freeing allocated memory",
+            "Using incorrect pointers",
+            "Overusing arrays"
+          ],
+          "answer": "Not freeing allocated memory"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Structures and File I/O",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "description": "Learn how to use structures and perform file input/output operations in C.",
+      "points": [
+        "Defining and using structs",
+        "Reading and writing files with <stdio.h>",
+        "File handling modes (read, write, append)"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What keyword is used to define a structure in C?",
+          "options": ["class", "struct", "union", "enum"],
+          "answer": "struct"
+        },
+        {
+          "id": 2,
+          "question": "Which function opens a file in C?",
+          "options": ["fopen()", "fclose()", "fread()", "fwrite()"],
+          "answer": "fopen()"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "C Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KJgsSFOSQv0",
+      "description": "Covers best practices for writing efficient and maintainable C code.",
+      "points": [
+        "Writing readable and modular code",
+        "Avoiding common pitfalls (buffer overflows, memory leaks)",
+        "Debugging with tools like gdb"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a common cause of buffer overflow in C?",
+          "options": [
+            "Using too many functions",
+            "Writing beyond array bounds",
+            "Incorrect pointer declaration",
+            "Using structs"
+          ],
+          "answer": "Writing beyond array bounds"
+        },
+        {
+          "id": 2,
+          "question": "What tool is commonly used for debugging C programs?",
+          "options": ["npm", "gdb", "make", "gcc"],
+          "answer": "gdb"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary use of the C programming language?",
+          "options": [
+            "Web development",
+            "System programming",
+            "Graphic design",
+            "Database management"
+          ],
+          "answer": "System programming"
+        },
+        {
+          "id": 2,
+          "question": "What is the entry point of a C program?",
+          "options": ["start()", "main()", "init()", "run()"],
+          "answer": "main()"
+        },
+        {
+          "id": 3,
+          "question": "Which header file is used for standard input/output in C?",
+          "options": ["<stdio.h>", "<string.h>", "<stdlib.h>", "<math.h>"],
+          "answer": "<stdio.h>"
+        },
+        {
+          "id": 4,
+          "question": "Which C statement is used for multi-way branching?",
+          "options": ["if", "switch", "for", "while"],
+          "answer": "switch"
+        },
+        {
+          "id": 5,
+          "question": "How do you pass a variable by reference in C?",
+          "options": [
+            "Using a pointer",
+            "Using a constant",
+            "Using a global variable",
+            "Using a struct"
+          ],
+          "answer": "Using a pointer"
+        },
+        {
+          "id": 6,
+          "question": "What does the '*' operator do in a pointer declaration?",
+          "options": [
+            "Multiplies values",
+            "Declares a pointer",
+            "Accesses array elements",
+            "Performs division"
+          ],
+          "answer": "Declares a pointer"
+        },
+        {
+          "id": 7,
+          "question": "How are strings typically represented in C?",
+          "options": [
+            "As integer arrays",
+            "As character arrays",
+            "As floating-point arrays",
+            "As structs"
+          ],
+          "answer": "As character arrays"
+        },
+        {
+          "id": 8,
+          "question": "Which function is used to allocate memory dynamically in C?",
+          "options": ["malloc()", "sizeof()", "free()", "calloc()"],
+          "answer": "malloc()"
+        },
+        {
+          "id": 9,
+          "question": "What keyword is used to define a structure in C?",
+          "options": ["class", "struct", "union", "enum"],
+          "answer": "struct"
+        },
+        {
+          "id": 10,
+          "question": "What is a common debugging tool for C programs?",
+          "options": ["npm", "gdb", "make", "gcc"],
+          "answer": "gdb"
+        }
+      ]
+    }
+  ]
+}

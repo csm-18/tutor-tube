@@ -1,0 +1,426 @@
+{
+  "courseTitle": "Rust Programming Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Rust",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "description": "An introduction to Rust, its design philosophy, and its role in systems programming.",
+      "points": [
+        "What is Rust and its key features?",
+        "Rust vs other programming languages (e.g., C++, Go)",
+        "Setting up a Rust development environment (rustup, Cargo)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Rust primarily known for?",
+          "options": [
+            "Frontend development",
+            "Systems programming with safety",
+            "Data visualization",
+            "Mobile app development"
+          ],
+          "answer": "Systems programming with safety"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is used to manage Rust installations and dependencies?",
+          "options": ["npm", "Cargo", "pip", "gem"],
+          "answer": "Cargo"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Rust Syntax and Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "description": "Learn the basic syntax and structure of Rust programming.",
+      "points": [
+        "Variables, data types, and mutability",
+        "Control flow: if, match, loops",
+        "Functions and modules"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you declare a mutable variable in Rust?",
+          "options": [
+            "Using var keyword",
+            "Using mut keyword",
+            "Using let keyword",
+            "Using const keyword"
+          ],
+          "answer": "Using mut keyword"
+        },
+        {
+          "id": 2,
+          "question": "Which Rust construct is used for pattern matching?",
+          "options": ["switch", "match", "if", "case"],
+          "answer": "match"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ownership and Borrowing",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "description": "Explore Rust’s unique ownership model for memory safety.",
+      "points": [
+        "Understanding ownership and moves",
+        "Borrowing and references",
+        "Lifetimes and their role in Rust"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of Rust’s ownership system?",
+          "options": [
+            "To manage styling",
+            "To ensure memory safety",
+            "To simplify routing",
+            "To optimize database queries"
+          ],
+          "answer": "To ensure memory safety"
+        },
+        {
+          "id": 2,
+          "question": "What does borrowing allow in Rust?",
+          "options": [
+            "Permanent ownership transfer",
+            "Temporary access to data",
+            "Database connections",
+            "Styling components"
+          ],
+          "answer": "Temporary access to data"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Structs and Enums",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "description": "Learn how to use structs and enums for data modeling in Rust.",
+      "points": [
+        "Defining and using structs",
+        "Enums and pattern matching",
+        "Implementing methods with impl"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What keyword is used to define a struct in Rust?",
+          "options": ["class", "struct", "enum", "type"],
+          "answer": "struct"
+        },
+        {
+          "id": 2,
+          "question": "What is an enum used for in Rust?",
+          "options": [
+            "Defining loops",
+            "Representing multiple variants",
+            "Managing files",
+            "Styling code"
+          ],
+          "answer": "Representing multiple variants"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Concurrency in Rust",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "description": "Explore Rust’s concurrency model for safe and efficient parallel programming.",
+      "points": [
+        "Using threads for concurrency",
+        "Message passing with channels",
+        "Shared-state concurrency with Mutex and Arc"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does a Mutex provide in Rust?",
+          "options": [
+            "Styling capabilities",
+            "Mutual exclusion for shared data",
+            "Database connections",
+            "Routing mechanisms"
+          ],
+          "answer": "Mutual exclusion for shared data"
+        },
+        {
+          "id": 2,
+          "question": "Which Rust type is used for safe concurrent reference counting?",
+          "options": ["Rc", "Arc", "RefCell", "Box"],
+          "answer": "Arc"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Building Web Servers with Rust",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "description": "Learn how to build web servers using Rust frameworks like Actix or Rocket.",
+      "points": [
+        "Setting up a web server with Actix",
+        "Defining routes and handling requests",
+        "Serializing data with serde"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Rust framework is commonly used for web development?",
+          "options": ["Django", "Actix", "Flask", "Express"],
+          "answer": "Actix"
+        },
+        {
+          "id": 2,
+          "question": "What is serde used for in Rust?",
+          "options": [
+            "Styling applications",
+            "Serializing and deserializing data",
+            "Managing routes",
+            "Testing code"
+          ],
+          "answer": "Serializing and deserializing data"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Database Integration with Rust",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "description": "Explore how to connect Rust applications to databases.",
+      "points": [
+        "Using Diesel for SQL databases",
+        "Connecting to PostgreSQL or SQLite",
+        "Performing CRUD operations"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Rust crate is used for ORM-based database interactions?",
+          "options": ["serde", "Diesel", "reqwest", "tokio"],
+          "answer": "Diesel"
+        },
+        {
+          "id": 2,
+          "question": "What is a common database used with Rust?",
+          "options": ["MongoDB", "PostgreSQL", "Firebase", "Cassandra"],
+          "answer": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying Rust Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "description": "Learn how to deploy Rust applications to production environments.",
+      "points": [
+        "Building Rust binaries with Cargo",
+        "Deploying to Heroku, Render, or AWS",
+        "Using Docker for containerized deployment"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which command is used to build a Rust binary?",
+          "options": [
+            "cargo run",
+            "cargo build",
+            "cargo install",
+            "cargo deploy"
+          ],
+          "answer": "cargo build"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Docker for Rust deployment?",
+          "options": [
+            "Improved styling",
+            "Consistent environments",
+            "Simplified routing",
+            "Reduced security"
+          ],
+          "answer": "Consistent environments"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Rust Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "description": "Covers best practices for writing safe and efficient Rust code.",
+      "points": [
+        "Following Rust style guidelines (rustfmt, clippy)",
+        "Writing idiomatic and modular code",
+        "Testing with Rust’s testing framework"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which tool is used to format Rust code?",
+          "options": ["rustfmt", "clippy", "cargo check", "rustup"],
+          "answer": "rustfmt"
+        },
+        {
+          "id": 2,
+          "question": "What is Rust’s built-in testing framework used for?",
+          "options": [
+            "Styling code",
+            "Running unit tests",
+            "Managing dependencies",
+            "Deploying applications"
+          ],
+          "answer": "Running unit tests"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Rust primarily known for?",
+          "options": [
+            "Frontend development",
+            "Systems programming with safety",
+            "Data visualization",
+            "Mobile app development"
+          ],
+          "answer": "Systems programming with safety"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is used to manage Rust installations and dependencies?",
+          "options": ["npm", "Cargo", "pip", "gem"],
+          "answer": "Cargo"
+        },
+        {
+          "id": 3,
+          "question": "How do you declare a mutable variable in Rust?",
+          "options": [
+            "Using var keyword",
+            "Using mut keyword",
+            "Using let keyword",
+            "Using const keyword"
+          ],
+          "answer": "Using mut keyword"
+        },
+        {
+          "id": 4,
+          "question": "What is the purpose of Rust’s ownership system?",
+          "options": [
+            "To manage styling",
+            "To ensure memory safety",
+            "To simplify routing",
+            "To optimize database queries"
+          ],
+          "answer": "To ensure memory safety"
+        },
+        {
+          "id": 5,
+          "question": "What keyword is used to define a struct in Rust?",
+          "options": ["class", "struct", "enum", "type"],
+          "answer": "struct"
+        },
+        {
+          "id": 6,
+          "question": "What does a Mutex provide in Rust?",
+          "options": [
+            "Styling capabilities",
+            "Mutual exclusion for shared data",
+            "Database connections",
+            "Routing mechanisms"
+          ],
+          "answer": "Mutual exclusion for shared data"
+        },
+        {
+          "id": 7,
+          "question": "Which Rust framework is commonly used for web development?",
+          "options": ["Django", "Actix", "Flask", "Express"],
+          "answer": "Actix"
+        },
+        {
+          "id": 8,
+          "question": "Which Rust crate is used for ORM-based database interactions?",
+          "options": ["serde", "Diesel", "reqwest", "tokio"],
+          "answer": "Diesel"
+        },
+        {
+          "id": 9,
+          "question": "Which command is used to build a Rust binary?",
+          "options": [
+            "cargo run",
+            "cargo build",
+            "cargo install",
+            "cargo deploy"
+          ],
+          "answer": "cargo build"
+        },
+        {
+          "id": 10,
+          "question": "Which tool is used to format Rust code?",
+          "options": ["rustfmt", "clippy", "cargo check", "rustup"],
+          "answer": "rustfmt"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "courseTitle": "Windows PowerShell Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to PowerShell",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "description": "An introduction to PowerShell, its purpose, and its role as a command-line shell and scripting language for system administration.",
+      "points": [
+        "What is PowerShell and what is it used for?",
+        "PowerShell vs. Command Prompt and other shells",
+        "Setting up and configuring the PowerShell environment"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of PowerShell?",
+          "options": [
+            "Game development",
+            "System administration and task automation",
+            "Web page design",
+            "Data analysis"
+          ],
+          "answer": "System administration and task automation"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is an older command-line shell that PowerShell can replace?",
+          "options": ["Bash", "Command Prompt (cmd)", "Python", "Java"],
+          "answer": "Command Prompt (cmd)"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Core Concepts: Cmdlets, Objects, and Pipeline",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "description": "Learn the fundamental building blocks of PowerShell: cmdlets, objects, and the pipeline.",
+      "points": [
+        "Understanding Cmdlets (Command-Let) and their Verb-Noun naming convention",
+        "The concept of pipeline and how it passes objects",
+        "Using `Get-Help` for discovering and learning about commands"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the standard naming convention for PowerShell cmdlets?",
+          "options": ["verb.noun", "Verb-Noun", "verb_noun", "VERB-NOUN"],
+          "answer": "Verb-Noun"
+        },
+        {
+          "id": 2,
+          "question": "What does the PowerShell pipeline pass between commands?",
+          "options": ["Text", "Objects", "Binary data", "Numbers"],
+          "answer": "Objects"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Variables, Data Types, and Operators",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "description": "Dive into the basics of PowerShell scripting, including variables, data types, and operators.",
+      "points": [
+        "Declaring variables and assigning values",
+        "Common data types: `String`, `Int`, `Boolean`, and `Array`",
+        "Arithmetic, comparison, and logical operators"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you declare a variable in PowerShell?",
+          "options": [
+            "let myVar = 'value'",
+            "set myVar 'value'",
+            "$myVar = 'value'",
+            "var myVar = 'value'"
+          ],
+          "answer": "$myVar = 'value'"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is the 'not equal to' operator in PowerShell?",
+          "options": ["!=", "-ne", "<>", "=="],
+          "answer": "-ne"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "PowerShell Scripting and Control Flow",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "description": "Learn how to write scripts to automate tasks and use control flow structures.",
+      "points": [
+        "Creating and running PowerShell scripts (.ps1 files)",
+        "Conditional statements: `If`, `ElseIf`, `Else`",
+        "Loops: `For`, `ForEach`, `While`, `Do-While`"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What file extension do PowerShell scripts use?",
+          "options": [".txt", ".ps1", ".cmd", ".sh"],
+          "answer": ".ps1"
+        },
+        {
+          "id": 2,
+          "question": "Which loop is best for iterating over a collection of items?",
+          "options": ["For", "While", "Do-While", "ForEach"],
+          "answer": "ForEach"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Working with Files and Directories",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "description": "Learn how to manage files and directories using PowerShell cmdlets.",
+      "points": [
+        "Cmdlets for file management (`Get-Item`, `Copy-Item`, `Remove-Item`)",
+        "Working with directories (`New-Item`, `Get-ChildItem`)",
+        "Piping output to files (`Out-File`)"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which cmdlet is used to list the contents of a directory?",
+          "options": ["ls", "dir", "Get-ChildItem", "list"],
+          "answer": "Get-ChildItem"
+        },
+        {
+          "id": 2,
+          "question": "How do you copy a file in PowerShell?",
+          "options": ["cp", "copy-file", "Copy-Item", "move"],
+          "answer": "Copy-Item"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Managing Processes and Services",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "description": "Explore how to manage system processes and services using powerful PowerShell cmdlets.",
+      "points": [
+        "Getting process information with `Get-Process`",
+        "Stopping and starting processes (`Stop-Process`)",
+        "Managing services with `Get-Service`, `Start-Service`, and `Stop-Service`"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What cmdlet is used to get a list of running processes?",
+          "options": [
+            "Get-RunningProcess",
+            "Get-Service",
+            "Get-Process",
+            "list-process"
+          ],
+          "answer": "Get-Process"
+        },
+        {
+          "id": 2,
+          "question": "How do you stop a system service in PowerShell?",
+          "options": [
+            "stop-service",
+            "Stop-Service",
+            "service-stop",
+            "service.stop"
+          ],
+          "answer": "Stop-Service"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of PowerShell?",
+          "options": [
+            "Game development",
+            "System administration and task automation",
+            "Web page design",
+            "Data analysis"
+          ],
+          "answer": "System administration and task automation"
+        },
+        {
+          "id": 2,
+          "question": "What does the PowerShell pipeline pass between commands?",
+          "options": ["Text", "Objects", "Binary data", "Numbers"],
+          "answer": "Objects"
+        },
+        {
+          "id": 3,
+          "question": "How do you declare a variable in PowerShell?",
+          "options": [
+            "let myVar = 'value'",
+            "set myVar 'value'",
+            "$myVar = 'value'",
+            "var myVar = 'value'"
+          ],
+          "answer": "$myVar = 'value'"
+        },
+        {
+          "id": 4,
+          "question": "What file extension do PowerShell scripts use?",
+          "options": [".txt", ".ps1", ".cmd", ".sh"],
+          "answer": ".ps1"
+        },
+        {
+          "id": 5,
+          "question": "Which cmdlet is used to list the contents of a directory?",
+          "options": ["ls", "dir", "Get-ChildItem", "list"],
+          "answer": "Get-ChildItem"
+        },
+        {
+          "id": 6,
+          "question": "How do you stop a system service in PowerShell?",
+          "options": [
+            "stop-service",
+            "Stop-Service",
+            "service-stop",
+            "service.stop"
+          ],
+          "answer": "Stop-Service"
+        },
+        {
+          "id": 7,
+          "question": "What is the standard naming convention for PowerShell cmdlets?",
+          "options": ["verb.noun", "Verb-Noun", "verb_noun", "VERB-NOUN"],
+          "answer": "Verb-Noun"
+        },
+        {
+          "id": 8,
+          "question": "What is the cmdlet for getting help on a specific command?",
+          "options": ["help", "Get-Help", "?", "man"],
+          "answer": "Get-Help"
+        },
+        {
+          "id": 9,
+          "question": "Which loop is best for iterating over a collection of items?",
+          "options": ["For", "While", "Do-While", "ForEach"],
+          "answer": "ForEach"
+        },
+        {
+          "id": 10,
+          "question": "What type of data is passed through the PowerShell pipeline?",
+          "options": ["Strings", "Objects", "Numbers", "Text"],
+          "answer": "Objects"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "courseTitle": "C++ Programming Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to C++",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "description": "An introduction to C++, its history, and its role in systems programming, game development, and high-performance computing.",
+      "points": [
+        "What is C++ and its key features?",
+        "C++ vs. other languages (e.g., C, Java, Python)",
+        "Setting up a C++ development environment (g++, Visual Studio, VS Code)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is C++ primarily known for?",
+          "options": [
+            "Purely functional programming",
+            "Systems programming and performance",
+            "Web development frameworks",
+            "Mobile-only applications"
+          ],
+          "answer": "Systems programming and performance"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is a common C++ compiler?",
+          "options": ["javac", "gcc", "node", "python"],
+          "answer": "gcc"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "C++ Syntax and Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "description": "Learn the basic syntax and structure of C++ programs, including variables, data types, and control flow.",
+      "points": [
+        "Variables, data types (int, char, double), and operators",
+        "Control structures: if-else, switch, for, while, and do-while loops",
+        "Functions, function prototypes, and standard input/output (cout, cin)"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you print output to the console in C++?",
+          "options": [
+            "System.out.println()",
+            "console.log()",
+            "printf() or cout <<",
+            "print()"
+          ],
+          "answer": "printf() or cout <<"
+        },
+        {
+          "id": 2,
+          "question": "Which loop is guaranteed to execute at least once?",
+          "options": ["for", "while", "if-else", "do-while"],
+          "answer": "do-while"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Object-Oriented Programming (OOP) in C++",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "description": "Explore the core principles of OOP and how they are implemented in C++.",
+      "points": [
+        "Classes and Objects: Defining classes, constructors, and destructors",
+        "Encapsulation: Access specifiers (public, private, protected)",
+        "Inheritance: Base classes and derived classes",
+        "Polymorphism: Virtual functions and function overriding"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the default access specifier for a class member in C++?",
+          "options": ["public", "protected", "private", "default"],
+          "answer": "private"
+        },
+        {
+          "id": 2,
+          "question": "What is a virtual function used for in C++?",
+          "options": [
+            "To make a function faster",
+            "To enable dynamic polymorphism",
+            "To prevent a function from being overridden",
+            "To hide a function from other classes"
+          ],
+          "answer": "To enable dynamic polymorphism"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Pointers and Memory Management",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "description": "Learn about C++'s powerful features for direct memory manipulation, which are crucial for high-performance applications.",
+      "points": [
+        "Pointers, references, and their differences",
+        "Dynamic memory allocation using new and delete",
+        "Smart pointers (unique_ptr, shared_ptr, weak_ptr) for automatic memory management"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which of the following is a C++ smart pointer for exclusive ownership?",
+          "options": ["shared_ptr", "unique_ptr", "weak_ptr", "auto_ptr"],
+          "answer": "unique_ptr"
+        },
+        {
+          "id": 2,
+          "question": "What operator is used to deallocate memory in C++?",
+          "options": ["free", "release", "delete", "dealloc"],
+          "answer": "delete"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Standard Template Library (STL)",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "description": "Explore the STL, a powerful collection of C++ templates for data structures and algorithms.",
+      "points": [
+        "Containers: vector, list, map, set",
+        "Algorithms: sort, find, for_each",
+        "Iterators: Working with different container types"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which STL container is a dynamic array?",
+          "options": ["list", "map", "vector", "set"],
+          "answer": "vector"
+        },
+        {
+          "id": 2,
+          "question": "What is an iterator in C++?",
+          "options": [
+            "A pointer to a variable.",
+            "A way to loop through a container.",
+            "A special type of function.",
+            "A tool for debugging."
+          ],
+          "answer": "A way to loop through a container."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Exception Handling and File I/O",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "description": "Learn how to manage errors and handle file operations in C++.",
+      "points": [
+        "Exception handling with try-catch blocks",
+        "Working with files: `fstream` for reading and writing",
+        "Binary I/O"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which statement is used to 'catch' an exception?",
+          "options": ["try", "throw", "catch", "finally"],
+          "answer": "catch"
+        },
+        {
+          "id": 2,
+          "question": "Which C++ library is used for file operations?",
+          "options": ["iostream", "string", "fstream", "vector"],
+          "answer": "fstream"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Advanced C++ Features",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vLnPwxZdW4Y",
+      "description": "Dive into more advanced topics that are part of modern C++ development.",
+      "points": [
+        "Templates: Writing generic functions and classes",
+        "Move semantics and rvalue references",
+        "Lambdas and function objects",
+        "Concurrency with `std::thread`"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of C++ templates?",
+          "options": [
+            "To simplify debugging.",
+            "To write code that works with any data type.",
+            "To improve memory management.",
+            "To handle exceptions."
+          ],
+          "answer": "To write code that works with any data type."
+        },
+        {
+          "id": 2,
+          "question": "What is a lambda expression in C++?",
+          "options": [
+            "A type of loop.",
+            "An anonymous function.",
+            "A pointer to a function.",
+            "A template class."
+          ],
+          "answer": "An anonymous function."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is C++ primarily known for?",
+          "options": [
+            "Purely functional programming",
+            "Systems programming and performance",
+            "Web development frameworks",
+            "Mobile-only applications"
+          ],
+          "answer": "Systems programming and performance"
+        },
+        {
+          "id": 2,
+          "question": "What is a virtual function used for in C++?",
+          "options": [
+            "To make a function faster",
+            "To enable dynamic polymorphism",
+            "To prevent a function from being overridden",
+            "To hide a function from other classes"
+          ],
+          "answer": "To enable dynamic polymorphism"
+        },
+        {
+          "id": 3,
+          "question": "Which of the following is a C++ smart pointer for exclusive ownership?",
+          "options": ["shared_ptr", "unique_ptr", "weak_ptr", "auto_ptr"],
+          "answer": "unique_ptr"
+        },
+        {
+          "id": 4,
+          "question": "What is a destructor in C++?",
+          "options": [
+            "A special function that initializes an object.",
+            "A function that is called when an object is destroyed.",
+            "A way to prevent an object from being copied.",
+            "A function that frees memory."
+          ],
+          "answer": "A function that is called when an object is destroyed."
+        },
+        {
+          "id": 5,
+          "question": "What is the STL `vector` container?",
+          "options": [
+            "A fixed-size array.",
+            "A dynamic array.",
+            "A linked list.",
+            "A hash map."
+          ],
+          "answer": "A dynamic array."
+        },
+        {
+          "id": 6,
+          "question": "How is memory allocated on the heap in C++?",
+          "options": [
+            "Using the `malloc` function.",
+            "Using the `new` operator.",
+            "Using the `alloc` keyword.",
+            "Using the `create` keyword."
+          ],
+          "answer": "Using the `new` operator."
+        },
+        {
+          "id": 7,
+          "question": "What is a reference in C++?",
+          "options": [
+            "A pointer that cannot be null.",
+            "An alias for a variable.",
+            "A way to pass a function as an argument.",
+            "A pointer to an array."
+          ],
+          "answer": "An alias for a variable."
+        },
+        {
+          "id": 8,
+          "question": "Which header file is required for using `cout` and `cin`?",
+          "options": ["iostream", "string", "vector", "cmath"],
+          "answer": "iostream"
+        },
+        {
+          "id": 9,
+          "question": "What is the purpose of C++ templates?",
+          "options": [
+            "To simplify debugging.",
+            "To write code that works with any data type.",
+            "To improve memory management.",
+            "To handle exceptions."
+          ],
+          "answer": "To write code that works with any data type."
+        },
+        {
+          "id": 10,
+          "question": "What is a lambda expression in C++?",
+          "options": [
+            "A type of loop.",
+            "An anonymous function.",
+            "A pointer to a function.",
+            "A template class."
+          ],
+          "answer": "An anonymous function."
+        }
+      ]
+    }
+  ]
+}

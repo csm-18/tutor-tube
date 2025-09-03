@@ -1,0 +1,497 @@
+{
+  "courseTitle": "Computer Science Basics Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Computer Science",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/SzJ46YA_RaA",
+      "description": "An introduction to computer science, its core concepts, and its importance in technology.",
+      "points": [
+        "What is computer science?",
+        "Overview of key CS disciplines",
+        "History and evolution of computing"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary focus of computer science?",
+          "options": [
+            "Building hardware",
+            "Studying computation and information",
+            "Designing user interfaces",
+            "Managing databases"
+          ],
+          "answer": "Studying computation and information"
+        },
+        {
+          "id": 2,
+          "question": "Which discipline is NOT typically part of computer science?",
+          "options": [
+            "Algorithms",
+            "Data structures",
+            "Graphic design",
+            "Artificial intelligence"
+          ],
+          "answer": "Graphic design"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Binary and Data Representation",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1GSjbWt0c9M",
+      "description": "Learn how computers represent and process data using binary and other number systems.",
+      "points": [
+        "Understanding binary and hexadecimal",
+        "Data types: integers, floats, characters",
+        "Encoding systems like ASCII and Unicode"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the binary representation of the decimal number 5?",
+          "options": ["101", "110", "100", "111"],
+          "answer": "101"
+        },
+        {
+          "id": 2,
+          "question": "What does ASCII stand for?",
+          "options": [
+            "American Standard Code for Information Interchange",
+            "Advanced System for Computer Information",
+            "Automated Standard Code for Integration",
+            "American System for Character Identification"
+          ],
+          "answer": "American Standard Code for Information Interchange"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Algorithms and Problem Solving",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/6hfOvs8pY1k",
+      "description": "Covers the basics of algorithms, their design, and how they solve computational problems.",
+      "points": [
+        "What is an algorithm?",
+        "Common algorithms: sorting and searching",
+        "Algorithm efficiency and Big O notation"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is an algorithm?",
+          "options": [
+            "A programming language",
+            "A step-by-step procedure to solve a problem",
+            "A type of hardware",
+            "A data structure"
+          ],
+          "answer": "A step-by-step procedure to solve a problem"
+        },
+        {
+          "id": 2,
+          "question": "What does Big O notation describe?",
+          "options": [
+            "Algorithm efficiency",
+            "Data storage size",
+            "Code readability",
+            "Hardware performance"
+          ],
+          "answer": "Algorithm efficiency"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Data Structures",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/DuDz6B4cqVc",
+      "description": "Introduces common data structures and their use in organizing and storing data.",
+      "points": [
+        "Arrays, linked lists, and stacks",
+        "Queues, trees, and graphs",
+        "Choosing the right data structure"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which data structure operates on a Last-In-First-Out (LIFO) principle?",
+          "options": ["Queue", "Stack", "Array", "Tree"],
+          "answer": "Stack"
+        },
+        {
+          "id": 2,
+          "question": "What is a common use of a linked list?",
+          "options": [
+            "Storing sorted data",
+            "Dynamic data with frequent insertions",
+            "Managing hardware",
+            "Rendering graphics"
+          ],
+          "answer": "Dynamic data with frequent insertions"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Programming Concepts",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zOjov-2OZ0E",
+      "description": "Explores fundamental programming concepts like variables, loops, and conditionals.",
+      "points": [
+        "Variables and data types",
+        "Control structures: loops and conditionals",
+        "Functions and modularity"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of a conditional statement in programming?",
+          "options": [
+            "To store data",
+            "To execute code based on a condition",
+            "To loop through data",
+            "To define functions"
+          ],
+          "answer": "To execute code based on a condition"
+        },
+        {
+          "id": 2,
+          "question": "What is a function in programming?",
+          "options": [
+            "A data structure",
+            "A reusable block of code",
+            "A hardware component",
+            "A type of loop"
+          ],
+          "answer": "A reusable block of code"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Computer Architecture Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/4T_pL4H2Jqc",
+      "description": "Learn the basics of computer architecture and how hardware interacts with software.",
+      "points": [
+        "CPU, memory, and storage",
+        "Von Neumann architecture",
+        "Input/output systems"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the role of the CPU in a computer?",
+          "options": [
+            "Store data permanently",
+            "Execute instructions",
+            "Manage network connections",
+            "Render graphics"
+          ],
+          "answer": "Execute instructions"
+        },
+        {
+          "id": 2,
+          "question": "What does the Von Neumann architecture describe?",
+          "options": [
+            "A type of programming language",
+            "A model for computer structure",
+            "A data structure",
+            "A network protocol"
+          ],
+          "answer": "A model for computer structure"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Operating Systems Overview",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/pVzCFlr3h2g",
+      "description": "Covers the role of operating systems in managing hardware and software resources.",
+      "points": [
+        "What is an operating system?",
+        "Process and memory management",
+        "File systems and permissions"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary function of an operating system?",
+          "options": [
+            "Writing code",
+            "Managing hardware and software resources",
+            "Designing user interfaces",
+            "Optimizing algorithms"
+          ],
+          "answer": "Managing hardware and software resources"
+        },
+        {
+          "id": 2,
+          "question": "What does an operating system use to manage multiple programs?",
+          "options": ["Processes", "Arrays", "Graphs", "Loops"],
+          "answer": "Processes"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Networking Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/IPvYjXCsTgA",
+      "description": "Introduces computer networking concepts and protocols used for communication.",
+      "points": [
+        "Understanding networks and the internet",
+        "TCP/IP and HTTP protocols",
+        "Client-server model"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which protocol is used for reliable data transmission in networks?",
+          "options": ["HTTP", "TCP", "FTP", "UDP"],
+          "answer": "TCP"
+        },
+        {
+          "id": 2,
+          "question": "What is the client-server model?",
+          "options": [
+            "A data structure",
+            "A model for network communication",
+            "A type of algorithm",
+            "A programming paradigm"
+          ],
+          "answer": "A model for network communication"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Databases and Data Management",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/W2Z7fbCLSTw",
+      "description": "Explores the basics of databases and how they store and manage data.",
+      "points": [
+        "Relational vs non-relational databases",
+        "Basic SQL queries",
+        "Database normalization"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a key feature of relational databases?",
+          "options": [
+            "Unstructured data storage",
+            "Use of tables with relationships",
+            "No query language",
+            "Dynamic schema"
+          ],
+          "answer": "Use of tables with relationships"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of database normalization?",
+          "options": [
+            "To increase data redundancy",
+            "To reduce data redundancy",
+            "To speed up queries",
+            "To simplify coding"
+          ],
+          "answer": "To reduce data redundancy"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "CS Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1vZswirL8Y8",
+      "description": "Covers best practices for writing efficient, maintainable, and secure code in computer science.",
+      "points": [
+        "Writing clean and readable code",
+        "Debugging and testing strategies",
+        "Security considerations in programming"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is writing clean code important in computer science?",
+          "options": [
+            "To increase execution time",
+            "To improve maintainability",
+            "To reduce program size",
+            "To simplify hardware design"
+          ],
+          "answer": "To improve maintainability"
+        },
+        {
+          "id": 2,
+          "question": "What is a common debugging strategy?",
+          "options": [
+            "Writing more code",
+            "Using print statements or logs",
+            "Increasing data redundancy",
+            "Changing hardware"
+          ],
+          "answer": "Using print statements or logs"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does computer science primarily study?",
+          "options": [
+            "Hardware design",
+            "Computation and information",
+            "Graphic design",
+            "Network security"
+          ],
+          "answer": "Computation and information"
+        },
+        {
+          "id": 2,
+          "question": "What is the binary representation of the decimal number 7?",
+          "options": ["111", "101", "110", "100"],
+          "answer": "111"
+        },
+        {
+          "id": 3,
+          "question": "What does Big O notation measure in algorithms?",
+          "options": [
+            "Code length",
+            "Algorithm efficiency",
+            "Data storage",
+            "Hardware speed"
+          ],
+          "answer": "Algorithm efficiency"
+        },
+        {
+          "id": 4,
+          "question": "Which data structure uses a First-In-First-Out (FIFO) principle?",
+          "options": ["Stack", "Queue", "Array", "Tree"],
+          "answer": "Queue"
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of a loop in programming?",
+          "options": [
+            "To store data",
+            "To execute code repeatedly",
+            "To define a function",
+            "To manage memory"
+          ],
+          "answer": "To execute code repeatedly"
+        },
+        {
+          "id": 6,
+          "question": "What is the role of the CPU in a computer?",
+          "options": [
+            "Store data permanently",
+            "Execute instructions",
+            "Manage network connections",
+            "Render graphics"
+          ],
+          "answer": "Execute instructions"
+        },
+        {
+          "id": 7,
+          "question": "What does an operating system primarily manage?",
+          "options": [
+            "Hardware and software resources",
+            "User interfaces",
+            "Algorithms",
+            "Data structures"
+          ],
+          "answer": "Hardware and software resources"
+        },
+        {
+          "id": 8,
+          "question": "Which protocol is used for web communication?",
+          "options": ["TCP", "HTTP", "UDP", "FTP"],
+          "answer": "HTTP"
+        },
+        {
+          "id": 9,
+          "question": "What is a key feature of relational databases?",
+          "options": [
+            "Unstructured data",
+            "Use of tables with relationships",
+            "No query language",
+            "Dynamic schema"
+          ],
+          "answer": "Use of tables with relationships"
+        },
+        {
+          "id": 10,
+          "question": "Why is clean code important in computer science?",
+          "options": [
+            "To increase execution time",
+            "To improve maintainability",
+            "To reduce program size",
+            "To simplify hardware design"
+          ],
+          "answer": "To improve maintainability"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "courseTitle": "PHP Web Development Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to PHP",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "description": "An introduction to PHP, its role in web development, and setting up a development environment.",
+      "points": [
+        "What is PHP and its history?",
+        "PHP vs other server-side languages",
+        "Setting up a PHP environment (XAMPP, WAMP, or Docker)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary use of PHP?",
+          "options": [
+            "Building desktop applications",
+            "Server-side web development",
+            "Mobile app development",
+            "Data visualization"
+          ],
+          "answer": "Server-side web development"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is commonly used to set up a local PHP development environment?",
+          "options": ["Vite", "XAMPP", "Webpack", "NPM"],
+          "answer": "XAMPP"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "PHP Syntax and Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "description": "Learn the basic syntax and structure of PHP programming.",
+      "points": [
+        "Variables, data types, and operators",
+        "Control structures: if, else, loops",
+        "Functions and arrays"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you declare a variable in PHP?",
+          "options": [
+            "Using var keyword",
+            "Using $ symbol",
+            "Using let keyword",
+            "Using const keyword"
+          ],
+          "answer": "Using $ symbol"
+        },
+        {
+          "id": 2,
+          "question": "Which PHP construct is used for looping through arrays?",
+          "options": ["for", "while", "foreach", "do-while"],
+          "answer": "foreach"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Working with Forms and HTTP",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "description": "Explore how PHP handles form data and HTTP requests.",
+      "points": [
+        "Handling GET and POST requests",
+        "Processing form inputs",
+        "Validating and sanitizing user input"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which superglobal is used to access POST data in PHP?",
+          "options": ["$_GET", "$_POST", "$_REQUEST", "$_SERVER"],
+          "answer": "$_POST"
+        },
+        {
+          "id": 2,
+          "question": "Why is sanitizing user input important in PHP?",
+          "options": [
+            "To improve performance",
+            "To prevent security vulnerabilities",
+            "To simplify styling",
+            "To reduce database size"
+          ],
+          "answer": "To prevent security vulnerabilities"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Database Integration with PHP",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "description": "Learn how to connect PHP to databases for dynamic applications.",
+      "points": [
+        "Using PDO for database connections",
+        "Performing CRUD operations with MySQL",
+        "Preventing SQL injection"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which PHP extension is recommended for secure database interactions?",
+          "options": ["mysqli", "PDO", "mysql", "sqlite"],
+          "answer": "PDO"
+        },
+        {
+          "id": 2,
+          "question": "What is a common technique to prevent SQL injection in PHP?",
+          "options": [
+            "Using raw queries",
+            "Prepared statements",
+            "Hardcoding values",
+            "Disabling databases"
+          ],
+          "answer": "Prepared statements"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Introduction to Laravel",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "description": "Learn the basics of Laravel, a popular PHP framework for web development.",
+      "points": [
+        "Setting up a Laravel project",
+        "MVC architecture in Laravel",
+        "Creating routes, controllers, and views"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does MVC stand for in Laravel?",
+          "options": [
+            "Model-View-Controller",
+            "Module-View-Component",
+            "Model-Variable-Controller",
+            "Main-View-Config"
+          ],
+          "answer": "Model-View-Controller"
+        },
+        {
+          "id": 2,
+          "question": "Which command creates a new Laravel project?",
+          "options": [
+            "laravel new",
+            "composer create-project laravel/laravel",
+            "php artisan new",
+            "laravel create"
+          ],
+          "answer": "composer create-project laravel/laravel"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Building APIs with Laravel",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "description": "Explore how to build RESTful APIs using Laravel.",
+      "points": [
+        "Creating API routes and resources",
+        "Using Eloquent ORM for database operations",
+        "Serializing data with JSON responses"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Eloquent used for in Laravel?",
+          "options": [
+            "Styling views",
+            "Database interactions",
+            "Routing requests",
+            "Managing sessions"
+          ],
+          "answer": "Database interactions"
+        },
+        {
+          "id": 2,
+          "question": "What format is commonly used for API responses in Laravel?",
+          "options": ["XML", "JSON", "HTML", "YAML"],
+          "answer": "JSON"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Authentication in PHP",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "description": "Covers implementing authentication in PHP applications, with a focus on Laravel.",
+      "points": [
+        "Using Laravel’s authentication system",
+        "Implementing user login and registration",
+        "Protecting routes with middleware"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is used to protect routes in Laravel?",
+          "options": ["Middleware", "Controllers", "Views", "Models"],
+          "answer": "Middleware"
+        },
+        {
+          "id": 2,
+          "question": "What does Laravel’s authentication system provide?",
+          "options": [
+            "Styling components",
+            "User login and registration",
+            "Database optimization",
+            "File compression"
+          ],
+          "answer": "User login and registration"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying PHP Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "description": "Learn how to deploy PHP applications to production environments.",
+      "points": [
+        "Deploying to shared hosting or VPS",
+        "Using Docker for containerized deployment",
+        "Configuring databases and environment variables"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which platform is commonly used to deploy PHP applications?",
+          "options": ["Netlify", "Heroku", "GitHub Pages", "Firebase"],
+          "answer": "Heroku"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Docker for PHP deployment?",
+          "options": [
+            "Improved styling",
+            "Consistent environments",
+            "Simplified routing",
+            "Reduced security"
+          ],
+          "answer": "Consistent environments"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "PHP Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "description": "Covers best practices for writing clean and secure PHP code.",
+      "points": [
+        "Following PSR standards (e.g., PSR-12)",
+        "Writing modular and reusable code",
+        "Testing with PHPUnit"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is PSR-12 used for in PHP?",
+          "options": [
+            "Database management",
+            "Coding style guidelines",
+            "API routing",
+            "Testing framework"
+          ],
+          "answer": "Coding style guidelines"
+        },
+        {
+          "id": 2,
+          "question": "Which testing framework is commonly used with PHP?",
+          "options": ["Jest", "PHPUnit", "Mocha", "Cypress"],
+          "answer": "PHPUnit"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary use of PHP?",
+          "options": [
+            "Building desktop applications",
+            "Server-side web development",
+            "Mobile app development",
+            "Data visualization"
+          ],
+          "answer": "Server-side web development"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is commonly used to set up a local PHP development environment?",
+          "options": ["Vite", "XAMPP", "Webpack", "NPM"],
+          "answer": "XAMPP"
+        },
+        {
+          "id": 3,
+          "question": "How do you declare a variable in PHP?",
+          "options": [
+            "Using var keyword",
+            "Using $ symbol",
+            "Using let keyword",
+            "Using const keyword"
+          ],
+          "answer": "Using $ symbol"
+        },
+        {
+          "id": 4,
+          "question": "Which PHP construct is used for looping through arrays?",
+          "options": ["for", "while", "foreach", "do-while"],
+          "answer": "foreach"
+        },
+        {
+          "id": 5,
+          "question": "Which superglobal is used to access POST data in PHP?",
+          "options": ["$_GET", "$_POST", "$_REQUEST", "$_SERVER"],
+          "answer": "$_POST"
+        },
+        {
+          "id": 6,
+          "question": "Which PHP extension is recommended for secure database interactions?",
+          "options": ["mysqli", "PDO", "mysql", "sqlite"],
+          "answer": "PDO"
+        },
+        {
+          "id": 7,
+          "question": "What does MVC stand for in Laravel?",
+          "options": [
+            "Model-View-Controller",
+            "Module-View-Component",
+            "Model-Variable-Controller",
+            "Main-View-Config"
+          ],
+          "answer": "Model-View-Controller"
+        },
+        {
+          "id": 8,
+          "question": "What is Eloquent used for in Laravel?",
+          "options": [
+            "Styling views",
+            "Database interactions",
+            "Routing requests",
+            "Managing sessions"
+          ],
+          "answer": "Database interactions"
+        },
+        {
+          "id": 9,
+          "question": "Which platform is commonly used to deploy PHP applications?",
+          "options": ["Netlify", "Heroku", "GitHub Pages", "Firebase"],
+          "answer": "Heroku"
+        },
+        {
+          "id": 10,
+          "question": "Which testing framework is commonly used with PHP?",
+          "options": ["Jest", "PHPUnit", "Mocha", "Cypress"],
+          "answer": "PHPUnit"
+        }
+      ]
+    }
+  ]
+}

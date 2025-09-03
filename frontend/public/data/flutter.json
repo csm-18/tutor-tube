@@ -1,0 +1,421 @@
+{
+  "courseTitle": "Flutter Development Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Flutter",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "description": "An introduction to Flutter, its purpose, and its role in cross-platform app development.",
+      "points": [
+        "What is Flutter?",
+        "Flutter vs other frameworks (e.g., React Native)",
+        "Setting up the Flutter SDK and development environment"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Flutter?",
+          "options": [
+            "Building web servers",
+            "Creating cross-platform applications",
+            "Managing databases",
+            "Designing APIs"
+          ],
+          "answer": "Creating cross-platform applications"
+        },
+        {
+          "id": 2,
+          "question": "Which programming language is used with Flutter?",
+          "options": ["JavaScript", "Dart", "Python", "Java"],
+          "answer": "Dart"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Dart Basics for Flutter",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "description": "Learn the basics of Dart, the programming language used in Flutter development.",
+      "points": [
+        "Dart syntax: variables, functions, and classes",
+        "Control structures and collections",
+        "Asynchronous programming with async/await"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which keyword is used for asynchronous functions in Dart?",
+          "options": ["async", "await", "future", "promise"],
+          "answer": "async"
+        },
+        {
+          "id": 2,
+          "question": "What is a common Dart collection type for lists?",
+          "options": ["Array", "List", "Map", "Set"],
+          "answer": "List"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Building UI with Flutter Widgets",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "description": "Explore Flutter's widget system for creating user interfaces.",
+      "points": [
+        "Stateless and Stateful widgets",
+        "Common widgets: Container, Text, Image",
+        "Layouts: Row, Column, Stack"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the difference between Stateless and Stateful widgets?",
+          "options": [
+            "Stateless widgets are mutable, Stateful are immutable",
+            "Stateless widgets are immutable, Stateful are mutable",
+            "Both are immutable",
+            "Both are mutable"
+          ],
+          "answer": "Stateless widgets are immutable, Stateful are mutable"
+        },
+        {
+          "id": 2,
+          "question": "Which widget is used for horizontal or vertical layouts in Flutter?",
+          "options": ["Container", "Row/Column", "Stack", "ListView"],
+          "answer": "Row/Column"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "State Management in Flutter",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "description": "Learn how to manage state in Flutter applications for dynamic UIs.",
+      "points": [
+        "Using setState for simple state management",
+        "Introduction to Provider and Riverpod",
+        "Managing app-wide state"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which method is used for basic state updates in a Stateful widget?",
+          "options": ["build", "setState", "update", "refresh"],
+          "answer": "setState"
+        },
+        {
+          "id": 2,
+          "question": "What is Provider used for in Flutter?",
+          "options": [
+            "Routing",
+            "State management",
+            "Data fetching",
+            "Styling"
+          ],
+          "answer": "State management"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Navigation in Flutter",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "description": "Covers navigation and routing in Flutter applications.",
+      "points": [
+        "Basic navigation with Navigator.push and pop",
+        "Named routes and route management",
+        "Using packages like go_router"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Flutter class is used for basic navigation?",
+          "options": ["Navigator", "Route", "Widget", "MaterialApp"],
+          "answer": "Navigator"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using named routes in Flutter?",
+          "options": [
+            "Improved styling",
+            "Simplified navigation",
+            "Faster data fetching",
+            "Reduced app size"
+          ],
+          "answer": "Simplified navigation"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Fetching Data in Flutter",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "description": "Learn how to fetch and manage data in Flutter applications.",
+      "points": [
+        "Making HTTP requests with the http package",
+        "Handling JSON data",
+        "Using FutureBuilder and StreamBuilder"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Flutter package is commonly used for HTTP requests?",
+          "options": ["dio", "http", "flutter_network", "requests"],
+          "answer": "http"
+        },
+        {
+          "id": 2,
+          "question": "What is FutureBuilder used for in Flutter?",
+          "options": [
+            "Rendering static UI",
+            "Handling asynchronous data",
+            "Managing routes",
+            "Styling widgets"
+          ],
+          "answer": "Handling asynchronous data"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Integrating with Backend APIs",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "description": "Covers connecting Flutter apps to backend APIs.",
+      "points": [
+        "Consuming RESTful APIs",
+        "Implementing authentication with JWT",
+        "Using GraphQL with packages like graphql_flutter"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is JWT used for in Flutter applications?",
+          "options": [
+            "Styling widgets",
+            "Token-based authentication",
+            "Data compression",
+            "Routing"
+          ],
+          "answer": "Token-based authentication"
+        },
+        {
+          "id": 2,
+          "question": "Which package is commonly used for GraphQL in Flutter?",
+          "options": ["http", "graphql_flutter", "dio", "flutter_api"],
+          "answer": "graphql_flutter"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying Flutter Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "description": "Learn how to build and deploy Flutter applications for mobile and web.",
+      "points": [
+        "Building APKs and iOS apps",
+        "Deploying to Google Play Store and Apple App Store",
+        "Deploying Flutter web apps to Firebase or Netlify"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which command is used to build an APK in Flutter?",
+          "options": [
+            "flutter build apk",
+            "flutter run",
+            "flutter package",
+            "flutter deploy"
+          ],
+          "answer": "flutter build apk"
+        },
+        {
+          "id": 2,
+          "question": "Which platform can host Flutter web applications?",
+          "options": ["Heroku", "Firebase", "AWS Lambda", "Docker Hub"],
+          "answer": "Firebase"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Flutter Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "description": "Covers best practices for building efficient and maintainable Flutter applications.",
+      "points": [
+        "Structuring Flutter projects",
+        "Optimizing performance with efficient widgets",
+        "Testing with Flutter's testing framework"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is structuring a Flutter project important?",
+          "options": [
+            "To increase app size",
+            "To improve maintainability",
+            "To simplify styling",
+            "To reduce performance"
+          ],
+          "answer": "To improve maintainability"
+        },
+        {
+          "id": 2,
+          "question": "What is a common testing framework for Flutter apps?",
+          "options": [
+            "Jest",
+            "Flutter's testing framework",
+            "Cypress",
+            "Mocha"
+          ],
+          "answer": "Flutter's testing framework"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Flutter?",
+          "options": [
+            "Building web servers",
+            "Creating cross-platform applications",
+            "Managing databases",
+            "Designing APIs"
+          ],
+          "answer": "Creating cross-platform applications"
+        },
+        {
+          "id": 2,
+          "question": "Which programming language is used with Flutter?",
+          "options": ["JavaScript", "Dart", "Python", "Java"],
+          "answer": "Dart"
+        },
+        {
+          "id": 3,
+          "question": "Which keyword is used for asynchronous functions in Dart?",
+          "options": ["async", "await", "future", "promise"],
+          "answer": "async"
+        },
+        {
+          "id": 4,
+          "question": "What is the difference between Stateless and Stateful widgets?",
+          "options": [
+            "Stateless widgets are mutable, Stateful are immutable",
+            "Stateless widgets are immutable, Stateful are mutable",
+            "Both are immutable",
+            "Both are mutable"
+          ],
+          "answer": "Stateless widgets are immutable, Stateful are mutable"
+        },
+        {
+          "id": 5,
+          "question": "Which method is used for basic state updates in a Stateful widget?",
+          "options": ["build", "setState", "update", "refresh"],
+          "answer": "setState"
+        },
+        {
+          "id": 6,
+          "question": "Which Flutter class is used for basic navigation?",
+          "options": ["Navigator", "Route", "Widget", "MaterialApp"],
+          "answer": "Navigator"
+        },
+        {
+          "id": 7,
+          "question": "Which Flutter package is commonly used for HTTP requests?",
+          "options": ["dio", "http", "flutter_network", "requests"],
+          "answer": "http"
+        },
+        {
+          "id": 8,
+          "question": "What is JWT used for in Flutter applications?",
+          "options": [
+            "Styling widgets",
+            "Token-based authentication",
+            "Data compression",
+            "Routing"
+          ],
+          "answer": "Token-based authentication"
+        },
+        {
+          "id": 9,
+          "question": "Which command is used to build an APK in Flutter?",
+          "options": [
+            "flutter build apk",
+            "flutter run",
+            "flutter package",
+            "flutter deploy"
+          ],
+          "answer": "flutter build apk"
+        },
+        {
+          "id": 10,
+          "question": "What is a common testing framework for Flutter apps?",
+          "options": [
+            "Jest",
+            "Flutter's testing framework",
+            "Cypress",
+            "Mocha"
+          ],
+          "answer": "Flutter's testing framework"
+        }
+      ]
+    }
+  ]
+}

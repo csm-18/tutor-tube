@@ -1,0 +1,456 @@
+{
+  "courseTitle": "Tailwind CSS Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Tailwind CSS",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/mr15Xzb1Ook",
+      "description": "An introduction to Tailwind CSS, its utility-first approach, and its benefits for styling web applications.",
+      "points": [
+        "What is Tailwind CSS?",
+        "Utility-first vs traditional CSS",
+        "Setting up Tailwind CSS in a project"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary approach of Tailwind CSS?",
+          "options": [
+            "Component-based styling",
+            "Utility-first styling",
+            "Inline CSS styling",
+            "SASS-based styling"
+          ],
+          "answer": "Utility-first styling"
+        },
+        {
+          "id": 2,
+          "question": "What is a key benefit of using Tailwind CSS?",
+          "options": [
+            "Increases JavaScript performance",
+            "Reduces CSS bundle size",
+            "Simplifies database queries",
+            "Improves routing"
+          ],
+          "answer": "Reduces CSS bundle size"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Tailwind CSS Utility Classes",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/6zIuAyLZPH0",
+      "description": "Learn how to use Tailwind's utility classes to style elements efficiently.",
+      "points": [
+        "Understanding utility class syntax",
+        "Styling with margin, padding, and colors",
+        "Using flexbox and grid utilities"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Tailwind class adds a margin of 16px to all sides?",
+          "options": ["m-4", "p-4", "mx-4", "my-4"],
+          "answer": "m-4"
+        },
+        {
+          "id": 2,
+          "question": "What does the Tailwind class 'flex' do?",
+          "options": [
+            "Sets display to block",
+            "Enables flexbox layout",
+            "Adds padding",
+            "Changes font size"
+          ],
+          "answer": "Enables flexbox layout"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Responsive Design with Tailwind",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ft30zcMlF7E",
+      "description": "Covers how to create responsive designs using Tailwind's responsive prefixes.",
+      "points": [
+        "Using sm:, md:, lg: prefixes",
+        "Creating mobile-first designs",
+        "Handling breakpoints for responsive layouts"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which prefix is used for medium-sized screens in Tailwind?",
+          "options": ["sm:", "md:", "lg:", "xl:"],
+          "answer": "md:"
+        },
+        {
+          "id": 2,
+          "question": "What is the default approach for Tailwind's responsive design?",
+          "options": [
+            "Desktop-first",
+            "Mobile-first",
+            "Tablet-first",
+            "No default approach"
+          ],
+          "answer": "Mobile-first"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Customizing Tailwind CSS",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3c7oYf7j6JI",
+      "description": "Explains how to customize Tailwind's configuration to match project requirements.",
+      "points": [
+        "Modifying tailwind.config.js",
+        "Adding custom colors and fonts",
+        "Extending utility classes"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Where is Tailwind CSS customized?",
+          "options": [
+            "style.css",
+            "tailwind.config.js",
+            "index.html",
+            "package.json"
+          ],
+          "answer": "tailwind.config.js"
+        },
+        {
+          "id": 2,
+          "question": "What can be customized in Tailwind's configuration file?",
+          "options": [
+            "JavaScript functions",
+            "Colors, fonts, and utilities",
+            "Database connections",
+            "Routing logic"
+          ],
+          "answer": "Colors, fonts, and utilities"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Tailwind with Frameworks",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/NaoG_hU2uSE",
+      "description": "Learn how to integrate Tailwind CSS with popular frameworks like React, Vue, and Angular.",
+      "points": [
+        "Setting up Tailwind with React",
+        "Using Tailwind in Vue projects",
+        "Integrating with Angular applications"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which command installs Tailwind CSS in a React project?",
+          "options": [
+            "npm install tailwindcss",
+            "npm install react-tailwind",
+            "npm install css-framework",
+            "npm install tailwind-react"
+          ],
+          "answer": "npm install tailwindcss"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Tailwind with frameworks like Vue?",
+          "options": [
+            "Faster database queries",
+            "Rapid styling with utility classes",
+            "Improved routing",
+            "Simplified state management"
+          ],
+          "answer": "Rapid styling with utility classes"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Pseudo-Classes and Transitions",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/6aLfs4qZCbQ",
+      "description": "Covers using Tailwind's pseudo-class utilities and transitions for interactive designs.",
+      "points": [
+        "Using hover:, focus:, and active: utilities",
+        "Adding transitions and animations",
+        "Combining pseudo-classes with responsive design"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Tailwind utility applies styles on hover?",
+          "options": ["hover:", "focus:", "active:", "transition:"],
+          "answer": "hover:"
+        },
+        {
+          "id": 2,
+          "question": "What does the transition utility in Tailwind do?",
+          "options": [
+            "Changes font size",
+            "Smooths property changes",
+            "Manages state",
+            "Handles routing"
+          ],
+          "answer": "Smooths property changes"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Building Components with Tailwind",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/5w5tOaWULcA",
+      "description": "Explores building reusable UI components with Tailwind CSS for consistent design.",
+      "points": [
+        "Creating buttons and cards",
+        "Building navigation bars",
+        "Using utility classes for component consistency"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a benefit of building components with Tailwind?",
+          "options": [
+            "Increases JavaScript performance",
+            "Ensures consistent styling",
+            "Simplifies database queries",
+            "Improves routing logic"
+          ],
+          "answer": "Ensures consistent styling"
+        },
+        {
+          "id": 2,
+          "question": "Which utility class is commonly used for buttons in Tailwind?",
+          "options": ["btn", "p-4", "bg-blue-500", "flex"],
+          "answer": "bg-blue-500"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Optimizing Tailwind Builds",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3O_3X7S-0m0",
+      "description": "Learn how to optimize Tailwind CSS builds for production to reduce file size and improve performance.",
+      "points": [
+        "Using PurgeCSS to remove unused styles",
+        "Minifying CSS output",
+        "Configuring Just-in-Time (JIT) mode"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of PurgeCSS in Tailwind?",
+          "options": [
+            "To add new styles",
+            "To remove unused styles",
+            "To manage state",
+            "To handle routing"
+          ],
+          "answer": "To remove unused styles"
+        },
+        {
+          "id": 2,
+          "question": "What does Tailwind's JIT mode do?",
+          "options": [
+            "Increases file size",
+            "Generates styles on-demand",
+            "Disables responsive design",
+            "Manages API calls"
+          ],
+          "answer": "Generates styles on-demand"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Tailwind CSS Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/HDV5vW4T8gQ",
+      "description": "Covers best practices for writing clean, maintainable, and scalable styles with Tailwind CSS.",
+      "points": [
+        "Organizing utility classes",
+        "Avoiding overly long class lists",
+        "Using components for reusability"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is it important to avoid long class lists in Tailwind?",
+          "options": [
+            "To improve readability",
+            "To increase file size",
+            "To simplify routing",
+            "To manage state"
+          ],
+          "answer": "To improve readability"
+        },
+        {
+          "id": 2,
+          "question": "What is a recommended practice for reusable styles in Tailwind?",
+          "options": [
+            "Using inline CSS",
+            "Creating components",
+            "Adding more utilities",
+            "Disabling JIT mode"
+          ],
+          "answer": "Creating components"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the core approach of Tailwind CSS?",
+          "options": [
+            "Component-based styling",
+            "Utility-first styling",
+            "Inline CSS styling",
+            "SASS-based styling"
+          ],
+          "answer": "Utility-first styling"
+        },
+        {
+          "id": 2,
+          "question": "Which Tailwind class sets a padding of 8px on all sides?",
+          "options": ["m-2", "p-2", "mx-2", "my-2"],
+          "answer": "p-2"
+        },
+        {
+          "id": 3,
+          "question": "Which prefix is used for large screens in Tailwind?",
+          "options": ["sm:", "md:", "lg:", "xl:"],
+          "answer": "lg:"
+        },
+        {
+          "id": 4,
+          "question": "Where is Tailwind CSS customized?",
+          "options": [
+            "style.css",
+            "tailwind.config.js",
+            "index.html",
+            "package.json"
+          ],
+          "answer": "tailwind.config.js"
+        },
+        {
+          "id": 5,
+          "question": "What is a benefit of using Tailwind with React or Vue?",
+          "options": [
+            "Faster database queries",
+            "Rapid styling with utility classes",
+            "Improved routing",
+            "Simplified state management"
+          ],
+          "answer": "Rapid styling with utility classes"
+        },
+        {
+          "id": 6,
+          "question": "Which Tailwind utility applies styles when an element is focused?",
+          "options": ["hover:", "focus:", "active:", "transition:"],
+          "answer": "focus:"
+        },
+        {
+          "id": 7,
+          "question": "What is a common use of Tailwind's bg-blue-500 class?",
+          "options": [
+            "Setting a background color",
+            "Adding margin",
+            "Enabling flexbox",
+            "Changing font size"
+          ],
+          "answer": "Setting a background color"
+        },
+        {
+          "id": 8,
+          "question": "What does PurgeCSS do in a Tailwind project?",
+          "options": [
+            "Adds new styles",
+            "Removes unused styles",
+            "Manages state",
+            "Handles routing"
+          ],
+          "answer": "Removes unused styles"
+        },
+        {
+          "id": 9,
+          "question": "What is a benefit of Tailwind's JIT mode?",
+          "options": [
+            "Increases file size",
+            "Generates styles on-demand",
+            "Disables responsive design",
+            "Manages API calls"
+          ],
+          "answer": "Generates styles on-demand"
+        },
+        {
+          "id": 10,
+          "question": "Why is creating components recommended in Tailwind?",
+          "options": [
+            "To increase bundle size",
+            "To ensure consistent styling",
+            "To simplify API calls",
+            "To handle routing"
+          ],
+          "answer": "To ensure consistent styling"
+        }
+      ]
+    }
+  ]
+}

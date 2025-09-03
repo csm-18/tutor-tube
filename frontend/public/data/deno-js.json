@@ -1,0 +1,405 @@
+{
+  "courseTitle": "Deno.js Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Deno.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "description": "An introduction to Deno.js, its purpose, and how it differs from Node.js as a secure JavaScript/TypeScript runtime.",
+      "points": [
+        "What is Deno.js?",
+        "Deno vs Node.js: key differences",
+        "Installing and setting up Deno"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Deno.js primarily used for?",
+          "options": [
+            "Database management",
+            "Running JavaScript/TypeScript outside the browser",
+            "Building user interfaces",
+            "Network configuration"
+          ],
+          "answer": "Running JavaScript/TypeScript outside the browser"
+        },
+        {
+          "id": 2,
+          "question": "What is a key difference between Deno.js and Node.js?",
+          "options": [
+            "Deno requires a package manager",
+            "Deno has built-in TypeScript support",
+            "Node.js has no module system",
+            "Deno uses npm by default"
+          ],
+          "answer": "Deno has built-in TypeScript support"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Working with Modules in Deno",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "description": "Learn how Deno handles modules and imports without a package manager.",
+      "points": [
+        "Importing modules using URLs",
+        "Using standard libraries and third-party modules",
+        "Managing dependencies with import maps"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How does Deno import modules?",
+          "options": [
+            "Using a package.json file",
+            "Using URL-based imports",
+            "Using a node_modules folder",
+            "Using a local registry"
+          ],
+          "answer": "Using URL-based imports"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of an import map in Deno?",
+          "options": [
+            "To style applications",
+            "To manage dependency aliases",
+            "To run scripts",
+            "To debug code"
+          ],
+          "answer": "To manage dependency aliases"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Security Model in Deno",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "description": "Explore Deno's security model and how it ensures safe code execution.",
+      "points": [
+        "Permission-based security (--allow-net, --allow-read)",
+        "Running scripts with explicit permissions",
+        "Sandboxing and secure by default"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a key feature of Deno's security model?",
+          "options": [
+            "Open access to all resources",
+            "Permission-based access control",
+            "Automatic dependency installation",
+            "No module imports"
+          ],
+          "answer": "Permission-based access control"
+        },
+        {
+          "id": 2,
+          "question": "Which flag allows network access in Deno?",
+          "options": [
+            "--allow-read",
+            "--allow-write",
+            "--allow-net",
+            "--allow-env"
+          ],
+          "answer": "--allow-net"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Building Web Servers with Deno",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "description": "Learn how to create web servers using Deno's standard library and third-party frameworks.",
+      "points": [
+        "Using the Deno.serve API for HTTP servers",
+        "Building APIs with Oak framework",
+        "Handling requests and responses"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Deno API is used to create HTTP servers?",
+          "options": ["Deno.http", "Deno.serve", "Deno.web", "Deno.api"],
+          "answer": "Deno.serve"
+        },
+        {
+          "id": 2,
+          "question": "What is Oak in the context of Deno?",
+          "options": [
+            "A styling library",
+            "A web framework",
+            "A debugging tool",
+            "A database driver"
+          ],
+          "answer": "A web framework"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "File System and Environment in Deno",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "description": "Covers interacting with the file system and environment variables in Deno.",
+      "points": [
+        "Reading and writing files with Deno.fs",
+        "Accessing environment variables",
+        "File system permissions and best practices"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Deno module is used for file system operations?",
+          "options": ["Deno.fs", "Deno.file", "Deno.io", "Deno.system"],
+          "answer": "Deno.fs"
+        },
+        {
+          "id": 2,
+          "question": "What flag is required to read environment variables in Deno?",
+          "options": [
+            "--allow-net",
+            "--allow-env",
+            "--allow-read",
+            "--allow-write"
+          ],
+          "answer": "--allow-env"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Testing in Deno",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "description": "Learn how to write and run tests in Deno using its built-in testing tools.",
+      "points": [
+        "Using Deno.test for unit testing",
+        "Writing assertions with Deno.assert",
+        "Running tests with --allow-run"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the command to run tests in Deno?",
+          "options": ["deno run", "deno test", "deno start", "deno check"],
+          "answer": "deno test"
+        },
+        {
+          "id": 2,
+          "question": "Which module provides assertion methods for testing in Deno?",
+          "options": ["Deno.test", "Deno.assert", "Deno.fs", "Deno.serve"],
+          "answer": "Deno.assert"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Deploying Deno Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "description": "Explore how to deploy Deno applications to various platforms.",
+      "points": [
+        "Deploying to Deno Deploy",
+        "Using Docker for Deno applications",
+        "Configuring permissions for production"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which platform is designed specifically for deploying Deno applications?",
+          "options": ["Vercel", "Deno Deploy", "Heroku", "AWS Lambda"],
+          "answer": "Deno Deploy"
+        },
+        {
+          "id": 2,
+          "question": "Why are permissions important when deploying Deno apps?",
+          "options": [
+            "To increase execution time",
+            "To ensure secure access to resources",
+            "To manage styling",
+            "To simplify routing"
+          ],
+          "answer": "To ensure secure access to resources"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deno Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "description": "Covers best practices for writing and maintaining Deno applications.",
+      "points": [
+        "Structuring Deno projects",
+        "Minimizing permissions for security",
+        "Using TypeScript for type safety"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is minimizing permissions important in Deno?",
+          "options": [
+            "To increase performance",
+            "To enhance security",
+            "To simplify code",
+            "To manage dependencies"
+          ],
+          "answer": "To enhance security"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using TypeScript in Deno?",
+          "options": [
+            "Faster runtime",
+            "Improved type safety",
+            "Simplified imports",
+            "Reduced security"
+          ],
+          "answer": "Improved type safety"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Deno.js primarily used for?",
+          "options": [
+            "Database management",
+            "Running JavaScript/TypeScript outside the browser",
+            "Building user interfaces",
+            "Network configuration"
+          ],
+          "answer": "Running JavaScript/TypeScript outside the browser"
+        },
+        {
+          "id": 2,
+          "question": "How does Deno handle module imports?",
+          "options": [
+            "Using a package.json file",
+            "Using URL-based imports",
+            "Using a node_modules folder",
+            "Using a local registry"
+          ],
+          "answer": "Using URL-based imports"
+        },
+        {
+          "id": 3,
+          "question": "Which flag allows file system write access in Deno?",
+          "options": [
+            "--allow-net",
+            "--allow-read",
+            "--allow-write",
+            "--allow-env"
+          ],
+          "answer": "--allow-write"
+        },
+        {
+          "id": 4,
+          "question": "Which Deno API is used to create HTTP servers?",
+          "options": ["Deno.http", "Deno.serve", "Deno.web", "Deno.api"],
+          "answer": "Deno.serve"
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of an import map in Deno?",
+          "options": [
+            "To style applications",
+            "To manage dependency aliases",
+            "To run scripts",
+            "To debug code"
+          ],
+          "answer": "To manage dependency aliases"
+        },
+        {
+          "id": 6,
+          "question": "Which module is used for file system operations in Deno?",
+          "options": ["Deno.fs", "Deno.file", "Deno.io", "Deno.system"],
+          "answer": "Deno.fs"
+        },
+        {
+          "id": 7,
+          "question": "What is the command to run tests in Deno?",
+          "options": ["deno run", "deno test", "deno start", "deno check"],
+          "answer": "deno test"
+        },
+        {
+          "id": 8,
+          "question": "Which platform is designed for deploying Deno applications?",
+          "options": ["Vercel", "Deno Deploy", "Heroku", "AWS Lambda"],
+          "answer": "Deno Deploy"
+        },
+        {
+          "id": 9,
+          "question": "Why is minimizing permissions important in Deno?",
+          "options": [
+            "To increase performance",
+            "To enhance security",
+            "To simplify code",
+            "To manage dependencies"
+          ],
+          "answer": "To enhance security"
+        },
+        {
+          "id": 10,
+          "question": "What is a benefit of using TypeScript in Deno?",
+          "options": [
+            "Faster runtime",
+            "Improved type safety",
+            "Simplified imports",
+            "Reduced security"
+          ],
+          "answer": "Improved type safety"
+        }
+      ]
+    }
+  ]
+}

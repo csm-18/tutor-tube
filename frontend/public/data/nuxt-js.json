@@ -1,0 +1,420 @@
+{
+  "courseTitle": "Nuxt.js Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Nuxt.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "description": "An introduction to Nuxt.js, its purpose, and its role in building Vue.js applications.",
+      "points": [
+        "What is Nuxt.js?",
+        "Nuxt.js vs vanilla Vue.js",
+        "Setting up a Nuxt.js project"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Nuxt.js?",
+          "options": [
+            "Database management",
+            "Building server-rendered Vue.js applications",
+            "Network configuration",
+            "Backend API development"
+          ],
+          "answer": "Building server-rendered Vue.js applications"
+        },
+        {
+          "id": 2,
+          "question": "How is a new Nuxt.js project typically created?",
+          "options": [
+            "npx create-nuxt-app",
+            "npm create-react-app",
+            "npx create-next-app",
+            "npm install nuxt"
+          ],
+          "answer": "npx create-nuxt-app"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Nuxt.js Routing and Pages",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "description": "Learn how Nuxt.js handles file-based routing and dynamic pages.",
+      "points": [
+        "File-based routing in the pages/ directory",
+        "Dynamic routes and parameterized paths",
+        "Nested routes and layouts"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How does Nuxt.js handle routing?",
+          "options": [
+            "Manual route configuration",
+            "File-based routing in pages/",
+            "Using a separate router library",
+            "CSS-based routing"
+          ],
+          "answer": "File-based routing in pages/"
+        },
+        {
+          "id": 2,
+          "question": "How do you create a dynamic route in Nuxt.js?",
+          "options": [
+            "Using a file named _id.vue",
+            "Using a dynamic.js file",
+            "Using a config file",
+            "Using a route attribute"
+          ],
+          "answer": "Using a file named _id.vue"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Data Fetching in Nuxt.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "description": "Explore data fetching methods in Nuxt.js for dynamic content.",
+      "points": [
+        "Using asyncData for server-side data fetching",
+        "Using fetch for component-level data",
+        "Static Site Generation with generate"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Nuxt.js method is used for server-side data fetching?",
+          "options": ["fetch", "asyncData", "getData", "useState"],
+          "answer": "asyncData"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of Static Site Generation in Nuxt.js?",
+          "options": [
+            "Real-time data updates",
+            "Faster page loads for static content",
+            "Dynamic routing only",
+            "Increased server load"
+          ],
+          "answer": "Faster page loads for static content"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Nuxt.js Modules and Plugins",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "description": "Learn how to extend Nuxt.js with modules and plugins for additional functionality.",
+      "points": [
+        "Using Nuxt.js modules (e.g., @nuxtjs/axios)",
+        "Creating and using custom plugins",
+        "Configuring modules in nuxt.config.js"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Where are Nuxt.js modules configured?",
+          "options": [
+            "package.json",
+            "nuxt.config.js",
+            "plugins.js",
+            "modules.js"
+          ],
+          "answer": "nuxt.config.js"
+        },
+        {
+          "id": 2,
+          "question": "What is a common use of the @nuxtjs/axios module?",
+          "options": [
+            "Styling components",
+            "Making HTTP requests",
+            "Managing routes",
+            "Optimizing images"
+          ],
+          "answer": "Making HTTP requests"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "State Management in Nuxt.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "description": "Covers state management in Nuxt.js applications using Vuex or Pinia.",
+      "points": [
+        "Using Vuex for centralized state management",
+        "Introduction to Pinia as an alternative",
+        "Accessing store in components"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which library is commonly used for state management in Nuxt.js?",
+          "options": ["Redux", "Vuex", "MobX", "React Query"],
+          "answer": "Vuex"
+        },
+        {
+          "id": 2,
+          "question": "What is Pinia in the context of Nuxt.js?",
+          "options": [
+            "A routing library",
+            "A state management library",
+            "A styling framework",
+            "A testing tool"
+          ],
+          "answer": "A state management library"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Authentication in Nuxt.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "description": "Learn how to implement authentication in Nuxt.js applications.",
+      "points": [
+        "Using @nuxtjs/auth-next module",
+        "Implementing JWT-based authentication",
+        "Protecting routes with middleware"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Nuxt.js module is commonly used for authentication?",
+          "options": [
+            "@nuxtjs/axios",
+            "@nuxtjs/auth-next",
+            "@nuxtjs/router",
+            "@nuxtjs/style"
+          ],
+          "answer": "@nuxtjs/auth-next"
+        },
+        {
+          "id": 2,
+          "question": "How can you protect routes in Nuxt.js?",
+          "options": [
+            "Using middleware",
+            "Using CSS",
+            "Using asyncData",
+            "Using layouts"
+          ],
+          "answer": "Using middleware"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Deploying Nuxt.js Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "description": "Explore how to deploy Nuxt.js applications to various platforms.",
+      "points": [
+        "Deploying to Vercel or Netlify",
+        "Configuring server-side rendering vs static generation",
+        "Setting up environment variables"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which platform is commonly used to deploy Nuxt.js applications?",
+          "options": ["Heroku", "Vercel", "AWS Lambda", "Firebase"],
+          "answer": "Vercel"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of static generation in Nuxt.js?",
+          "options": [
+            "Real-time data fetching",
+            "Improved SEO and performance",
+            "Dynamic routing only",
+            "Increased server load"
+          ],
+          "answer": "Improved SEO and performance"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Nuxt.js Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "description": "Covers best practices for building scalable and maintainable Nuxt.js applications.",
+      "points": [
+        "Structuring Nuxt.js projects",
+        "Optimizing for SEO and performance",
+        "Testing with Vue Test Utils"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is project structure important in Nuxt.js?",
+          "options": [
+            "To increase server load",
+            "To improve maintainability",
+            "To simplify styling",
+            "To reduce performance"
+          ],
+          "answer": "To improve maintainability"
+        },
+        {
+          "id": 2,
+          "question": "What is a key benefit of optimizing Nuxt.js for SEO?",
+          "options": [
+            "Faster client-side rendering",
+            "Improved search engine rankings",
+            "Reduced server load",
+            "Simplified routing"
+          ],
+          "answer": "Improved search engine rankings"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Nuxt.js?",
+          "options": [
+            "Database management",
+            "Building server-rendered Vue.js applications",
+            "Network configuration",
+            "Backend API development"
+          ],
+          "answer": "Building server-rendered Vue.js applications"
+        },
+        {
+          "id": 2,
+          "question": "How is a new Nuxt.js project created?",
+          "options": [
+            "npx create-nuxt-app",
+            "npm create-react-app",
+            "npx create-next-app",
+            "npm install nuxt"
+          ],
+          "answer": "npx create-nuxt-app"
+        },
+        {
+          "id": 3,
+          "question": "How does Nuxt.js handle routing?",
+          "options": [
+            "Manual route configuration",
+            "File-based routing in pages/",
+            "Using a separate router library",
+            "CSS-based routing"
+          ],
+          "answer": "File-based routing in pages/"
+        },
+        {
+          "id": 4,
+          "question": "Which method is used for server-side data fetching in Nuxt.js?",
+          "options": ["fetch", "asyncData", "getData", "useState"],
+          "answer": "asyncData"
+        },
+        {
+          "id": 5,
+          "question": "Where are Nuxt.js modules configured?",
+          "options": [
+            "package.json",
+            "nuxt.config.js",
+            "plugins.js",
+            "modules.js"
+          ],
+          "answer": "nuxt.config.js"
+        },
+        {
+          "id": 6,
+          "question": "Which library is commonly used for state management in Nuxt.js?",
+          "options": ["Redux", "Vuex", "MobX", "React Query"],
+          "answer": "Vuex"
+        },
+        {
+          "id": 7,
+          "question": "Which module is commonly used for authentication in Nuxt.js?",
+          "options": [
+            "@nuxtjs/axios",
+            "@nuxtjs/auth-next",
+            "@nuxtjs/router",
+            "@nuxtjs/style"
+          ],
+          "answer": "@nuxtjs/auth-next"
+        },
+        {
+          "id": 8,
+          "question": "Which platform is commonly used to deploy Nuxt.js applications?",
+          "options": ["Heroku", "Vercel", "AWS Lambda", "Firebase"],
+          "answer": "Vercel"
+        },
+        {
+          "id": 9,
+          "question": "What is a benefit of static generation in Nuxt.js?",
+          "options": [
+            "Real-time data fetching",
+            "Improved SEO and performance",
+            "Dynamic routing only",
+            "Increased server load"
+          ],
+          "answer": "Improved SEO and performance"
+        },
+        {
+          "id": 10,
+          "question": "Why is optimizing Nuxt.js for SEO important?",
+          "options": [
+            "To simplify styling",
+            "To improve search engine rankings",
+            "To reduce server load",
+            "To increase client-side rendering"
+          ],
+          "answer": "To improve search engine rankings"
+        }
+      ]
+    }
+  ]
+}

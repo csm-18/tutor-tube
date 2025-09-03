@@ -1,0 +1,451 @@
+{
+  "courseTitle": "jQuery Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to jQuery",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/BWXggB-T1jQ",
+      "description": "An introduction to jQuery, its purpose, and how it simplifies DOM manipulation and JavaScript development.",
+      "points": [
+        "What is jQuery?",
+        "jQuery vs vanilla JavaScript",
+        "Setting up jQuery in a project"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of jQuery?",
+          "options": [
+            "Server-side scripting",
+            "Simplifying DOM manipulation",
+            "Database management",
+            "CSS styling"
+          ],
+          "answer": "Simplifying DOM manipulation"
+        },
+        {
+          "id": 2,
+          "question": "How is jQuery typically included in a project?",
+          "options": [
+            "Using a CSS file",
+            "Using a script tag with a CDN",
+            "Using a database connection",
+            "Using a SASS file"
+          ],
+          "answer": "Using a script tag with a CDN"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "jQuery Selectors",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3GKO3F3s6gY",
+      "description": "Learn how to use jQuery selectors to target and manipulate DOM elements.",
+      "points": [
+        "Basic selectors (ID, class, element)",
+        "Advanced selectors (attribute, pseudo-class)",
+        "Combining multiple selectors"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which jQuery selector targets an element by its ID?",
+          "options": [
+            "$('.element')",
+            "$('#element')",
+            "$('element')",
+            "$('[element]')"
+          ],
+          "answer": "$('#element')"
+        },
+        {
+          "id": 2,
+          "question": "What does the jQuery selector $('[data-value]') target?",
+          "options": [
+            "Elements with a specific class",
+            "Elements with a data-value attribute",
+            "Elements with a specific ID",
+            "All elements"
+          ],
+          "answer": "Elements with a data-value attribute"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "DOM Manipulation with jQuery",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/VZ3BUP8a8II",
+      "description": "Covers how to manipulate the DOM using jQuery methods for content, attributes, and styles.",
+      "points": [
+        "Modifying content with .html() and .text()",
+        "Changing attributes with .attr()",
+        "Applying styles with .css()"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which jQuery method changes the HTML content of an element?",
+          "options": [".text()", ".html()", ".css()", ".attr()"],
+          "answer": ".html()"
+        },
+        {
+          "id": 2,
+          "question": "What does the .css() method do in jQuery?",
+          "options": [
+            "Modifies attributes",
+            "Changes element styles",
+            "Handles events",
+            "Fetches data"
+          ],
+          "answer": "Changes element styles"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Event Handling in jQuery",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Bm0W9eU2o6U",
+      "description": "Explains how to handle user events like clicks and form submissions using jQuery.",
+      "points": [
+        "Binding events with .on()",
+        "Using event delegation",
+        "Handling common events (click, hover, submit)"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which jQuery method is used to attach event handlers?",
+          "options": [".click()", ".on()", ".bind()", ".event()"],
+          "answer": ".on()"
+        },
+        {
+          "id": 2,
+          "question": "What is event delegation in jQuery?",
+          "options": [
+            "Binding events to static elements",
+            "Binding events to parent elements for dynamic content",
+            "Removing all events",
+            "Triggering events manually"
+          ],
+          "answer": "Binding events to parent elements for dynamic content"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "jQuery Effects and Animations",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1cKzbY4e9h4",
+      "description": "Learn how to create animations and effects in jQuery to enhance user interfaces.",
+      "points": [
+        "Using .show(), .hide(), and .toggle()",
+        "Creating animations with .animate()",
+        "Fading effects with .fadeIn() and .fadeOut()"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which jQuery method creates custom animations?",
+          "options": [".show()", ".animate()", ".fadeIn()", ".toggle()"],
+          "answer": ".animate()"
+        },
+        {
+          "id": 2,
+          "question": "What does the .fadeOut() method do in jQuery?",
+          "options": [
+            "Hides an element with a fading effect",
+            "Shows an element",
+            "Changes element styles",
+            "Triggers an event"
+          ],
+          "answer": "Hides an element with a fading effect"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "AJAX with jQuery",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/hMXuYa6Y_yc",
+      "description": "Covers how to make asynchronous HTTP requests using jQuery's AJAX methods.",
+      "points": [
+        "Using $.ajax() for API calls",
+        "Handling responses with .done() and .fail()",
+        "Using shorthand methods like $.get() and $.post()"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which jQuery method is used for making AJAX requests?",
+          "options": ["$.get()", ".css()", ".on()", ".html()"],
+          "answer": "$.get()"
+        },
+        {
+          "id": 2,
+          "question": "What does the .done() method do in jQuery AJAX?",
+          "options": [
+            "Handles errors",
+            "Processes successful responses",
+            "Triggers animations",
+            "Binds events"
+          ],
+          "answer": "Processes successful responses"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "jQuery with Frameworks",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1e2PKE26S2k",
+      "description": "Explores integrating jQuery with modern front-end frameworks like React, Vue, and Angular.",
+      "points": [
+        "Using jQuery in React projects",
+        "Integrating jQuery with Vue",
+        "Combining jQuery with Angular"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a consideration when using jQuery with modern frameworks?",
+          "options": [
+            "jQuery replaces framework features",
+            "Use jQuery sparingly to avoid conflicts",
+            "jQuery improves state management",
+            "jQuery simplifies routing"
+          ],
+          "answer": "Use jQuery sparingly to avoid conflicts"
+        },
+        {
+          "id": 2,
+          "question": "How is jQuery typically included in a React project?",
+          "options": [
+            "Using a CSS file",
+            "Using npm and importing",
+            "Using a database connection",
+            "Using a SASS file"
+          ],
+          "answer": "Using npm and importing"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "jQuery Plugins",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/4L6C5nm0h2U",
+      "description": "Learn how to use and create jQuery plugins to extend functionality.",
+      "points": [
+        "Using popular jQuery plugins",
+        "Creating custom jQuery plugins",
+        "Managing plugin dependencies"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of a jQuery plugin?",
+          "options": [
+            "To manage state",
+            "To extend jQuery's functionality",
+            "To handle routing",
+            "To style elements"
+          ],
+          "answer": "To extend jQuery's functionality"
+        },
+        {
+          "id": 2,
+          "question": "How do you create a custom jQuery plugin?",
+          "options": [
+            "Using $.fn",
+            "Using $.ajax",
+            "Using .css()",
+            "Using .on()"
+          ],
+          "answer": "Using $.fn"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "jQuery Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1T7A6S8i3aE",
+      "description": "Covers best practices for writing efficient, maintainable, and performant jQuery code.",
+      "points": [
+        "Optimizing selector performance",
+        "Avoiding excessive DOM manipulation",
+        "Using event delegation for dynamic content"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is event delegation recommended in jQuery?",
+          "options": [
+            "To increase DOM manipulation",
+            "To handle dynamic content efficiently",
+            "To simplify styling",
+            "To manage API calls"
+          ],
+          "answer": "To handle dynamic content efficiently"
+        },
+        {
+          "id": 2,
+          "question": "What is a way to optimize jQuery selector performance?",
+          "options": [
+            "Using broad selectors",
+            "Using specific selectors like IDs",
+            "Increasing DOM manipulation",
+            "Disabling animations"
+          ],
+          "answer": "Using specific selectors like IDs"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of jQuery?",
+          "options": [
+            "Server-side scripting",
+            "Simplifying DOM manipulation",
+            "Database management",
+            "CSS styling"
+          ],
+          "answer": "Simplifying DOM manipulation"
+        },
+        {
+          "id": 2,
+          "question": "Which jQuery selector targets an element by its class?",
+          "options": [
+            "$('.element')",
+            "$('#element')",
+            "$('element')",
+            "$('[element]')"
+          ],
+          "answer": "$('.element')"
+        },
+        {
+          "id": 3,
+          "question": "Which jQuery method changes the text content of an element?",
+          "options": [".html()", ".text()", ".css()", ".attr()"],
+          "answer": ".text()"
+        },
+        {
+          "id": 4,
+          "question": "Which jQuery method is used to attach event handlers?",
+          "options": [".click()", ".on()", ".bind()", ".event()"],
+          "answer": ".on()"
+        },
+        {
+          "id": 5,
+          "question": "Which jQuery method creates a fading effect to show an element?",
+          "options": [".show()", ".fadeIn()", ".animate()", ".toggle()"],
+          "answer": ".fadeIn()"
+        },
+        {
+          "id": 6,
+          "question": "Which jQuery method is used for making AJAX requests?",
+          "options": ["$.get()", ".css()", ".on()", ".html()"],
+          "answer": "$.get()"
+        },
+        {
+          "id": 7,
+          "question": "What should be considered when using jQuery with modern frameworks?",
+          "options": [
+            "Use jQuery sparingly to avoid conflicts",
+            "jQuery replaces framework features",
+            "jQuery improves state management",
+            "jQuery simplifies routing"
+          ],
+          "answer": "Use jQuery sparingly to avoid conflicts"
+        },
+        {
+          "id": 8,
+          "question": "What is the purpose of a jQuery plugin?",
+          "options": [
+            "To manage state",
+            "To extend jQuery's functionality",
+            "To handle routing",
+            "To style elements"
+          ],
+          "answer": "To extend jQuery's functionality"
+        },
+        {
+          "id": 9,
+          "question": "What is a benefit of event delegation in jQuery?",
+          "options": [
+            "To increase DOM manipulation",
+            "To handle dynamic content efficiently",
+            "To simplify styling",
+            "To manage API calls"
+          ],
+          "answer": "To handle dynamic content efficiently"
+        },
+        {
+          "id": 10,
+          "question": "What is a way to optimize jQuery selector performance?",
+          "options": [
+            "Using broad selectors",
+            "Using specific selectors like IDs",
+            "Increasing DOM manipulation",
+            "Disabling animations"
+          ],
+          "answer": "Using specific selectors like IDs"
+        }
+      ]
+    }
+  ]
+}

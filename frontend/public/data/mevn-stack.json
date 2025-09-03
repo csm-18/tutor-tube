@@ -1,0 +1,441 @@
+{
+  "courseTitle": "MEVN Stack Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to the MEVN Stack",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "description": "An introduction to the MEVN stack, its components, and its role in full-stack web development with Vue.js.",
+      "points": [
+        "What is the MEVN stack?",
+        "Overview of MongoDB, Express.js, Vue.js, and Node.js",
+        "Setting up the MEVN development environment"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the MEVN stack stand for?",
+          "options": [
+            "MySQL, Express.js, Vue.js, Node.js",
+            "MongoDB, Express.js, Vue.js, Node.js",
+            "MongoDB, Ember.js, Vue.js, Node.js",
+            "MySQL, Express.js, Vite, Node.js"
+          ],
+          "answer": "MongoDB, Express.js, Vue.js, Node.js"
+        },
+        {
+          "id": 2,
+          "question": "Which component of the MEVN stack is used for the frontend?",
+          "options": ["MongoDB", "Express.js", "Vue.js", "Node.js"],
+          "answer": "Vue.js"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "MongoDB Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "description": "Learn the fundamentals of MongoDB, a NoSQL database, for storing and managing data in MEVN applications.",
+      "points": [
+        "Introduction to NoSQL and MongoDB",
+        "Creating and managing collections and documents",
+        "Performing CRUD operations with MongoDB"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What type of database is MongoDB?",
+          "options": ["Relational", "NoSQL", "Graph", "Key-Value"],
+          "answer": "NoSQL"
+        },
+        {
+          "id": 2,
+          "question": "What is a document in MongoDB equivalent to in a relational database?",
+          "options": ["Table", "Row", "Column", "Index"],
+          "answer": "Row"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Node.js and Express.js Fundamentals",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "description": "Covers the basics of Node.js and Express.js for building backend APIs in the MEVN stack.",
+      "points": [
+        "Setting up a Node.js server",
+        "Creating RESTful APIs with Express.js",
+        "Using middleware and routing in Express.js"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Express.js used for in the MEVN stack?",
+          "options": [
+            "Frontend rendering",
+            "Building RESTful APIs",
+            "Database storage",
+            "Styling components"
+          ],
+          "answer": "Building RESTful APIs"
+        },
+        {
+          "id": 2,
+          "question": "What is the role of middleware in Express.js?",
+          "options": [
+            "Managing database connections",
+            "Processing requests before routing",
+            "Rendering frontend components",
+            "Optimizing images"
+          ],
+          "answer": "Processing requests before routing"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Vue.js Fundamentals",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "description": "Learn the core concepts of Vue.js for building dynamic user interfaces in MEVN applications.",
+      "points": [
+        "Components, props, and data binding",
+        "Vue directives (v-bind, v-if, v-for)",
+        "Handling events and user input"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a Vue.js directive used for?",
+          "options": [
+            "Managing backend APIs",
+            "Adding interactivity to HTML elements",
+            "Storing data in MongoDB",
+            "Configuring routes"
+          ],
+          "answer": "Adding interactivity to HTML elements"
+        },
+        {
+          "id": 2,
+          "question": "Which Vue.js directive is used for looping through data?",
+          "options": ["v-bind", "v-if", "v-for", "v-on"],
+          "answer": "v-for"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Connecting MongoDB with Node.js and Express.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "description": "Explore how to connect MongoDB to a Node.js and Express.js backend for data operations in MEVN applications.",
+      "points": [
+        "Using Mongoose for MongoDB integration",
+        "Defining schemas and models",
+        "Performing CRUD operations via API endpoints"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which library is commonly used to connect MongoDB with Node.js in MEVN applications?",
+          "options": ["Sequelize", "Mongoose", "Prisma", "TypeORM"],
+          "answer": "Mongoose"
+        },
+        {
+          "id": 2,
+          "question": "What is a Mongoose model used for?",
+          "options": [
+            "Styling components",
+            "Interacting with MongoDB collections",
+            "Managing routes",
+            "Optimizing images"
+          ],
+          "answer": "Interacting with MongoDB collections"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Building a Frontend with Vue.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "description": "Learn how to build a dynamic frontend with Vue.js and connect it to a backend API in the MEVN stack.",
+      "points": [
+        "Fetching data with Vue's Composition API",
+        "Rendering lists and forms",
+        "Using Vue Router for client-side navigation"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Vue.js API is commonly used for reactive data in modern applications?",
+          "options": [
+            "Options API",
+            "Composition API",
+            "Class API",
+            "Functional API"
+          ],
+          "answer": "Composition API"
+        },
+        {
+          "id": 2,
+          "question": "What is Vue Router used for in a MEVN application?",
+          "options": [
+            "Database queries",
+            "Client-side navigation",
+            "API creation",
+            "Styling components"
+          ],
+          "answer": "Client-side navigation"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Authentication in MEVN Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "description": "Covers implementing authentication in a MEVN stack application.",
+      "points": [
+        "Using JWT for token-based authentication",
+        "Implementing user registration and login",
+        "Protecting routes with Express middleware and Vue Router"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is JWT used for in MEVN applications?",
+          "options": [
+            "Styling components",
+            "Token-based authentication",
+            "Database indexing",
+            "Data compression"
+          ],
+          "answer": "Token-based authentication"
+        },
+        {
+          "id": 2,
+          "question": "How can you protect routes in a MEVN application?",
+          "options": [
+            "Using CSS",
+            "Using Express middleware and Vue Router",
+            "Using MongoDB schemas",
+            "Using Vue directives"
+          ],
+          "answer": "Using Express middleware and Vue Router"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying a MEVN Application",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "description": "Learn how to deploy a MEVN stack application to production environments.",
+      "points": [
+        "Deploying the backend to Heroku or Render",
+        "Hosting the Vue.js frontend on Vercel or Netlify",
+        "Configuring MongoDB Atlas for cloud storage"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which service is commonly used for hosting MongoDB in the cloud for MEVN applications?",
+          "options": [
+            "MongoDB Atlas",
+            "AWS DynamoDB",
+            "Firebase",
+            "MySQL Cloud"
+          ],
+          "answer": "MongoDB Atlas"
+        },
+        {
+          "id": 2,
+          "question": "What is a common platform for deploying a MEVN backend?",
+          "options": ["Netlify", "Heroku", "Vercel", "GitHub Pages"],
+          "answer": "Heroku"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "MEVN Stack Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "description": "Covers best practices for building scalable and maintainable MEVN stack applications.",
+      "points": [
+        "Structuring MEVN projects for scalability",
+        "Optimizing API and frontend performance",
+        "Implementing security and error handling"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is structuring a MEVN project important?",
+          "options": [
+            "To improve styling",
+            "To enhance maintainability",
+            "To increase database size",
+            "To simplify routing"
+          ],
+          "answer": "To enhance maintainability"
+        },
+        {
+          "id": 2,
+          "question": "What is a key security practice in MEVN applications?",
+          "options": [
+            "Disabling authentication",
+            "Sanitizing user input",
+            "Increasing API calls",
+            "Removing middleware"
+          ],
+          "answer": "Sanitizing user input"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the MEVN stack include?",
+          "options": [
+            "MySQL, Express.js, Vue.js, Node.js",
+            "MongoDB, Express.js, Vue.js, Node.js",
+            "MongoDB, Ember.js, Vue.js, Node.js",
+            "MySQL, Express.js, Vite, Node.js"
+          ],
+          "answer": "MongoDB, Express.js, Vue.js, Node.js"
+        },
+        {
+          "id": 2,
+          "question": "What type of database is MongoDB?",
+          "options": ["Relational", "NoSQL", "Graph", "Key-Value"],
+          "answer": "NoSQL"
+        },
+        {
+          "id": 3,
+          "question": "What is Express.js used for in the MEVN stack?",
+          "options": [
+            "Frontend rendering",
+            "Building RESTful APIs",
+            "Database storage",
+            "Styling components"
+          ],
+          "answer": "Building RESTful APIs"
+        },
+        {
+          "id": 4,
+          "question": "Which Vue.js directive is used for looping through data?",
+          "options": ["v-bind", "v-if", "v-for", "v-on"],
+          "answer": "v-for"
+        },
+        {
+          "id": 5,
+          "question": "Which library connects MongoDB to Node.js in MEVN applications?",
+          "options": ["Sequelize", "Mongoose", "Prisma", "TypeORM"],
+          "answer": "Mongoose"
+        },
+        {
+          "id": 6,
+          "question": "Which Vue.js API is commonly used for reactive data?",
+          "options": [
+            "Options API",
+            "Composition API",
+            "Class API",
+            "Functional API"
+          ],
+          "answer": "Composition API"
+        },
+        {
+          "id": 7,
+          "question": "What is JWT used for in MEVN applications?",
+          "options": [
+            "Styling components",
+            "Token-based authentication",
+            "Database indexing",
+            "Data compression"
+          ],
+          "answer": "Token-based authentication"
+        },
+        {
+          "id": 8,
+          "question": "Which service is commonly used for hosting MongoDB in the cloud?",
+          "options": [
+            "MongoDB Atlas",
+            "AWS DynamoDB",
+            "Firebase",
+            "MySQL Cloud"
+          ],
+          "answer": "MongoDB Atlas"
+        },
+        {
+          "id": 9,
+          "question": "What is a common platform for deploying a MEVN backend?",
+          "options": ["Netlify", "Heroku", "Vercel", "GitHub Pages"],
+          "answer": "Heroku"
+        },
+        {
+          "id": 10,
+          "question": "What is a key security practice in MEVN applications?",
+          "options": [
+            "Disabling authentication",
+            "Sanitizing user input",
+            "Increasing API calls",
+            "Removing middleware"
+          ],
+          "answer": "Sanitizing user input"
+        }
+      ]
+    }
+  ]
+}

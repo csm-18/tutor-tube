@@ -1,0 +1,466 @@
+{
+  "courseTitle": "Cyber Security Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Cyber Security",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/inWWhr5tnYo",
+      "description": "An introduction to cyber security, its importance, and key concepts in protecting digital assets.",
+      "points": [
+        "What is cyber security?",
+        "Key principles: confidentiality, integrity, availability",
+        "Common cyber threats and attacks"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the CIA triad in cyber security stand for?",
+          "options": [
+            "Control, Isolation, Authentication",
+            "Confidentiality, Integrity, Availability",
+            "Communication, Interception, Access",
+            "Compliance, Investigation, Analysis"
+          ],
+          "answer": "Confidentiality, Integrity, Availability"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is a common cyber threat?",
+          "options": [
+            "Phishing",
+            "Code optimization",
+            "Data sorting",
+            "Network routing"
+          ],
+          "answer": "Phishing"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cryptography Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/AQDCe685ysM",
+      "description": "Learn the fundamentals of cryptography and its role in securing data.",
+      "points": [
+        "Symmetric vs asymmetric encryption",
+        "Common algorithms: AES, RSA",
+        "Hashing and digital signatures"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which encryption type uses the same key for encryption and decryption?",
+          "options": ["Asymmetric", "Symmetric", "Hybrid", "Hashing"],
+          "answer": "Symmetric"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of a digital signature?",
+          "options": [
+            "To encrypt data",
+            "To verify authenticity and integrity",
+            "To compress data",
+            "To route network traffic"
+          ],
+          "answer": "To verify authenticity and integrity"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Network Security",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/6F3vJ9t8k4Q",
+      "description": "Covers techniques and tools for securing network communications.",
+      "points": [
+        "Firewalls and intrusion detection systems",
+        "VPNs and secure protocols (SSL/TLS)",
+        "Preventing network-based attacks"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary function of a firewall?",
+          "options": [
+            "To encrypt data",
+            "To filter network traffic",
+            "To optimize code",
+            "To manage IP addresses"
+          ],
+          "answer": "To filter network traffic"
+        },
+        {
+          "id": 2,
+          "question": "Which protocol is used for secure web communication?",
+          "options": ["HTTP", "FTP", "TLS", "UDP"],
+          "answer": "TLS"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Authentication and Access Control",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0aStC7Pwnsc",
+      "description": "Explores methods for verifying user identities and controlling access to resources.",
+      "points": [
+        "Authentication methods: passwords, biometrics, MFA",
+        "Access control models: RBAC, ABAC",
+        "Securing user credentials"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does MFA stand for in authentication?",
+          "options": [
+            "Multi-Factor Authentication",
+            "Managed File Access",
+            "Multiple Firewall Analysis",
+            "Modular Function Authentication"
+          ],
+          "answer": "Multi-Factor Authentication"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of RBAC?",
+          "options": [
+            "To encrypt data",
+            "To manage user permissions based on roles",
+            "To optimize network speed",
+            "To compress files"
+          ],
+          "answer": "To manage user permissions based on roles"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Common Cyber Attacks",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1d0Zf9sXlHk",
+      "description": "Learn about common cyber attacks and how to mitigate them.",
+      "points": [
+        "Phishing and social engineering",
+        "Malware: viruses, ransomware, spyware",
+        "Denial-of-Service (DoS) attacks"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the goal of a phishing attack?",
+          "options": [
+            "To improve network performance",
+            "To trick users into revealing sensitive information",
+            "To optimize algorithms",
+            "To manage databases"
+          ],
+          "answer": "To trick users into revealing sensitive information"
+        },
+        {
+          "id": 2,
+          "question": "What type of attack aims to overwhelm a system to disrupt service?",
+          "options": ["Phishing", "Malware", "DoS", "SQL Injection"],
+          "answer": "DoS"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Web Application Security",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Lr2ox7EPbBg",
+      "description": "Covers securing web applications against common vulnerabilities.",
+      "points": [
+        "OWASP Top 10 vulnerabilities",
+        "Preventing SQL injection and XSS",
+        "Secure coding practices"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is SQL injection?",
+          "options": [
+            "A type of encryption",
+            "Injecting malicious code into a database query",
+            "Optimizing database performance",
+            "Securing web servers"
+          ],
+          "answer": "Injecting malicious code into a database query"
+        },
+        {
+          "id": 2,
+          "question": "What does XSS stand for?",
+          "options": [
+            "Cross-Site Scripting",
+            "Cross-Server Security",
+            "Client-Side Scripting",
+            "Cross-System Standards"
+          ],
+          "answer": "Cross-Site Scripting"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Incident Response and Recovery",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/5j7nGKB2K0o",
+      "description": "Learn how to respond to and recover from security incidents.",
+      "points": [
+        "Creating an incident response plan",
+        "Identifying and containing breaches",
+        "Recovery and post-incident analysis"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the first step in an incident response plan?",
+          "options": [
+            "Recovering data",
+            "Identifying the incident",
+            "Installing software",
+            "Encrypting traffic"
+          ],
+          "answer": "Identifying the incident"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of post-incident analysis?",
+          "options": [
+            "To increase vulnerabilities",
+            "To learn and improve security measures",
+            "To optimize network speed",
+            "To redesign user interfaces"
+          ],
+          "answer": "To learn and improve security measures"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Cyber Security Tools",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/0e3fP8tW5g0",
+      "description": "Explores common tools used in cyber security for monitoring and protection.",
+      "points": [
+        "Network monitoring tools: Wireshark, Nmap",
+        "Penetration testing tools: Metasploit, Burp Suite",
+        "Antivirus and endpoint protection"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of Wireshark in cyber security?",
+          "options": [
+            "To encrypt data",
+            "To analyze network traffic",
+            "To manage databases",
+            "To optimize algorithms"
+          ],
+          "answer": "To analyze network traffic"
+        },
+        {
+          "id": 2,
+          "question": "What type of tool is Metasploit?",
+          "options": [
+            "Antivirus",
+            "Penetration testing",
+            "Network routing",
+            "Data compression"
+          ],
+          "answer": "Penetration testing"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Cyber Security Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1Z6f5o7xE9s",
+      "description": "Covers best practices for implementing and maintaining cyber security measures.",
+      "points": [
+        "Regular software updates and patch management",
+        "Employee training on security awareness",
+        "Implementing least privilege principle"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the principle of least privilege?",
+          "options": [
+            "Giving users full access",
+            "Granting only necessary permissions",
+            "Encrypting all data",
+            "Disabling firewalls"
+          ],
+          "answer": "Granting only necessary permissions"
+        },
+        {
+          "id": 2,
+          "question": "Why is employee training important in cyber security?",
+          "options": [
+            "To improve coding skills",
+            "To reduce human error vulnerabilities",
+            "To increase network latency",
+            "To simplify routing"
+          ],
+          "answer": "To reduce human error vulnerabilities"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the CIA triad represent in cyber security?",
+          "options": [
+            "Control, Isolation, Authentication",
+            "Confidentiality, Integrity, Availability",
+            "Communication, Interception, Access",
+            "Compliance, Investigation, Analysis"
+          ],
+          "answer": "Confidentiality, Integrity, Availability"
+        },
+        {
+          "id": 2,
+          "question": "Which encryption type uses two different keys for encryption and decryption?",
+          "options": ["Symmetric", "Asymmetric", "Hashing", "Hybrid"],
+          "answer": "Asymmetric"
+        },
+        {
+          "id": 3,
+          "question": "What is the primary function of a firewall?",
+          "options": [
+            "To encrypt data",
+            "To filter network traffic",
+            "To optimize code",
+            "To manage IP addresses"
+          ],
+          "answer": "To filter network traffic"
+        },
+        {
+          "id": 4,
+          "question": "What does MFA enhance in cyber security?",
+          "options": [
+            "Network speed",
+            "Authentication security",
+            "Data compression",
+            "Routing efficiency"
+          ],
+          "answer": "Authentication security"
+        },
+        {
+          "id": 5,
+          "question": "What is the goal of a phishing attack?",
+          "options": [
+            "To improve network performance",
+            "To trick users into revealing sensitive information",
+            "To optimize algorithms",
+            "To manage databases"
+          ],
+          "answer": "To trick users into revealing sensitive information"
+        },
+        {
+          "id": 6,
+          "question": "What is a common web application vulnerability?",
+          "options": [
+            "SQL Injection",
+            "Data sorting",
+            "Network routing",
+            "Code optimization"
+          ],
+          "answer": "SQL Injection"
+        },
+        {
+          "id": 7,
+          "question": "What is the first step in responding to a security incident?",
+          "options": [
+            "Recovering data",
+            "Identifying the incident",
+            "Installing software",
+            "Encrypting traffic"
+          ],
+          "answer": "Identifying the incident"
+        },
+        {
+          "id": 8,
+          "question": "Which tool is used for network traffic analysis in cyber security?",
+          "options": ["Wireshark", "Metasploit", "Burp Suite", "Nmap"],
+          "answer": "Wireshark"
+        },
+        {
+          "id": 9,
+          "question": "What is the principle of least privilege?",
+          "options": [
+            "Giving users full access",
+            "Granting only necessary permissions",
+            "Encrypting all data",
+            "Disabling firewalls"
+          ],
+          "answer": "Granting only necessary permissions"
+        },
+        {
+          "id": 10,
+          "question": "Why is employee training critical in cyber security?",
+          "options": [
+            "To improve coding skills",
+            "To reduce human error vulnerabilities",
+            "To increase network latency",
+            "To simplify routing"
+          ],
+          "answer": "To reduce human error vulnerabilities"
+        }
+      ]
+    }
+  ]
+}

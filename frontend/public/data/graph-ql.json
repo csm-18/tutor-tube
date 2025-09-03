@@ -1,0 +1,451 @@
+{
+  "courseTitle": "GraphQL Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to GraphQL",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "description": "An introduction to GraphQL, its purpose, and its advantages over traditional REST APIs.",
+      "points": [
+        "What is GraphQL?",
+        "GraphQL vs REST: key differences",
+        "Setting up a basic GraphQL server"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of GraphQL?",
+          "options": [
+            "Database management",
+            "Building flexible APIs",
+            "Frontend rendering",
+            "Network configuration"
+          ],
+          "answer": "Building flexible APIs"
+        },
+        {
+          "id": 2,
+          "question": "What is a key advantage of GraphQL over REST?",
+          "options": [
+            "Multiple endpoints for data",
+            "Fetching only requested data",
+            "Slower response times",
+            "Less secure"
+          ],
+          "answer": "Fetching only requested data"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "GraphQL Schemas and Types",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "description": "Learn how to define GraphQL schemas and types to structure your API.",
+      "points": [
+        "Defining schemas with SDL (Schema Definition Language)",
+        "Scalar, Object, and Enum types",
+        "Creating relationships between types"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is used to define a GraphQL schema?",
+          "options": [
+            "JSON",
+            "Schema Definition Language (SDL)",
+            "XML",
+            "YAML"
+          ],
+          "answer": "Schema Definition Language (SDL)"
+        },
+        {
+          "id": 2,
+          "question": "Which GraphQL type represents a single value?",
+          "options": ["Object", "Scalar", "Enum", "List"],
+          "answer": "Scalar"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Queries and Mutations",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "description": "Explore how to create and execute queries and mutations in GraphQL.",
+      "points": [
+        "Writing GraphQL queries to fetch data",
+        "Creating mutations to modify data",
+        "Using variables and arguments"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a GraphQL mutation used for?",
+          "options": [
+            "Fetching data",
+            "Modifying data",
+            "Defining schemas",
+            "Styling components"
+          ],
+          "answer": "Modifying data"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of variables in GraphQL queries?",
+          "options": [
+            "To hardcode data",
+            "To make queries dynamic",
+            "To define schemas",
+            "To manage routes"
+          ],
+          "answer": "To make queries dynamic"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Resolvers in GraphQL",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "description": "Learn how resolvers connect GraphQL queries and mutations to backend data sources.",
+      "points": [
+        "Writing resolver functions",
+        "Connecting resolvers to databases",
+        "Handling resolver arguments and context"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the role of a resolver in GraphQL?",
+          "options": [
+            "Defining the schema",
+            "Fetching or modifying data for queries/mutations",
+            "Styling the API",
+            "Managing network requests"
+          ],
+          "answer": "Fetching or modifying data for queries/mutations"
+        },
+        {
+          "id": 2,
+          "question": "What does the context object in a resolver provide?",
+          "options": [
+            "Styling information",
+            "Shared data across resolvers",
+            "Schema definitions",
+            "Client-side routing"
+          ],
+          "answer": "Shared data across resolvers"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Integrating GraphQL with Node.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "description": "Covers integrating GraphQL with a Node.js backend using popular libraries.",
+      "points": [
+        "Setting up Apollo Server with Express",
+        "Connecting GraphQL to MongoDB",
+        "Handling queries and mutations in Node.js"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which library is commonly used to set up a GraphQL server in Node.js?",
+          "options": ["Apollo Server", "Express Router", "Mongoose", "Prisma"],
+          "answer": "Apollo Server"
+        },
+        {
+          "id": 2,
+          "question": "What database is commonly integrated with GraphQL in Node.js?",
+          "options": ["MySQL", "MongoDB", "SQLite", "Redis"],
+          "answer": "MongoDB"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Consuming GraphQL APIs in the Frontend",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "description": "Learn how to consume GraphQL APIs in frontend applications using Apollo Client.",
+      "points": [
+        "Setting up Apollo Client in React or Vue.js",
+        "Executing queries and mutations from the frontend",
+        "Managing data with Apollo's cache"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which library is commonly used to consume GraphQL APIs in the frontend?",
+          "options": ["Axios", "Apollo Client", "Fetch", "Vuex"],
+          "answer": "Apollo Client"
+        },
+        {
+          "id": 2,
+          "question": "What is the benefit of Apollo Client's cache?",
+          "options": [
+            "Faster styling",
+            "Reduced API calls",
+            "Simplified routing",
+            "Direct database access"
+          ],
+          "answer": "Reduced API calls"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Authentication in GraphQL",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "description": "Covers implementing authentication in a GraphQL API.",
+      "points": [
+        "Using JWT for token-based authentication",
+        "Protecting resolvers with authentication middleware",
+        "Implementing user authentication flows"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is commonly used for authentication in GraphQL APIs?",
+          "options": [
+            "CSS tokens",
+            "JWT (JSON Web Tokens)",
+            "API keys",
+            "OAuth keys"
+          ],
+          "answer": "JWT (JSON Web Tokens)"
+        },
+        {
+          "id": 2,
+          "question": "How can you protect GraphQL resolvers?",
+          "options": [
+            "Using middleware",
+            "Using CSS",
+            "Using schemas",
+            "Using queries"
+          ],
+          "answer": "Using middleware"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying GraphQL APIs",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "description": "Learn how to deploy a GraphQL server to production environments.",
+      "points": [
+        "Deploying to Heroku or Render",
+        "Using Docker for containerized deployment",
+        "Configuring environment variables and scaling"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which platform is commonly used to deploy a GraphQL server?",
+          "options": ["Netlify", "Heroku", "GitHub Pages", "Vercel"],
+          "answer": "Heroku"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Docker for GraphQL deployment?",
+          "options": [
+            "Improved styling",
+            "Consistent environments",
+            "Simplified queries",
+            "Reduced security"
+          ],
+          "answer": "Consistent environments"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "GraphQL Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "description": "Covers best practices for designing and maintaining efficient GraphQL APIs.",
+      "points": [
+        "Designing clear and scalable schemas",
+        "Optimizing queries with data loaders",
+        "Handling errors and versioning"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a data loader used for in GraphQL?",
+          "options": [
+            "Styling APIs",
+            "Batching and caching data",
+            "Defining schemas",
+            "Managing routes"
+          ],
+          "answer": "Batching and caching data"
+        },
+        {
+          "id": 2,
+          "question": "Why is schema design important in GraphQL?",
+          "options": [
+            "To increase server load",
+            "To ensure scalability and clarity",
+            "To simplify styling",
+            "To reduce performance"
+          ],
+          "answer": "To ensure scalability and clarity"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of GraphQL?",
+          "options": [
+            "Database management",
+            "Building flexible APIs",
+            "Frontend rendering",
+            "Network configuration"
+          ],
+          "answer": "Building flexible APIs"
+        },
+        {
+          "id": 2,
+          "question": "What is used to define a GraphQL schema?",
+          "options": [
+            "JSON",
+            "Schema Definition Language (SDL)",
+            "XML",
+            "YAML"
+          ],
+          "answer": "Schema Definition Language (SDL)"
+        },
+        {
+          "id": 3,
+          "question": "What is a GraphQL mutation used for?",
+          "options": [
+            "Fetching data",
+            "Modifying data",
+            "Defining schemas",
+            "Styling components"
+          ],
+          "answer": "Modifying data"
+        },
+        {
+          "id": 4,
+          "question": "What is the role of a resolver in GraphQL?",
+          "options": [
+            "Defining the schema",
+            "Fetching or modifying data for queries/mutations",
+            "Styling the API",
+            "Managing network requests"
+          ],
+          "answer": "Fetching or modifying data for queries/mutations"
+        },
+        {
+          "id": 5,
+          "question": "Which library is commonly used to set up a GraphQL server in Node.js?",
+          "options": ["Apollo Server", "Express Router", "Mongoose", "Prisma"],
+          "answer": "Apollo Server"
+        },
+        {
+          "id": 6,
+          "question": "Which library is commonly used to consume GraphQL APIs in the frontend?",
+          "options": ["Axios", "Apollo Client", "Fetch", "Vuex"],
+          "answer": "Apollo Client"
+        },
+        {
+          "id": 7,
+          "question": "What is commonly used for authentication in GraphQL APIs?",
+          "options": [
+            "CSS tokens",
+            "JWT (JSON Web Tokens)",
+            "API keys",
+            "OAuth keys"
+          ],
+          "answer": "JWT (JSON Web Tokens)"
+        },
+        {
+          "id": 8,
+          "question": "Which platform is commonly used to deploy a GraphQL server?",
+          "options": ["Netlify", "Heroku", "GitHub Pages", "Vercel"],
+          "answer": "Heroku"
+        },
+        {
+          "id": 9,
+          "question": "What is a data loader used for in GraphQL?",
+          "options": [
+            "Styling APIs",
+            "Batching and caching data",
+            "Defining schemas",
+            "Managing routes"
+          ],
+          "answer": "Batching and caching data"
+        },
+        {
+          "id": 10,
+          "question": "Why is schema design important in GraphQL?",
+          "options": [
+            "To increase server load",
+            "To ensure scalability and clarity",
+            "To simplify styling",
+            "To reduce performance"
+          ],
+          "answer": "To ensure scalability and clarity"
+        }
+      ]
+    }
+  ]
+}

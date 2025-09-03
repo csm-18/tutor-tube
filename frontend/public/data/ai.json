@@ -1,0 +1,441 @@
+{
+  "courseTitle": "Artificial Intelligence Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Artificial Intelligence",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "description": "An introduction to AI, its history, and its applications in modern technology.",
+      "points": [
+        "What is AI and its subfields (ML, DL, NLP)?",
+        "AI vs traditional programming",
+        "Setting up an AI development environment (Python, Jupyter)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a primary goal of Artificial Intelligence?",
+          "options": [
+            "Building user interfaces",
+            "Mimicking human intelligence",
+            "Managing databases",
+            "Network configuration"
+          ],
+          "answer": "Mimicking human intelligence"
+        },
+        {
+          "id": 2,
+          "question": "Which programming language is commonly used for AI development?",
+          "options": ["JavaScript", "Python", "PHP", "Ruby"],
+          "answer": "Python"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Python for AI",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "description": "Learn Python basics and libraries essential for AI development.",
+      "points": [
+        "Python syntax and data structures",
+        "Using NumPy and Pandas for data manipulation",
+        "Introduction to Scikit-learn for machine learning"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Python library is used for numerical computations in AI?",
+          "options": ["Pandas", "NumPy", "Matplotlib", "TensorFlow"],
+          "answer": "NumPy"
+        },
+        {
+          "id": 2,
+          "question": "What is Scikit-learn primarily used for?",
+          "options": [
+            "Data visualization",
+            "Machine learning algorithms",
+            "Deep learning",
+            "Web development"
+          ],
+          "answer": "Machine learning algorithms"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Data Preprocessing for AI",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "description": "Explore techniques for preparing data for AI models.",
+      "points": [
+        "Handling missing data and outliers",
+        "Feature scaling and encoding",
+        "Splitting data into training and testing sets"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a common method for handling missing data in AI?",
+          "options": [
+            "Dropping rows or imputing values",
+            "Ignoring missing data",
+            "Randomizing data",
+            "Deleting datasets"
+          ],
+          "answer": "Dropping rows or imputing values"
+        },
+        {
+          "id": 2,
+          "question": "Why is feature scaling important in AI?",
+          "options": [
+            "To improve visualization",
+            "To normalize data for model performance",
+            "To encrypt data",
+            "To reduce dataset size"
+          ],
+          "answer": "To normalize data for model performance"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Supervised Learning",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "description": "Learn about supervised learning algorithms and their implementation.",
+      "points": [
+        "Linear regression and logistic regression",
+        "Decision trees and random forests",
+        "Evaluation metrics: accuracy, precision, recall"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which algorithm is used for predicting continuous values?",
+          "options": [
+            "Logistic regression",
+            "Linear regression",
+            "K-means clustering",
+            "Decision tree"
+          ],
+          "answer": "Linear regression"
+        },
+        {
+          "id": 2,
+          "question": "What is a common metric for evaluating classification models?",
+          "options": [
+            "Mean squared error",
+            "Precision",
+            "R-squared",
+            "Silhouette score"
+          ],
+          "answer": "Precision"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Unsupervised Learning",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "description": "Explore unsupervised learning techniques for discovering patterns in data.",
+      "points": [
+        "K-means clustering",
+        "Principal Component Analysis (PCA)",
+        "Evaluating clustering results"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of K-means clustering?",
+          "options": [
+            "Predicting continuous values",
+            "Grouping similar data points",
+            "Classifying labeled data",
+            "Reducing dataset size"
+          ],
+          "answer": "Grouping similar data points"
+        },
+        {
+          "id": 2,
+          "question": "What does PCA do in AI?",
+          "options": [
+            "Classifies data",
+            "Reduces dimensionality",
+            "Visualizes data",
+            "Trains models"
+          ],
+          "answer": "Reduces dimensionality"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Introduction to Deep Learning",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "description": "Learn the basics of deep learning and neural networks using TensorFlow.",
+      "points": [
+        "Understanding neural networks and layers",
+        "Building models with TensorFlow/Keras",
+        "Training and evaluating a simple neural network"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary component of a neural network?",
+          "options": [
+            "Nodes and layers",
+            "Routes and endpoints",
+            "Trees and branches",
+            "Clusters and groups"
+          ],
+          "answer": "Nodes and layers"
+        },
+        {
+          "id": 2,
+          "question": "Which library is commonly used for deep learning in Python?",
+          "options": ["Scikit-learn", "TensorFlow", "Pandas", "Matplotlib"],
+          "answer": "TensorFlow"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Natural Language Processing (NLP)",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "description": "Explore NLP techniques for processing and analyzing text data.",
+      "points": [
+        "Text preprocessing (tokenization, stemming)",
+        "Using libraries like NLTK or spaCy",
+        "Building a simple text classification model"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is tokenization in NLP?",
+          "options": [
+            "Encrypting text",
+            "Splitting text into words or phrases",
+            "Compressing data",
+            "Visualizing text"
+          ],
+          "answer": "Splitting text into words or phrases"
+        },
+        {
+          "id": 2,
+          "question": "Which library is commonly used for NLP in Python?",
+          "options": ["NumPy", "spaCy", "Matplotlib", "Seaborn"],
+          "answer": "spaCy"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying AI Models",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "description": "Learn how to deploy AI models for real-world use.",
+      "points": [
+        "Saving models with TensorFlow or joblib",
+        "Deploying models with Flask or FastAPI",
+        "Using cloud platforms like AWS or Google Cloud"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Python library is used to save machine learning models?",
+          "options": ["Matplotlib", "joblib", "Seaborn", "NumPy"],
+          "answer": "joblib"
+        },
+        {
+          "id": 2,
+          "question": "What is a common framework for deploying AI models as APIs?",
+          "options": ["Flask", "React", "Vue.js", "Django"],
+          "answer": "Flask"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "AI Ethics and Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/JMUxmLyrhSk",
+      "description": "Covers ethical considerations and best practices for AI development.",
+      "points": [
+        "Addressing bias and fairness in AI",
+        "Ensuring model interpretability",
+        "Documenting and sharing AI projects"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is addressing bias important in AI?",
+          "options": [
+            "To increase model complexity",
+            "To ensure fair and ethical outcomes",
+            "To simplify visualization",
+            "To reduce model accuracy"
+          ],
+          "answer": "To ensure fair and ethical outcomes"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of model interpretability in AI?",
+          "options": [
+            "Improved styling",
+            "Understanding model decisions",
+            "Reducing dataset size",
+            "Simplifying routing"
+          ],
+          "answer": "Understanding model decisions"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a primary goal of Artificial Intelligence?",
+          "options": [
+            "Building user interfaces",
+            "Mimicking human intelligence",
+            "Managing databases",
+            "Network configuration"
+          ],
+          "answer": "Mimicking human intelligence"
+        },
+        {
+          "id": 2,
+          "question": "Which programming language is commonly used for AI development?",
+          "options": ["JavaScript", "Python", "PHP", "Ruby"],
+          "answer": "Python"
+        },
+        {
+          "id": 3,
+          "question": "Which Python library is used for numerical computations in AI?",
+          "options": ["Pandas", "NumPy", "Matplotlib", "TensorFlow"],
+          "answer": "NumPy"
+        },
+        {
+          "id": 4,
+          "question": "What is a common method for handling missing data in AI?",
+          "options": [
+            "Dropping rows or imputing values",
+            "Ignoring missing data",
+            "Randomizing data",
+            "Deleting datasets"
+          ],
+          "answer": "Dropping rows or imputing values"
+        },
+        {
+          "id": 5,
+          "question": "Which algorithm is used for predicting continuous values?",
+          "options": [
+            "Logistic regression",
+            "Linear regression",
+            "K-means clustering",
+            "Decision tree"
+          ],
+          "answer": "Linear regression"
+        },
+        {
+          "id": 6,
+          "question": "What is the purpose of K-means clustering?",
+          "options": [
+            "Predicting continuous values",
+            "Grouping similar data points",
+            "Classifying labeled data",
+            "Reducing dataset size"
+          ],
+          "answer": "Grouping similar data points"
+        },
+        {
+          "id": 7,
+          "question": "Which library is commonly used for deep learning in Python?",
+          "options": ["Scikit-learn", "TensorFlow", "Pandas", "Matplotlib"],
+          "answer": "TensorFlow"
+        },
+        {
+          "id": 8,
+          "question": "What is tokenization in NLP?",
+          "options": [
+            "Encrypting text",
+            "Splitting text into words or phrases",
+            "Compressing data",
+            "Visualizing text"
+          ],
+          "answer": "Splitting text into words or phrases"
+        },
+        {
+          "id": 9,
+          "question": "Which Python library is used to save machine learning models?",
+          "options": ["Matplotlib", "joblib", "Seaborn", "NumPy"],
+          "answer": "joblib"
+        },
+        {
+          "id": 10,
+          "question": "Why is addressing bias important in AI?",
+          "options": [
+            "To increase model complexity",
+            "To ensure fair and ethical outcomes",
+            "To simplify visualization",
+            "To reduce model accuracy"
+          ],
+          "answer": "To ensure fair and ethical outcomes"
+        }
+      ]
+    }
+  ]
+}
