@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Ruby",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Dji9ALCgfpA",
+      "video": "https://www.youtube.com/embed/UYm0kfnRTJk",
       "description": "An introduction to the Ruby programming language, its history, and its use in modern development.",
       "points": [
         "What is Ruby?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "Ruby Syntax and Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Dji9ALCgfpA",
+      "video": "https://www.youtube.com/embed/iwr_I2yLLgs",
       "description": "Learn the basic syntax and structure of Ruby programs.",
       "points": [
         "Variables, data types, and operators",
@@ -77,7 +77,7 @@
       "id": 5,
       "title": "Object-Oriented Programming in Ruby",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Dji9ALCgfpA",
+      "video": "https://www.youtube.com/embed/vgQ7P6V472c",
       "description": "Explore Ruby’s object-oriented programming features for modular code.",
       "points": [
         "Classes and objects",
@@ -113,7 +113,7 @@
       "id": 7,
       "title": "Working with Arrays and Hashes",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Dji9ALCgfpA",
+      "video": "https://www.youtube.com/embed/dC7goLX9K0U",
       "description": "Learn how to use arrays and hashes for data storage and manipulation in Ruby.",
       "points": [
         "Creating and manipulating arrays",
@@ -149,7 +149,7 @@
       "id": 9,
       "title": "File I/O and Exception Handling",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Dji9ALCgfpA",
+      "video": "https://www.youtube.com/embed/yuH3zTgsdMY",
       "description": "Covers reading and writing files and handling errors in Ruby.",
       "points": [
         "Reading and writing files with File class",
@@ -180,7 +180,7 @@
       "id": 11,
       "title": "Introduction to Ruby on Rails",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Dji9ALCgfpA",
+      "video": "https://www.youtube.com/embed/6Vi_7R-BHPI",
       "description": "Learn the basics of Ruby on Rails, a popular web framework built on Ruby.",
       "points": [
         "Setting up a Rails application",
@@ -216,7 +216,7 @@
       "id": 13,
       "title": "Building APIs with Ruby on Rails",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Dji9ALCgfpA",
+      "video": "https://www.youtube.com/embed/36M2BSA2LYk",
       "description": "Explore how to build RESTful APIs using Ruby on Rails.",
       "points": [
         "Creating RESTful routes in Rails",
@@ -252,7 +252,7 @@
       "id": 15,
       "title": "Deploying Ruby Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Dji9ALCgfpA",
+      "video": "https://www.youtube.com/embed/MFQWhlZcSrI",
       "description": "Learn how to deploy Ruby and Rails applications to production environments.",
       "points": [
         "Deploying Rails apps to Heroku",
@@ -288,7 +288,7 @@
       "id": 17,
       "title": "Ruby Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Dji9ALCgfpA",
+      "video": "https://www.youtube.com/embed/vw7PlBvLq9k",
       "description": "Covers best practices for writing clean and maintainable Ruby code.",
       "points": [
         "Following Ruby style guides (e.g., RuboCop)",

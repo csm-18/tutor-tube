@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to C#",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=wf1XzY8q2x8",
+      "video": "https://www.youtube.com/embed/ravLFzIguCM",
       "description": "An introduction to the C# language, its history, and its role within the .NET ecosystem.",
       "points": [
         "What is C# and what is it used for?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "C# Syntax and Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=wf1XzY8q2x8",
+      "video": "https://www.youtube.com/embed/jtVxgzBPq0c",
       "description": "Learn the basic syntax and structure of C# programs, including variables, data types, and control flow.",
       "points": [
         "Variables and data types (int, string, bool, etc.)",
@@ -77,7 +77,7 @@
       "id": 5,
       "title": "Object-Oriented Programming (OOP) in C#",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=wf1XzY8q2x8",
+      "video": "https://www.youtube.com/embed/iA0XZwFqqKI",
       "description": "Explore the core principles of OOP and how they are implemented in C#.",
       "points": [
         "Classes and Objects: Defining classes, creating objects, constructors.",
@@ -114,7 +114,7 @@
       "id": 7,
       "title": "Advanced C# Concepts",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=wf1XzY8q2x8",
+      "video": "https://www.youtube.com/embed/YT8s-90oDC0",
       "description": "Dive into more complex C# features that are crucial for modern development.",
       "points": [
         "Interfaces: Defining contracts for classes.",
@@ -151,7 +151,7 @@
       "id": 9,
       "title": "Web Applications with ASP.NET Core",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=wf1XzY8q2x8",
+      "video": "https://www.youtube.com/embed/BfEjDD8mWYg",
       "description": "Learn to build web applications using the powerful ASP.NET Core framework.",
       "points": [
         "Introduction to ASP.NET Core and its components (MVC, Razor Pages, Web API).",
@@ -183,7 +183,7 @@
       "id": 11,
       "title": "Database Integration with C#",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=wf1XzY8q2x8",
+      "video": "https://www.youtube.com/embed/ZX12X-ALwGA",
       "description": "Learn how to connect C# applications to databases and perform data operations.",
       "points": [
         "Introduction to Entity Framework Core (EF Core) as an ORM.",
@@ -225,7 +225,7 @@
       "id": 13,
       "title": "Testing and Deployment",
       "type": "lesson",
-      "video": "https://www.youtube.com/watch?v=wf1XzY8q2x8",
+      "video": "https://www.youtube.com/embed/WzJIoP4WpmU",
       "description": "Understand how to write automated tests and deploy C# applications.",
       "points": [
         "Unit Testing: Writing tests with frameworks like MSTest, NUnit, or xUnit.",

@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to PHP",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "video": "https://www.youtube.com/embed/a7_WFUlFS94",
       "description": "An introduction to PHP, its role in web development, and setting up a development environment.",
       "points": [
         "What is PHP and its history?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "PHP Syntax and Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "video": "https://www.youtube.com/embed/HrtS-FkPBqk",
       "description": "Learn the basic syntax and structure of PHP programming.",
       "points": [
         "Variables, data types, and operators",
@@ -77,7 +77,7 @@
       "id": 5,
       "title": "Working with Forms and HTTP",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "video": "https://www.youtube.com/embed/bOqTCDfc7Tk",
       "description": "Explore how PHP handles form data and HTTP requests.",
       "points": [
         "Handling GET and POST requests",
@@ -113,7 +113,7 @@
       "id": 7,
       "title": "Database Integration with PHP",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "video": "https://www.youtube.com/embed/2HVKizgcfjo",
       "description": "Learn how to connect PHP to databases for dynamic applications.",
       "points": [
         "Using PDO for database connections",
@@ -149,7 +149,7 @@
       "id": 9,
       "title": "Introduction to Laravel",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "video": "https://www.youtube.com/embed/rIfdg_Ot-LI",
       "description": "Learn the basics of Laravel, a popular PHP framework for web development.",
       "points": [
         "Setting up a Laravel project",
@@ -190,7 +190,7 @@
       "id": 11,
       "title": "Building APIs with Laravel",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "video": "https://www.youtube.com/embed/YGqCZjdgJJk",
       "description": "Explore how to build RESTful APIs using Laravel.",
       "points": [
         "Creating API routes and resources",
@@ -226,7 +226,7 @@
       "id": 13,
       "title": "Authentication in PHP",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "video": "https://www.youtube.com/embed/v5tAdjf0o3E",
       "description": "Covers implementing authentication in PHP applications, with a focus on Laravel.",
       "points": [
         "Using Laravel’s authentication system",
@@ -262,7 +262,7 @@
       "id": 15,
       "title": "Deploying PHP Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "video": "https://www.youtube.com/embed/yrzvA92sBwo",
       "description": "Learn how to deploy PHP applications to production environments.",
       "points": [
         "Deploying to shared hosting or VPS",
@@ -298,7 +298,7 @@
       "id": 17,
       "title": "PHP Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/s7X4-51kGG8",
+      "video": "https://www.youtube.com/embed/Mi8AD5B-Tuc",
       "description": "Covers best practices for writing clean and secure PHP code.",
       "points": [
         "Following PSR standards (e.g., PSR-12)",

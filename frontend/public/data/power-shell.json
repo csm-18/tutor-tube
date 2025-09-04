@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to PowerShell",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "video": "https://www.youtube.com/embed/H0gwnFV_SFs",
       "description": "An introduction to PowerShell, its purpose, and its role as a command-line shell and scripting language for system administration.",
       "points": [
         "What is PowerShell and what is it used for?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "Core Concepts: Cmdlets, Objects, and Pipeline",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "video": "https://www.youtube.com/embed/p6I-l4UVMv8",
       "description": "Learn the fundamental building blocks of PowerShell: cmdlets, objects, and the pipeline.",
       "points": [
         "Understanding Cmdlets (Command-Let) and their Verb-Noun naming convention",
@@ -72,7 +72,7 @@
       "id": 5,
       "title": "Variables, Data Types, and Operators",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "video": "https://www.youtube.com/embed/uDEoMRrleiw",
       "description": "Dive into the basics of PowerShell scripting, including variables, data types, and operators.",
       "points": [
         "Declaring variables and assigning values",
@@ -108,7 +108,7 @@
       "id": 7,
       "title": "PowerShell Scripting and Control Flow",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "video": "https://www.youtube.com/embed/j8Ubwv8ApdU",
       "description": "Learn how to write scripts to automate tasks and use control flow structures.",
       "points": [
         "Creating and running PowerShell scripts (.ps1 files)",
@@ -139,7 +139,7 @@
       "id": 9,
       "title": "Working with Files and Directories",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "video": "https://www.youtube.com/embed/YF6HTPkP_Po",
       "description": "Learn how to manage files and directories using PowerShell cmdlets.",
       "points": [
         "Cmdlets for file management (`Get-Item`, `Copy-Item`, `Remove-Item`)",
@@ -170,7 +170,7 @@
       "id": 11,
       "title": "Managing Processes and Services",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/M0T1b23861Y",
+      "video": "https://www.youtube.com/embed/2W6biyviv1I",
       "description": "Explore how to manage system processes and services using powerful PowerShell cmdlets.",
       "points": [
         "Getting process information with `Get-Process`",

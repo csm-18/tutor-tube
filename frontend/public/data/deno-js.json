@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Deno.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "video": "https://www.youtube.com/embed/2iLeRzHvc10",
       "description": "An introduction to Deno.js, its purpose, and how it differs from Node.js as a secure JavaScript/TypeScript runtime.",
       "points": [
         "What is Deno.js?",
@@ -46,7 +46,7 @@
       "id": 3,
       "title": "Working with Modules in Deno",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "video": "https://www.youtube.com/embed/cTFBiwYY3vs",
       "description": "Learn how Deno handles modules and imports without a package manager.",
       "points": [
         "Importing modules using URLs",
@@ -87,7 +87,7 @@
       "id": 5,
       "title": "Security Model in Deno",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "video": "https://www.youtube.com/embed/a8DaWZq6TXk",
       "description": "Explore Deno's security model and how it ensures safe code execution.",
       "points": [
         "Permission-based security (--allow-net, --allow-read)",
@@ -128,7 +128,7 @@
       "id": 7,
       "title": "Building Web Servers with Deno",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "video": "https://www.youtube.com/embed/KNxyrXCi_MY",
       "description": "Learn how to create web servers using Deno's standard library and third-party frameworks.",
       "points": [
         "Using the Deno.serve API for HTTP servers",
@@ -164,7 +164,7 @@
       "id": 9,
       "title": "File System and Environment in Deno",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "video": "https://www.youtube.com/embed/UnlH2MsvOVw",
       "description": "Covers interacting with the file system and environment variables in Deno.",
       "points": [
         "Reading and writing files with Deno.fs",
@@ -200,7 +200,7 @@
       "id": 11,
       "title": "Testing in Deno",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "video": "https://www.youtube.com/embed/z06ggoeNnrk",
       "description": "Learn how to write and run tests in Deno using its built-in testing tools.",
       "points": [
         "Using Deno.test for unit testing",
@@ -231,7 +231,7 @@
       "id": 13,
       "title": "Deploying Deno Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "video": "https://www.youtube.com/embed/VRryNeYm6yw",
       "description": "Explore how to deploy Deno applications to various platforms.",
       "points": [
         "Deploying to Deno Deploy",
@@ -267,7 +267,7 @@
       "id": 15,
       "title": "Deno Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/2oF_GzD3A2w",
+      "video": "https://www.youtube.com/embed/7Yo3eO-jitQ",
       "description": "Covers best practices for writing and maintaining Deno applications.",
       "points": [
         "Structuring Deno projects",

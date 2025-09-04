@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Nuxt.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "video": "https://www.youtube.com/embed/dCxSsr5xuL8",
       "description": "An introduction to Nuxt.js, its purpose, and its role in building Vue.js applications.",
       "points": [
         "What is Nuxt.js?",
@@ -46,7 +46,7 @@
       "id": 3,
       "title": "Nuxt.js Routing and Pages",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "video": "https://www.youtube.com/embed/tdgUDuD3fS4",
       "description": "Learn how Nuxt.js handles file-based routing and dynamic pages.",
       "points": [
         "File-based routing in the pages/ directory",
@@ -87,7 +87,7 @@
       "id": 5,
       "title": "Data Fetching in Nuxt.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "video": "https://www.youtube.com/embed/yk80g6QS30Y",
       "description": "Explore data fetching methods in Nuxt.js for dynamic content.",
       "points": [
         "Using asyncData for server-side data fetching",
@@ -123,7 +123,7 @@
       "id": 7,
       "title": "Nuxt.js Modules and Plugins",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "video": "https://www.youtube.com/embed/JQLH9MDtRQk",
       "description": "Learn how to extend Nuxt.js with modules and plugins for additional functionality.",
       "points": [
         "Using Nuxt.js modules (e.g., @nuxtjs/axios)",
@@ -164,7 +164,7 @@
       "id": 9,
       "title": "State Management in Nuxt.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "video": "https://www.youtube.com/embed/IkpoAKS1s-k",
       "description": "Covers state management in Nuxt.js applications using Vuex or Pinia.",
       "points": [
         "Using Vuex for centralized state management",
@@ -200,7 +200,7 @@
       "id": 11,
       "title": "Authentication in Nuxt.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "video": "https://www.youtube.com/embed/YLIqBedO9gE",
       "description": "Learn how to implement authentication in Nuxt.js applications.",
       "points": [
         "Using @nuxtjs/auth-next module",
@@ -241,10 +241,10 @@
       "id": 13,
       "title": "Deploying Nuxt.js Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "video": "https://www.youtube.com/embed/2iCNyVlqcDc",
       "description": "Explore how to deploy Nuxt.js applications to various platforms.",
       "points": [
-        "Deploying to Vercel or Netlify",
+        "Deploying",
         "Configuring server-side rendering vs static generation",
         "Setting up environment variables"
       ]
@@ -277,7 +277,7 @@
       "id": 15,
       "title": "Nuxt.js Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/ltxlV2_3F1E",
+      "video": "https://www.youtube.com/embed/Gzste7H0_bk",
       "description": "Covers best practices for building scalable and maintainable Nuxt.js applications.",
       "points": [
         "Structuring Nuxt.js projects",

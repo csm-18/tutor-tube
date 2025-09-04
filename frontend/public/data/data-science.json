@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Data Science",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/N6B5Iw29J7w",
+      "video": "https://www.youtube.com/embed/KxryzSO1Fjs",
       "description": "An introduction to data science, its applications, and the tools used in the field.",
       "points": [
         "What is data science?",
@@ -46,7 +46,7 @@
       "id": 3,
       "title": "Python for Data Science",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/N6B5Iw29J7w",
+      "video": "https://www.youtube.com/embed/HrRA67O-QXI",
       "description": "Learn the basics of Python programming for data science tasks.",
       "points": [
         "Python basics: variables, lists, dictionaries",
@@ -82,7 +82,7 @@
       "id": 5,
       "title": "Data Cleaning and Preprocessing",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/N6B5Iw29J7w",
+      "video": "https://www.youtube.com/embed/tDu_KIlXaB0",
       "description": "Explore techniques for cleaning and preparing data for analysis.",
       "points": [
         "Handling missing values",
@@ -123,7 +123,7 @@
       "id": 7,
       "title": "Data Visualization",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/N6B5Iw29J7w",
+      "video": "https://www.youtube.com/embed/x-rDVXVwW9s",
       "description": "Learn how to visualize data effectively using Python libraries.",
       "points": [
         "Using Matplotlib for basic plotting",
@@ -159,7 +159,7 @@
       "id": 9,
       "title": "Introduction to Machine Learning",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/N6B5Iw29J7w",
+      "video": "https://www.youtube.com/embed/ukzFI9rgwfU",
       "description": "Covers the basics of machine learning and its application in data science.",
       "points": [
         "Supervised vs unsupervised learning",
@@ -195,7 +195,7 @@
       "id": 11,
       "title": "Supervised Learning Models",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/N6B5Iw29J7w",
+      "video": "https://www.youtube.com/embed/yN7ypxC7838",
       "description": "Learn about common supervised learning algorithms and their implementation.",
       "points": [
         "Linear regression and logistic regression",
@@ -236,7 +236,7 @@
       "id": 13,
       "title": "Unsupervised Learning and Clustering",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/N6B5Iw29J7w",
+      "video": "https://www.youtube.com/embed/d9qf0qPPhsc",
       "description": "Explore unsupervised learning techniques for discovering patterns in data.",
       "points": [
         "K-means clustering",
@@ -277,7 +277,7 @@
       "id": 15,
       "title": "Deploying Data Science Models",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/N6B5Iw29J7w",
+      "video": "https://www.youtube.com/embed/jMrp6XfYIyk",
       "description": "Learn how to deploy data science models for real-world use.",
       "points": [
         "Saving and loading models with joblib or pickle",
@@ -308,7 +308,7 @@
       "id": 17,
       "title": "Data Science Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/N6B5Iw29J7w",
+      "video": "https://www.youtube.com/embed/KwSlHWvFTUs",
       "description": "Covers best practices for conducting effective and ethical data science projects.",
       "points": [
         "Ensuring data quality and reproducibility",

@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Cyber Security",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/inWWhr5tnYo",
+      "video": "https://www.youtube.com/embed/inWWhr5tnEA",
       "description": "An introduction to cyber security, its importance, and key concepts in protecting digital assets.",
       "points": [
         "What is cyber security?",
@@ -46,7 +46,7 @@
       "id": 3,
       "title": "Cryptography Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/AQDCe685ysM",
+      "video": "https://www.youtube.com/embed/NuyzuNBFWxQ",
       "description": "Learn the fundamentals of cryptography and its role in securing data.",
       "points": [
         "Symmetric vs asymmetric encryption",
@@ -82,7 +82,7 @@
       "id": 5,
       "title": "Network Security",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/6F3vJ9t8k4Q",
+      "video": "https://www.youtube.com/embed/sesacY7Xz3c",
       "description": "Covers techniques and tools for securing network communications.",
       "points": [
         "Firewalls and intrusion detection systems",
@@ -118,7 +118,7 @@
       "id": 7,
       "title": "Authentication and Access Control",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/0aStC7Pwnsc",
+      "video": "https://www.youtube.com/embed/PjZH-CO1hX0",
       "description": "Explores methods for verifying user identities and controlling access to resources.",
       "points": [
         "Authentication methods: passwords, biometrics, MFA",
@@ -159,7 +159,7 @@
       "id": 9,
       "title": "Common Cyber Attacks",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1d0Zf9sXlHk",
+      "video": "https://www.youtube.com/embed/fFnKR7bRJ88",
       "description": "Learn about common cyber attacks and how to mitigate them.",
       "points": [
         "Phishing and social engineering",
@@ -195,7 +195,7 @@
       "id": 11,
       "title": "Web Application Security",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Lr2ox7EPbBg",
+      "video": "https://www.youtube.com/embed/Dp019cWu1cg",
       "description": "Covers securing web applications against common vulnerabilities.",
       "points": [
         "OWASP Top 10 vulnerabilities",
@@ -236,7 +236,7 @@
       "id": 13,
       "title": "Incident Response and Recovery",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/5j7nGKB2K0o",
+      "video": "https://www.youtube.com/embed/bjio4uvcmGI",
       "description": "Learn how to respond to and recover from security incidents.",
       "points": [
         "Creating an incident response plan",
@@ -277,7 +277,7 @@
       "id": 15,
       "title": "Cyber Security Tools",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/0e3fP8tW5g0",
+      "video": "https://www.youtube.com/embed/cZk2S6mgU0o",
       "description": "Explores common tools used in cyber security for monitoring and protection.",
       "points": [
         "Network monitoring tools: Wireshark, Nmap",
@@ -318,7 +318,7 @@
       "id": 17,
       "title": "Cyber Security Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1Z6f5o7xE9s",
+      "video": "https://www.youtube.com/embed/8oyeKteNWx0",
       "description": "Covers best practices for implementing and maintaining cyber security measures.",
       "points": [
         "Regular software updates and patch management",

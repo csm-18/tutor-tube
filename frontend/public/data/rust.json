@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Rust",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "video": "https://www.youtube.com/embed/5C_HPTJg5ek",
       "description": "An introduction to Rust, its design philosophy, and its role in systems programming.",
       "points": [
         "What is Rust and its key features?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "Rust Syntax and Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "video": "https://www.youtube.com/embed/br3GIIQeefY",
       "description": "Learn the basic syntax and structure of Rust programming.",
       "points": [
         "Variables, data types, and mutability",
@@ -77,7 +77,7 @@
       "id": 5,
       "title": "Ownership and Borrowing",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "video": "https://www.youtube.com/embed/VFIOSWy93H0",
       "description": "Explore Rust’s unique ownership model for memory safety.",
       "points": [
         "Understanding ownership and moves",
@@ -118,7 +118,7 @@
       "id": 7,
       "title": "Structs and Enums",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "video": "https://www.youtube.com/embed/DSZqIJhkNCM",
       "description": "Learn how to use structs and enums for data modeling in Rust.",
       "points": [
         "Defining and using structs",
@@ -154,7 +154,7 @@
       "id": 9,
       "title": "Concurrency in Rust",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "video": "https://www.youtube.com/embed/06WcsNPUNC8",
       "description": "Explore Rust’s concurrency model for safe and efficient parallel programming.",
       "points": [
         "Using threads for concurrency",
@@ -190,7 +190,7 @@
       "id": 11,
       "title": "Building Web Servers with Rust",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "video": "https://www.youtube.com/embed/BHxmWTVFWxQ",
       "description": "Learn how to build web servers using Rust frameworks like Actix or Rocket.",
       "points": [
         "Setting up a web server with Actix",
@@ -226,7 +226,7 @@
       "id": 13,
       "title": "Database Integration with Rust",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "video": "https://www.youtube.com/embed/FW4oUXHly8c",
       "description": "Explore how to connect Rust applications to databases.",
       "points": [
         "Using Diesel for SQL databases",
@@ -257,7 +257,7 @@
       "id": 15,
       "title": "Deploying Rust Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "video": "https://www.youtube.com/embed/_gMzg77Qjm0",
       "description": "Learn how to deploy Rust applications to production environments.",
       "points": [
         "Building Rust binaries with Cargo",
@@ -298,7 +298,7 @@
       "id": 17,
       "title": "Rust Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/zF34dRivLOw",
+      "video": "https://www.youtube.com/embed/XCrZleaIUO4",
       "description": "Covers best practices for writing safe and efficient Rust code.",
       "points": [
         "Following Rust style guidelines (rustfmt, clippy)",
