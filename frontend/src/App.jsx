@@ -17,6 +17,7 @@ import NodeJs from "./views/NodeJs.jsx";
 import Figma from "./views/Figma.jsx";
 import SoftSkills from "./views/SoftSkills.jsx";
 import ReactCourse from "./views/ReactCourse.jsx";
+import Aboutpage from "./components/Aboutpage.jsx";
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -34,7 +35,7 @@ function App() {
         path="/autocourse"
         element={<AutoCourseBuilder theme={theme} setTheme={setTheme} />}
       />
-
+      <Route path="/about" element={<Aboutpage />} />
       <Route path="/courses/html" element={<Html />} />
       <Route path="/courses/css" element={<Css />} />
       <Route path="/courses/js" element={<Js />} />
