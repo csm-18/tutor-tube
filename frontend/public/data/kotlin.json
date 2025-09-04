@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Kotlin",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "video": "https://www.youtube.com/embed/xT8oP0wy-A0",
       "description": "An introduction to Kotlin, its design philosophy, and its role in modern software development.",
       "points": [
         "What is Kotlin and its key features?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "Kotlin Syntax and Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "video": "https://www.youtube.com/embed/oKnCwhse22g",
       "description": "Learn the basic syntax and structure of Kotlin programming.",
       "points": [
         "Variables, data types, and null safety",
@@ -77,7 +77,7 @@
       "id": 5,
       "title": "Object-Oriented Programming in Kotlin",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "video": "https://www.youtube.com/embed/ibKvqc21ZpA",
       "description": "Explore Kotlin’s object-oriented programming features for modular code.",
       "points": [
         "Classes, objects, and data classes",
@@ -113,7 +113,7 @@
       "id": 7,
       "title": "Collections and Functional Programming",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "video": "https://www.youtube.com/embed/IL5XzaCMKpQ",
       "description": "Learn how to use collections and functional programming features in Kotlin.",
       "points": [
         "Lists, Sets, and Maps",
@@ -149,7 +149,7 @@
       "id": 9,
       "title": "Coroutines for Asynchronous Programming",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "video": "https://www.youtube.com/embed/ppvhqkjuu9c",
       "description": "Explore Kotlin’s coroutines for efficient asynchronous programming.",
       "points": [
         "Understanding coroutines and suspend functions",
@@ -190,7 +190,7 @@
       "id": 11,
       "title": "Android Development with Kotlin",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "video": "https://www.youtube.com/embed/xBKQ01LRuuE",
       "description": "Learn how to build Android applications using Kotlin.",
       "points": [
         "Setting up an Android project in Android Studio",
@@ -226,7 +226,7 @@
       "id": 13,
       "title": "Building Backend APIs with Ktor",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "video": "https://www.youtube.com/embed/xKmLZ9cIWss",
       "description": "Explore how to build RESTful APIs using Ktor, a Kotlin framework for backend development.",
       "points": [
         "Setting up a Ktor project",
@@ -262,7 +262,7 @@
       "id": 15,
       "title": "Deploying Kotlin Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "video": "https://www.youtube.com/embed/IIUw9pEMcKY",
       "description": "Learn how to deploy Kotlin applications for Android and backend systems.",
       "points": [
         "Building APKs for Android apps",
@@ -298,7 +298,7 @@
       "id": 17,
       "title": "Kotlin Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/F9UC9DY-vIU",
+      "video": "https://www.youtube.com/embed/B_ZslbAw-Pk",
       "description": "Covers best practices for writing clean and efficient Kotlin code.",
       "points": [
         "Following Kotlin coding conventions",

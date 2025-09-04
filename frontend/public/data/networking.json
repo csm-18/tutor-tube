@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Computer Networking",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/IPvYjXCsTgA",
+      "video": "https://www.youtube.com/embed/VwN91x5i25g",
       "description": "An introduction to computer networking, its importance, and fundamental concepts.",
       "points": [
         "What is computer networking?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "Network Models and OSI",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/LkolbUFCEVc",
+      "video": "https://www.youtube.com/embed/vv4y_uOneC0",
       "description": "Learn about network models, focusing on the OSI model and its layers.",
       "points": [
         "Overview of the OSI model",
@@ -72,7 +72,7 @@
       "id": 5,
       "title": "TCP/IP Protocols",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/P8QJ7fVqQ1k",
+      "video": "https://www.youtube.com/embed/2QGgEk20RXM",
       "description": "Covers the TCP/IP protocol suite and its role in network communication.",
       "points": [
         "Understanding TCP and IP",
@@ -108,7 +108,7 @@
       "id": 7,
       "title": "IP Addressing and Subnetting",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7-3bY3z1I7o",
+      "video": "https://www.youtube.com/embed/eHV1aOnu7oM",
       "description": "Explains IP addressing, subnetting, and how devices are identified on a network.",
       "points": [
         "IPv4 vs IPv6",
@@ -144,7 +144,7 @@
       "id": 9,
       "title": "Network Devices and Topologies",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1z0ULvg_pW8",
+      "video": "https://www.youtube.com/embed/zbqrNg4C98U",
       "description": "Learn about network devices and common network topologies.",
       "points": [
         "Devices: routers, switches, hubs",
@@ -175,7 +175,7 @@
       "id": 11,
       "title": "Network Security Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/6F3vJ9t8k4Q",
+      "video": "https://www.youtube.com/embed/KjN64N6-_Sk",
       "description": "Covers fundamental concepts of network security and common practices.",
       "points": [
         "Firewalls and intrusion detection",
@@ -211,7 +211,7 @@
       "id": 13,
       "title": "Wireless Networking",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/8m6p2rxW6rY",
+      "video": "https://www.youtube.com/embed/Uz-RTurph3c",
       "description": "Explores the basics of wireless networking and its protocols.",
       "points": [
         "Wi-Fi standards (802.11a/b/g/n/ac/ax)",
@@ -247,7 +247,7 @@
       "id": 15,
       "title": "Network Troubleshooting",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1z0ULvg_pW8",
+      "video": "https://www.youtube.com/embed/vgisbCjtHz4",
       "description": "Learn basic network troubleshooting techniques and tools.",
       "points": [
         "Using ping and traceroute",
@@ -283,7 +283,7 @@
       "id": 17,
       "title": "Networking Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/9g5z3o6Z6yQ",
+      "video": "https://www.youtube.com/embed/WvwPDDXUI_8",
       "description": "Covers best practices for designing and maintaining efficient and secure networks.",
       "points": [
         "Designing scalable network architectures",

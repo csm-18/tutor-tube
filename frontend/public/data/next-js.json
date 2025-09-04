@@ -1,11 +1,11 @@
 {
-  "courseTitle": "Advanced Next.js Curriculum",
+  "courseTitle": "Next.js",
   "modules": [
     {
       "id": 1,
       "title": "Next.js Fundamentals",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/mrT_DsGDWVM",
+      "video": "https://www.youtube.com/embed/Sklc_fQBmcs",
       "description": "A deep dive into the core features of Next.js and its role in building modern web applications.",
       "points": [
         "Overview of Next.js and its hybrid rendering",
@@ -46,7 +46,7 @@
       "id": 3,
       "title": "App Router and Advanced Routing",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/UlV5Kn5qB6Q",
+      "video": "https://www.youtube.com/embed/gSSsZReIFRk",
       "description": "Explore the App Router in Next.js for advanced routing and layout management.",
       "points": [
         "File-based routing in App Router",
@@ -87,7 +87,7 @@
       "id": 5,
       "title": "Advanced Data Fetching",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/SS0Ow-1rE0s",
+      "video": "https://www.youtube.com/embed/bKm1rNaCFOo",
       "description": "Learn advanced data fetching techniques in Next.js, including Server Components and streaming.",
       "points": [
         "Using React Server Components for data fetching",
@@ -128,7 +128,7 @@
       "id": 7,
       "title": "API Routes and Middleware",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7o5YVcoz0qM",
+      "video": "https://www.youtube.com/embed/ZAJjthK4HH4",
       "description": "Covers building API routes and using middleware for advanced request handling.",
       "points": [
         "Creating API routes with App Router",
@@ -169,7 +169,7 @@
       "id": 9,
       "title": "Authentication in Next.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/0P5fjo9wBWY",
+      "video": "https://www.youtube.com/embed/Otq0LY90Qso",
       "description": "Learn how to implement authentication in Next.js applications.",
       "points": [
         "Using NextAuth.js for authentication",
@@ -205,7 +205,7 @@
       "id": 11,
       "title": "Performance Optimization",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1yN3u3eL9cY",
+      "video": "https://www.youtube.com/embed/TvrQnBDIDpI",
       "description": "Explores techniques for optimizing Next.js applications for performance.",
       "points": [
         "Using next/image for image optimization",
@@ -246,7 +246,7 @@
       "id": 13,
       "title": "Deployment and Scalability",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/0P5fjo9wBWY",
+      "video": "https://www.youtube.com/embed/sIVL4JMqRfc",
       "description": "Learn how to deploy and scale Next.js applications effectively.",
       "points": [
         "Deploying to Vercel and other platforms",
@@ -282,7 +282,7 @@
       "id": 15,
       "title": "Next.js Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1yN3u3eL9cY",
+      "video": "https://www.youtube.com/embed/4lnb75M9YRo",
       "description": "Covers best practices for building maintainable and performant Next.js applications.",
       "points": [
         "Structuring Next.js projects",

@@ -1,11 +1,11 @@
 {
-  "courseTitle": "Go (Golang) Programming Curriculum",
+  "courseTitle": "Go (Golang)",
   "modules": [
     {
       "id": 1,
       "title": "Introduction to Go",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "video": "https://www.youtube.com/embed/446E-r0rXHI",
       "description": "An introduction to Go, its design philosophy, and its role in modern software development.",
       "points": [
         "What is Go and its key features?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "Go Syntax and Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "video": "https://www.youtube.com/embed/3lazW_dSXKM",
       "description": "Learn the basic syntax and structure of Go programming.",
       "points": [
         "Variables, data types, and constants",
@@ -77,7 +77,7 @@
       "id": 5,
       "title": "Working with Slices and Maps",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "video": "https://www.youtube.com/embed/gkPZ1VHmoQA",
       "description": "Explore Go’s built-in data structures for efficient data management.",
       "points": [
         "Slices: dynamic arrays in Go",
@@ -113,7 +113,7 @@
       "id": 7,
       "title": "Concurrency in Go",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "video": "https://www.youtube.com/embed/B9uR2gLM80E",
       "description": "Learn Go’s concurrency model using goroutines and channels.",
       "points": [
         "Goroutines for concurrent execution",
@@ -154,7 +154,7 @@
       "id": 9,
       "title": "Building Web Servers with Go",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "video": "https://www.youtube.com/embed/eqvDSkuBihs",
       "description": "Covers building RESTful APIs and web servers using Go’s standard library.",
       "points": [
         "Using net/http for basic web servers",
@@ -190,7 +190,7 @@
       "id": 11,
       "title": "Using Go Frameworks (e.g., Gin)",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "video": "https://www.youtube.com/embed/lf_kiH_NPvM",
       "description": "Learn how to use the Gin framework to build robust web applications in Go.",
       "points": [
         "Setting up a Gin project",
@@ -231,7 +231,7 @@
       "id": 13,
       "title": "Database Integration with Go",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "video": "https://www.youtube.com/embed/GszGvj6eBZY",
       "description": "Explore how to connect Go applications to databases.",
       "points": [
         "Using database/sql for SQL databases",
@@ -267,7 +267,7 @@
       "id": 15,
       "title": "Deploying Go Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "video": "https://www.youtube.com/embed/C3cIIz73Q3s",
       "description": "Learn how to deploy Go applications to production environments.",
       "points": [
         "Building Go binaries for deployment",
@@ -303,7 +303,7 @@
       "id": 17,
       "title": "Go Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/YS4e4q9oBGo",
+      "video": "https://www.youtube.com/embed/MzTcsI6tn-0",
       "description": "Covers best practices for writing clean and efficient Go code.",
       "points": [
         "Following Go style guidelines (gofmt, go vet)",

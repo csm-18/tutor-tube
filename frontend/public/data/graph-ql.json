@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to GraphQL",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "video": "https://www.youtube.com/embed/eIQh02xuVw4",
       "description": "An introduction to GraphQL, its purpose, and its advantages over traditional REST APIs.",
       "points": [
         "What is GraphQL?",
@@ -46,7 +46,7 @@
       "id": 3,
       "title": "GraphQL Schemas and Types",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "video": "https://www.youtube.com/embed/Y_EUcGbz7e4",
       "description": "Learn how to define GraphQL schemas and types to structure your API.",
       "points": [
         "Defining schemas with SDL (Schema Definition Language)",
@@ -82,7 +82,7 @@
       "id": 5,
       "title": "Queries and Mutations",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "video": "https://www.youtube.com/embed/VvLHlAsJPsw",
       "description": "Explore how to create and execute queries and mutations in GraphQL.",
       "points": [
         "Writing GraphQL queries to fetch data",
@@ -123,7 +123,7 @@
       "id": 7,
       "title": "Resolvers in GraphQL",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "video": "https://www.youtube.com/embed/15cTq47go5E",
       "description": "Learn how resolvers connect GraphQL queries and mutations to backend data sources.",
       "points": [
         "Writing resolver functions",
@@ -164,7 +164,7 @@
       "id": 9,
       "title": "Integrating GraphQL with Node.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "video": "https://www.youtube.com/embed/WtkKwO1viI8",
       "description": "Covers integrating GraphQL with a Node.js backend using popular libraries.",
       "points": [
         "Setting up Apollo Server with Express",
@@ -195,7 +195,7 @@
       "id": 11,
       "title": "Consuming GraphQL APIs in the Frontend",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "video": "https://www.youtube.com/embed/Uu7QvKkewM4",
       "description": "Learn how to consume GraphQL APIs in frontend applications using Apollo Client.",
       "points": [
         "Setting up Apollo Client in React or Vue.js",
@@ -231,7 +231,7 @@
       "id": 13,
       "title": "Authentication in GraphQL",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "video": "https://www.youtube.com/embed/0XFoeaYnc20",
       "description": "Covers implementing authentication in a GraphQL API.",
       "points": [
         "Using JWT for token-based authentication",
@@ -272,7 +272,7 @@
       "id": 15,
       "title": "Deploying GraphQL APIs",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "video": "https://www.youtube.com/embed/Nbujem7YLCU",
       "description": "Learn how to deploy a GraphQL server to production environments.",
       "points": [
         "Deploying to Heroku or Render",
@@ -308,7 +308,7 @@
       "id": 17,
       "title": "GraphQL Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/eIQh02xuB5g",
+      "video": "https://www.youtube.com/embed/QHS1AUlBMzY",
       "description": "Covers best practices for designing and maintaining efficient GraphQL APIs.",
       "points": [
         "Designing clear and scalable schemas",

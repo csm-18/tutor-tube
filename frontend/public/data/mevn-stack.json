@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to the MEVN Stack",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "video": "https://www.youtube.com/embed/-9DsYOGyZ8k",
       "description": "An introduction to the MEVN stack, its components, and its role in full-stack web development with Vue.js.",
       "points": [
         "What is the MEVN stack?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "MongoDB Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "video": "https://www.youtube.com/embed/ofme2o29ngU",
       "description": "Learn the fundamentals of MongoDB, a NoSQL database, for storing and managing data in MEVN applications.",
       "points": [
         "Introduction to NoSQL and MongoDB",
@@ -72,7 +72,7 @@
       "id": 5,
       "title": "Node.js and Express.js Fundamentals",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "video": "https://www.youtube.com/embed/SccSCuHhOw0",
       "description": "Covers the basics of Node.js and Express.js for building backend APIs in the MEVN stack.",
       "points": [
         "Setting up a Node.js server",
@@ -113,7 +113,7 @@
       "id": 7,
       "title": "Vue.js Fundamentals",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "video": "https://www.youtube.com/embed/VeNfHj6MhgA",
       "description": "Learn the core concepts of Vue.js for building dynamic user interfaces in MEVN applications.",
       "points": [
         "Components, props, and data binding",
@@ -149,7 +149,7 @@
       "id": 9,
       "title": "Connecting MongoDB with Node.js and Express.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "video": "https://www.youtube.com/embed/30p9QfybWZg",
       "description": "Explore how to connect MongoDB to a Node.js and Express.js backend for data operations in MEVN applications.",
       "points": [
         "Using Mongoose for MongoDB integration",
@@ -185,7 +185,7 @@
       "id": 11,
       "title": "Building a Frontend with Vue.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "video": "https://www.youtube.com/embed/eWYFZFROqy8",
       "description": "Learn how to build a dynamic frontend with Vue.js and connect it to a backend API in the MEVN stack.",
       "points": [
         "Fetching data with Vue's Composition API",
@@ -226,7 +226,7 @@
       "id": 13,
       "title": "Authentication in MEVN Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "video": "https://www.youtube.com/embed/7BTsepZ9xp8",
       "description": "Covers implementing authentication in a MEVN stack application.",
       "points": [
         "Using JWT for token-based authentication",
@@ -267,7 +267,7 @@
       "id": 15,
       "title": "Deploying a MEVN Application",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "video": "https://www.youtube.com/embed/ye_1xvx13PY",
       "description": "Learn how to deploy a MEVN stack application to production environments.",
       "points": [
         "Deploying the backend to Heroku or Render",
@@ -303,7 +303,7 @@
       "id": 17,
       "title": "MEVN Stack Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/3aVqW1bK3jQ",
+      "video": "https://www.youtube.com/embed/qbbsKZv7sJA",
       "description": "Covers best practices for building scalable and maintainable MEVN stack applications.",
       "points": [
         "Structuring MEVN projects for scalability",

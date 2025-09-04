@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to the MERN Stack",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7CqJlxBYj-M",
+      "video": "https://www.youtube.com/embed/98BzS5Oz5E4",
       "description": "An introduction to the MERN stack, its components, and its role in full-stack web development.",
       "points": [
         "What is the MERN stack?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "MongoDB Basics",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7CqJlxBYj-M",
+      "video": "https://www.youtube.com/embed/ofme2o29ngU",
       "description": "Learn the fundamentals of MongoDB, a NoSQL database, for storing and managing data.",
       "points": [
         "Introduction to NoSQL and MongoDB",
@@ -72,7 +72,7 @@
       "id": 5,
       "title": "Node.js and Express.js Fundamentals",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7CqJlxBYj-M",
+      "video": "https://www.youtube.com/embed/SccSCuHhOw0",
       "description": "Covers the basics of Node.js and Express.js for building backend APIs.",
       "points": [
         "Setting up a Node.js server",
@@ -113,7 +113,7 @@
       "id": 7,
       "title": "React Fundamentals",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7CqJlxBYj-M",
+      "video": "https://www.youtube.com/embed/6Ied4aZxUzc",
       "description": "Learn the core concepts of React for building dynamic user interfaces.",
       "points": [
         "Components, props, and state",
@@ -149,7 +149,7 @@
       "id": 9,
       "title": "Connecting MongoDB with Node.js and Express.js",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7CqJlxBYj-M",
+      "video": "https://www.youtube.com/embed/30p9QfybWZg",
       "description": "Explore how to connect MongoDB to a Node.js and Express.js backend for data operations.",
       "points": [
         "Using Mongoose for MongoDB integration",
@@ -185,7 +185,7 @@
       "id": 11,
       "title": "Building a Frontend with React",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7CqJlxBYj-M",
+      "video": "https://www.youtube.com/embed/NjqjakgPL84",
       "description": "Learn how to build a dynamic frontend with React and connect it to a backend API.",
       "points": [
         "Fetching data with useEffect and useState",
@@ -221,7 +221,7 @@
       "id": 13,
       "title": "Authentication in MERN Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7CqJlxBYj-M",
+      "video": "https://www.youtube.com/embed/ZVyIIyZJutM",
       "description": "Covers implementing authentication in a MERN stack application.",
       "points": [
         "Using JWT for token-based authentication",
@@ -262,7 +262,7 @@
       "id": 15,
       "title": "Deploying a MERN Application",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7CqJlxBYj-M",
+      "video": "https://www.youtube.com/embed/cVEOhgPziO8",
       "description": "Learn how to deploy a MERN stack application to production.",
       "points": [
         "Deploying the backend to Heroku or Render",
@@ -298,7 +298,7 @@
       "id": 17,
       "title": "MERN Stack Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/7CqJlxBYj-M",
+      "video": "https://www.youtube.com/embed/ogDt5qNy0es",
       "description": "Covers best practices for building scalable and maintainable MERN stack applications.",
       "points": [
         "Structuring MERN projects",

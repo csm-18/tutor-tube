@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to jQuery",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/BWXggB-T1jQ",
+      "video": "https://www.youtube.com/embed/bLiqiD5QqKw",
       "description": "An introduction to jQuery, its purpose, and how it simplifies DOM manipulation and JavaScript development.",
       "points": [
         "What is jQuery?",
@@ -46,7 +46,7 @@
       "id": 3,
       "title": "jQuery Selectors",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/3GKO3F3s6gY",
+      "video": "https://www.youtube.com/embed/Q0oMC7n4HOY",
       "description": "Learn how to use jQuery selectors to target and manipulate DOM elements.",
       "points": [
         "Basic selectors (ID, class, element)",
@@ -87,7 +87,7 @@
       "id": 5,
       "title": "DOM Manipulation with jQuery",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/VZ3BUP8a8II",
+      "video": "https://www.youtube.com/embed/q4FWSdX55ls",
       "description": "Covers how to manipulate the DOM using jQuery methods for content, attributes, and styles.",
       "points": [
         "Modifying content with .html() and .text()",
@@ -123,7 +123,7 @@
       "id": 7,
       "title": "Event Handling in jQuery",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/Bm0W9eU2o6U",
+      "video": "https://www.youtube.com/embed/vkasMzOAG3c",
       "description": "Explains how to handle user events like clicks and form submissions using jQuery.",
       "points": [
         "Binding events with .on()",
@@ -159,7 +159,7 @@
       "id": 9,
       "title": "jQuery Effects and Animations",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1cKzbY4e9h4",
+      "video": "https://www.youtube.com/embed/cm1ZmHURbm4",
       "description": "Learn how to create animations and effects in jQuery to enhance user interfaces.",
       "points": [
         "Using .show(), .hide(), and .toggle()",
@@ -195,7 +195,7 @@
       "id": 11,
       "title": "AJAX with jQuery",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/hMXuYa6Y_yc",
+      "video": "https://www.youtube.com/embed/Wl-VvvNCk2A",
       "description": "Covers how to make asynchronous HTTP requests using jQuery's AJAX methods.",
       "points": [
         "Using $.ajax() for API calls",
@@ -231,13 +231,9 @@
       "id": 13,
       "title": "jQuery with Frameworks",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1e2PKE26S2k",
-      "description": "Explores integrating jQuery with modern front-end frameworks like React, Vue, and Angular.",
-      "points": [
-        "Using jQuery in React projects",
-        "Integrating jQuery with Vue",
-        "Combining jQuery with Angular"
-      ]
+      "video": "https://www.youtube.com/embed/aWk8aeTHqto",
+      "description": "Explores integrating jQuery with modern front-end framework like React.",
+      "points": ["Using jQuery in React projects"]
     },
     {
       "id": 14,
@@ -272,7 +268,7 @@
       "id": 15,
       "title": "jQuery Plugins",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/4L6C5nm0h2U",
+      "video": "https://www.youtube.com/embed/8NZC6jU5eKY",
       "description": "Learn how to use and create jQuery plugins to extend functionality.",
       "points": [
         "Using popular jQuery plugins",
@@ -313,7 +309,7 @@
       "id": 17,
       "title": "jQuery Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/1T7A6S8i3aE",
+      "video": "https://www.youtube.com/embed/lpq6QBHMQFA",
       "description": "Covers best practices for writing efficient, maintainable, and performant jQuery code.",
       "points": [
         "Optimizing selector performance",

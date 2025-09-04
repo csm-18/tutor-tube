@@ -5,7 +5,7 @@
       "id": 1,
       "title": "Introduction to Flutter",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "video": "https://www.youtube.com/embed/uvSrRBHtio8",
       "description": "An introduction to Flutter, its purpose, and its role in cross-platform app development.",
       "points": [
         "What is Flutter?",
@@ -41,7 +41,7 @@
       "id": 3,
       "title": "Dart Basics for Flutter",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "video": "https://www.youtube.com/embed/fnpD5NCzIIo",
       "description": "Learn the basics of Dart, the programming language used in Flutter development.",
       "points": [
         "Dart syntax: variables, functions, and classes",
@@ -72,7 +72,7 @@
       "id": 5,
       "title": "Building UI with Flutter Widgets",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "video": "https://www.youtube.com/embed/wE7khGHVkYY",
       "description": "Explore Flutter's widget system for creating user interfaces.",
       "points": [
         "Stateless and Stateful widgets",
@@ -108,7 +108,7 @@
       "id": 7,
       "title": "State Management in Flutter",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "video": "https://www.youtube.com/embed/3tm-R7ymwhc",
       "description": "Learn how to manage state in Flutter applications for dynamic UIs.",
       "points": [
         "Using setState for simple state management",
@@ -144,7 +144,7 @@
       "id": 9,
       "title": "Navigation in Flutter",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "video": "https://www.youtube.com/embed/yuGaEsLRB38",
       "description": "Covers navigation and routing in Flutter applications.",
       "points": [
         "Basic navigation with Navigator.push and pop",
@@ -180,7 +180,7 @@
       "id": 11,
       "title": "Fetching Data in Flutter",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "video": "https://www.youtube.com/embed/D5nVnRjPrKA",
       "description": "Learn how to fetch and manage data in Flutter applications.",
       "points": [
         "Making HTTP requests with the http package",
@@ -216,7 +216,7 @@
       "id": 13,
       "title": "Integrating with Backend APIs",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "video": "https://www.youtube.com/embed/c09XiwOZKsI",
       "description": "Covers connecting Flutter apps to backend APIs.",
       "points": [
         "Consuming RESTful APIs",
@@ -252,7 +252,7 @@
       "id": 15,
       "title": "Deploying Flutter Applications",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "video": "https://www.youtube.com/embed/ZnufaryH43s",
       "description": "Learn how to build and deploy Flutter applications for mobile and web.",
       "points": [
         "Building APKs and iOS apps",
@@ -288,7 +288,7 @@
       "id": 17,
       "title": "Flutter Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/pTJJsmeS1-I",
+      "video": "https://www.youtube.com/embed/5vDq5DXXxss",
       "description": "Covers best practices for building efficient and maintainable Flutter applications.",
       "points": [
         "Structuring Flutter projects",

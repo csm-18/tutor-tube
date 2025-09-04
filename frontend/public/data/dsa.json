@@ -1,11 +1,11 @@
 {
-  "courseTitle": "Data Structures and Algorithms Curriculum",
+  "courseTitle": "Data Structures and Algorithms",
   "modules": [
     {
       "id": 1,
       "title": "Introduction to Data Structures and Algorithms",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/8hly31xKli0",
+      "video": "https://www.youtube.com/embed/O9v10jQkm5c",
       "description": "An introduction to data structures and algorithms, their importance, and their role in computer science.",
       "points": [
         "What are data structures and algorithms?",
@@ -46,7 +46,7 @@
       "id": 3,
       "title": "Arrays and Linked Lists",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/DuDz6B4cqVc",
+      "video": "https://www.youtube.com/embed/qauEA64G1Ds",
       "description": "Learn about arrays and linked lists, their structure, and common operations.",
       "points": [
         "Arrays: structure and operations",
@@ -87,7 +87,7 @@
       "id": 5,
       "title": "Stacks and Queues",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/wjI1FzV3L4Q",
+      "video": "https://www.youtube.com/embed/rHQI4mrJ3cg",
       "description": "Covers stacks and queues, their principles, and their applications.",
       "points": [
         "Stacks: LIFO principle and operations",
@@ -123,7 +123,7 @@
       "id": 7,
       "title": "Sorting Algorithms",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/kPRA0W1kECg",
+      "video": "https://www.youtube.com/embed/rbbTd-gkajw",
       "description": "Explores common sorting algorithms and their performance characteristics.",
       "points": [
         "Bubble Sort, Selection Sort, Insertion Sort",
@@ -164,7 +164,7 @@
       "id": 9,
       "title": "Searching Algorithms",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/mz6tAJMVmfM",
+      "video": "https://www.youtube.com/embed/ZpFqAoO4YPc",
       "description": "Learn about searching algorithms and their efficiency in different scenarios.",
       "points": [
         "Linear Search vs Binary Search",
@@ -200,7 +200,7 @@
       "id": 11,
       "title": "Trees and Binary Trees",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/oSWTXtMglKE",
+      "video": "https://www.youtube.com/embed/GCagZ2oTQmU",
       "description": "Covers tree data structures, focusing on binary trees and their applications.",
       "points": [
         "Tree terminology: nodes, leaves, height",
@@ -231,7 +231,7 @@
       "id": 13,
       "title": "Graphs and Graph Algorithms",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/09_LlHjoEiY",
+      "video": "https://www.youtube.com/embed/tWVWeAqZ0WU",
       "description": "Explores graph data structures and common graph algorithms.",
       "points": [
         "Graph terminology: vertices, edges, directed vs undirected",
@@ -267,7 +267,7 @@
       "id": 15,
       "title": "Hash Tables",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/shs0KM3wKv8",
+      "video": "https://www.youtube.com/embed/knV86FlSXJ8",
       "description": "Learn about hash tables, their structure, and their use in efficient data retrieval.",
       "points": [
         "Hash functions and collision resolution",
@@ -298,7 +298,7 @@
       "id": 17,
       "title": "DSA Best Practices",
       "type": "lesson",
-      "video": "https://www.youtube.com/embed/2ZLl8GAk1X4",
+      "video": "https://www.youtube.com/embed/xo7XrRVxH8Y",
       "description": "Covers best practices for selecting and implementing data structures and algorithms.",
       "points": [
         "Choosing the right data structure",
