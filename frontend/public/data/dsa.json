@@ -1,0 +1,421 @@
+{
+  "courseTitle": "Data Structures and Algorithms",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Data Structures and Algorithms",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/O9v10jQkm5c",
+      "description": "An introduction to data structures and algorithms, their importance, and their role in computer science.",
+      "points": [
+        "What are data structures and algorithms?",
+        "Why study DSA?",
+        "Time and space complexity basics"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of studying data structures and algorithms?",
+          "options": [
+            "To design user interfaces",
+            "To optimize program efficiency",
+            "To manage databases",
+            "To create hardware"
+          ],
+          "answer": "To optimize program efficiency"
+        },
+        {
+          "id": 2,
+          "question": "What does time complexity describe?",
+          "options": [
+            "Memory usage",
+            "Execution time of an algorithm",
+            "Code readability",
+            "Hardware performance"
+          ],
+          "answer": "Execution time of an algorithm"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Arrays and Linked Lists",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/qauEA64G1Ds",
+      "description": "Learn about arrays and linked lists, their structure, and common operations.",
+      "points": [
+        "Arrays: structure and operations",
+        "Linked lists: singly and doubly linked",
+        "Comparing arrays and linked lists"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a key advantage of arrays over linked lists?",
+          "options": [
+            "Dynamic size",
+            "Constant-time access",
+            "Efficient insertion",
+            "Lower memory usage"
+          ],
+          "answer": "Constant-time access"
+        },
+        {
+          "id": 2,
+          "question": "Which operation is more efficient in a linked list compared to an array?",
+          "options": [
+            "Random access",
+            "Searching",
+            "Insertion at the head",
+            "Sorting"
+          ],
+          "answer": "Insertion at the head"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Stacks and Queues",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/rHQI4mrJ3cg",
+      "description": "Covers stacks and queues, their principles, and their applications.",
+      "points": [
+        "Stacks: LIFO principle and operations",
+        "Queues: FIFO principle and operations",
+        "Applications: expression evaluation, task scheduling"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which data structure follows the Last-In-First-Out (LIFO) principle?",
+          "options": ["Queue", "Stack", "Array", "Linked List"],
+          "answer": "Stack"
+        },
+        {
+          "id": 2,
+          "question": "What is a common application of a queue?",
+          "options": [
+            "Expression parsing",
+            "Task scheduling",
+            "Random access",
+            "Graph traversal"
+          ],
+          "answer": "Task scheduling"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Sorting Algorithms",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/rbbTd-gkajw",
+      "description": "Explores common sorting algorithms and their performance characteristics.",
+      "points": [
+        "Bubble Sort, Selection Sort, Insertion Sort",
+        "Merge Sort and Quick Sort",
+        "Time complexity analysis of sorting algorithms"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which sorting algorithm has an average time complexity of O(n log n)?",
+          "options": [
+            "Bubble Sort",
+            "Quick Sort",
+            "Selection Sort",
+            "Insertion Sort"
+          ],
+          "answer": "Quick Sort"
+        },
+        {
+          "id": 2,
+          "question": "What is a disadvantage of Bubble Sort?",
+          "options": [
+            "High memory usage",
+            "O(n²) time complexity",
+            "Unstable sorting",
+            "Complex implementation"
+          ],
+          "answer": "O(n²) time complexity"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Searching Algorithms",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ZpFqAoO4YPc",
+      "description": "Learn about searching algorithms and their efficiency in different scenarios.",
+      "points": [
+        "Linear Search vs Binary Search",
+        "Binary Search requirements and implementation",
+        "Time complexity of searching algorithms"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the time complexity of Binary Search on a sorted array?",
+          "options": ["O(n)", "O(log n)", "O(n²)", "O(n log n)"],
+          "answer": "O(log n)"
+        },
+        {
+          "id": 2,
+          "question": "What is a requirement for Binary Search to work?",
+          "options": [
+            "Unsorted data",
+            "Sorted data",
+            "Dynamic data",
+            "Linked list structure"
+          ],
+          "answer": "Sorted data"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Trees and Binary Trees",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/GCagZ2oTQmU",
+      "description": "Covers tree data structures, focusing on binary trees and their applications.",
+      "points": [
+        "Tree terminology: nodes, leaves, height",
+        "Binary trees and binary search trees (BST)",
+        "Tree traversal: inorder, preorder, postorder"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the time complexity of searching in a balanced binary search tree?",
+          "options": ["O(n)", "O(log n)", "O(n²)", "O(n log n)"],
+          "answer": "O(log n)"
+        },
+        {
+          "id": 2,
+          "question": "Which tree traversal visits the root node first?",
+          "options": ["Inorder", "Preorder", "Postorder", "Level-order"],
+          "answer": "Preorder"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Graphs and Graph Algorithms",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/tWVWeAqZ0WU",
+      "description": "Explores graph data structures and common graph algorithms.",
+      "points": [
+        "Graph terminology: vertices, edges, directed vs undirected",
+        "Breadth-First Search (BFS) and Depth-First Search (DFS)",
+        "Applications: shortest path, network flow"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+          "options": ["BFS", "DFS", "Dijkstra’s Algorithm", "Merge Sort"],
+          "answer": "Dijkstra’s Algorithm"
+        },
+        {
+          "id": 2,
+          "question": "What does BFS stand for in graph algorithms?",
+          "options": [
+            "Binary Fast Search",
+            "Breadth-First Search",
+            "Basic Flow Search",
+            "Depth-First Search"
+          ],
+          "answer": "Breadth-First Search"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Hash Tables",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/knV86FlSXJ8",
+      "description": "Learn about hash tables, their structure, and their use in efficient data retrieval.",
+      "points": [
+        "Hash functions and collision resolution",
+        "Hash table operations: insert, search, delete",
+        "Applications: caching, lookup tables"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the average time complexity for searching in a hash table?",
+          "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+          "answer": "O(1)"
+        },
+        {
+          "id": 2,
+          "question": "What is a common method for resolving collisions in a hash table?",
+          "options": ["Binary search", "Chaining", "Sorting", "Traversal"],
+          "answer": "Chaining"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "DSA Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/xo7XrRVxH8Y",
+      "description": "Covers best practices for selecting and implementing data structures and algorithms.",
+      "points": [
+        "Choosing the right data structure",
+        "Optimizing algorithms for performance",
+        "Testing and debugging DSA implementations"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is choosing the right data structure important?",
+          "options": [
+            "To increase memory usage",
+            "To optimize performance",
+            "To simplify user interfaces",
+            "To manage hardware"
+          ],
+          "answer": "To optimize performance"
+        },
+        {
+          "id": 2,
+          "question": "What is a key step in testing a DSA implementation?",
+          "options": [
+            "Increasing complexity",
+            "Using edge case inputs",
+            "Adding more data structures",
+            "Ignoring performance"
+          ],
+          "answer": "Using edge case inputs"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does space complexity measure in an algorithm?",
+          "options": [
+            "Execution time",
+            "Memory usage",
+            "Code length",
+            "Network bandwidth"
+          ],
+          "answer": "Memory usage"
+        },
+        {
+          "id": 2,
+          "question": "Which data structure allows constant-time access to elements?",
+          "options": ["Linked List", "Array", "Stack", "Queue"],
+          "answer": "Array"
+        },
+        {
+          "id": 3,
+          "question": "Which data structure follows the First-In-First-Out (FIFO) principle?",
+          "options": ["Stack", "Queue", "Array", "Tree"],
+          "answer": "Queue"
+        },
+        {
+          "id": 4,
+          "question": "Which sorting algorithm has the best average-case time complexity?",
+          "options": [
+            "Bubble Sort",
+            "Selection Sort",
+            "Merge Sort",
+            "Insertion Sort"
+          ],
+          "answer": "Merge Sort"
+        },
+        {
+          "id": 5,
+          "question": "What is the time complexity of Linear Search?",
+          "options": ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+          "answer": "O(n)"
+        },
+        {
+          "id": 6,
+          "question": "Which traversal visits the left subtree, root, then right subtree?",
+          "options": ["Inorder", "Preorder", "Postorder", "Level-order"],
+          "answer": "Inorder"
+        },
+        {
+          "id": 7,
+          "question": "Which algorithm finds the shortest path in an unweighted graph?",
+          "options": ["DFS", "BFS", "Dijkstra’s Algorithm", "Merge Sort"],
+          "answer": "BFS"
+        },
+        {
+          "id": 8,
+          "question": "What is the average time complexity of searching in a hash table?",
+          "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+          "answer": "O(1)"
+        },
+        {
+          "id": 9,
+          "question": "What is a common method for resolving hash table collisions?",
+          "options": ["Binary search", "Chaining", "Sorting", "Traversal"],
+          "answer": "Chaining"
+        },
+        {
+          "id": 10,
+          "question": "Why is testing edge cases important in DSA implementations?",
+          "options": [
+            "To increase complexity",
+            "To ensure robustness",
+            "To simplify code",
+            "To reduce performance"
+          ],
+          "answer": "To ensure robustness"
+        }
+      ]
+    }
+  ]
+}

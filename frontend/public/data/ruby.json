@@ -1,0 +1,411 @@
+{
+  "courseTitle": "Ruby Programming Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Ruby",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/UYm0kfnRTJk",
+      "description": "An introduction to the Ruby programming language, its history, and its use in modern development.",
+      "points": [
+        "What is Ruby?",
+        "Key features: simplicity, productivity, object-oriented",
+        "Setting up a Ruby environment (rbenv, Ruby installation)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Ruby primarily known for?",
+          "options": [
+            "System programming",
+            "Web development and scripting",
+            "Database management",
+            "Graphic design"
+          ],
+          "answer": "Web development and scripting"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is commonly used to manage Ruby versions?",
+          "options": ["npm", "rbenv", "pip", "gem"],
+          "answer": "rbenv"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ruby Syntax and Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/iwr_I2yLLgs",
+      "description": "Learn the basic syntax and structure of Ruby programs.",
+      "points": [
+        "Variables, data types, and operators",
+        "Control structures: if, else, loops",
+        "Writing and running a simple Ruby script"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you define a variable in Ruby?",
+          "options": [
+            "Using var keyword",
+            "Using let keyword",
+            "Directly assigning a value",
+            "Using const keyword"
+          ],
+          "answer": "Directly assigning a value"
+        },
+        {
+          "id": 2,
+          "question": "Which Ruby keyword is used for conditional branching?",
+          "options": ["switch", "if", "case", "unless"],
+          "answer": "if"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Object-Oriented Programming in Ruby",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vgQ7P6V472c",
+      "description": "Explore Ruby’s object-oriented programming features for modular code.",
+      "points": [
+        "Classes and objects",
+        "Methods, attributes, and inheritance",
+        "Modules for namespacing and mixins"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What keyword is used to define a class in Ruby?",
+          "options": ["class", "struct", "module", "def"],
+          "answer": "class"
+        },
+        {
+          "id": 2,
+          "question": "What is a Ruby module used for?",
+          "options": [
+            "Defining loops",
+            "Namespacing and mixins",
+            "Managing files",
+            "Styling code"
+          ],
+          "answer": "Namespacing and mixins"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Working with Arrays and Hashes",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/dC7goLX9K0U",
+      "description": "Learn how to use arrays and hashes for data storage and manipulation in Ruby.",
+      "points": [
+        "Creating and manipulating arrays",
+        "Using hashes for key-value pairs",
+        "Common methods for arrays and hashes"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How is a hash defined in Ruby?",
+          "options": [
+            "Using square brackets []",
+            "Using curly braces {}",
+            "Using parentheses ()",
+            "Using angle brackets <>"
+          ],
+          "answer": "Using curly braces {}"
+        },
+        {
+          "id": 2,
+          "question": "Which Ruby method retrieves the first element of an array?",
+          "options": ["pop", "first", "shift", "last"],
+          "answer": "first"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "File I/O and Exception Handling",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/yuH3zTgsdMY",
+      "description": "Covers reading and writing files and handling errors in Ruby.",
+      "points": [
+        "Reading and writing files with File class",
+        "Handling exceptions with begin/rescue",
+        "Best practices for error handling"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Ruby class is used for file operations?",
+          "options": ["File", "IO", "Stream", "Data"],
+          "answer": "File"
+        },
+        {
+          "id": 2,
+          "question": "What Ruby keyword is used to catch exceptions?",
+          "options": ["catch", "rescue", "try", "except"],
+          "answer": "rescue"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Introduction to Ruby on Rails",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/6Vi_7R-BHPI",
+      "description": "Learn the basics of Ruby on Rails, a popular web framework built on Ruby.",
+      "points": [
+        "Setting up a Rails application",
+        "MVC architecture in Rails",
+        "Creating a simple CRUD application"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does MVC stand for in Ruby on Rails?",
+          "options": [
+            "Model-View-Controller",
+            "Module-View-Component",
+            "Model-Variable-Controller",
+            "Main-View-Config"
+          ],
+          "answer": "Model-View-Controller"
+        },
+        {
+          "id": 2,
+          "question": "What command creates a new Rails application?",
+          "options": ["rails new", "ruby new", "rails create", "gem new"],
+          "answer": "rails new"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Building APIs with Ruby on Rails",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/36M2BSA2LYk",
+      "description": "Explore how to build RESTful APIs using Ruby on Rails.",
+      "points": [
+        "Creating RESTful routes in Rails",
+        "Using Active Record for database interactions",
+        "Serializing data with JSON"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Active Record used for in Ruby on Rails?",
+          "options": [
+            "Styling views",
+            "Database interactions",
+            "Routing requests",
+            "Managing sessions"
+          ],
+          "answer": "Database interactions"
+        },
+        {
+          "id": 2,
+          "question": "What format is commonly used for API responses in Rails?",
+          "options": ["XML", "JSON", "HTML", "YAML"],
+          "answer": "JSON"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying Ruby Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/MFQWhlZcSrI",
+      "description": "Learn how to deploy Ruby and Rails applications to production environments.",
+      "points": [
+        "Deploying Rails apps to Heroku",
+        "Using Docker for containerized deployment",
+        "Configuring databases and environment variables"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which platform is commonly used to deploy Ruby on Rails applications?",
+          "options": ["Netlify", "Heroku", "Vercel", "GitHub Pages"],
+          "answer": "Heroku"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Docker for Ruby deployments?",
+          "options": [
+            "Improved styling",
+            "Consistent environments",
+            "Simplified routing",
+            "Reduced security"
+          ],
+          "answer": "Consistent environments"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Ruby Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vw7PlBvLq9k",
+      "description": "Covers best practices for writing clean and maintainable Ruby code.",
+      "points": [
+        "Following Ruby style guides (e.g., RuboCop)",
+        "Writing modular and reusable code",
+        "Testing with RSpec or Minitest"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What tool is used to enforce Ruby coding style?",
+          "options": ["RuboCop", "RSpec", "Minitest", "Pry"],
+          "answer": "RuboCop"
+        },
+        {
+          "id": 2,
+          "question": "Which testing framework is commonly used with Ruby?",
+          "options": ["Jest", "RSpec", "Mocha", "Cypress"],
+          "answer": "RSpec"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Ruby primarily known for?",
+          "options": [
+            "System programming",
+            "Web development and scripting",
+            "Database management",
+            "Graphic design"
+          ],
+          "answer": "Web development and scripting"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is commonly used to manage Ruby versions?",
+          "options": ["npm", "rbenv", "pip", "gem"],
+          "answer": "rbenv"
+        },
+        {
+          "id": 3,
+          "question": "How do you define a variable in Ruby?",
+          "options": [
+            "Using var keyword",
+            "Using let keyword",
+            "Directly assigning a value",
+            "Using const keyword"
+          ],
+          "answer": "Directly assigning a value"
+        },
+        {
+          "id": 4,
+          "question": "What keyword is used to define a class in Ruby?",
+          "options": ["class", "struct", "module", "def"],
+          "answer": "class"
+        },
+        {
+          "id": 5,
+          "question": "How is a hash defined in Ruby?",
+          "options": [
+            "Using square brackets []",
+            "Using curly braces {}",
+            "Using parentheses ()",
+            "Using angle brackets <>"
+          ],
+          "answer": "Using curly braces {}"
+        },
+        {
+          "id": 6,
+          "question": "Which Ruby class is used for file operations?",
+          "options": ["File", "IO", "Stream", "Data"],
+          "answer": "File"
+        },
+        {
+          "id": 7,
+          "question": "What does MVC stand for in Ruby on Rails?",
+          "options": [
+            "Model-View-Controller",
+            "Module-View-Component",
+            "Model-Variable-Controller",
+            "Main-View-Config"
+          ],
+          "answer": "Model-View-Controller"
+        },
+        {
+          "id": 8,
+          "question": "What is Active Record used for in Ruby on Rails?",
+          "options": [
+            "Styling views",
+            "Database interactions",
+            "Routing requests",
+            "Managing sessions"
+          ],
+          "answer": "Database interactions"
+        },
+        {
+          "id": 9,
+          "question": "Which platform is commonly used to deploy Ruby on Rails applications?",
+          "options": ["Netlify", "Heroku", "Vercel", "GitHub Pages"],
+          "answer": "Heroku"
+        },
+        {
+          "id": 10,
+          "question": "What is a common testing framework for Ruby?",
+          "options": ["Jest", "RSpec", "Mocha", "Cypress"],
+          "answer": "RSpec"
+        }
+      ]
+    }
+  ]
+}

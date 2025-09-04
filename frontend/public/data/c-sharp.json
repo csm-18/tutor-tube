@@ -1,0 +1,379 @@
+{
+  "courseTitle": "C# Programming Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to C#",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ravLFzIguCM",
+      "description": "An introduction to the C# language, its history, and its role within the .NET ecosystem.",
+      "points": [
+        "What is C# and what is it used for?",
+        "C# vs. other programming languages (e.g., Java, Python)",
+        "Setting up a C# development environment (Visual Studio or VS Code with the .NET SDK)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is C# primarily known for?",
+          "options": [
+            "System scripting",
+            "Purely functional programming",
+            "Object-oriented programming",
+            "Mobile-only applications"
+          ],
+          "answer": "Object-oriented programming"
+        },
+        {
+          "id": 2,
+          "question": "Which framework is C# closely tied to?",
+          "options": [".NET", "Node.js", "React", "Django"],
+          "answer": ".NET"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "C# Syntax and Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/jtVxgzBPq0c",
+      "description": "Learn the basic syntax and structure of C# programs, including variables, data types, and control flow.",
+      "points": [
+        "Variables and data types (int, string, bool, etc.)",
+        "Basic control structures: if-else, switch, for, and while loops",
+        "Using the Console class for input and output"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you declare a variable in C#?",
+          "options": [
+            "var x = 10;",
+            "let x = 10;",
+            "x: int = 10;",
+            "int x = 10;"
+          ],
+          "answer": "int x = 10;"
+        },
+        {
+          "id": 2,
+          "question": "Which statement is used for conditional execution in C#?",
+          "options": ["when", "if-else", "switch", "pattern matching"],
+          "answer": "if-else"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Object-Oriented Programming (OOP) in C#",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/iA0XZwFqqKI",
+      "description": "Explore the core principles of OOP and how they are implemented in C#.",
+      "points": [
+        "Classes and Objects: Defining classes, creating objects, constructors.",
+        "Encapsulation: Using access modifiers (public, private, protected).",
+        "Inheritance: Extending classes and the base keyword.",
+        "Polymorphism: Method overloading and overriding."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which OOP principle is used to hide data and program behavior from users?",
+          "options": [
+            "Polymorphism",
+            "Inheritance",
+            "Abstraction",
+            "Encapsulation"
+          ],
+          "answer": "Encapsulation"
+        },
+        {
+          "id": 2,
+          "question": "What keyword is used to create an instance of a class?",
+          "options": ["this", "new", "create", "instance"],
+          "answer": "new"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Advanced C# Concepts",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YT8s-90oDC0",
+      "description": "Dive into more complex C# features that are crucial for modern development.",
+      "points": [
+        "Interfaces: Defining contracts for classes.",
+        "Abstract Classes: Creating blueprints for inheritance.",
+        "Generics: Writing flexible and reusable code.",
+        "Asynchronous Programming: Using async and await for non-blocking operations."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of an interface in C#?",
+          "options": [
+            "To inherit from a base class",
+            "To define a contract for a class",
+            "To store data",
+            "To handle user input"
+          ],
+          "answer": "To define a contract for a class"
+        },
+        {
+          "id": 2,
+          "question": "What keywords are used to simplify asynchronous programming in C#?",
+          "options": ["try-catch", "go-wait", "async-await", "start-finish"],
+          "answer": "async-await"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Web Applications with ASP.NET Core",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/BfEjDD8mWYg",
+      "description": "Learn to build web applications using the powerful ASP.NET Core framework.",
+      "points": [
+        "Introduction to ASP.NET Core and its components (MVC, Razor Pages, Web API).",
+        "Setting up a web project and understanding project structure.",
+        "Creating controllers, views, and models.",
+        "Handling HTTP requests and routing."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a popular C# framework for building web applications?",
+          "options": ["Django", "ASP.NET Core", "Flask", "Rails"],
+          "answer": "ASP.NET Core"
+        },
+        {
+          "id": 2,
+          "question": "In ASP.NET Core, which pattern separates an application into three interconnected components?",
+          "options": ["MVC", "MVVM", "MVP", "MVA"],
+          "answer": "MVC"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Database Integration with C#",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ZX12X-ALwGA",
+      "description": "Learn how to connect C# applications to databases and perform data operations.",
+      "points": [
+        "Introduction to Entity Framework Core (EF Core) as an ORM.",
+        "Connecting to a database (e.g., SQL Server, PostgreSQL).",
+        "Performing CRUD (Create, Read, Update, Delete) operations.",
+        "Using LINQ (Language-Integrated Query) to query data."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which C# library is a popular ORM for database interactions?",
+          "options": [
+            "Dapper",
+            "Newtonsoft.Json",
+            "Entity Framework Core",
+            "NUnit"
+          ],
+          "answer": "Entity Framework Core"
+        },
+        {
+          "id": 2,
+          "question": "What does 'CRUD' stand for in the context of databases?",
+          "options": [
+            "Convert, Rebuild, Update, Delete",
+            "Create, Read, Update, Delete",
+            "Compile, Run, Upload, Deploy",
+            "Connect, Route, Use, Disconnect"
+          ],
+          "answer": "Create, Read, Update, Delete"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Testing and Deployment",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/WzJIoP4WpmU",
+      "description": "Understand how to write automated tests and deploy C# applications.",
+      "points": [
+        "Unit Testing: Writing tests with frameworks like MSTest, NUnit, or xUnit.",
+        "CI/CD: Introduction to Continuous Integration and Continuous Deployment.",
+        "Deployment: Publishing a self-contained application using the dotnet publish command.",
+        "Docker: Containerizing C# applications for consistent deployment."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which command is used to publish a C# application for deployment?",
+          "options": [
+            "dotnet run",
+            "dotnet build",
+            "dotnet publish",
+            "dotnet test"
+          ],
+          "answer": "dotnet publish"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is a popular unit testing framework for C#?",
+          "options": ["Jest", "JUnit", "MSTest", "Cypress"],
+          "answer": "MSTest"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is C#'s relationship to the .NET ecosystem?",
+          "options": [
+            "C# is a programming language specifically designed to work within the .NET framework.",
+            "C# is a new version of the .NET framework.",
+            "C# is a web framework for .NET.",
+            "C# is a replacement for .NET."
+          ],
+          "answer": "C# is a programming language specifically designed to work within the .NET framework."
+        },
+        {
+          "id": 2,
+          "question": "Explain the concept of encapsulation in C#.",
+          "options": [
+            "Bundling data and methods into a single unit (class) and controlling access to them.",
+            "Allowing a class to inherit from multiple parent classes.",
+            "A way to represent real-world objects in code.",
+            "The process of converting code into a binary format."
+          ],
+          "answer": "Bundling data and methods into a single unit (class) and controlling access to them."
+        },
+        {
+          "id": 3,
+          "question": "What is the purpose of the using statement in C#?",
+          "options": [
+            "To declare a new variable.",
+            "To include a namespace.",
+            "To ensure an object is correctly disposed of.",
+            "To handle exceptions."
+          ],
+          "answer": "To ensure an object is correctly disposed of."
+        },
+        {
+          "id": 4,
+          "question": "What is the dotnet command-line interface used for?",
+          "options": [
+            "To connect to a database.",
+            "To manage code repositories.",
+            "To build, run, test, and publish .NET applications.",
+            "To install Visual Studio."
+          ],
+          "answer": "To build, run, test, and publish .NET applications."
+        },
+        {
+          "id": 5,
+          "question": "What is the key difference between an abstract class and an interface?",
+          "options": [
+            "An abstract class can have constructors and fields, while an interface cannot.",
+            "An abstract class can be instantiated, while an interface cannot.",
+            "An interface can contain implementation, while an abstract class cannot.",
+            "There is no difference."
+          ],
+          "answer": "An abstract class can have constructors and fields, while an interface cannot."
+        },
+        {
+          "id": 6,
+          "question": "What is LINQ?",
+          "options": [
+            "A type of loop.",
+            "A way to integrate with Linux.",
+            "A C# feature for querying data from various sources using a uniform syntax.",
+            "A tool for debugging."
+          ],
+          "answer": "A C# feature for querying data from various sources using a uniform syntax."
+        },
+        {
+          "id": 7,
+          "question": "What is the purpose of async/await in C#?",
+          "options": [
+            "To make code synchronous and blocking.",
+            "To simplify asynchronous, non-blocking operations.",
+            "To manage memory allocation.",
+            "To handle exceptions."
+          ],
+          "answer": "To simplify asynchronous, non-blocking operations."
+        },
+        {
+          "id": 8,
+          "question": "What is the role of a controller in an ASP.NET Core MVC application?",
+          "options": [
+            "To store data.",
+            "To handle user authentication.",
+            "To process incoming requests and orchestrate the application's response.",
+            "To define the user interface."
+          ],
+          "answer": "To process incoming requests and orchestrate the application's response."
+        },
+        {
+          "id": 9,
+          "question": "What is Entity Framework Core?",
+          "options": [
+            "A C# web framework.",
+            "A library for game development.",
+            "An Object-Relational Mapper (ORM) for interacting with databases.",
+            "A tool for creating user interfaces."
+          ],
+          "answer": "An Object-Relational Mapper (ORM) for interacting with databases."
+        },
+        {
+          "id": 10,
+          "question": "What is the benefit of using Docker for C# application deployment?",
+          "options": [
+            "It improves application performance.",
+            "It provides a consistent, isolated environment for the application.",
+            "It simplifies database migrations.",
+            "It automates unit testing."
+          ],
+          "answer": "It provides a consistent, isolated environment for the application."
+        }
+      ]
+    }
+  ]
+}

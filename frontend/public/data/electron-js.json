@@ -1,0 +1,426 @@
+{
+  "courseTitle": "Electron.js Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Electron.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/m3OjWNFREJo",
+      "description": "An introduction to Electron.js, its purpose, and its role in building cross-platform desktop applications.",
+      "points": [
+        "What is Electron.js?",
+        "Electron.js vs traditional desktop frameworks",
+        "Setting up an Electron.js development environment"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Electron.js?",
+          "options": [
+            "Building web servers",
+            "Creating cross-platform desktop applications",
+            "Managing databases",
+            "Designing mobile apps"
+          ],
+          "answer": "Creating cross-platform desktop applications"
+        },
+        {
+          "id": 2,
+          "question": "Which technologies does Electron.js primarily use?",
+          "options": [
+            "Python and Flask",
+            "HTML, CSS, and JavaScript",
+            "Java and Spring",
+            "C++ and Qt"
+          ],
+          "answer": "HTML, CSS, and JavaScript"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Building Your First Electron App",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3yqDxhR2XxE",
+      "description": "Learn how to create a basic Electron.js application.",
+      "points": [
+        "Structure of an Electron app (main and renderer processes)",
+        "Creating a simple window with BrowserWindow",
+        "Running and debugging an Electron app"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the role of the main process in Electron.js?",
+          "options": [
+            "Rendering the UI",
+            "Managing native system interactions",
+            "Fetching data",
+            "Styling components"
+          ],
+          "answer": "Managing native system interactions"
+        },
+        {
+          "id": 2,
+          "question": "Which Electron module is used to create windows?",
+          "options": [
+            "BrowserWindow",
+            "WindowManager",
+            "AppWindow",
+            "MainWindow"
+          ],
+          "answer": "BrowserWindow"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Inter-Process Communication (IPC)",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/a2aJmETdz7M",
+      "description": "Explore how to enable communication between main and renderer processes in Electron.js.",
+      "points": [
+        "Using ipcMain and ipcRenderer modules",
+        "Sending and receiving messages",
+        "Handling synchronous and asynchronous communication"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Electron module is used in the renderer process for IPC?",
+          "options": ["ipcMain", "ipcRenderer", "BrowserWindow", "app"],
+          "answer": "ipcRenderer"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of IPC in Electron.js?",
+          "options": [
+            "Styling the UI",
+            "Communication between processes",
+            "Managing databases",
+            "Packaging the app"
+          ],
+          "answer": "Communication between processes"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Integrating Frontend Frameworks",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/oAaS9ix8pes",
+      "description": "Learn how to integrate popular frontend frameworks with Electron.js.",
+      "points": [
+        "Using React or Vue.js with Electron",
+        "Setting up a build pipeline with Vite or Webpack",
+        "Managing frontend assets in Electron"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which frontend framework can be integrated with Electron.js?",
+          "options": ["Flask", "React", "Django", "Spring"],
+          "answer": "React"
+        },
+        {
+          "id": 2,
+          "question": "What is a common build tool for Electron apps with frontend frameworks?",
+          "options": ["Vite", "NPM", "Pip", "Maven"],
+          "answer": "Vite"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Native System Integration",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Fqg1yFogiDo",
+      "description": "Covers how to interact with native system features in Electron.js applications.",
+      "points": [
+        "Using the app and dialog modules",
+        "Accessing file systems and notifications",
+        "Creating system tray applications"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Electron module is used to show native dialogs?",
+          "options": ["BrowserWindow", "dialog", "ipcMain", "app"],
+          "answer": "dialog"
+        },
+        {
+          "id": 2,
+          "question": "What can the system tray feature in Electron.js be used for?",
+          "options": [
+            "Rendering UI",
+            "Minimizing apps to the tray",
+            "Fetching data",
+            "Styling components"
+          ],
+          "answer": "Minimizing apps to the tray"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Packaging and Distributing Electron Apps",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/pLPCuFFeKOU",
+      "description": "Learn how to package and distribute Electron.js applications for different platforms.",
+      "points": [
+        "Using Electron Forge or Electron Builder",
+        "Creating installers for Windows, macOS, and Linux",
+        "Code signing and publishing releases"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which tool is commonly used for packaging Electron apps?",
+          "options": ["Webpack", "Electron Forge", "Rollup", "Parcel"],
+          "answer": "Electron Forge"
+        },
+        {
+          "id": 2,
+          "question": "What is code signing used for in Electron apps?",
+          "options": [
+            "Optimizing performance",
+            "Ensuring app authenticity",
+            "Fetching data",
+            "Styling the UI"
+          ],
+          "answer": "Ensuring app authenticity"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Security in Electron.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Gi-p52dJ8fE",
+      "description": "Covers best practices for securing Electron.js applications.",
+      "points": [
+        "Enabling context isolation and nodeIntegration",
+        "Sanitizing user input",
+        "Using secure communication with APIs"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does enabling context isolation in Electron.js improve?",
+          "options": ["Performance", "Security", "Styling", "Data fetching"],
+          "answer": "Security"
+        },
+        {
+          "id": 2,
+          "question": "Why is sanitizing user input important in Electron apps?",
+          "options": [
+            "To improve performance",
+            "To prevent security vulnerabilities",
+            "To simplify routing",
+            "To enhance visuals"
+          ],
+          "answer": "To prevent security vulnerabilities"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Testing Electron.js Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/OAsoKBFXeGw",
+      "description": "Learn how to test Electron.js applications to ensure reliability.",
+      "points": [
+        "Unit testing with Jest",
+        "End-to-end testing with Spectron",
+        "Mocking IPC and native features"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which library is commonly used for unit testing Electron apps?",
+          "options": ["Jest", "Mocha", "Cypress", "Puppeteer"],
+          "answer": "Jest"
+        },
+        {
+          "id": 2,
+          "question": "What is Spectron used for in Electron.js?",
+          "options": [
+            "Styling components",
+            "End-to-end testing",
+            "Packaging apps",
+            "Fetching data"
+          ],
+          "answer": "End-to-end testing"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Electron.js Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/G1K0Mb-rLBU",
+      "description": "Covers best practices for building efficient and maintainable Electron.js applications.",
+      "points": [
+        "Optimizing performance and memory usage",
+        "Structuring Electron projects",
+        "Keeping dependencies updated"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is structuring an Electron.js project important?",
+          "options": [
+            "To increase bundle size",
+            "To improve maintainability",
+            "To simplify styling",
+            "To reduce performance"
+          ],
+          "answer": "To improve maintainability"
+        },
+        {
+          "id": 2,
+          "question": "What is a key performance consideration in Electron.js apps?",
+          "options": [
+            "Increasing memory usage",
+            "Optimizing memory and CPU usage",
+            "Adding more dependencies",
+            "Disabling security"
+          ],
+          "answer": "Optimizing memory and CPU usage"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Electron.js?",
+          "options": [
+            "Building web servers",
+            "Creating cross-platform desktop applications",
+            "Managing databases",
+            "Designing mobile apps"
+          ],
+          "answer": "Creating cross-platform desktop applications"
+        },
+        {
+          "id": 2,
+          "question": "Which technologies does Electron.js primarily use?",
+          "options": [
+            "Python and Flask",
+            "HTML, CSS, and JavaScript",
+            "Java and Spring",
+            "C++ and Qt"
+          ],
+          "answer": "HTML, CSS, and JavaScript"
+        },
+        {
+          "id": 3,
+          "question": "What is the role of the main process in Electron.js?",
+          "options": [
+            "Rendering the UI",
+            "Managing native system interactions",
+            "Fetching data",
+            "Styling components"
+          ],
+          "answer": "Managing native system interactions"
+        },
+        {
+          "id": 4,
+          "question": "Which Electron module is used in the renderer process for IPC?",
+          "options": ["ipcMain", "ipcRenderer", "BrowserWindow", "app"],
+          "answer": "ipcRenderer"
+        },
+        {
+          "id": 5,
+          "question": "Which frontend framework can be integrated with Electron.js?",
+          "options": ["Flask", "React", "Django", "Spring"],
+          "answer": "React"
+        },
+        {
+          "id": 6,
+          "question": "Which Electron module is used to show native dialogs?",
+          "options": ["BrowserWindow", "dialog", "ipcMain", "app"],
+          "answer": "dialog"
+        },
+        {
+          "id": 7,
+          "question": "Which tool is commonly used for packaging Electron apps?",
+          "options": ["Webpack", "Electron Forge", "Rollup", "Parcel"],
+          "answer": "Electron Forge"
+        },
+        {
+          "id": 8,
+          "question": "What does enabling context isolation in Electron.js improve?",
+          "options": ["Performance", "Security", "Styling", "Data fetching"],
+          "answer": "Security"
+        },
+        {
+          "id": 9,
+          "question": "Which library is commonly used for unit testing Electron apps?",
+          "options": ["Jest", "Mocha", "Cypress", "Puppeteer"],
+          "answer": "Jest"
+        },
+        {
+          "id": 10,
+          "question": "What is a key performance consideration in Electron.js apps?",
+          "options": [
+            "Increasing memory usage",
+            "Optimizing memory and CPU usage",
+            "Adding more dependencies",
+            "Disabling security"
+          ],
+          "answer": "Optimizing memory and CPU usage"
+        }
+      ]
+    }
+  ]
+}

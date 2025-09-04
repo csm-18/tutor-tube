@@ -1,0 +1,430 @@
+{
+  "courseTitle": "Docker Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Docker",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/b0HMimUb4f0",
+      "description": "An introduction to Docker, its role in containerization, and its benefits for application development and deployment.",
+      "points": [
+        "What is Docker and containerization?",
+        "Docker vs virtual machines",
+        "Installing Docker and running your first container"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Docker?",
+          "options": [
+            "Database management",
+            "Containerizing applications",
+            "Building user interfaces",
+            "Network configuration"
+          ],
+          "answer": "Containerizing applications"
+        },
+        {
+          "id": 2,
+          "question": "How does Docker differ from a virtual machine?",
+          "options": [
+            "Docker uses a full operating system",
+            "Docker shares the host OS kernel",
+            "Docker requires more storage",
+            "Docker is slower"
+          ],
+          "answer": "Docker shares the host OS kernel"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Docker Images and Containers",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/C-bX86AgyiA",
+      "description": "Learn about Docker images, containers, and how to manage them.",
+      "points": [
+        "Understanding Docker images and layers",
+        "Running and managing containers (docker run, docker ps)",
+        "Building custom images with Dockerfile"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What command is used to run a Docker container?",
+          "options": [
+            "docker start",
+            "docker run",
+            "docker build",
+            "docker exec"
+          ],
+          "answer": "docker run"
+        },
+        {
+          "id": 2,
+          "question": "What is a Dockerfile used for?",
+          "options": [
+            "Running containers",
+            "Building custom images",
+            "Managing networks",
+            "Storing data"
+          ],
+          "answer": "Building custom images"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Dockerfile and Image Building",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/WmcdMiyqfZs",
+      "description": "Explore how to create Docker images using Dockerfiles for custom applications.",
+      "points": [
+        "Key Dockerfile instructions (FROM, RUN, COPY, CMD)",
+        "Building and tagging images",
+        "Optimizing Docker images for size and performance"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Dockerfile instruction specifies the base image?",
+          "options": ["RUN", "CMD", "FROM", "COPY"],
+          "answer": "FROM"
+        },
+        {
+          "id": 2,
+          "question": "What does the CMD instruction in a Dockerfile define?",
+          "options": [
+            "The build process",
+            "The default command to run in a container",
+            "The image size",
+            "The network configuration"
+          ],
+          "answer": "The default command to run in a container"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Docker Networking",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/bKFMS5C4CG0",
+      "description": "Learn how Docker handles networking for container communication.",
+      "points": [
+        "Default network types: bridge, host, none",
+        "Connecting containers with custom networks",
+        "Exposing ports and mapping them to the host"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the default Docker network type for standalone containers?",
+          "options": ["Host", "Bridge", "None", "Overlay"],
+          "answer": "Bridge"
+        },
+        {
+          "id": 2,
+          "question": "What does port mapping in Docker allow?",
+          "options": [
+            "Accessing container services from the host",
+            "Building images",
+            "Storing data",
+            "Running multiple containers"
+          ],
+          "answer": "Accessing container services from the host"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Docker Volumes and Storage",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/p2PH_YPCsis",
+      "description": "Covers Docker storage solutions for persisting data across containers.",
+      "points": [
+        "Using volumes for persistent storage",
+        "Bind mounts vs volumes",
+        "Managing and cleaning up volumes"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of a Docker volume?",
+          "options": [
+            "Running containers",
+            "Persisting data outside containers",
+            "Building images",
+            "Configuring networks"
+          ],
+          "answer": "Persisting data outside containers"
+        },
+        {
+          "id": 2,
+          "question": "How does a bind mount differ from a volume in Docker?",
+          "options": [
+            "Bind mounts are managed by Docker",
+            "Bind mounts map host directories to containers",
+            "Volumes are temporary",
+            "Volumes are less secure"
+          ],
+          "answer": "Bind mounts map host directories to containers"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Docker Compose for Multi-Container Apps",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/BTXfR76WmCw",
+      "description": "Learn how to use Docker Compose to manage multi-container applications.",
+      "points": [
+        "Defining services in a docker-compose.yml file",
+        "Managing dependencies and networks",
+        "Running and scaling multi-container apps"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of Docker Compose?",
+          "options": [
+            "Building single images",
+            "Managing multi-container applications",
+            "Running virtual machines",
+            "Configuring databases"
+          ],
+          "answer": "Managing multi-container applications"
+        },
+        {
+          "id": 2,
+          "question": "Which file defines services in Docker Compose?",
+          "options": [
+            "Dockerfile",
+            "docker-compose.yml",
+            "compose.json",
+            "services.yml"
+          ],
+          "answer": "docker-compose.yml"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Deploying Docker Containers",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/AiiFbsAlLaI",
+      "description": "Explore how to deploy Docker containers to production environments.",
+      "points": [
+        "Pushing images to Docker Hub",
+        "Deploying to cloud platforms (AWS, Azure, GCP)",
+        "Using orchestration tools like Docker Swarm"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Where can you store Docker images for sharing or deployment?",
+          "options": [
+            "Docker Hub",
+            "GitHub",
+            "NPM Registry",
+            "Local Filesystem"
+          ],
+          "answer": "Docker Hub"
+        },
+        {
+          "id": 2,
+          "question": "What is Docker Swarm used for?",
+          "options": [
+            "Building images",
+            "Orchestrating containers",
+            "Styling applications",
+            "Managing databases"
+          ],
+          "answer": "Orchestrating containers"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Docker Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/8vXoMqWgbQQ",
+      "description": "Covers best practices for building and managing efficient Docker containers.",
+      "points": [
+        "Minimizing image size",
+        "Securing containers with least privilege",
+        "Monitoring and logging container performance"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is minimizing Docker image size important?",
+          "options": [
+            "To increase storage",
+            "To improve performance and reduce costs",
+            "To simplify networking",
+            "To enhance styling"
+          ],
+          "answer": "To improve performance and reduce costs"
+        },
+        {
+          "id": 2,
+          "question": "What is a key security practice for Docker containers?",
+          "options": [
+            "Running as root by default",
+            "Using least privilege principles",
+            "Exposing all ports",
+            "Disabling logging"
+          ],
+          "answer": "Using least privilege principles"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Docker?",
+          "options": [
+            "Database management",
+            "Containerizing applications",
+            "Building user interfaces",
+            "Network configuration"
+          ],
+          "answer": "Containerizing applications"
+        },
+        {
+          "id": 2,
+          "question": "What command is used to run a Docker container?",
+          "options": [
+            "docker start",
+            "docker run",
+            "docker build",
+            "docker exec"
+          ],
+          "answer": "docker run"
+        },
+        {
+          "id": 3,
+          "question": "Which Dockerfile instruction specifies the base image?",
+          "options": ["RUN", "CMD", "FROM", "COPY"],
+          "answer": "FROM"
+        },
+        {
+          "id": 4,
+          "question": "What is the default Docker network type for standalone containers?",
+          "options": ["Host", "Bridge", "None", "Overlay"],
+          "answer": "Bridge"
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of a Docker volume?",
+          "options": [
+            "Running containers",
+            "Persisting data outside containers",
+            "Building images",
+            "Configuring networks"
+          ],
+          "answer": "Persisting data outside containers"
+        },
+        {
+          "id": 6,
+          "question": "Which file defines services in Docker Compose?",
+          "options": [
+            "Dockerfile",
+            "docker-compose.yml",
+            "compose.json",
+            "services.yml"
+          ],
+          "answer": "docker-compose.yml"
+        },
+        {
+          "id": 7,
+          "question": "Where can you store Docker images for sharing or deployment?",
+          "options": [
+            "Docker Hub",
+            "GitHub",
+            "NPM Registry",
+            "Local Filesystem"
+          ],
+          "answer": "Docker Hub"
+        },
+        {
+          "id": 8,
+          "question": "What is Docker Swarm used for?",
+          "options": [
+            "Building images",
+            "Orchestrating containers",
+            "Styling applications",
+            "Managing databases"
+          ],
+          "answer": "Orchestrating containers"
+        },
+        {
+          "id": 9,
+          "question": "Why is minimizing Docker image size important?",
+          "options": [
+            "To increase storage",
+            "To improve performance and reduce costs",
+            "To simplify networking",
+            "To enhance styling"
+          ],
+          "answer": "To improve performance and reduce costs"
+        },
+        {
+          "id": 10,
+          "question": "What is a key security practice for Docker containers?",
+          "options": [
+            "Running as root by default",
+            "Using least privilege principles",
+            "Exposing all ports",
+            "Disabling logging"
+          ],
+          "answer": "Using least privilege principles"
+        }
+      ]
+    }
+  ]
+}

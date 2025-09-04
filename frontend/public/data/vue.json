@@ -1,0 +1,450 @@
+{
+  "courseTitle": "Vue.js",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Vue.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YrxBCBibVo0",
+      "description": "An introduction to Vue.js, its core concepts, and why it is used for building user interfaces.",
+      "points": [
+        "What is Vue.js?",
+        "Understanding Vue's reactive system",
+        "Setting up a Vue.js environment"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Vue.js?",
+          "options": [
+            "Server-side scripting",
+            "Building user interfaces",
+            "Database management",
+            "API development"
+          ],
+          "answer": "Building user interfaces"
+        },
+        {
+          "id": 2,
+          "question": "What is Vue.js known for in its approach to building applications?",
+          "options": [
+            "Static rendering",
+            "Reactive data binding",
+            "Complex state management",
+            "Database querying"
+          ],
+          "answer": "Reactive data binding"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Vue Components and Props",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/te-lFidcrcM",
+      "description": "Learn how to create and use Vue components and pass data using props.",
+      "points": [
+        "Defining components in Vue",
+        "Passing data with props",
+        "Component registration and reuse"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How are props used in Vue components?",
+          "options": [
+            "To manage state",
+            "To pass data to components",
+            "To handle events",
+            "To style components"
+          ],
+          "answer": "To pass data to components"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of registering a Vue component?",
+          "options": [
+            "To make it reusable across the app",
+            "To optimize performance",
+            "To manage routing",
+            "To handle API calls"
+          ],
+          "answer": "To make it reusable across the app"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Vue Directives and Data Binding",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/AjRoevitxwk",
+      "description": "Covers Vue's directives and two-way data binding for dynamic interfaces.",
+      "points": [
+        "Using v-bind and v-model",
+        "Conditional rendering with v-if and v-show",
+        "Looping with v-for"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Vue directive is used for two-way data binding?",
+          "options": ["v-bind", "v-model", "v-if", "v-for"],
+          "answer": "v-model"
+        },
+        {
+          "id": 2,
+          "question": "What is the difference between v-if and v-show?",
+          "options": [
+            "v-if toggles visibility, v-show removes elements",
+            "v-if removes elements, v-show toggles visibility",
+            "v-if is for loops, v-show is for conditionals",
+            "No difference"
+          ],
+          "answer": "v-if removes elements, v-show toggles visibility"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Event Handling in Vue",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/jw1O5XvEKpE",
+      "description": "Explains how to handle user events like clicks and form submissions in Vue.",
+      "points": [
+        "Using v-on for event handling",
+        "Event modifiers",
+        "Emitting custom events"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which directive is used to handle events in Vue?",
+          "options": ["v-bind", "v-on", "v-model", "v-if"],
+          "answer": "v-on"
+        },
+        {
+          "id": 2,
+          "question": "What does the .prevent modifier do in Vue event handling?",
+          "options": [
+            "Prevents default behavior",
+            "Stops event propagation",
+            "Binds data",
+            "Triggers animations"
+          ],
+          "answer": "Prevents default behavior"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Vue Router",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/juocv4AtrHo",
+      "description": "Covers adding client-side routing to Vue applications using Vue Router.",
+      "points": [
+        "Setting up Vue Router",
+        "Defining routes and nested routes",
+        "Navigating with router-link"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Vue component is used for navigation in Vue Router?",
+          "options": ["router-view", "router-link", "route", "router-nav"],
+          "answer": "router-link"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of router-view in Vue Router?",
+          "options": [
+            "To define routes",
+            "To render the matched component",
+            "To handle navigation",
+            "To manage state"
+          ],
+          "answer": "To render the matched component"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "State Management with Vuex",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/5lVQgZzLMHc",
+      "description": "Explores state management in Vue applications using Vuex for centralized state.",
+      "points": [
+        "Setting up Vuex store",
+        "Using state, mutations, and actions",
+        "Accessing state with getters"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of Vuex in Vue applications?",
+          "options": [
+            "To manage routing",
+            "To handle API calls",
+            "To manage centralized state",
+            "To style components"
+          ],
+          "answer": "To manage centralized state"
+        },
+        {
+          "id": 2,
+          "question": "Which Vuex component is used to update state?",
+          "options": ["State", "Mutations", "Actions", "Getters"],
+          "answer": "Mutations"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "API Integration in Vue",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/F2jvX_K1PYk",
+      "description": "Learn how to fetch and manage data from APIs in Vue applications.",
+      "points": [
+        "Using axios for API calls",
+        "Handling asynchronous data",
+        "Displaying API data in components"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which library is commonly used for API requests in Vue?",
+          "options": ["jQuery", "axios", "Vue Router", "Vuex"],
+          "answer": "axios"
+        },
+        {
+          "id": 2,
+          "question": "How is asynchronous data typically handled in Vue components?",
+          "options": [
+            "Using computed properties",
+            "Using async/await with API calls",
+            "Using v-bind directives",
+            "Using Vuex mutations"
+          ],
+          "answer": "Using async/await with API calls"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Styling in Vue",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/RY6e9GsRb3Q",
+      "description": "Covers different approaches to styling Vue components, including scoped CSS",
+      "points": [
+        "Using scoped CSS in components",
+        "Dynamic styling with v-bind"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the benefit of using scoped CSS in Vue?",
+          "options": [
+            "Global styling",
+            "Styles limited to a single component",
+            "Faster rendering",
+            "Easier state management"
+          ],
+          "answer": "Styles limited to a single component"
+        },
+        {
+          "id": 2,
+          "question": "Which directive is used for dynamic styling in Vue?",
+          "options": ["v-model", "v-bind:style", "v-on", "v-if"],
+          "answer": "v-bind:style"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Vue Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/QB1p2iuQm_0",
+      "description": "Covers best practices for writing clean, performant, and maintainable Vue code.",
+      "points": [
+        "Structuring Vue projects",
+        "Optimizing component performance",
+        "Writing reusable components"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is it important to write reusable components in Vue?",
+          "options": [
+            "To reduce code duplication",
+            "To increase bundle size",
+            "To simplify routing",
+            "To manage APIs"
+          ],
+          "answer": "To reduce code duplication"
+        },
+        {
+          "id": 2,
+          "question": "What is a technique to optimize Vue component performance?",
+          "options": [
+            "Using inline CSS",
+            "Using v-once for static content",
+            "Adding more state variables",
+            "Using global components only"
+          ],
+          "answer": "Using v-once for static content"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the core feature of Vue.js that enables dynamic updates?",
+          "options": [
+            "Static rendering",
+            "Reactive data binding",
+            "Server-side rendering",
+            "Database integration"
+          ],
+          "answer": "Reactive data binding"
+        },
+        {
+          "id": 2,
+          "question": "How are props used in Vue components?",
+          "options": [
+            "To manage state",
+            "To pass data to components",
+            "To handle events",
+            "To style components"
+          ],
+          "answer": "To pass data to components"
+        },
+        {
+          "id": 3,
+          "question": "Which directive is used for two-way data binding in Vue?",
+          "options": ["v-bind", "v-model", "v-if", "v-for"],
+          "answer": "v-model"
+        },
+        {
+          "id": 4,
+          "question": "What does the v-on directive do in Vue?",
+          "options": [
+            "Binds data to elements",
+            "Handles user events",
+            "Renders lists",
+            "Toggles visibility"
+          ],
+          "answer": "Handles user events"
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of router-view in Vue Router?",
+          "options": [
+            "To define routes",
+            "To render the matched component",
+            "To handle navigation",
+            "To manage state"
+          ],
+          "answer": "To render the matched component"
+        },
+        {
+          "id": 6,
+          "question": "What is the role of mutations in Vuex?",
+          "options": [
+            "To fetch API data",
+            "To update the state",
+            "To define routes",
+            "To style components"
+          ],
+          "answer": "To update the state"
+        },
+        {
+          "id": 7,
+          "question": "Which library is commonly used for API requests in Vue applications?",
+          "options": ["jQuery", "axios", "Vue Router", "Vuex"],
+          "answer": "axios"
+        },
+        {
+          "id": 8,
+          "question": "What is the benefit of using scoped CSS in Vue?",
+          "options": [
+            "Global styling",
+            "Styles limited to a single component",
+            "Faster rendering",
+            "Easier state management"
+          ],
+          "answer": "Styles limited to a single component"
+        },
+        {
+          "id": 9,
+          "question": "What is a technique to optimize Vue component performance?",
+          "options": [
+            "Using inline CSS",
+            "Using v-once for static content",
+            "Adding more state variables",
+            "Using global components only"
+          ],
+          "answer": "Using v-once for static content"
+        },
+        {
+          "id": 10,
+          "question": "Why is structuring Vue projects important?",
+          "options": [
+            "To increase bundle size",
+            "To improve maintainability",
+            "To simplify API calls",
+            "To handle routing"
+          ],
+          "answer": "To improve maintainability"
+        }
+      ]
+    }
+  ]
+}

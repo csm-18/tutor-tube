@@ -1,0 +1,411 @@
+{
+  "courseTitle": "Swift Programming",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Swift",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/nAchMctX4YA",
+      "description": "An introduction to Swift, its design philosophy, and its role in Apple ecosystem development.",
+      "points": [
+        "What is Swift and its key features?",
+        "Swift vs other programming languages (e.g., Objective-C, Kotlin)",
+        "Setting up a Swift development environment (Xcode)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Swift primarily used for?",
+          "options": [
+            "Web development",
+            "iOS and macOS app development",
+            "Database management",
+            "System scripting"
+          ],
+          "answer": "iOS and macOS app development"
+        },
+        {
+          "id": 2,
+          "question": "Which IDE is commonly used for Swift development?",
+          "options": ["VS Code", "Xcode", "IntelliJ IDEA", "Android Studio"],
+          "answer": "Xcode"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Swift Syntax and Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/XMEJzZMPI_w",
+      "description": "Learn the basic syntax and structure of Swift programming.",
+      "points": [
+        "Variables, constants, and type inference",
+        "Control flow: if, switch, loops",
+        "Functions and closures"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you declare a constant in Swift?",
+          "options": ["Using var", "Using let", "Using const", "Using static"],
+          "answer": "Using let"
+        },
+        {
+          "id": 2,
+          "question": "Which Swift construct is used for pattern matching?",
+          "options": ["if", "switch", "for", "while"],
+          "answer": "switch"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Object-Oriented Programming in Swift",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/XdZUVmqIkJE",
+      "description": "Explore Swift’s object-oriented programming features for modular code.",
+      "points": [
+        "Classes, structs, and enums",
+        "Inheritance, protocols, and extensions",
+        "Properties and initializers"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What keyword is used to define a struct in Swift?",
+          "options": ["class", "struct", "enum", "type"],
+          "answer": "struct"
+        },
+        {
+          "id": 2,
+          "question": "What are protocols in Swift used for?",
+          "options": [
+            "Defining database schemas",
+            "Defining a blueprint of methods and properties",
+            "Managing loops",
+            "Styling UI"
+          ],
+          "answer": "Defining a blueprint of methods and properties"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Collections and Functional Programming",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/xPXeu17px1Y",
+      "description": "Learn how to use collections and functional programming features in Swift.",
+      "points": [
+        "Arrays, sets, and dictionaries",
+        "Functional methods: map, filter, reduce",
+        "Working with optionals and optional chaining"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Swift collection is used for key-value pairs?",
+          "options": ["Array", "Set", "Dictionary", "List"],
+          "answer": "Dictionary"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the map function in Swift?",
+          "options": [
+            "Filtering data",
+            "Transforming collection elements",
+            "Sorting collections",
+            "Reducing data"
+          ],
+          "answer": "Transforming collection elements"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Asynchronous Programming in Swift",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/XRulkUR1O5Q",
+      "description": "Explore Swift’s concurrency model for asynchronous programming.",
+      "points": [
+        "Using async/await for asynchronous tasks",
+        "Working with actors for safe concurrency",
+        "Handling tasks with Task and TaskGroup"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What keyword is used for asynchronous functions in Swift?",
+          "options": ["async", "await", "future", "promise"],
+          "answer": "async"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of actors in Swift?",
+          "options": [
+            "Managing UI",
+            "Ensuring safe concurrent data access",
+            "Handling database queries",
+            "Styling applications"
+          ],
+          "answer": "Ensuring safe concurrent data access"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "iOS Development with SwiftUI",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/b1oC7sLIgpI",
+      "description": "Learn how to build iOS applications using SwiftUI.",
+      "points": [
+        "Setting up a SwiftUI project in Xcode",
+        "Creating UI with SwiftUI views and modifiers",
+        "Managing state and navigation in SwiftUI"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is SwiftUI used for in Swift?",
+          "options": [
+            "Database management",
+            "Building modern iOS UI",
+            "Backend APIs",
+            "Testing code"
+          ],
+          "answer": "Building modern iOS UI"
+        },
+        {
+          "id": 2,
+          "question": "Which IDE is used for SwiftUI development?",
+          "options": ["VS Code", "Xcode", "IntelliJ IDEA", "Android Studio"],
+          "answer": "Xcode"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Networking and APIs in Swift",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ERr0GXqILgc",
+      "description": "Explore how to connect Swift apps to APIs and handle network requests.",
+      "points": [
+        "Making HTTP requests with URLSession",
+        "Parsing JSON data with Codable",
+        "Using third-party libraries like Alamofire"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Swift type is used for JSON parsing?",
+          "options": ["Codable", "JSONParser", "Serializable", "DataMapper"],
+          "answer": "Codable"
+        },
+        {
+          "id": 2,
+          "question": "What is URLSession used for in Swift?",
+          "options": [
+            "Styling UI",
+            "Making network requests",
+            "Managing databases",
+            "Testing code"
+          ],
+          "answer": "Making network requests"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying Swift Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/6VuLukGpNv8",
+      "description": "Learn how to deploy Swift applications for iOS and backend systems.",
+      "points": [
+        "Building and submitting iOS apps to the App Store",
+        "Deploying Swift server apps with Vapor to Heroku",
+        "Using Docker for server-side Swift deployment"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which platform is used to distribute iOS apps?",
+          "options": [
+            "Google Play Store",
+            "Apple App Store",
+            "Heroku",
+            "Netlify"
+          ],
+          "answer": "Apple App Store"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using Docker for Swift server deployment?",
+          "options": [
+            "Improved styling",
+            "Consistent environments",
+            "Simplified routing",
+            "Reduced security"
+          ],
+          "answer": "Consistent environments"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Swift Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/UuW1ZSE1Mnc",
+      "description": "Covers best practices for writing clean and efficient Swift code.",
+      "points": [
+        "Following Swift style guidelines",
+        "Leveraging type safety and optionals",
+        "Testing with XCTest framework"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a key feature of Swift’s type system?",
+          "options": [
+            "Dynamic typing",
+            "Type safety",
+            "No typing",
+            "Implicit typing"
+          ],
+          "answer": "Type safety"
+        },
+        {
+          "id": 2,
+          "question": "Which testing framework is commonly used with Swift?",
+          "options": ["Jest", "XCTest", "Mocha", "Cypress"],
+          "answer": "XCTest"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Swift primarily used for?",
+          "options": [
+            "Web development",
+            "iOS and macOS app development",
+            "Database management",
+            "System scripting"
+          ],
+          "answer": "iOS and macOS app development"
+        },
+        {
+          "id": 2,
+          "question": "Which IDE is commonly used for Swift development?",
+          "options": ["VS Code", "Xcode", "IntelliJ IDEA", "Android Studio"],
+          "answer": "Xcode"
+        },
+        {
+          "id": 3,
+          "question": "How do you declare a constant in Swift?",
+          "options": ["Using var", "Using let", "Using const", "Using static"],
+          "answer": "Using let"
+        },
+        {
+          "id": 4,
+          "question": "What keyword is used to define a struct in Swift?",
+          "options": ["class", "struct", "enum", "type"],
+          "answer": "struct"
+        },
+        {
+          "id": 5,
+          "question": "Which Swift collection is used for key-value pairs?",
+          "options": ["Array", "Set", "Dictionary", "List"],
+          "answer": "Dictionary"
+        },
+        {
+          "id": 6,
+          "question": "What keyword is used for asynchronous functions in Swift?",
+          "options": ["async", "await", "future", "promise"],
+          "answer": "async"
+        },
+        {
+          "id": 7,
+          "question": "What is SwiftUI used for in Swift?",
+          "options": [
+            "Database management",
+            "Building modern iOS UI",
+            "Backend APIs",
+            "Testing code"
+          ],
+          "answer": "Building modern iOS UI"
+        },
+        {
+          "id": 8,
+          "question": "Which Swift type is used for JSON parsing?",
+          "options": ["Codable", "JSONParser", "Serializable", "DataMapper"],
+          "answer": "Codable"
+        },
+        {
+          "id": 9,
+          "question": "Which platform is used to distribute iOS apps?",
+          "options": [
+            "Google Play Store",
+            "Apple App Store",
+            "Heroku",
+            "Netlify"
+          ],
+          "answer": "Apple App Store"
+        },
+        {
+          "id": 10,
+          "question": "Which testing framework is commonly used with Swift?",
+          "options": ["Jest", "XCTest", "Mocha", "Cypress"],
+          "answer": "XCTest"
+        }
+      ]
+    }
+  ]
+}

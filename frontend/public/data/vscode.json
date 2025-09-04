@@ -1,0 +1,430 @@
+{
+  "courseTitle": "Visual Studio Code Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Visual Studio Code",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KMxo3T_MTvY",
+      "description": "An introduction to Visual Studio Code, its features, and why it’s a popular code editor for developers.",
+      "points": [
+        "What is Visual Studio Code?",
+        "Key features: cross-platform, lightweight, extensible",
+        "Installing and setting up VS Code"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Visual Studio Code primarily used for?",
+          "options": [
+            "Database management",
+            "Code editing and debugging",
+            "Network configuration",
+            "Graphic design"
+          ],
+          "answer": "Code editing and debugging"
+        },
+        {
+          "id": 2,
+          "question": "On which platforms is VS Code available?",
+          "options": [
+            "Windows only",
+            "Linux only",
+            "Windows, macOS, and Linux",
+            "macOS only"
+          ],
+          "answer": "Windows, macOS, and Linux"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Navigating the VS Code Interface",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/nWIRJBCjls8",
+      "description": "Learn how to navigate and customize the VS Code user interface for efficient coding.",
+      "points": [
+        "Overview of the Activity Bar, Editor, and Sidebar",
+        "Customizing themes and layouts",
+        "Using the Command Palette (Ctrl+Shift+P)"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What shortcut opens the Command Palette in VS Code?",
+          "options": ["Ctrl+Shift+C", "Ctrl+Shift+P", "Ctrl+Alt+P", "Ctrl+P"],
+          "answer": "Ctrl+Shift+P"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the Activity Bar in VS Code?",
+          "options": [
+            "To edit code",
+            "To navigate between views",
+            "To manage databases",
+            "To optimize images"
+          ],
+          "answer": "To navigate between views"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Code Editing Features",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/B-s71n0dHUk",
+      "description": "Explore powerful code editing features in VS Code to boost productivity.",
+      "points": [
+        "IntelliSense for code completion",
+        "Multi-cursor editing and code formatting",
+        "Emmet for HTML/CSS productivity"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is IntelliSense in VS Code used for?",
+          "options": [
+            "Running code",
+            "Code completion and suggestions",
+            "Managing extensions",
+            "Debugging"
+          ],
+          "answer": "Code completion and suggestions"
+        },
+        {
+          "id": 2,
+          "question": "What does multi-cursor editing allow in VS Code?",
+          "options": [
+            "Editing multiple lines simultaneously",
+            "Running multiple programs",
+            "Managing multiple projects",
+            "Formatting CSS"
+          ],
+          "answer": "Editing multiple lines simultaneously"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Extensions in VS Code",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/lxRAj1Gijic",
+      "description": "Learn how to enhance VS Code with extensions for additional functionality.",
+      "points": [
+        "Installing extensions from the Marketplace",
+        "Popular extensions: Live Server, Prettier, ESLint",
+        "Managing and configuring extensions"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Where can you find extensions for VS Code?",
+          "options": [
+            "VS Code Marketplace",
+            "GitHub Repository",
+            "NPM Registry",
+            "Local File System"
+          ],
+          "answer": "VS Code Marketplace"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of the Live Server extension?",
+          "options": [
+            "Formatting code",
+            "Running a local development server",
+            "Debugging Python",
+            "Managing Git repositories"
+          ],
+          "answer": "Running a local development server"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Version Control with Git",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/i_23KUAEtUM",
+      "description": "Covers built-in Git integration in VS Code for source control management.",
+      "points": [
+        "Initializing a Git repository",
+        "Committing and staging changes",
+        "Using the Source Control view"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What must be installed to use Git in VS Code?",
+          "options": ["Node.js", "Git", "Python", "Docker"],
+          "answer": "Git"
+        },
+        {
+          "id": 2,
+          "question": "What does the Source Control view in VS Code show?",
+          "options": [
+            "Code formatting options",
+            "Staged and unstaged changes",
+            "Extension settings",
+            "Debugging logs"
+          ],
+          "answer": "Staged and unstaged changes"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Debugging in VS Code",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/3HiLLByBWkg",
+      "description": "Learn how to debug code directly within VS Code.",
+      "points": [
+        "Setting breakpoints and starting the debugger",
+        "Using the Debug view and call stack",
+        "Configuring launch.json for debugging"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How do you set a breakpoint in VS Code?",
+          "options": [
+            "Click the editor margin or press F9",
+            "Press Ctrl+Shift+P",
+            "Use the Command Palette",
+            "Edit the settings.json file"
+          ],
+          "answer": "Click the editor margin or press F9"
+        },
+        {
+          "id": 2,
+          "question": "What file is used to configure debugging in VS Code?",
+          "options": [
+            "settings.json",
+            "launch.json",
+            "tasks.json",
+            "package.json"
+          ],
+          "answer": "launch.json"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Integrated Terminal and Tasks",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/IdhvvlZkS9g",
+      "description": "Explore the integrated terminal and task automation in VS Code.",
+      "points": [
+        "Using the integrated terminal for command-line tasks",
+        "Creating and running tasks with tasks.json",
+        "Customizing terminal settings"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the benefit of the integrated terminal in VS Code?",
+          "options": [
+            "Running code without leaving the editor",
+            "Formatting code automatically",
+            "Managing extensions",
+            "Optimizing images"
+          ],
+          "answer": "Running code without leaving the editor"
+        },
+        {
+          "id": 2,
+          "question": "What file is used to configure tasks in VS Code?",
+          "options": [
+            "launch.json",
+            "settings.json",
+            "tasks.json",
+            "package.json"
+          ],
+          "answer": "tasks.json"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "VS Code Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ifTF3ags0XI",
+      "description": "Covers best practices for using VS Code efficiently and productively.",
+      "points": [
+        "Customizing keyboard shortcuts",
+        "Using workspace settings for project-specific configurations",
+        "Leveraging GitHub Copilot for AI-assisted coding"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a benefit of workspace settings in VS Code?",
+          "options": [
+            "Global theme changes",
+            "Project-specific configurations",
+            "Running external tools",
+            "Debugging without breakpoints"
+          ],
+          "answer": "Project-specific configurations"
+        },
+        {
+          "id": 2,
+          "question": "What does GitHub Copilot provide in VS Code?",
+          "options": [
+            "Network monitoring",
+            "AI-powered code suggestions",
+            "Automatic debugging",
+            "Theme customization"
+          ],
+          "answer": "AI-powered code suggestions"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Visual Studio Code primarily used for?",
+          "options": [
+            "Database management",
+            "Code editing and debugging",
+            "Network configuration",
+            "Graphic design"
+          ],
+          "answer": "Code editing and debugging"
+        },
+        {
+          "id": 2,
+          "question": "What shortcut opens the Command Palette in VS Code?",
+          "options": ["Ctrl+Shift+C", "Ctrl+Shift+P", "Ctrl+Alt+P", "Ctrl+P"],
+          "answer": "Ctrl+Shift+P"
+        },
+        {
+          "id": 3,
+          "question": "What is IntelliSense in VS Code used for?",
+          "options": [
+            "Running code",
+            "Code completion and suggestions",
+            "Managing extensions",
+            "Debugging"
+          ],
+          "answer": "Code completion and suggestions"
+        },
+        {
+          "id": 4,
+          "question": "Where can you find extensions for VS Code?",
+          "options": [
+            "VS Code Marketplace",
+            "GitHub Repository",
+            "NPM Registry",
+            "Local File System"
+          ],
+          "answer": "VS Code Marketplace"
+        },
+        {
+          "id": 5,
+          "question": "What must be installed to use Git in VS Code?",
+          "options": ["Node.js", "Git", "Python", "Docker"],
+          "answer": "Git"
+        },
+        {
+          "id": 6,
+          "question": "How do you set a breakpoint in VS Code?",
+          "options": [
+            "Click the editor margin or press F9",
+            "Press Ctrl+Shift+P",
+            "Use the Command Palette",
+            "Edit the settings.json file"
+          ],
+          "answer": "Click the editor margin or press F9"
+        },
+        {
+          "id": 7,
+          "question": "What file is used to configure debugging in VS Code?",
+          "options": [
+            "settings.json",
+            "launch.json",
+            "tasks.json",
+            "package.json"
+          ],
+          "answer": "launch.json"
+        },
+        {
+          "id": 8,
+          "question": "What is the benefit of the integrated terminal in VS Code?",
+          "options": [
+            "Running code without leaving the editor",
+            "Formatting code automatically",
+            "Managing extensions",
+            "Optimizing images"
+          ],
+          "answer": "Running code without leaving the editor"
+        },
+        {
+          "id": 9,
+          "question": "What does GitHub Copilot provide in VS Code?",
+          "options": [
+            "Network monitoring",
+            "AI-powered code suggestions",
+            "Automatic debugging",
+            "Theme customization"
+          ],
+          "answer": "AI-powered code suggestions"
+        },
+        {
+          "id": 10,
+          "question": "What is a benefit of workspace settings in VS Code?",
+          "options": [
+            "Global theme changes",
+            "Project-specific configurations",
+            "Running external tools",
+            "Debugging without breakpoints"
+          ],
+          "answer": "Project-specific configurations"
+        }
+      ]
+    }
+  ]
+}

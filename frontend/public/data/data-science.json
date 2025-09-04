@@ -1,0 +1,451 @@
+{
+  "courseTitle": "Data Science Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Data Science",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KxryzSO1Fjs",
+      "description": "An introduction to data science, its applications, and the tools used in the field.",
+      "points": [
+        "What is data science?",
+        "Key roles: data scientist, data analyst, machine learning engineer",
+        "Setting up a data science environment (Python, Jupyter Notebook)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary goal of data science?",
+          "options": [
+            "Building user interfaces",
+            "Extracting insights from data",
+            "Managing databases",
+            "Network configuration"
+          ],
+          "answer": "Extracting insights from data"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is commonly used for interactive data science workflows?",
+          "options": [
+            "VS Code",
+            "Jupyter Notebook",
+            "Sublime Text",
+            "Notepad++"
+          ],
+          "answer": "Jupyter Notebook"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Python for Data Science",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/HrRA67O-QXI",
+      "description": "Learn the basics of Python programming for data science tasks.",
+      "points": [
+        "Python basics: variables, lists, dictionaries",
+        "Using NumPy for numerical operations",
+        "Introduction to Pandas for data manipulation"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Python library is used for numerical computations?",
+          "options": ["Pandas", "NumPy", "Matplotlib", "Scikit-learn"],
+          "answer": "NumPy"
+        },
+        {
+          "id": 2,
+          "question": "What is Pandas primarily used for in data science?",
+          "options": [
+            "Data visualization",
+            "Data manipulation and analysis",
+            "Machine learning",
+            "Web scraping"
+          ],
+          "answer": "Data manipulation and analysis"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Data Cleaning and Preprocessing",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/tDu_KIlXaB0",
+      "description": "Explore techniques for cleaning and preparing data for analysis.",
+      "points": [
+        "Handling missing values",
+        "Data normalization and encoding",
+        "Using Pandas for data cleaning"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a common method for handling missing data in Pandas?",
+          "options": [
+            "Dropping rows or filling with mean",
+            "Ignoring missing data",
+            "Replacing with random values",
+            "Deleting the dataset"
+          ],
+          "answer": "Dropping rows or filling with mean"
+        },
+        {
+          "id": 2,
+          "question": "What does data normalization do?",
+          "options": [
+            "Removes all data",
+            "Scales data to a standard range",
+            "Encrypts data",
+            "Visualizes data"
+          ],
+          "answer": "Scales data to a standard range"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Data Visualization",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/x-rDVXVwW9s",
+      "description": "Learn how to visualize data effectively using Python libraries.",
+      "points": [
+        "Using Matplotlib for basic plotting",
+        "Creating advanced visualizations with Seaborn",
+        "Interpreting and presenting data insights"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Python library is used for basic data visualization?",
+          "options": ["NumPy", "Pandas", "Matplotlib", "Scikit-learn"],
+          "answer": "Matplotlib"
+        },
+        {
+          "id": 2,
+          "question": "What is Seaborn primarily used for?",
+          "options": [
+            "Data cleaning",
+            "Advanced statistical visualizations",
+            "Machine learning",
+            "Data storage"
+          ],
+          "answer": "Advanced statistical visualizations"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Introduction to Machine Learning",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ukzFI9rgwfU",
+      "description": "Covers the basics of machine learning and its application in data science.",
+      "points": [
+        "Supervised vs unsupervised learning",
+        "Using Scikit-learn for basic models",
+        "Training and evaluating a simple model"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which type of machine learning uses labeled data?",
+          "options": [
+            "Unsupervised learning",
+            "Supervised learning",
+            "Reinforcement learning",
+            "Semi-supervised learning"
+          ],
+          "answer": "Supervised learning"
+        },
+        {
+          "id": 2,
+          "question": "Which Python library is commonly used for machine learning?",
+          "options": ["Matplotlib", "Seaborn", "Scikit-learn", "Pandas"],
+          "answer": "Scikit-learn"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Supervised Learning Models",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/yN7ypxC7838",
+      "description": "Learn about common supervised learning algorithms and their implementation.",
+      "points": [
+        "Linear regression and logistic regression",
+        "Decision trees and random forests",
+        "Model evaluation metrics (accuracy, precision, recall)"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which algorithm is used for continuous value prediction?",
+          "options": [
+            "Logistic regression",
+            "Linear regression",
+            "Decision tree",
+            "K-means clustering"
+          ],
+          "answer": "Linear regression"
+        },
+        {
+          "id": 2,
+          "question": "What is a common metric for evaluating classification models?",
+          "options": [
+            "Mean squared error",
+            "Precision",
+            "R-squared",
+            "Silhouette score"
+          ],
+          "answer": "Precision"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Unsupervised Learning and Clustering",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/d9qf0qPPhsc",
+      "description": "Explore unsupervised learning techniques for discovering patterns in data.",
+      "points": [
+        "K-means clustering",
+        "Principal Component Analysis (PCA) for dimensionality reduction",
+        "Evaluating clustering results"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of K-means clustering?",
+          "options": [
+            "Predicting continuous values",
+            "Grouping similar data points",
+            "Classifying labeled data",
+            "Reducing dataset size"
+          ],
+          "answer": "Grouping similar data points"
+        },
+        {
+          "id": 2,
+          "question": "What does PCA do in data science?",
+          "options": [
+            "Classifies data",
+            "Reduces dimensionality",
+            "Visualizes data",
+            "Trains models"
+          ],
+          "answer": "Reduces dimensionality"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying Data Science Models",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/jMrp6XfYIyk",
+      "description": "Learn how to deploy data science models for real-world use.",
+      "points": [
+        "Saving and loading models with joblib or pickle",
+        "Deploying models with Flask or FastAPI",
+        "Using cloud platforms like AWS or Heroku"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Python library is used to save machine learning models?",
+          "options": ["Matplotlib", "joblib", "Seaborn", "NumPy"],
+          "answer": "joblib"
+        },
+        {
+          "id": 2,
+          "question": "What is a common framework for deploying data science models as APIs?",
+          "options": ["Flask", "React", "Vue.js", "Django"],
+          "answer": "Flask"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Data Science Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KwSlHWvFTUs",
+      "description": "Covers best practices for conducting effective and ethical data science projects.",
+      "points": [
+        "Ensuring data quality and reproducibility",
+        "Handling bias and ethical considerations",
+        "Documenting and sharing results"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is reproducibility important in data science?",
+          "options": [
+            "To increase dataset size",
+            "To ensure consistent results",
+            "To simplify visualization",
+            "To reduce model accuracy"
+          ],
+          "answer": "To ensure consistent results"
+        },
+        {
+          "id": 2,
+          "question": "What is a key ethical consideration in data science?",
+          "options": [
+            "Increasing model complexity",
+            "Addressing bias in data",
+            "Reducing visualization",
+            "Ignoring data quality"
+          ],
+          "answer": "Addressing bias in data"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary goal of data science?",
+          "options": [
+            "Building user interfaces",
+            "Extracting insights from data",
+            "Managing databases",
+            "Network configuration"
+          ],
+          "answer": "Extracting insights from data"
+        },
+        {
+          "id": 2,
+          "question": "Which Python library is used for numerical computations?",
+          "options": ["Pandas", "NumPy", "Matplotlib", "Scikit-learn"],
+          "answer": "NumPy"
+        },
+        {
+          "id": 3,
+          "question": "What is Pandas primarily used for in data science?",
+          "options": [
+            "Data visualization",
+            "Data manipulation and analysis",
+            "Machine learning",
+            "Web scraping"
+          ],
+          "answer": "Data manipulation and analysis"
+        },
+        {
+          "id": 4,
+          "question": "What is a common method for handling missing data in Pandas?",
+          "options": [
+            "Dropping rows or filling with mean",
+            "Ignoring missing data",
+            "Replacing with random values",
+            "Deleting the dataset"
+          ],
+          "answer": "Dropping rows or filling with mean"
+        },
+        {
+          "id": 5,
+          "question": "Which Python library is used for basic data visualization?",
+          "options": ["NumPy", "Pandas", "Matplotlib", "Scikit-learn"],
+          "answer": "Matplotlib"
+        },
+        {
+          "id": 6,
+          "question": "Which type of machine learning uses labeled data?",
+          "options": [
+            "Unsupervised learning",
+            "Supervised learning",
+            "Reinforcement learning",
+            "Semi-supervised learning"
+          ],
+          "answer": "Supervised learning"
+        },
+        {
+          "id": 7,
+          "question": "Which algorithm is used for continuous value prediction?",
+          "options": [
+            "Logistic regression",
+            "Linear regression",
+            "Decision tree",
+            "K-means clustering"
+          ],
+          "answer": "Linear regression"
+        },
+        {
+          "id": 8,
+          "question": "What is the purpose of K-means clustering?",
+          "options": [
+            "Predicting continuous values",
+            "Grouping similar data points",
+            "Classifying labeled data",
+            "Reducing dataset size"
+          ],
+          "answer": "Grouping similar data points"
+        },
+        {
+          "id": 9,
+          "question": "Which Python library is used to save machine learning models?",
+          "options": ["Matplotlib", "joblib", "Seaborn", "NumPy"],
+          "answer": "joblib"
+        },
+        {
+          "id": 10,
+          "question": "What is a key ethical consideration in data science?",
+          "options": [
+            "Increasing model complexity",
+            "Addressing bias in data",
+            "Reducing visualization",
+            "Ignoring data quality"
+          ],
+          "answer": "Addressing bias in data"
+        }
+      ]
+    }
+  ]
+}

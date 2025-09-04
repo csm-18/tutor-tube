@@ -1,0 +1,457 @@
+{
+  "courseTitle": "Angular Framework",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Angular",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/xAT0lHYhHMY",
+      "description": "An introduction to Angular, its architecture, and its role in building dynamic web applications.",
+      "points": [
+        "What is Angular?",
+        "Angular vs other frameworks",
+        "Setting up an Angular environment with Angular CLI"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Angular?",
+          "options": [
+            "Server-side scripting",
+            "Building dynamic web applications",
+            "Database management",
+            "API development"
+          ],
+          "answer": "Building dynamic web applications"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is used to set up an Angular project?",
+          "options": ["npm", "Angular CLI", "Webpack", "Node.js"],
+          "answer": "Angular CLI"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Components and Templates",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/jUml0EyBUrY",
+      "description": "Learn how to create and use Angular components and templates for building UI.",
+      "points": [
+        "Creating components",
+        "Using templates and data binding",
+        "Component metadata and selectors"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the role of a component in Angular?",
+          "options": [
+            "To manage routing",
+            "To define reusable UI elements",
+            "To handle API calls",
+            "To style the application"
+          ],
+          "answer": "To define reusable UI elements"
+        },
+        {
+          "id": 2,
+          "question": "Which syntax is used for data binding in Angular templates?",
+          "options": ["{{ }}", "[]", "()", "<>"],
+          "answer": "{{ }}"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Directives and Pipes",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/D-D5pUbcuRM",
+      "description": "Covers Angular directives for manipulating DOM and pipes for transforming data.",
+      "points": [
+        "Using built-in directives (ngIf, ngFor)",
+        "Creating custom directives",
+        "Applying built-in and custom pipes"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which directive is used for conditional rendering in Angular?",
+          "options": ["ngFor", "ngIf", "ngModel", "ngClass"],
+          "answer": "ngIf"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of pipes in Angular?",
+          "options": [
+            "To manage state",
+            "To transform data for display",
+            "To handle events",
+            "To create components"
+          ],
+          "answer": "To transform data for display"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Event Handling and Forms",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zjfn07Lb4A8",
+      "description": "Explains how to handle user events and create forms in Angular applications.",
+      "points": [
+        "Binding events with (event)",
+        "Template-driven forms",
+        "Reactive forms with FormBuilder"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which syntax is used to bind to a click event in Angular?",
+          "options": ["(click)", "[click]", "{click}", "<click>"],
+          "answer": "(click)"
+        },
+        {
+          "id": 2,
+          "question": "What is a feature of reactive forms in Angular?",
+          "options": [
+            "They rely on template syntax",
+            "They are built with FormBuilder",
+            "They cannot validate input",
+            "They are only for static forms"
+          ],
+          "answer": "They are built with FormBuilder"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Angular Routing",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/BUDQTd1DQAg",
+      "description": "Covers adding client-side routing to Angular applications using Angular Router.",
+      "points": [
+        "Setting up Angular Router",
+        "Defining routes and child routes",
+        "Navigating with routerLink"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which directive is used for navigation in Angular Router?",
+          "options": ["routerLink", "routerOutlet", "routePath", "navigate"],
+          "answer": "routerLink"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of routerOutlet in Angular?",
+          "options": [
+            "To define routes",
+            "To render the matched component",
+            "To handle navigation",
+            "To manage state"
+          ],
+          "answer": "To render the matched component"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Services and Dependency Injection",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/xgrAKV7PnVo",
+      "description": "Learn how to create services and use dependency injection for reusable logic in Angular.",
+      "points": [
+        "Creating and registering services",
+        "Injecting services into components",
+        "Using providers for dependency injection"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of services in Angular?",
+          "options": [
+            "To style components",
+            "To handle reusable logic",
+            "To define routes",
+            "To create templates"
+          ],
+          "answer": "To handle reusable logic"
+        },
+        {
+          "id": 2,
+          "question": "How is a service typically injected into an Angular component?",
+          "options": [
+            "Using the constructor",
+            "Using a directive",
+            "Using a pipe",
+            "Using a template"
+          ],
+          "answer": "Using the constructor"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "API Integration with HttpClient",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/1IPDlV4Y5zA",
+      "description": "Learn how to fetch and manage data from APIs in Angular using HttpClient.",
+      "points": [
+        "Using HttpClient for API calls",
+        "Handling Observables with RxJS",
+        "Managing loading and error states"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Angular module is used for making HTTP requests?",
+          "options": ["HttpModule", "HttpClient", "FetchService", "ApiModule"],
+          "answer": "HttpClient"
+        },
+        {
+          "id": 2,
+          "question": "What does Angular use to handle asynchronous API calls?",
+          "options": ["Promises", "Observables", "Callbacks", "Async/await"],
+          "answer": "Observables"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "State Management with NgRx",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/a3_GW3RBqn0",
+      "description": "Explores state management in Angular applications using NgRx for centralized state.",
+      "points": [
+        "Setting up NgRx store",
+        "Using actions, reducers, and selectors",
+        "Managing state with effects"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of NgRx in Angular?",
+          "options": [
+            "To manage routing",
+            "To handle API calls",
+            "To manage centralized state",
+            "To style components"
+          ],
+          "answer": "To manage centralized state"
+        },
+        {
+          "id": 2,
+          "question": "Which NgRx component is used to update the state?",
+          "options": ["Actions", "Reducers", "Effects", "Selectors"],
+          "answer": "Reducers"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Styling in Angular",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/sZSDguDFH34",
+      "description": "Covers different approaches to styling Angular components, including CSS encapsulation.",
+      "points": [
+        "Using component-specific CSS",
+        "View encapsulation modes",
+        "Integrating CSS frameworks like Bootstrap"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the default view encapsulation mode in Angular?",
+          "options": ["Shadow DOM", "Emulated", "None", "Native"],
+          "answer": "Emulated"
+        },
+        {
+          "id": 2,
+          "question": "How can you apply styles to an Angular component?",
+          "options": [
+            "Using inline JavaScript",
+            "Using component-specific CSS",
+            "Using database queries",
+            "Using routing"
+          ],
+          "answer": "Using component-specific CSS"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Angular Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/O1lLHVI2EMM",
+      "description": "Covers best practices for writing clean, performant, and maintainable Angular code.",
+      "points": [
+        "Structuring Angular projects",
+        "Optimizing performance with lazy loading",
+        "Writing modular and reusable code"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a benefit of lazy loading in Angular?",
+          "options": [
+            "Increases initial load time",
+            "Reduces initial load time",
+            "Simplifies state management",
+            "Improves API performance"
+          ],
+          "answer": "Reduces initial load time"
+        },
+        {
+          "id": 2,
+          "question": "Why is modular code important in Angular?",
+          "options": [
+            "To increase bundle size",
+            "To improve maintainability",
+            "To simplify routing",
+            "To handle API calls"
+          ],
+          "answer": "To improve maintainability"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What tool is used to set up an Angular project?",
+          "options": ["npm", "Angular CLI", "Webpack", "Node.js"],
+          "answer": "Angular CLI"
+        },
+        {
+          "id": 2,
+          "question": "Which syntax is used for data binding in Angular templates?",
+          "options": ["{{ }}", "[]", "()", "<>"],
+          "answer": "{{ }}"
+        },
+        {
+          "id": 3,
+          "question": "Which directive is used for looping in Angular?",
+          "options": ["ngIf", "ngFor", "ngModel", "ngClass"],
+          "answer": "ngFor"
+        },
+        {
+          "id": 4,
+          "question": "Which syntax is used to bind to a click event in Angular?",
+          "options": ["(click)", "[click]", "{click}", "<click>"],
+          "answer": "(click)"
+        },
+        {
+          "id": 5,
+          "question": "What is the purpose of routerOutlet in Angular Router?",
+          "options": [
+            "To define routes",
+            "To render the matched component",
+            "To handle navigation",
+            "To manage state"
+          ],
+          "answer": "To render the matched component"
+        },
+        {
+          "id": 6,
+          "question": "How are services typically injected into Angular components?",
+          "options": [
+            "Using the constructor",
+            "Using a directive",
+            "Using a pipe",
+            "Using a template"
+          ],
+          "answer": "Using the constructor"
+        },
+        {
+          "id": 7,
+          "question": "Which module is used for HTTP requests in Angular?",
+          "options": ["HttpModule", "HttpClient", "FetchService", "ApiModule"],
+          "answer": "HttpClient"
+        },
+        {
+          "id": 8,
+          "question": "What is the role of reducers in NgRx?",
+          "options": [
+            "To fetch API data",
+            "To update the state",
+            "To define routes",
+            "To style components"
+          ],
+          "answer": "To update the state"
+        },
+        {
+          "id": 9,
+          "question": "What is the default view encapsulation mode in Angular?",
+          "options": ["Shadow DOM", "Emulated", "None", "Native"],
+          "answer": "Emulated"
+        },
+        {
+          "id": 10,
+          "question": "What is a benefit of lazy loading in Angular?",
+          "options": [
+            "Increases initial load time",
+            "Reduces initial load time",
+            "Simplifies state management",
+            "Improves API performance"
+          ],
+          "answer": "Reduces initial load time"
+        }
+      ]
+    }
+  ]
+}

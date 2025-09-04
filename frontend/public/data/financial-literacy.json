@@ -1,0 +1,456 @@
+{
+  "courseTitle": "Financial Literacy Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Financial Literacy",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/4XZIv4__sQA",
+      "description": "An introduction to financial literacy, its importance, and key concepts for managing personal finances.",
+      "points": [
+        "What is financial literacy?",
+        "Why financial literacy matters",
+        "Overview of personal finance tools and apps"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary goal of financial literacy?",
+          "options": [
+            "Building software applications",
+            "Making informed financial decisions",
+            "Designing websites",
+            "Managing databases"
+          ],
+          "answer": "Making informed financial decisions"
+        },
+        {
+          "id": 2,
+          "question": "Which tool can help track personal finances?",
+          "options": ["Excel", "Photoshop", "Jupyter Notebook", "VS Code"],
+          "answer": "Excel"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Budgeting and Saving",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/-bqeNE1DOzA",
+      "description": "Learn how to create and manage a personal budget to achieve financial goals.",
+      "points": [
+        "Creating a budget: income vs. expenses",
+        "The 50/30/20 budgeting rule",
+        "Strategies for saving money"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the 50/30/20 budgeting rule allocate 50% of income to?",
+          "options": ["Savings", "Needs", "Wants", "Investments"],
+          "answer": "Needs"
+        },
+        {
+          "id": 2,
+          "question": "What is a key strategy for saving money?",
+          "options": [
+            "Spending all income",
+            "Automating savings",
+            "Ignoring expenses",
+            "Avoiding budgets"
+          ],
+          "answer": "Automating savings"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Understanding Debt and Credit",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/VhwZ9t2b3Zk",
+      "description": "Explore the concepts of debt, credit scores, and managing loans effectively.",
+      "points": [
+        "Types of debt: good vs. bad debt",
+        "How credit scores work",
+        "Strategies for paying off debt (e.g., snowball, avalanche)"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is an example of good debt?",
+          "options": [
+            "Credit card debt",
+            "Payday loans",
+            "Mortgage",
+            "High-interest personal loans"
+          ],
+          "answer": "Mortgage"
+        },
+        {
+          "id": 2,
+          "question": "What is the snowball method for paying off debt?",
+          "options": [
+            "Paying largest debts first",
+            "Paying smallest debts first",
+            "Ignoring debts",
+            "Consolidating all debts"
+          ],
+          "answer": "Paying smallest debts first"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Introduction to Investing",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/qIw-yFC-HNU",
+      "description": "Learn the basics of investing to grow wealth over time.",
+      "points": [
+        "Types of investments: stocks, bonds, mutual funds",
+        "Risk vs. return in investing",
+        "Using platforms like Robinhood or Vanguard"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which investment type is considered low-risk?",
+          "options": ["Stocks", "Bonds", "Cryptocurrency", "Options"],
+          "answer": "Bonds"
+        },
+        {
+          "id": 2,
+          "question": "What is a key consideration when investing?",
+          "options": [
+            "Ignoring risk",
+            "Balancing risk and return",
+            "Maximizing debt",
+            "Avoiding diversification"
+          ],
+          "answer": "Balancing risk and return"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Retirement Planning",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/x2jtF2jF6Fs",
+      "description": "Explore strategies for planning and saving for retirement.",
+      "points": [
+        "Understanding retirement accounts (e.g., 401(k), IRA)",
+        "Compound interest and its impact",
+        "Estimating retirement needs"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a common retirement account in the U.S.?",
+          "options": [
+            "Savings account",
+            "401(k)",
+            "Credit card",
+            "Checking account"
+          ],
+          "answer": "401(k)"
+        },
+        {
+          "id": 2,
+          "question": "What is compound interest?",
+          "options": [
+            "Interest on principal only",
+            "Interest on principal and accumulated interest",
+            "Fixed interest rate",
+            "No interest"
+          ],
+          "answer": "Interest on principal and accumulated interest"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Taxes and Financial Planning",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/I7uFq-_calg",
+      "description": "Learn about taxes and their role in financial planning.",
+      "points": [
+        "Understanding income taxes and deductions",
+        "Tax-advantaged accounts (e.g., HSA, 529 plans)",
+        "Working with financial advisors or tax software"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a tax-advantaged account?",
+          "options": [
+            "Credit card",
+            "HSA (Health Savings Account)",
+            "Checking account",
+            "Payday loan"
+          ],
+          "answer": "HSA (Health Savings Account)"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using tax software?",
+          "options": [
+            "Increasing tax liability",
+            "Simplifying tax filing",
+            "Reducing investments",
+            "Avoiding budgets"
+          ],
+          "answer": "Simplifying tax filing"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Managing Financial Risks",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vT4eReSleng",
+      "description": "Explore ways to protect finances through insurance and emergency funds.",
+      "points": [
+        "Types of insurance: health, auto, life",
+        "Building an emergency fund",
+        "Diversifying investments to reduce risk"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of an emergency fund?",
+          "options": [
+            "Funding vacations",
+            "Covering unexpected expenses",
+            "Investing in stocks",
+            "Paying taxes"
+          ],
+          "answer": "Covering unexpected expenses"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of diversifying investments?",
+          "options": [
+            "Increasing risk",
+            "Reducing risk",
+            "Simplifying taxes",
+            "Avoiding savings"
+          ],
+          "answer": "Reducing risk"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Using Financial Tools and Technology",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/BXFGph-18N4",
+      "description": "Learn how to leverage technology for financial management.",
+      "points": [
+        "Budgeting apps like Mint or YNAB",
+        "Investment platforms like Fidelity or Schwab",
+        "Automating finances with online banking"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which app is commonly used for budgeting?",
+          "options": ["Photoshop", "Mint", "Jupyter", "VS Code"],
+          "answer": "Mint"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of automating finances?",
+          "options": [
+            "Increasing debt",
+            "Streamlining payments and savings",
+            "Complicating taxes",
+            "Reducing investments"
+          ],
+          "answer": "Streamlining payments and savings"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Financial Literacy Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/q5JWp47z4bY",
+      "description": "Covers best practices for maintaining long-term financial health.",
+      "points": [
+        "Regularly reviewing financial goals",
+        "Avoiding common financial pitfalls",
+        "Educating oneself continuously"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is reviewing financial goals important?",
+          "options": [
+            "To increase spending",
+            "To stay on track with objectives",
+            "To complicate budgeting",
+            "To reduce savings"
+          ],
+          "answer": "To stay on track with objectives"
+        },
+        {
+          "id": 2,
+          "question": "What is a common financial pitfall to avoid?",
+          "options": [
+            "Saving regularly",
+            "Overspending on credit",
+            "Investing in bonds",
+            "Creating a budget"
+          ],
+          "answer": "Overspending on credit"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary goal of financial literacy?",
+          "options": [
+            "Building software applications",
+            "Making informed financial decisions",
+            "Designing websites",
+            "Managing databases"
+          ],
+          "answer": "Making informed financial decisions"
+        },
+        {
+          "id": 2,
+          "question": "What does the 50/30/20 budgeting rule allocate 50% of income to?",
+          "options": ["Savings", "Needs", "Wants", "Investments"],
+          "answer": "Needs"
+        },
+        {
+          "id": 3,
+          "question": "What is an example of good debt?",
+          "options": [
+            "Credit card debt",
+            "Payday loans",
+            "Mortgage",
+            "High-interest personal loans"
+          ],
+          "answer": "Mortgage"
+        },
+        {
+          "id": 4,
+          "question": "Which investment type is considered low-risk?",
+          "options": ["Stocks", "Bonds", "Cryptocurrency", "Options"],
+          "answer": "Bonds"
+        },
+        {
+          "id": 5,
+          "question": "What is a common retirement account in the U.S.?",
+          "options": [
+            "Savings account",
+            "401(k)",
+            "Credit card",
+            "Checking account"
+          ],
+          "answer": "401(k)"
+        },
+        {
+          "id": 6,
+          "question": "What is a tax-advantaged account?",
+          "options": [
+            "Credit card",
+            "HSA (Health Savings Account)",
+            "Checking account",
+            "Payday loan"
+          ],
+          "answer": "HSA (Health Savings Account)"
+        },
+        {
+          "id": 7,
+          "question": "What is the purpose of an emergency fund?",
+          "options": [
+            "Funding vacations",
+            "Covering unexpected expenses",
+            "Investing in stocks",
+            "Paying taxes"
+          ],
+          "answer": "Covering unexpected expenses"
+        },
+        {
+          "id": 8,
+          "question": "Which app is commonly used for budgeting?",
+          "options": ["Photoshop", "Mint", "Jupyter", "VS Code"],
+          "answer": "Mint"
+        },
+        {
+          "id": 9,
+          "question": "Why is reviewing financial goals important?",
+          "options": [
+            "To increase spending",
+            "To stay on track with objectives",
+            "To complicate budgeting",
+            "To reduce savings"
+          ],
+          "answer": "To stay on track with objectives"
+        },
+        {
+          "id": 10,
+          "question": "What is a common financial pitfall to avoid?",
+          "options": [
+            "Saving regularly",
+            "Overspending on credit",
+            "Investing in bonds",
+            "Creating a budget"
+          ],
+          "answer": "Overspending on credit"
+        }
+      ]
+    }
+  ]
+}

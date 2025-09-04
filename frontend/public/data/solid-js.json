@@ -1,0 +1,436 @@
+{
+  "courseTitle": "Solid.js Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Solid.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/hw3Bx5vxKl0",
+      "description": "An introduction to Solid.js, its purpose, and its advantages for building reactive user interfaces.",
+      "points": [
+        "What is Solid.js?",
+        "Solid.js vs React and Vue.js",
+        "Setting up a Solid.js project with Vite"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Solid.js?",
+          "options": [
+            "Database management",
+            "Building reactive user interfaces",
+            "Backend API development",
+            "Network configuration"
+          ],
+          "answer": "Building reactive user interfaces"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is commonly used to set up a Solid.js project?",
+          "options": ["Create React App", "Vite", "Webpack", "Parcel"],
+          "answer": "Vite"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Solid.js Components and JSX",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2pgQMW0lrtU",
+      "description": "Learn how to create and use components in Solid.js with JSX syntax.",
+      "points": [
+        "Creating functional components",
+        "Using JSX for declarative UI",
+        "Props and component composition"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What syntax does Solid.js use for rendering UI?",
+          "options": ["HTML", "JSX", "Template literals", "XML"],
+          "answer": "JSX"
+        },
+        {
+          "id": 2,
+          "question": "What are props used for in Solid.js components?",
+          "options": [
+            "Managing state",
+            "Passing data to components",
+            "Styling components",
+            "Fetching data"
+          ],
+          "answer": "Passing data to components"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Reactivity in Solid.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/cELFZQAMdhQ",
+      "description": "Explore Solid.js's fine-grained reactivity system for efficient updates.",
+      "points": [
+        "Using createSignal for reactive state",
+        "Derived signals and createEffect",
+        "Managing side effects and reactivity"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary function used for reactive state in Solid.js?",
+          "options": ["useState", "createSignal", "useEffect", "createState"],
+          "answer": "createSignal"
+        },
+        {
+          "id": 2,
+          "question": "What does createEffect do in Solid.js?",
+          "options": [
+            "Defines component styles",
+            "Tracks reactive dependencies",
+            "Fetches data",
+            "Manages routing"
+          ],
+          "answer": "Tracks reactive dependencies"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "State Management in Solid.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/YJaaAZswOcg",
+      "description": "Learn how to manage complex state in Solid.js applications.",
+      "points": [
+        "Using createStore for global state",
+        "Combining signals and stores",
+        "Context API for sharing state"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Solid.js function is used for managing complex global state?",
+          "options": [
+            "createSignal",
+            "createStore",
+            "createEffect",
+            "createContext"
+          ],
+          "answer": "createStore"
+        },
+        {
+          "id": 2,
+          "question": "What is the Context API in Solid.js used for?",
+          "options": [
+            "Fetching data",
+            "Sharing state across components",
+            "Defining routes",
+            "Styling components"
+          ],
+          "answer": "Sharing state across components"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Routing in Solid.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/7oDjB9v0zMs",
+      "description": "Covers client-side routing in Solid.js applications using the Solid Router.",
+      "points": [
+        "Setting up Solid Router",
+        "Defining routes and dynamic routing",
+        "Navigating with Link and useParams"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which library is used for routing in Solid.js?",
+          "options": [
+            "React Router",
+            "Vue Router",
+            "Solid Router",
+            "Express Router"
+          ],
+          "answer": "Solid Router"
+        },
+        {
+          "id": 2,
+          "question": "What does useParams do in Solid Router?",
+          "options": [
+            "Fetches data",
+            "Accesses dynamic route parameters",
+            "Manages state",
+            "Styles components"
+          ],
+          "answer": "Accesses dynamic route parameters"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Fetching Data in Solid.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/oxxGr87cYDM",
+      "description": "Learn how to fetch and manage data in Solid.js applications.",
+      "points": [
+        "Using createResource for asynchronous data fetching",
+        "Integrating with APIs (REST or GraphQL)",
+        "Handling loading and error states"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Solid.js function is used for asynchronous data fetching?",
+          "options": [
+            "createSignal",
+            "createStore",
+            "createResource",
+            "createEffect"
+          ],
+          "answer": "createResource"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using createResource in Solid.js?",
+          "options": [
+            "Simplified styling",
+            "Managing asynchronous data",
+            "Defining routes",
+            "Sharing state"
+          ],
+          "answer": "Managing asynchronous data"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Integrating Solid.js with Backend APIs",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/L1f30LR5C_o",
+      "description": "Covers connecting Solid.js applications to backend APIs.",
+      "points": [
+        "Making HTTP requests with fetch or axios",
+        "Integrating with REST or GraphQL APIs",
+        "Handling authentication with JWT"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which method is commonly used for HTTP requests in Solid.js?",
+          "options": ["fetch", "createSignal", "useState", "createStore"],
+          "answer": "fetch"
+        },
+        {
+          "id": 2,
+          "question": "What is JWT used for in Solid.js applications?",
+          "options": [
+            "Styling components",
+            "Token-based authentication",
+            "Data compression",
+            "Routing"
+          ],
+          "answer": "Token-based authentication"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying Solid.js Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/6OX_giqiNes",
+      "description": "Learn how to deploy Solid.js applications to production environments.",
+      "points": [
+        "Building for production with Vite",
+        "Deploying to Vercel or Netlify",
+        "Configuring environment variables"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which platform is commonly used to deploy Solid.js applications?",
+          "options": ["Heroku", "Vercel", "AWS Lambda", "Firebase"],
+          "answer": "Vercel"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of building a Solid.js app with Vite?",
+          "options": [
+            "Optimizing for production",
+            "Managing state",
+            "Fetching data",
+            "Defining routes"
+          ],
+          "answer": "Optimizing for production"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Solid.js Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/m8jq1_v4RfY",
+      "description": "Covers best practices for building performant and maintainable Solid.js applications.",
+      "points": [
+        "Structuring Solid.js projects",
+        "Optimizing reactivity for performance",
+        "Testing with Vitest or Jest"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is structuring a Solid.js project important?",
+          "options": [
+            "To increase bundle size",
+            "To improve maintainability",
+            "To simplify routing",
+            "To reduce performance"
+          ],
+          "answer": "To improve maintainability"
+        },
+        {
+          "id": 2,
+          "question": "What is a common testing library for Solid.js applications?",
+          "options": ["Mocha", "Vitest", "Cypress", "Puppeteer"],
+          "answer": "Vitest"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of Solid.js?",
+          "options": [
+            "Database management",
+            "Building reactive user interfaces",
+            "Backend API development",
+            "Network configuration"
+          ],
+          "answer": "Building reactive user interfaces"
+        },
+        {
+          "id": 2,
+          "question": "Which tool is commonly used to set up a Solid.js project?",
+          "options": ["Create React App", "Vite", "Webpack", "Parcel"],
+          "answer": "Vite"
+        },
+        {
+          "id": 3,
+          "question": "What syntax does Solid.js use for rendering UI?",
+          "options": ["HTML", "JSX", "Template literals", "XML"],
+          "answer": "JSX"
+        },
+        {
+          "id": 4,
+          "question": "What is the primary function used for reactive state in Solid.js?",
+          "options": ["useState", "createSignal", "useEffect", "createState"],
+          "answer": "createSignal"
+        },
+        {
+          "id": 5,
+          "question": "Which Solid.js function is used for managing complex global state?",
+          "options": [
+            "createSignal",
+            "createStore",
+            "createEffect",
+            "createContext"
+          ],
+          "answer": "createStore"
+        },
+        {
+          "id": 6,
+          "question": "Which library is used for routing in Solid.js?",
+          "options": [
+            "React Router",
+            "Vue Router",
+            "Solid Router",
+            "Express Router"
+          ],
+          "answer": "Solid Router"
+        },
+        {
+          "id": 7,
+          "question": "Which Solid.js function is used for asynchronous data fetching?",
+          "options": [
+            "createSignal",
+            "createStore",
+            "createResource",
+            "createEffect"
+          ],
+          "answer": "createResource"
+        },
+        {
+          "id": 8,
+          "question": "Which platform is commonly used to deploy Solid.js applications?",
+          "options": ["Heroku", "Vercel", "AWS Lambda", "Firebase"],
+          "answer": "Vercel"
+        },
+        {
+          "id": 9,
+          "question": "What is JWT used for in Solid.js applications?",
+          "options": [
+            "Styling components",
+            "Token-based authentication",
+            "Data compression",
+            "Routing"
+          ],
+          "answer": "Token-based authentication"
+        },
+        {
+          "id": 10,
+          "question": "What is a common testing library for Solid.js applications?",
+          "options": ["Mocha", "Vitest", "Cypress", "Puppeteer"],
+          "answer": "Vitest"
+        }
+      ]
+    }
+  ]
+}

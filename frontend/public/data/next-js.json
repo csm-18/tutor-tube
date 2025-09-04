@@ -1,0 +1,430 @@
+{
+  "courseTitle": "Next.js",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Next.js Fundamentals",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Sklc_fQBmcs",
+      "description": "A deep dive into the core features of Next.js and its role in building modern web applications.",
+      "points": [
+        "Overview of Next.js and its hybrid rendering",
+        "Differences between Pages Router and App Router",
+        "Setting up a Next.js project with TypeScript"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a key feature of Next.js?",
+          "options": [
+            "Native database management",
+            "Hybrid static and server-side rendering",
+            "Built-in CSS preprocessor",
+            "Direct hardware control"
+          ],
+          "answer": "Hybrid static and server-side rendering"
+        },
+        {
+          "id": 2,
+          "question": "Which command initializes a Next.js project with TypeScript?",
+          "options": [
+            "npx create-next-app --ts",
+            "npm create-react-app --ts",
+            "npx create-next-app",
+            "npm install next typescript"
+          ],
+          "answer": "npx create-next-app --ts"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "App Router and Advanced Routing",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/gSSsZReIFRk",
+      "description": "Explore the App Router in Next.js for advanced routing and layout management.",
+      "points": [
+        "File-based routing in App Router",
+        "Dynamic routes, catch-all routes, and parallel routes",
+        "Nested layouts and route groups"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a feature of the App Router in Next.js?",
+          "options": [
+            "Manual route configuration",
+            "Support for nested layouts",
+            "Disabling dynamic routes",
+            "CSS-only routing"
+          ],
+          "answer": "Support for nested layouts"
+        },
+        {
+          "id": 2,
+          "question": "How do you define a dynamic route in the App Router?",
+          "options": [
+            "Using a file named [id].js",
+            "Using a file named dynamic.js",
+            "Using a config file",
+            "Using a route attribute"
+          ],
+          "answer": "Using a file named [id].js"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Advanced Data Fetching",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/bKm1rNaCFOo",
+      "description": "Learn advanced data fetching techniques in Next.js, including Server Components and streaming.",
+      "points": [
+        "Using React Server Components for data fetching",
+        "Incremental Static Regeneration (ISR)",
+        "Streaming and Suspense for large datasets"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Incremental Static Regeneration (ISR) in Next.js?",
+          "options": [
+            "Real-time data fetching",
+            "Periodic revalidation of static pages",
+            "Server-side rendering only",
+            "Client-side data fetching"
+          ],
+          "answer": "Periodic revalidation of static pages"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of React Server Components in Next.js?",
+          "options": [
+            "Increased client-side JavaScript",
+            "Reduced client-side JavaScript",
+            "Simplified routing",
+            "Direct database access"
+          ],
+          "answer": "Reduced client-side JavaScript"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "API Routes and Middleware",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ZAJjthK4HH4",
+      "description": "Covers building API routes and using middleware for advanced request handling.",
+      "points": [
+        "Creating API routes with App Router",
+        "Using Next.js middleware for authentication and redirects",
+        "Handling CORS and API security"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Where are middleware files defined in Next.js?",
+          "options": [
+            "/pages/middleware.js",
+            "middleware.js in the root",
+            "/api/middleware.js",
+            "/public/middleware.js"
+          ],
+          "answer": "middleware.js in the root"
+        },
+        {
+          "id": 2,
+          "question": "What is a common use of Next.js middleware?",
+          "options": [
+            "Styling components",
+            "Handling authentication",
+            "Optimizing images",
+            "Managing databases"
+          ],
+          "answer": "Handling authentication"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Authentication in Next.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Otq0LY90Qso",
+      "description": "Learn how to implement authentication in Next.js applications.",
+      "points": [
+        "Using NextAuth.js for authentication",
+        "Implementing OAuth and JWT-based auth",
+        "Protecting routes and API endpoints"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which library is commonly used for authentication in Next.js?",
+          "options": ["ReactAuth", "NextAuth.js", "Auth0.js", "Passport.js"],
+          "answer": "NextAuth.js"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of protecting API routes in Next.js?",
+          "options": [
+            "Improved styling",
+            "Enhanced security",
+            "Faster data fetching",
+            "Simplified routing"
+          ],
+          "answer": "Enhanced security"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Performance Optimization",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/TvrQnBDIDpI",
+      "description": "Explores techniques for optimizing Next.js applications for performance.",
+      "points": [
+        "Using next/image for image optimization",
+        "Dynamic imports and code splitting",
+        "Analyzing performance with Next.js analytics"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the next/image component optimize?",
+          "options": [
+            "JavaScript bundles",
+            "Images for web performance",
+            "API routes",
+            "Database queries"
+          ],
+          "answer": "Images for web performance"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of dynamic imports in Next.js?",
+          "options": [
+            "To increase bundle size",
+            "To reduce initial load time",
+            "To simplify routing",
+            "To manage authentication"
+          ],
+          "answer": "To reduce initial load time"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Deployment and Scalability",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/sIVL4JMqRfc",
+      "description": "Learn how to deploy and scale Next.js applications effectively.",
+      "points": [
+        "Deploying to Vercel and other platforms",
+        "Configuring environment variables",
+        "Scaling with serverless functions"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which platform is commonly used to deploy Next.js applications?",
+          "options": ["Firebase", "Vercel", "AWS Lambda", "Heroku"],
+          "answer": "Vercel"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of using serverless functions in Next.js?",
+          "options": [
+            "Increased client-side rendering",
+            "Scalable backend logic",
+            "Simplified styling",
+            "Reduced SEO"
+          ],
+          "answer": "Scalable backend logic"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Next.js Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/4lnb75M9YRo",
+      "description": "Covers best practices for building maintainable and performant Next.js applications.",
+      "points": [
+        "Structuring Next.js projects",
+        "Optimizing for SEO and accessibility",
+        "Testing with Jest and React Testing Library"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is structuring a Next.js project important?",
+          "options": [
+            "To increase bundle size",
+            "To improve maintainability",
+            "To simplify API calls",
+            "To reduce performance"
+          ],
+          "answer": "To improve maintainability"
+        },
+        {
+          "id": 2,
+          "question": "What is a benefit of optimizing for SEO in Next.js?",
+          "options": [
+            "Faster client-side rendering",
+            "Improved search engine rankings",
+            "Reduced server load",
+            "Simplified styling"
+          ],
+          "answer": "Improved search engine rankings"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is a key feature of Next.js?",
+          "options": [
+            "Native database management",
+            "Hybrid static and server-side rendering",
+            "Built-in CSS preprocessor",
+            "Direct hardware control"
+          ],
+          "answer": "Hybrid static and server-side rendering"
+        },
+        {
+          "id": 2,
+          "question": "How are dynamic routes defined in the App Router?",
+          "options": [
+            "Using a file named [id].js",
+            "Using a config file",
+            "Using a route attribute",
+            "Using dynamic.js"
+          ],
+          "answer": "Using a file named [id].js"
+        },
+        {
+          "id": 3,
+          "question": "Which method is used for Static Site Generation in Next.js?",
+          "options": [
+            "getServerSideProps",
+            "getStaticProps",
+            "getClientProps",
+            "fetchData"
+          ],
+          "answer": "getStaticProps"
+        },
+        {
+          "id": 4,
+          "question": "What is the purpose of middleware in Next.js?",
+          "options": [
+            "Styling components",
+            "Handling authentication and redirects",
+            "Optimizing images",
+            "Managing databases"
+          ],
+          "answer": "Handling authentication and redirects"
+        },
+        {
+          "id": 5,
+          "question": "Which library is commonly used for authentication in Next.js?",
+          "options": ["ReactAuth", "NextAuth.js", "Auth0.js", "Passport.js"],
+          "answer": "NextAuth.js"
+        },
+        {
+          "id": 6,
+          "question": "What does the next/image component optimize?",
+          "options": [
+            "JavaScript bundles",
+            "Images for web performance",
+            "API routes",
+            "Database queries"
+          ],
+          "answer": "Images for web performance"
+        },
+        {
+          "id": 7,
+          "question": "What is a benefit of dynamic imports in Next.js?",
+          "options": [
+            "Increased bundle size",
+            "Reduced initial load time",
+            "Simplified routing",
+            "Enhanced authentication"
+          ],
+          "answer": "Reduced initial load time"
+        },
+        {
+          "id": 8,
+          "question": "Which platform is commonly used to deploy Next.js apps?",
+          "options": ["Firebase", "Vercel", "AWS Lambda", "Heroku"],
+          "answer": "Vercel"
+        },
+        {
+          "id": 9,
+          "question": "What is a benefit of React Server Components in Next.js?",
+          "options": [
+            "Increased client-side JavaScript",
+            "Reduced client-side JavaScript",
+            "Simplified routing",
+            "Direct database access"
+          ],
+          "answer": "Reduced client-side JavaScript"
+        },
+        {
+          "id": 10,
+          "question": "Why is optimizing for SEO important in Next.js?",
+          "options": [
+            "To simplify styling",
+            "To improve search engine rankings",
+            "To reduce server load",
+            "To increase client-side rendering"
+          ],
+          "answer": "To improve search engine rankings"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "courseTitle": "Computer Networking Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to Computer Networking",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/VwN91x5i25g",
+      "description": "An introduction to computer networking, its importance, and fundamental concepts.",
+      "points": [
+        "What is computer networking?",
+        "Types of networks (LAN, WAN, PAN)",
+        "Overview of network protocols"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of computer networking?",
+          "options": [
+            "To design user interfaces",
+            "To enable communication between devices",
+            "To manage databases",
+            "To optimize algorithms"
+          ],
+          "answer": "To enable communication between devices"
+        },
+        {
+          "id": 2,
+          "question": "Which type of network covers a small geographic area, like an office?",
+          "options": ["WAN", "LAN", "PAN", "MAN"],
+          "answer": "LAN"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Network Models and OSI",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vv4y_uOneC0",
+      "description": "Learn about network models, focusing on the OSI model and its layers.",
+      "points": [
+        "Overview of the OSI model",
+        "Functions of each OSI layer",
+        "Comparison with TCP/IP model"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "How many layers are in the OSI model?",
+          "options": ["5", "6", "7", "8"],
+          "answer": "7"
+        },
+        {
+          "id": 2,
+          "question": "Which OSI layer is responsible for data routing?",
+          "options": ["Application", "Transport", "Network", "Data Link"],
+          "answer": "Network"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "TCP/IP Protocols",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/2QGgEk20RXM",
+      "description": "Covers the TCP/IP protocol suite and its role in network communication.",
+      "points": [
+        "Understanding TCP and IP",
+        "Key protocols: HTTP, FTP, DNS",
+        "Connection-oriented vs connectionless communication"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which protocol ensures reliable data delivery in TCP/IP?",
+          "options": ["UDP", "TCP", "HTTP", "DNS"],
+          "answer": "TCP"
+        },
+        {
+          "id": 2,
+          "question": "What does DNS stand for?",
+          "options": [
+            "Dynamic Network Service",
+            "Domain Name System",
+            "Data Network Standard",
+            "Distributed Name Server"
+          ],
+          "answer": "Domain Name System"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "IP Addressing and Subnetting",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/eHV1aOnu7oM",
+      "description": "Explains IP addressing, subnetting, and how devices are identified on a network.",
+      "points": [
+        "IPv4 vs IPv6",
+        "Subnet masks and CIDR notation",
+        "Public vs private IP addresses"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which IP version uses 128-bit addresses?",
+          "options": ["IPv4", "IPv6", "IPv5", "IPv8"],
+          "answer": "IPv6"
+        },
+        {
+          "id": 2,
+          "question": "What is the purpose of a subnet mask?",
+          "options": [
+            "To encrypt data",
+            "To divide a network into smaller subnetworks",
+            "To translate domain names",
+            "To manage routing"
+          ],
+          "answer": "To divide a network into smaller subnetworks"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Network Devices and Topologies",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/zbqrNg4C98U",
+      "description": "Learn about network devices and common network topologies.",
+      "points": [
+        "Devices: routers, switches, hubs",
+        "Network topologies: star, bus, ring",
+        "Role of network hardware in connectivity"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which network device operates at the Network layer of the OSI model?",
+          "options": ["Hub", "Switch", "Router", "Bridge"],
+          "answer": "Router"
+        },
+        {
+          "id": 2,
+          "question": "Which network topology connects all devices to a central point?",
+          "options": ["Bus", "Ring", "Star", "Mesh"],
+          "answer": "Star"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Network Security Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/KjN64N6-_Sk",
+      "description": "Covers fundamental concepts of network security and common practices.",
+      "points": [
+        "Firewalls and intrusion detection",
+        "Encryption protocols (SSL/TLS)",
+        "Common threats: malware, phishing"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of a firewall in network security?",
+          "options": [
+            "To manage IP addresses",
+            "To filter network traffic",
+            "To translate domain names",
+            "To route packets"
+          ],
+          "answer": "To filter network traffic"
+        },
+        {
+          "id": 2,
+          "question": "Which protocol is commonly used for secure web communication?",
+          "options": ["HTTP", "FTP", "TLS", "UDP"],
+          "answer": "TLS"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Wireless Networking",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/Uz-RTurph3c",
+      "description": "Explores the basics of wireless networking and its protocols.",
+      "points": [
+        "Wi-Fi standards (802.11a/b/g/n/ac/ax)",
+        "Wireless security (WPA2, WPA3)",
+        "Access points and wireless routers"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which Wi-Fi standard is known for higher speeds and dual-band support?",
+          "options": ["802.11b", "802.11g", "802.11ac", "802.11n"],
+          "answer": "802.11ac"
+        },
+        {
+          "id": 2,
+          "question": "What is WPA3 used for in wireless networks?",
+          "options": [
+            "Increasing bandwidth",
+            "Enhancing security",
+            "Managing IP addresses",
+            "Routing packets"
+          ],
+          "answer": "Enhancing security"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Network Troubleshooting",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/vgisbCjtHz4",
+      "description": "Learn basic network troubleshooting techniques and tools.",
+      "points": [
+        "Using ping and traceroute",
+        "Diagnosing connectivity issues",
+        "Analyzing network performance"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which tool is used to test network connectivity?",
+          "options": ["Ping", "FTP", "DNS", "HTTP"],
+          "answer": "Ping"
+        },
+        {
+          "id": 2,
+          "question": "What does the traceroute command do?",
+          "options": [
+            "Encrypts data",
+            "Shows the path packets take to a destination",
+            "Manages IP addresses",
+            "Filters network traffic"
+          ],
+          "answer": "Shows the path packets take to a destination"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Networking Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/WvwPDDXUI_8",
+      "description": "Covers best practices for designing and maintaining efficient and secure networks.",
+      "points": [
+        "Designing scalable network architectures",
+        "Implementing strong security measures",
+        "Monitoring and optimizing network performance"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is network monitoring important?",
+          "options": [
+            "To increase latency",
+            "To detect and resolve issues",
+            "To design user interfaces",
+            "To manage databases"
+          ],
+          "answer": "To detect and resolve issues"
+        },
+        {
+          "id": 2,
+          "question": "What is a key practice for network security?",
+          "options": [
+            "Disabling firewalls",
+            "Using strong encryption protocols",
+            "Increasing open ports",
+            "Ignoring updates"
+          ],
+          "answer": "Using strong encryption protocols"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the primary function of computer networking?",
+          "options": [
+            "To design user interfaces",
+            "To enable communication between devices",
+            "To manage databases",
+            "To optimize algorithms"
+          ],
+          "answer": "To enable communication between devices"
+        },
+        {
+          "id": 2,
+          "question": "Which OSI layer handles data encryption and compression?",
+          "options": ["Application", "Presentation", "Transport", "Network"],
+          "answer": "Presentation"
+        },
+        {
+          "id": 3,
+          "question": "Which protocol ensures reliable data transmission in TCP/IP?",
+          "options": ["UDP", "TCP", "HTTP", "DNS"],
+          "answer": "TCP"
+        },
+        {
+          "id": 4,
+          "question": "What is the purpose of a subnet mask in IP addressing?",
+          "options": [
+            "To encrypt data",
+            "To divide a network into smaller subnetworks",
+            "To translate domain names",
+            "To manage routing"
+          ],
+          "answer": "To divide a network into smaller subnetworks"
+        },
+        {
+          "id": 5,
+          "question": "Which network device forwards packets between networks?",
+          "options": ["Hub", "Switch", "Router", "Bridge"],
+          "answer": "Router"
+        },
+        {
+          "id": 6,
+          "question": "Which protocol is used for secure web communication?",
+          "options": ["HTTP", "FTP", "TLS", "UDP"],
+          "answer": "TLS"
+        },
+        {
+          "id": 7,
+          "question": "Which Wi-Fi standard supports faster speeds and dual-band?",
+          "options": ["802.11b", "802.11g", "802.11ac", "802.11n"],
+          "answer": "802.11ac"
+        },
+        {
+          "id": 8,
+          "question": "Which tool tests network connectivity by sending packets?",
+          "options": ["Ping", "FTP", "DNS", "HTTP"],
+          "answer": "Ping"
+        },
+        {
+          "id": 9,
+          "question": "What is a common network topology where all devices connect to a central point?",
+          "options": ["Bus", "Ring", "Star", "Mesh"],
+          "answer": "Star"
+        },
+        {
+          "id": 10,
+          "question": "Why is using strong encryption protocols important in network security?",
+          "options": [
+            "To increase latency",
+            "To protect data during transmission",
+            "To simplify routing",
+            "To manage IP addresses"
+          ],
+          "answer": "To protect data during transmission"
+        }
+      ]
+    }
+  ]
+}

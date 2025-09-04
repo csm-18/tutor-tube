@@ -1,0 +1,436 @@
+{
+  "courseTitle": "MERN Stack Curriculum",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introduction to the MERN Stack",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/98BzS5Oz5E4",
+      "description": "An introduction to the MERN stack, its components, and its role in full-stack web development.",
+      "points": [
+        "What is the MERN stack?",
+        "Overview of MongoDB, Express.js, React, and Node.js",
+        "Setting up the development environment"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the MERN stack stand for?",
+          "options": [
+            "MySQL, Express.js, React, Node.js",
+            "MongoDB, Express.js, React, Node.js",
+            "MongoDB, Ember.js, React, Node.js",
+            "MySQL, Express.js, Redux, Node.js"
+          ],
+          "answer": "MongoDB, Express.js, React, Node.js"
+        },
+        {
+          "id": 2,
+          "question": "Which component of the MERN stack is used for the frontend?",
+          "options": ["MongoDB", "Express.js", "React", "Node.js"],
+          "answer": "React"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "MongoDB Basics",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ofme2o29ngU",
+      "description": "Learn the fundamentals of MongoDB, a NoSQL database, for storing and managing data.",
+      "points": [
+        "Introduction to NoSQL and MongoDB",
+        "Creating and managing collections and documents",
+        "Basic CRUD operations with MongoDB"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What type of database is MongoDB?",
+          "options": ["Relational", "NoSQL", "Graph", "Key-Value"],
+          "answer": "NoSQL"
+        },
+        {
+          "id": 2,
+          "question": "What is a document in MongoDB equivalent to in a relational database?",
+          "options": ["Table", "Row", "Column", "Index"],
+          "answer": "Row"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Node.js and Express.js Fundamentals",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/SccSCuHhOw0",
+      "description": "Covers the basics of Node.js and Express.js for building backend APIs.",
+      "points": [
+        "Setting up a Node.js server",
+        "Creating RESTful APIs with Express.js",
+        "Middleware and routing in Express.js"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Express.js used for in the MERN stack?",
+          "options": [
+            "Frontend rendering",
+            "Building RESTful APIs",
+            "Database storage",
+            "Styling components"
+          ],
+          "answer": "Building RESTful APIs"
+        },
+        {
+          "id": 2,
+          "question": "What is middleware in Express.js?",
+          "options": [
+            "A database connector",
+            "A function that processes requests",
+            "A frontend component",
+            "A styling framework"
+          ],
+          "answer": "A function that processes requests"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "React Fundamentals",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/6Ied4aZxUzc",
+      "description": "Learn the core concepts of React for building dynamic user interfaces.",
+      "points": [
+        "Components, props, and state",
+        "JSX and rendering elements",
+        "Handling events and user input"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is JSX in React?",
+          "options": [
+            "A JavaScript extension for writing HTML-like code",
+            "A database query language",
+            "A CSS preprocessor",
+            "A backend framework"
+          ],
+          "answer": "A JavaScript extension for writing HTML-like code"
+        },
+        {
+          "id": 2,
+          "question": "What is used to manage dynamic data in a React component?",
+          "options": ["Props", "State", "Middleware", "Routes"],
+          "answer": "State"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Connecting MongoDB with Node.js and Express.js",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/30p9QfybWZg",
+      "description": "Explore how to connect MongoDB to a Node.js and Express.js backend for data operations.",
+      "points": [
+        "Using Mongoose for MongoDB integration",
+        "Defining schemas and models",
+        "Performing CRUD operations via API"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which library is commonly used to connect MongoDB with Node.js?",
+          "options": ["Sequelize", "Mongoose", "Prisma", "TypeORM"],
+          "answer": "Mongoose"
+        },
+        {
+          "id": 2,
+          "question": "What is a schema in Mongoose?",
+          "options": [
+            "A database table",
+            "A structure defining document fields",
+            "A routing configuration",
+            "A styling template"
+          ],
+          "answer": "A structure defining document fields"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Building a Frontend with React",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/NjqjakgPL84",
+      "description": "Learn how to build a dynamic frontend with React and connect it to a backend API.",
+      "points": [
+        "Fetching data with useEffect and useState",
+        "Rendering lists and forms",
+        "Using React Router for navigation"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which React hook is used for fetching data on component mount?",
+          "options": ["useState", "useEffect", "useReducer", "useCallback"],
+          "answer": "useEffect"
+        },
+        {
+          "id": 2,
+          "question": "What is React Router used for in a MERN application?",
+          "options": [
+            "Styling components",
+            "Client-side navigation",
+            "Database queries",
+            "API creation"
+          ],
+          "answer": "Client-side navigation"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Authentication in MERN Applications",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ZVyIIyZJutM",
+      "description": "Covers implementing authentication in a MERN stack application.",
+      "points": [
+        "Using JWT for token-based authentication",
+        "Implementing user registration and login",
+        "Protecting routes and APIs"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is JWT commonly used for in MERN applications?",
+          "options": [
+            "Styling components",
+            "Token-based authentication",
+            "Database indexing",
+            "Data compression"
+          ],
+          "answer": "Token-based authentication"
+        },
+        {
+          "id": 2,
+          "question": "How can you protect API routes in Express.js?",
+          "options": [
+            "Using middleware",
+            "Using CSS",
+            "Using React Router",
+            "Using MongoDB schemas"
+          ],
+          "answer": "Using middleware"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Deploying a MERN Application",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/cVEOhgPziO8",
+      "description": "Learn how to deploy a MERN stack application to production.",
+      "points": [
+        "Deploying the backend to Heroku or Render",
+        "Hosting the frontend on Vercel or Netlify",
+        "Configuring MongoDB Atlas for cloud storage"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which service is commonly used for hosting MongoDB in the cloud?",
+          "options": [
+            "MongoDB Atlas",
+            "AWS DynamoDB",
+            "Firebase",
+            "MySQL Cloud"
+          ],
+          "answer": "MongoDB Atlas"
+        },
+        {
+          "id": 2,
+          "question": "What is a common platform for deploying a MERN backend?",
+          "options": ["Netlify", "Heroku", "Vercel", "GitHub Pages"],
+          "answer": "Heroku"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "MERN Stack Best Practices",
+      "type": "lesson",
+      "video": "https://www.youtube.com/embed/ogDt5qNy0es",
+      "description": "Covers best practices for building scalable and maintainable MERN stack applications.",
+      "points": [
+        "Structuring MERN projects",
+        "Optimizing API performance",
+        "Ensuring security and error handling"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Why is project structure important in MERN applications?",
+          "options": [
+            "To improve styling",
+            "To enhance maintainability",
+            "To increase database size",
+            "To simplify routing"
+          ],
+          "answer": "To enhance maintainability"
+        },
+        {
+          "id": 2,
+          "question": "What is a key security practice in MERN applications?",
+          "options": [
+            "Disabling authentication",
+            "Sanitizing user input",
+            "Increasing API calls",
+            "Removing middleware"
+          ],
+          "answer": "Sanitizing user input"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Final Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does the MERN stack include?",
+          "options": [
+            "MySQL, Express.js, React, Node.js",
+            "MongoDB, Express.js, React, Node.js",
+            "MongoDB, Ember.js, React, Node.js",
+            "MySQL, Express.js, Redux, Node.js"
+          ],
+          "answer": "MongoDB, Express.js, React, Node.js"
+        },
+        {
+          "id": 2,
+          "question": "What type of database is MongoDB?",
+          "options": ["Relational", "NoSQL", "Graph", "Key-Value"],
+          "answer": "NoSQL"
+        },
+        {
+          "id": 3,
+          "question": "What is Express.js used for in the MERN stack?",
+          "options": [
+            "Frontend rendering",
+            "Building RESTful APIs",
+            "Database storage",
+            "Styling components"
+          ],
+          "answer": "Building RESTful APIs"
+        },
+        {
+          "id": 4,
+          "question": "What is JSX in React?",
+          "options": [
+            "A JavaScript extension for writing HTML-like code",
+            "A database query language",
+            "A CSS preprocessor",
+            "A backend framework"
+          ],
+          "answer": "A JavaScript extension for writing HTML-like code"
+        },
+        {
+          "id": 5,
+          "question": "Which library connects MongoDB to Node.js in MERN applications?",
+          "options": ["Sequelize", "Mongoose", "Prisma", "TypeORM"],
+          "answer": "Mongoose"
+        },
+        {
+          "id": 6,
+          "question": "Which React hook is used for fetching data?",
+          "options": ["useState", "useEffect", "useReducer", "useCallback"],
+          "answer": "useEffect"
+        },
+        {
+          "id": 7,
+          "question": "What is JWT used for in MERN applications?",
+          "options": [
+            "Styling components",
+            "Token-based authentication",
+            "Database indexing",
+            "Data compression"
+          ],
+          "answer": "Token-based authentication"
+        },
+        {
+          "id": 8,
+          "question": "Which service is commonly used for hosting MongoDB in the cloud?",
+          "options": [
+            "MongoDB Atlas",
+            "AWS DynamoDB",
+            "Firebase",
+            "MySQL Cloud"
+          ],
+          "answer": "MongoDB Atlas"
+        },
+        {
+          "id": 9,
+          "question": "What is a common platform for deploying a MERN backend?",
+          "options": ["Netlify", "Heroku", "Vercel", "GitHub Pages"],
+          "answer": "Heroku"
+        },
+        {
+          "id": 10,
+          "question": "What is a key security practice in MERN applications?",
+          "options": [
+            "Disabling authentication",
+            "Sanitizing user input",
+            "Increasing API calls",
+            "Removing middleware"
+          ],
+          "answer": "Sanitizing user input"
+        }
+      ]
+    }
+  ]
+}
