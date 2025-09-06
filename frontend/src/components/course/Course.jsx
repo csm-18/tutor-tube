@@ -68,12 +68,19 @@ function Course({ course_title, children }) {
           <div className="index flex flex-col w-[20rem] p-2 gap-6">
             {React.Children.map(children, (child) => {
               if (React.isValidElement(child)) {
+                const isCurrent = child.props.pageNumber === currentPage;
                 return (
                   <div
                     className="index-item p-2 pl-3 pr-full bg-[var(--violet-medium)] rounded-md cursor-pointer"
                     onClick={() => setCurrentPage(child.props.pageNumber)}
                   >
-                    <h2 className="font-[500]">{child.props.moduleName}</h2>
+                    <h2
+                      className={`font-[500] ${
+                        isCurrent ? "text-blue-500" : ""
+                      }`}
+                    >
+                      {child.props.moduleName}
+                    </h2>
                   </div>
                 );
               }
