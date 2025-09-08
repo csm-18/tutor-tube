@@ -4,11 +4,34 @@ import { Link } from "react-router-dom";
 import ProgressBar from "./ProgressBar";
 
 const TRANSITION_MS = 300;
+const getStorageKey = (title) => `courseProgress_${title}`;
+
+// Helper function to get the initial state from localStorage.
+const getInitialState = (courseTitle) => {
+  const courseKey = getStorageKey(courseTitle);
+  const savedProgress = localStorage.getItem(courseKey);
+  if (savedProgress) {
+    const parsedProgress = parseInt(savedProgress, 10);
+    return { progress: parsedProgress, currentPage: parsedProgress };
+  }
+  return { progress: 0, currentPage: 1 };
+};
 
 function Course({ course_title, children }) {
   const [mounted, setMounted] = useState(true);
   const [open, setOpen] = useState(true);
   const timerRef = useRef(null);
+
+  const totalPages = Array.isArray(children) ? children.length : 1;
+
+  const [{ progress, currentPage }, setState] = useState(() =>
+    getInitialState(course_title)
+  );
+
+  useEffect(() => {
+    const courseKey = getStorageKey(course_title);
+    localStorage.setItem(courseKey, progress.toString());
+  }, [progress, course_title]);
 
   const toggleMenu = () => {
     if (timerRef.current) {
@@ -36,9 +59,27 @@ function Course({ course_title, children }) {
     };
   }, []);
 
-  const [progress, setProgress] = useState(0);
-  const [currentPage, setCurrentPage] = useState(1);
-  const totalPages = Array.isArray(children) ? children.length : 1;
+  const handlePageChange = (pageNumber) => {
+    setState((prev) => ({
+      ...prev,
+      currentPage: pageNumber,
+    }));
+  };
+
+  const handleNext = () => {
+    const nextPage = Math.min(currentPage + 1, totalPages);
+    setState((prev) => ({
+      progress: Math.max(prev.progress, nextPage),
+      currentPage: nextPage,
+    }));
+  };
+
+  const handleLinkClick = (pageNumber) => {
+    setState((prev) => ({
+      ...prev,
+      currentPage: pageNumber,
+    }));
+  };
 
   return (
     <div className="flex min-h-screen">
@@ -69,14 +110,22 @@ function Course({ course_title, children }) {
             {React.Children.map(children, (child) => {
               if (React.isValidElement(child)) {
                 const isCurrent = child.props.pageNumber === currentPage;
+                // NEW: Check if this page link is the progress one.
+                const isProgress = child.props.pageNumber === progress;
+
                 return (
                   <div
                     className="index-item p-2 pl-3 pr-full bg-[var(--violet-medium)] rounded-md cursor-pointer"
-                    onClick={() => setCurrentPage(child.props.pageNumber)}
+                    onClick={() => handleLinkClick(child.props.pageNumber)}
                   >
+                    {/* NEW: Apply conditional classes for highlighting. */}
                     <h2
                       className={`font-[500] ${
-                        isCurrent ? "text-blue-500" : ""
+                        isCurrent
+                          ? "text-blue-500"
+                          : isProgress
+                          ? "text-[var(--violet)]"
+                          : ""
                       }`}
                     >
                       {child.props.moduleName}
@@ -114,7 +163,9 @@ function Course({ course_title, children }) {
         </div>
 
         <div className="flex-1 w-full flex flex-col">
-          <CourseContext.Provider value={{ currentPage, setCurrentPage }}>
+          <CourseContext.Provider
+            value={{ currentPage, setCurrentPage: handlePageChange }}
+          >
             {children}
           </CourseContext.Provider>
         </div>
@@ -122,7 +173,7 @@ function Course({ course_title, children }) {
         <div className="w-full flex justify-between my-20">
           <button
             className="ml-28 w-40 text-white py-2 bg-[var(--violet)] rounded-md"
-            onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+            onClick={() => handlePageChange(Math.max(currentPage - 1, 1))}
             disabled={currentPage === 1}
           >
             Previous
@@ -130,14 +181,7 @@ function Course({ course_title, children }) {
 
           <button
             className="mr-28 w-40 text-white py-2 bg-[var(--violet)] rounded-md"
-            onClick={() => {
-              if (currentPage == totalPages) {
-                setProgress(totalPages);
-              } else {
-                setCurrentPage((prev) => Math.min(prev + 1, totalPages));
-                setProgress(currentPage);
-              }
-            }}
+            onClick={handleNext}
           >
             {currentPage === totalPages ? "Finish" : "Next"}
           </button>
