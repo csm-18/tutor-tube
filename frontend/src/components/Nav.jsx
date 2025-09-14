@@ -31,8 +31,12 @@ function Nav({ theme, setTheme }) {
 
           {/* Centered Desktop Navigation Links (Your Links) */}
           <div className="hidden md:flex md:items-center md:space-x-8 font-baloo">
+            
             <Link className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white" to="/">
               Home
+            </Link>
+            <Link className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white" to="/courses">
+              Courses
             </Link>
             <Link className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white" to="/autocourse">
               Auto Course Builder
@@ -40,9 +44,7 @@ function Nav({ theme, setTheme }) {
             <Link className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white" to="/about">
               About
             </Link>
-            <Link className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white" to="/courses">
-              Courses
-            </Link>
+           
           </div>
 
           {/* Right side Actions: Theme Toggle + CTA Button */}
@@ -104,6 +106,13 @@ function Nav({ theme, setTheme }) {
             >
               Home
             </Link>
+             <Link
+              to="/courses"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            >
+              Courses
+            </Link>
             <Link
               to="/autocourse"
               onClick={() => setIsMenuOpen(false)}
@@ -118,13 +127,7 @@ function Nav({ theme, setTheme }) {
             >
               About
             </Link>
-            <Link
-              to="/courses"
-              onClick={() => setIsMenuOpen(false)}
-              className="text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Courses
-            </Link>
+           
             <div className="border-t border-gray-200 dark:border-gray-700 my-3"></div>
             <div className="flex justify-center py-2">
                 <ThemeToggle theme={theme} setTheme={setTheme} />
