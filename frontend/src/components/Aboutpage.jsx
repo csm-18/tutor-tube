@@ -1,5 +1,8 @@
 import React from "react";
 import Nav from "../components/Nav";
+import Footer from "../components/Footer"
+
+// NEW: Import motion from Framer Motion for animations
 import { motion } from "framer-motion";
 import {
   FaSearch,
@@ -189,6 +192,7 @@ const Aboutpage = ({ theme, setTheme }) => {
           Get Started for Free
         </motion.button>
       </motion.section>
+      <Footer />
     </div>
   );
 };
