@@ -14,13 +14,38 @@ function QuizQuestion({ questionId, question, options, correctAnswer }) {
   };
 
   return (
-    <div className="mt-[3rem] px-[1rem] p-[2rem] bg-gray-100 rounded-lg shadow-md w-[45rem]">
-      <h2 className="text-lg font-semibold mb-3">{question}</h2>
+    <div
+      className="
+        mt-8
+        w-full                    /* Full width by default */
+        max-w-2xl                 /* Limit width on large screens (~42rem) */
+        p-4 sm:p-6 md:p-8 lg:p-[2rem]  /* Responsive padding */
+        bg-gray-100
+        rounded-lg
+        shadow-md
+        mx-auto                   /* Center on page */
+      "
+    >
+      <h2
+        className="
+          text-base sm:text-lg md:text-xl
+          font-semibold
+          mb-3
+          text-center sm:text-left   /* Center text on small screens */
+        "
+      >
+        {question}
+      </h2>
+
       <div className="space-y-2">
         {options.map((option, idx) => (
           <label
             key={idx}
-            className="flex items-center space-x-2 cursor-pointer"
+            className="
+              flex items-center space-x-2
+              cursor-pointer
+              text-sm sm:text-base     /* Responsive text size */
+            "
           >
             <input
               type="radio"
@@ -37,9 +62,15 @@ function QuizQuestion({ questionId, question, options, correctAnswer }) {
 
       {selected && (
         <p
-          className={`mt-3 font-medium ${
-            selected === correctAnswer ? "text-green-600" : "text-red-600"
-          }`}
+          className={`
+            mt-4 font-medium
+            text-sm sm:text-base
+            ${
+              selected === correctAnswer
+                ? "text-green-600"
+                : "text-red-600"
+            }
+          `}
         >
           {feedback}
         </p>

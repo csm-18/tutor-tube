@@ -38,7 +38,8 @@ export default function Hero() {
     setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
 
   return (
-    <div className="relative w-full h-[30rem] overflow-hidden shadow-lg">
+    <div className="relative w-full h-[16rem] sm:h-[22rem] md:h-[28rem] lg:h-[34rem] xl:h-[40rem] overflow-hidden shadow-lg">
+      {/* Slides */}
       {slides.map((slide, index) => (
         <div
           key={slide.id}
@@ -49,18 +50,20 @@ export default function Hero() {
           <img
             src={slide.image}
             alt={slide.title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
           />
 
           {/* Dark Overlay */}
           <div className="absolute inset-0 bg-black/40" />
 
           {/* Text Content */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
-            <h2 className="text-4xl font-bold mb-2 drop-shadow-lg">
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4 sm:px-8 md:px-12">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold mb-3 drop-shadow-lg leading-snug">
               {slide.title}
             </h2>
-            <p className="text-lg drop-shadow-md">{slide.subtitle}</p>
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium max-w-[85%] sm:max-w-[70%] md:max-w-[60%] mx-auto drop-shadow-md">
+              {slide.subtitle}
+            </p>
           </div>
         </div>
       ))}
@@ -68,25 +71,28 @@ export default function Hero() {
       {/* Controls */}
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-4 -translate-y-1/2 bg-black/50 p-2 rounded-full text-white"
+        className="absolute top-1/2 left-2 sm:left-4 -translate-y-1/2 bg-black/50 hover:bg-black/70 p-2 sm:p-3 lg:p-4 rounded-full text-white transition"
       >
-        <ChevronLeft size={24} />
+        <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-4 -translate-y-1/2 bg-black/50 p-2 rounded-full text-white"
+        className="absolute top-1/2 right-2 sm:right-4 -translate-y-1/2 bg-black/50 hover:bg-black/70 p-2 sm:p-3 lg:p-4 rounded-full text-white transition"
       >
-        <ChevronRight size={24} />
+        <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
       </button>
 
       {/* Dots */}
-      <div className="absolute bottom-4 w-full flex justify-center space-x-2">
+      <div className="absolute bottom-3 sm:bottom-4 md:bottom-6 w-full flex justify-center space-x-2 sm:space-x-3">
         {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrent(index)}
-            className={`w-3 h-3 rounded-full ${
-              index === current ? "bg-white" : "bg-gray-400"
+            aria-label={`Go to slide ${index + 1}`}
+            className={`transition rounded-full ${
+              index === current
+                ? "bg-white w-3 h-3 sm:w-4 sm:h-4"
+                : "bg-gray-400 w-2 h-2 sm:w-3 sm:h-3"
             }`}
           />
         ))}
