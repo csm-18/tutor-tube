@@ -2,13 +2,19 @@ function CoursePageHeading({ heading }) {
   return (
     <h1
       className="
-        text-2xl           /* base size for mobile */
-        sm:text-3xl        /* small screens */
-        md:text-4xl        /* medium screens */
-        lg:text-5xl        /* large screens */
-        xl:text-6xl        /* extra large screens */
         font-bold
-        text-center        /* optional, improves layout on mobile */
+        text-[var(--violet)]       /* course accent color */
+        leading-tight
+        tracking-tight
+        text-center md:text-left   /* centered on mobile, aligned left on medium+ screens */
+
+        /* Responsive font sizes */
+        text-2xl sm:text-3xl md:text-4xl lg:text-5xl
+
+        /* Responsive margins and padding for layout consistency */
+        mt-6 sm:mt-8 md:mt-10 lg:mt-12
+        mb-4 sm:mb-6 md:mb-8 lg:mb-10
+        px-4 sm:px-6 md:px-8         /* match CoursePageParagraph padding */
       "
     >
       {heading}

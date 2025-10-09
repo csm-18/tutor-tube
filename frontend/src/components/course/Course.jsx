@@ -1,27 +1,21 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { CourseContext } from "../../courseContext";
 import { Link } from "react-router-dom";
 import ProgressBar from "./ProgressBar";
 
-const TRANSITION_MS = 300;
 const getStorageKey = (title) => `courseProgress_${title}`;
 
-// Helper function to get the initial state from localStorage.
 const getInitialState = (courseTitle) => {
-  const courseKey = getStorageKey(courseTitle);
-  const savedProgress = localStorage.getItem(courseKey);
+  const savedProgress = localStorage.getItem(getStorageKey(courseTitle));
   if (savedProgress) {
-    const parsedProgress = parseInt(savedProgress, 10);
-    return { progress: parsedProgress, currentPage: parsedProgress };
+    const parsed = parseInt(savedProgress, 10);
+    return { progress: parsed, currentPage: parsed };
   }
   return { progress: 0, currentPage: 1 };
 };
 
 function Course({ course_title, children }) {
-  const [mounted, setMounted] = useState(true);
-  const [open, setOpen] = useState(true);
-  const timerRef = useRef(null);
-
+  const [open, setOpen] = useState(false);
   const totalPages = Array.isArray(children) ? children.length : 1;
 
   const [{ progress, currentPage }, setState] = useState(() =>
@@ -29,35 +23,8 @@ function Course({ course_title, children }) {
   );
 
   useEffect(() => {
-    const courseKey = getStorageKey(course_title);
-    localStorage.setItem(courseKey, progress.toString());
+    localStorage.setItem(getStorageKey(course_title), progress.toString());
   }, [progress, course_title]);
-
-  const toggleMenu = () => {
-    if (timerRef.current) {
-      clearTimeout(timerRef.current);
-      timerRef.current = null;
-    }
-
-    if (open) {
-      setOpen(false);
-      timerRef.current = setTimeout(() => {
-        setMounted(false);
-        timerRef.current = null;
-      }, TRANSITION_MS);
-    } else {
-      setMounted(true);
-      requestAnimationFrame(() => {
-        setOpen(true);
-      });
-    }
-  };
-
-  useEffect(() => {
-    return () => {
-      if (timerRef.current) clearTimeout(timerRef.current);
-    };
-  }, []);
 
   const handlePageChange = (pageNumber) => {
     setState((prev) => ({
@@ -79,48 +46,44 @@ function Course({ course_title, children }) {
       ...prev,
       currentPage: pageNumber,
     }));
+    setOpen(false); // auto close mobile sidebar
   };
 
   return (
-    <div className="flex min-h-screen">
-      {mounted && (
-        <div
-          id="course-menu"
-          className={`
-            shadow-lg bg-[#ebe7fb] rounded-md
-            overflow-hidden flex flex-col items-start gap-8
-            transition-all duration-300 ease-in-out
-            ${
-              open
-                ? "fixed top-0 left-0 h-screen overflow-y-auto w-[23rem] p-6 opacity-100 border-l-4 border-blue-500"
-                : "w-0 p-0 opacity-0 border-l-0"
-            }
-          `}
-          aria-hidden={!open}
-        >
-          <Link
-            to="/"
-            className="font-bold text-[var(--violet)] flex flex-row text-[1.2rem]"
-          >
-            <img className="mr-3" src="/arrow_back.svg" alt="back-icon" />
-            Go to Home
-          </Link>
-          <ProgressBar value={progress} max={totalPages} />
-          <div className="index flex flex-col w-[20rem] p-2 gap-6">
-            {React.Children.map(children, (child) => {
-              if (React.isValidElement(child)) {
+    <div className="flex flex-col md:flex-row min-h-screen bg-white">
+      {/** --- MOBILE SIDEBAR (OVERLAY) --- */}
+      {open && (
+        <div className="fixed inset-0 z-40 md:hidden">
+          <div
+            className="absolute inset-0 bg-black opacity-40"
+            onClick={() => setOpen(false)}
+          ></div>
+
+          <div className="absolute left-0 top-0 h-full w-4/5 max-w-xs shadow-lg bg-[#ebe7fb] p-6 flex flex-col gap-6 transition-transform duration-300 transform translate-x-0 rounded-r-lg">
+            <Link
+              to="/"
+              className="font-bold text-[var(--violet)] flex flex-row items-center text-lg"
+            >
+              <img className="mr-3 w-6 h-6" src="/arrow_back.svg" alt="Back" />
+              Go to Home
+            </Link>
+
+            <ProgressBar value={progress} max={totalPages} />
+
+            <div className="flex flex-col gap-4">
+              {React.Children.map(children, (child) => {
+                if (!React.isValidElement(child)) return null;
                 const isCurrent = child.props.pageNumber === currentPage;
-                // NEW: Check if this page link is the progress one.
                 const isProgress = child.props.pageNumber === progress;
 
                 return (
                   <div
-                    className="index-item p-2 pl-3 pr-full bg-[var(--violet-medium)] rounded-md cursor-pointer"
+                    key={child.props.pageNumber}
+                    className="p-2 bg-[var(--violet-medium)] rounded cursor-pointer"
                     onClick={() => handleLinkClick(child.props.pageNumber)}
                   >
-                    {/* NEW: Apply conditional classes for highlighting. */}
                     <h2
-                      className={`font-[500] ${
+                      className={`font-medium ${
                         isCurrent
                           ? "text-blue-500"
                           : isProgress
@@ -132,37 +95,73 @@ function Course({ course_title, children }) {
                     </h2>
                   </div>
                 );
-              }
-              return null;
-            })}
+              })}
+            </div>
           </div>
         </div>
       )}
 
-      <div
-        className="flex flex-col flex-1 items-center"
-        style={
-          open
-            ? {
-                marginLeft: "23rem",
-              }
-            : {}
-        }
-      >
-        <div className="p-5 pt-3 flex justify-start w-full">
-          <button id="menu-btn" onClick={toggleMenu} aria-expanded={open}>
-            <img
-              className="w-auto h-8"
-              src="/menu_violet.svg"
-              alt="menu-icon"
-            />
+      {/* --- DESKTOP / TABLET SIDEBAR --- */}
+<div className="hidden md:flex flex-col flex-shrink-0 w-[20rem] lg:w-[23rem] bg-[#ebe7fb] shadow-lg rounded-r-md p-6 gap-8 h-full">
+  <Link
+    to="/"
+    className="font-bold text-[var(--violet)] flex flex-row items-center text-lg"
+  >
+    <img className="mr-3 w-6 h-6" src="/arrow_back.svg" alt="Back" />
+    Go to Home
+  </Link>
+
+  <ProgressBar value={progress} max={totalPages} />
+
+  {/* 👉 Make *only this list* scrollable when content overflows */}
+  <div className="flex-1 overflow-y-auto pr-2">
+    <div className="flex flex-col gap-4">
+      {React.Children.map(children, (child) => {
+        if (!React.isValidElement(child)) return null;
+        const isCurrent = child.props.pageNumber === currentPage;
+        const isProgress = child.props.pageNumber === progress;
+
+        return (
+          <div
+            key={child.props.pageNumber}
+            className="p-2 bg-[var(--violet-medium)] rounded cursor-pointer"
+            onClick={() => handleLinkClick(child.props.pageNumber)}
+          >
+            <h2
+              className={`font-medium ${
+                isCurrent
+                  ? "text-blue-500"
+                  : isProgress
+                  ? "text-[var(--violet)]"
+                  : ""
+              }`}
+            >
+              {child.props.moduleName}
+            </h2>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</div>
+
+      {/** --- MAIN CONTENT --- */}
+      <div className="flex-1 flex flex-col items-center transition-all w-full">
+        <div className="p-4 sm:p-6 flex justify-between items-center w-full border-b border-gray-200">
+          <button
+            id="menu-btn"
+            onClick={() => setOpen(!open)}
+            className="block md:hidden"
+          >
+            <img src="/menu_violet.svg" className="w-8 h-8" alt="menu" />
           </button>
-          <h1 className="text-[1.5rem] text-[var(--violet)] font-bold ml-10">
+
+          <h1 className="text-xl sm:text-2xl font-bold text-[var(--violet)] md:ml-2">
             {course_title}
           </h1>
         </div>
 
-        <div className="flex-1 w-full flex flex-col">
+        <div className="flex-1 w-full px-4 sm:px-8 py-4">
           <CourseContext.Provider
             value={{ currentPage, setCurrentPage: handlePageChange }}
           >
@@ -170,17 +169,16 @@ function Course({ course_title, children }) {
           </CourseContext.Provider>
         </div>
 
-        <div className="w-full flex justify-between my-20">
+        <div className="w-full flex justify-between my-10 sm:my-16 px-6 sm:px-20">
           <button
-            className="ml-28 w-40 text-white py-2 bg-[var(--violet)] rounded-md"
+            className="w-28 sm:w-40 text-white py-2 bg-[var(--violet)] rounded-md disabled:opacity-60"
             onClick={() => handlePageChange(Math.max(currentPage - 1, 1))}
             disabled={currentPage === 1}
           >
             Previous
           </button>
-
           <button
-            className="mr-28 w-40 text-white py-2 bg-[var(--violet)] rounded-md"
+            className="w-28 sm:w-40 text-white py-2 bg-[var(--violet)] rounded-md"
             onClick={handleNext}
           >
             {currentPage === totalPages ? "Finish" : "Next"}
