@@ -8,6 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TutorTube</title>
+     <script>
+    // Use a self-executing function to avoid global scope pollution
+    (function () {
+      // 1. Get saved theme or fall back to system preference
+      const theme = localStorage.getItem('theme'); 
+      const isDark = theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+      // 2. Immediately apply the 'dark' class to <html>
+      if (isDark) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    })();
+  </script>
   </head>
   <body>
     <div id="root"></div>

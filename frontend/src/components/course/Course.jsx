@@ -82,7 +82,7 @@ function Course({ course_title, children }) {
   };
 
   return (
-  <div className="flex min-h-screen w-full overflow-x-hidden bg-white">
+  <div className="flex min-h-screen w-full overflow-x-hidden bg-white dark:bg-[#181825]">
       {/* MENU BUTTON: always visible, outside sidebar for desktop, overlay for mobile */}
       <button
         id="menu-btn"
@@ -103,7 +103,7 @@ function Course({ course_title, children }) {
           {/* Desktop sidebar: only visible when open on md+ screens */}
           {open && (
             <div
-              className="hidden md:flex flex-col flex-shrink-0 w-[20rem] lg:w-[23rem] bg-[#ebe7fb] shadow-lg rounded-r-md p-6 gap-6 h-screen fixed top-0 left-0 z-30"
+              className="hidden md:flex flex-col flex-shrink-0 w-[20rem] lg:w-[23rem] bg-[#ebe7fb] dark:bg-[#232136] shadow-lg rounded-r-md p-6 gap-6 h-screen fixed top-0 left-0 z-30"
               style={{ minWidth: '20rem' }}
             >
               <div className="flex items-center justify-between mb-2">
@@ -157,12 +157,12 @@ function Course({ course_title, children }) {
             id="course-menu"
             className={`
               md:hidden
-              shadow-lg bg-[#ebe7fb] rounded-md
+              shadow-lg bg-[#ebe7fb] dark:bg-[#232136] rounded-md
               overflow-hidden flex flex-col items-start gap-6
               transition-all duration-300 ease-in-out z-40
               ${
                 open
-                  ? "fixed top-0 left-0 h-screen overflow-y-auto w-[85vw] max-w-xs p-4 sm:p-6 opacity-100 border-l-4 border-blue-500"
+                  ? "fixed top-0 left-0 h-screen overflow-y-auto w-[85vw] max-w-xs p-4 sm:p-6 opacity-100 border-l-4 border-blue-500 dark:border-violet-700"
                   : "w-0 p-0 opacity-0 border-l-0"
               }
             `}
@@ -224,7 +224,7 @@ function Course({ course_title, children }) {
         }
       >
         {/* Menu button always visible on mobile */}
-        <div className="p-4 pt-3 flex items-center w-full border-b border-gray-200">
+  <div className="p-4 pt-3 flex items-center w-full border-b border-gray-200 dark:border-gray-700">
           <h1 className="text-lg sm:text-xl font-bold text-[var(--violet)] ml-10 pl-8">
             {course_title}
           </h1>

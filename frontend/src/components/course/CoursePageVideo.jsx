@@ -4,8 +4,9 @@ export default function CoursePageVideo({ source, videoTitle }) {
       className="
         mt-6 sm:mt-8 md:mt-10 lg:mt-12
         mb-6 sm:mb-8 md:mb-10 lg:mb-12
-        px-4 sm:px-6 md:px-8              /* aligns with CoursePageParagraph & Heading */
+        px-4 sm:px-6 md:px-8
         w-full
+        dark:bg-[#181825]
       "
     >
       <div
@@ -13,10 +14,10 @@ export default function CoursePageVideo({ source, videoTitle }) {
           rounded-md
           overflow-hidden
           w-full
-          max-w-5xl lg:max-w-5xl          /* slightly narrower on medium */
+          max-w-5xl lg:max-w-5xl
           mx-auto
-          shadow-md hover:shadow-lg
-          transition-shadow duration-300  /* subtle hover feel */
+          shadow-md hover:shadow-lg dark:shadow-violet-900
+          transition-shadow duration-300
         "
       >
         <div className="aspect-video rounded-md overflow-hidden">

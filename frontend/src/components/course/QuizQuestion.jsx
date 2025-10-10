@@ -17,13 +17,14 @@ function QuizQuestion({ questionId, question, options, correctAnswer }) {
     <div
       className="
         mt-8
-        w-full                    /* Full width by default */
-        max-w-2xl                 /* Limit width on large screens (~42rem) */
-        p-4 sm:p-6 md:p-8 lg:p-[2rem]  /* Responsive padding */
-        bg-gray-100
+        w-full
+        max-w-2xl
+        p-4 sm:p-6 md:p-8 lg:p-[2rem]
+        bg-gray-100 dark:bg-[#232136]
         rounded-lg
-        shadow-md
-        mx-auto                   /* Center on page */
+        shadow-md dark:shadow-violet-900
+        mx-auto
+        border dark:border-gray-700
       "
     >
       <h2
@@ -31,7 +32,8 @@ function QuizQuestion({ questionId, question, options, correctAnswer }) {
           text-base sm:text-lg md:text-xl
           font-semibold
           mb-3
-          text-center sm:text-left   /* Center text on small screens */
+          text-center sm:text-left
+          text-gray-800 dark:text-gray-100
         "
       >
         {question}
@@ -44,7 +46,8 @@ function QuizQuestion({ questionId, question, options, correctAnswer }) {
             className="
               flex items-center space-x-2
               cursor-pointer
-              text-sm sm:text-base     /* Responsive text size */
+              text-sm sm:text-base
+              text-gray-800 dark:text-gray-100
             "
           >
             <input

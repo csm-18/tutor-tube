@@ -10,16 +10,17 @@ const ProgressBar = ({ value = 0, max = 100 }) => {
       {/* Outer Bar */}
       <div
         className="
-          w-[16rem] sm:w-[20rem] md:w-[24rem] lg:w-[20rem]   /* responsive widths */
+          w-[16rem] sm:w-[20rem] md:w-[24rem] lg:w-[20rem]
           h-[0.8rem]
-          bg-white
+          bg-white dark:bg-gray-800
           rounded-full
           overflow-hidden
+          border border-gray-300 dark:border-violet-700
         "
       >
         {/* Inner Bar */}
         <div
-          className="h-full bg-[var(--violet)] transition-all duration-300"
+          className="h-full bg-[var(--violet)] dark:bg-violet-500 transition-all duration-300"
           style={{ width: `${width}%` }}
         />
       </div>
@@ -28,8 +29,8 @@ const ProgressBar = ({ value = 0, max = 100 }) => {
       <p
         className="
           mt-2
-          text-sm sm:text-base md:text-lg     /* responsive text sizes */
-          text-[var(--violet)]
+          text-sm sm:text-base md:text-lg
+          text-[var(--violet)] dark:text-violet-200
           font-medium
           text-center
         "
