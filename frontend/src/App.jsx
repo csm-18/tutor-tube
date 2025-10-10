@@ -61,7 +61,7 @@ import Tailwind from "./views/Tailwind";
 import VSCode from "./views/VSCode";
 
 function App() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+  const [theme, setTheme] = useState("dark");
 
   return (
     <Routes>
