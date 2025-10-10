@@ -5,7 +5,7 @@ export default function CoursePageParagraph({ children }) {
         mb-4 lg:mb-6
         text-base sm:text-lg md:text-xl    /* readable font scale */
         leading-relaxed
-        text-gray-800 dark:text-gray-200
+        text-gray-800 dark:text-gray-100
         tracking-normal
 
         /* Balanced spacing consistent with Course layout */

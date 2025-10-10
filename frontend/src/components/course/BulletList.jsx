@@ -8,7 +8,7 @@ export default function BulletList({ items }) {
     <ul
       className="
         list-disc
-        text-gray-800 dark:text-gray-200 marker:text-violet-500
+        text-gray-800 dark:text-gray-100 marker:text-violet-500
         space-y-2
         leading-snug
         
