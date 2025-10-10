@@ -10,7 +10,7 @@ const ProgressBar = ({ value = 0, max = 100 }) => {
       {/* Outer Bar */}
       <div
         className="
-          w-[16rem] sm:w-[20rem] md:w-[24rem] lg:w-[28rem]   /* responsive widths */
+          w-[16rem] sm:w-[20rem] md:w-[24rem] lg:w-[20rem]   /* responsive widths */
           h-[0.8rem]
           bg-white
           rounded-full
