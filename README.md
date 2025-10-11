@@ -5,8 +5,7 @@
 ---
 
 ## 🌐 Live Demo  
-🔗 [TutorTube on Vercel](#)  
-(*Replace with your actual deployment link*)  
+🔗 [TutorTube on Vercel](https://tutor-tube.vercel.app/)  
 
 ---
 
