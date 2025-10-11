@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
   FaSearch,
@@ -84,13 +85,15 @@ const Aboutpage = ({ theme, setTheme }) => {
             Knowledge belongs to everyone. TutorTube transforms free tutorials
             into structured, easy-to-follow courses—so you can truly grow.
           </p>
-          <motion.button
-            className="bg-white text-indigo-600 font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-lg shadow-lg hover:bg-gray-100 transition-transform transform hover:scale-105 text-sm sm:text-base"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Start Learning Now
-          </motion.button>
+          <Link to="/courses">
+  <motion.button
+    className="bg-white text-indigo-600 font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-lg shadow-lg hover:bg-gray-100 transition-transform transform hover:scale-105 text-sm sm:text-base"
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+  >
+    Start Learning Now
+  </motion.button>
+</Link>
 
           <motion.div
             className="mt-10 md:mt-12 flex justify-center"
